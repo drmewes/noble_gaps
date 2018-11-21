@@ -1,74 +1,10 @@
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
-Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140474
  running on   32 total cores
  distrk:  each k-point on   16 cores,    2 groups
  distr:  one band on    4 cores,    4 groups
  using from now: INCAR     
- vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 09 2018 16:43:14) complex          
   
- POSCAR found type information on POSCAR  Ar
+ POSCAR found type information on POSCAR  Ne
  POSCAR found :  1 types and       1 ions
  scaLAPACK will be used
 
@@ -103,13 +39,13 @@ SCRATCH=/scratch/mewes/140474
  initial charge from wavefunction
  entering main loop
        N       E                     dE             d eps       ncg     rms          rms(c)
-DIA:   1     0.112613184660E-01    0.11261E-01    0.00000E+00     0   0.000E+00
-DIA:   2     0.112613184604E-01   -0.56843E-11    0.00000E+00     0   0.000E+00
-DIA:   3     0.112613184631E-01    0.27285E-11    0.00000E+00     0   0.000E+00
-DIA:   4     0.112613184646E-01    0.14779E-11    0.00000E+00     0   0.000E+00
-DIA:   5     0.112613184650E-01    0.45475E-12    0.00000E+00     0   0.000E+00    0.183E-05
-DIA:   6     0.112613198633E-01    0.13982E-08    0.00000E+00     0   0.000E+00
-   1 F= -.26585027E+00 E0= -.26585027E+00  d E =0.000000E+00  mag=     0.0000     0.0000     0.0000
+DIA:   1     0.312840525423E+01    0.31284E+01    0.00000E+00     0   0.000E+00
+DIA:   2     0.312840525422E+01   -0.10004E-10    0.00000E+00     0   0.000E+00
+DIA:   3     0.312840525423E+01    0.10459E-10    0.00000E+00     0   0.000E+00
+DIA:   4     0.312840525422E+01   -0.11596E-10    0.00000E+00     0   0.000E+00
+DIA:   5     0.312840525422E+01    0.65938E-11    0.00000E+00     0   0.000E+00    0.378E-06
+DIA:   6     0.312840525419E+01   -0.30127E-10    0.00000E+00     0   0.000E+00
+   1 F= 0.31048901E+01 E0= 0.31048901E+01  d E =0.000000E+00  mag=    -0.0000     0.0000     0.0000
  writing wavefunctions
  optical routines
  imaginary and real dielectric function
@@ -117,20 +53,3 @@ DIA:   6     0.112613198633E-01    0.13982E-08    0.00000E+00     0   0.000E+00
  direction            1
  direction            2
  direction            3
-
- ----------------------------------------------------------------------------- 
-|                                                                             |
-|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
-|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
-|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
-|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
-|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
-|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
-|                                                                             |
-|      You are using a small complex shift. This can yield unreliable results |
-|      when the Kramers Kronig relation is used for systems with spin-orbit   |
-|      interactions.                                                          |
-|      Please increase CSHIFT in the INCAR file.                              |
-|                                                                             |
- ----------------------------------------------------------------------------- 
-

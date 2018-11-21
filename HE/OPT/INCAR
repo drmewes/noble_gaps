@@ -5,7 +5,7 @@ GGA = PE
 IVDW = 12
 GGA_COMPAT = .FALSE.
 
-SYSTEM  =   Ne_FCC
+SYSTEM  =   He_FCC
 
 #Major precision parameters
 PREC    =   accurate  #Influences FFT-Grids and real-space projector accuracy (LREAL!=F). Recommended: accurate; normal for pre-opt (error ca. 1meV/atom)

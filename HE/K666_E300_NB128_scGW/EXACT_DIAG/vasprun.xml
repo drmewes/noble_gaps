@@ -6,17 +6,19 @@
   <i name="subversion" type="string">(build Jul 09 2018 16:43:14) complex            parallel </i>
   <i name="platform" type="string">LinuxIFC </i>
   <i name="date" type="string">2018 11 21 </i>
-  <i name="time" type="string">22:29:23 </i>
+  <i name="time" type="string">22:27:54 </i>
  </generator>
  <incar>
   <i type="string" name="SYSTEM">   Og_FCC</i>
   <i type="string" name="PREC">accurate</i>
-  <i type="string" name="ALGO">   QPGW</i>
+  <i type="string" name="ALGO">   EXACT</i>
   <i type="logical" name="ADDGRID"> T  </i>
   <i type="logical" name="LSORBIT"> T  </i>
   <i type="int" name="ISPIN">     1</i>
   <i type="int" name="MAXMIX">    50</i>
-  <i type="int" name="NELM">     1</i>
+  <i type="int" name="NELM">    50</i>
+  <i type="int" name="NELMDL">    -5</i>
+  <i type="int" name="NELMIN">     2</i>
   <i type="int" name="IBRION">    -1</i>
   <i type="int" name="NFREE">     5</i>
   <i name="EDIFF">      0.00000001</i>
@@ -31,15 +33,14 @@
   <i type="logical" name="LREAL"> F  </i>
   <i type="int" name="ISMEAR">     0</i>
   <i name="SIGMA">      0.00100000</i>
-  <i type="int" name="NWRITE">     1</i>
+  <i type="int" name="NWRITE">     2</i>
   <i type="logical" name="LWAVE"> T  </i>
   <i type="logical" name="LCHARG"> F  </i>
   <i type="logical" name="LVTOT"> F  </i>
+  <i type="logical" name="LOPTICS"> T  </i>
   <i type="logical" name="GGA_COMPAT"> F  </i>
-  <i type="int" name="NOMEGA">    50</i>
   <v type="int" name="KPOINT_BSE">    -1     0     0     0</v>
-  <i type="logical" name="LSPECTRAL"> T  </i>
-  <i type="int" name="NELM">     1</i>
+  <i type="int" name="NELM">    50</i>
   <i type="string" name="GGA"> PE</i>
  </incar>
  <structure name="primitive_cell" >
@@ -519,7 +520,7 @@
    <i name="ENMAX">    300.00000000</i>
    <i name="ENAUG">    755.75300000</i>
    <i name="EDIFF">      0.00000001</i>
-   <i type="int" name="IALGO">    38</i>
+   <i type="int" name="IALGO">    90</i>
    <i type="int" name="IWAVPR">    10</i>
    <i type="int" name="NBANDS">   128</i>
    <i name="NELECT">      8.00000000</i>
@@ -562,8 +563,8 @@
     <i type="logical" name="LMETAGGA"> F  </i>
    </separator>
    <separator name="electronic convergence" >
-    <i type="int" name="NELM">     1</i>
-    <i type="int" name="NELMDL">     0</i>
+    <i type="int" name="NELM">    50</i>
+    <i type="int" name="NELMDL">    -5</i>
     <i type="int" name="NELMIN">     2</i>
     <i name="ENINI">    300.00000000</i>
     <separator name="electronic convergence detail" >
@@ -583,7 +584,7 @@
     <i name="AMIX_MAG">      1.60000000</i>
     <i name="BMIX_MAG">      1.00000000</i>
     <separator name="electronic mixer details" >
-     <i type="int" name="IMIX">     1</i>
+     <i type="int" name="IMIX">     4</i>
      <i type="logical" name="MIXFIRST"> F  </i>
      <i type="int" name="MAXMIX">    50</i>
      <i name="WC">    100.00000000</i>
@@ -643,7 +644,7 @@
    <i name="EFERMI">      0.00000000</i>
   </separator>
   <separator name="writing" >
-   <i type="int" name="NWRITE">     1</i>
+   <i type="int" name="NWRITE">     2</i>
    <i type="logical" name="LWAVE"> T  </i>
    <i type="logical" name="LDOWNSAMPLE"> F  </i>
    <i type="logical" name="LCHARG"> F  </i>
@@ -651,16 +652,16 @@
    <i type="logical" name="LVTOT"> F  </i>
    <i type="logical" name="LVHAR"> F  </i>
    <i type="logical" name="LELF"> F  </i>
-   <i type="logical" name="LOPTICS"> F  </i>
+   <i type="logical" name="LOPTICS"> T  </i>
    <v name="STM">      0.00000000      0.00000000      0.00000000      0.00000000      0.00000000      0.00000000      0.00000000</v>
   </separator>
   <separator name="performance" >
-   <i type="int" name="NPAR">     2</i>
+   <i type="int" name="NPAR">     4</i>
    <i type="int" name="NSIM">     4</i>
    <i type="int" name="NBLK">    -1</i>
    <i type="logical" name="LPLANE"> T  </i>
    <i type="logical" name="LSCALAPACK"> T  </i>
-   <i type="logical" name="LSCAAWARE"> F  </i>
+   <i type="logical" name="LSCAAWARE"> T  </i>
    <i type="logical" name="LSCALU"> F  </i>
    <i type="logical" name="LASYNC"> F  </i>
    <i type="logical" name="LORBITALREAL"> F  </i>
@@ -682,8 +683,8 @@
   <separator name="electronic exchange-correlation" >
    <i type="string" name="GGA">PE</i>
    <i type="int" name="VOSKOWN">     0</i>
-   <i type="logical" name="LHFCALC"> T  </i>
-   <i type="string" name="PRECFOCK">normal</i>
+   <i type="logical" name="LHFCALC"> F  </i>
+   <i type="string" name="PRECFOCK"></i>
    <i type="logical" name="LSYMGRAD"> F  </i>
    <i type="logical" name="LHFONE"> F  </i>
    <i type="logical" name="LRHFCALC"> F  </i>
@@ -692,25 +693,25 @@
    <i name="ENCUT4O">     -1.00000000</i>
    <i type="int" name="EXXOEP">     0</i>
    <i type="int" name="FOURORBIT">     0</i>
-   <i name="AEXX">      1.00000000</i>
-   <i name="HFALPHA">     -1.00000000</i>
+   <i name="AEXX">      0.00000000</i>
+   <i name="HFALPHA">      0.00000000</i>
    <i name="MCALPHA">      0.00000000</i>
-   <i name="ALDAX">      0.00000000</i>
-   <i name="AGGAX">      0.00000000</i>
-   <i name="ALDAC">      0.00000000</i>
-   <i name="AGGAC">      0.00000000</i>
+   <i name="ALDAX">      1.00000000</i>
+   <i name="AGGAX">      1.00000000</i>
+   <i name="ALDAC">      1.00000000</i>
+   <i name="AGGAC">      1.00000000</i>
    <i type="int" name="NKREDX">     1</i>
    <i type="int" name="NKREDY">     1</i>
    <i type="int" name="NKREDZ">     1</i>
    <i type="logical" name="SHIFTRED"> F  </i>
    <i type="logical" name="ODDONLY"> F  </i>
    <i type="logical" name="EVENONLY"> F  </i>
-   <i type="int" name="LMAXFOCK">     4</i>
-   <i type="int" name="NMAXFOCKAE">     1</i>
+   <i type="int" name="LMAXFOCK">     0</i>
+   <i type="int" name="NMAXFOCKAE">     0</i>
    <i type="logical" name="LFOCKAEDFT"> F  </i>
    <i name="HFSCREEN">      0.00000000</i>
    <i name="HFSCREENC">      0.00000000</i>
-   <i type="int" name="NBANDSGWLOW">     1</i>
+   <i type="int" name="NBANDSGWLOW">     0</i>
   </separator>
   <separator name="vdW DFT" >
    <i type="logical" name="LUSE_VDW"> F  </i>
@@ -766,27 +767,27 @@
    <i type="logical" name="L2ORDER"> F  </i>
    <i type="logical" name="LMP2LT"> F  </i>
    <i type="logical" name="LUSEW"> F  </i>
-   <i name="ENCUTGW">    200.00000000</i>
-   <i name="ENCUTGWSOFT">    200.00000000</i>
+   <i name="ENCUTGW">     -2.00000000</i>
+   <i name="ENCUTGWSOFT">     -2.00000000</i>
    <i name="ENCUTLF">     -1.00000000</i>
    <i type="int" name="LMAXMP2">    -1</i>
    <i name="SCISSOR">      0.00000000</i>
-   <i type="int" name="NOMEGA">    50</i>
-   <i type="int" name="NOMEGAR">    50</i>
+   <i type="int" name="NOMEGA">     0</i>
+   <i type="int" name="NOMEGAR">     0</i>
    <i type="int" name="NBANDSGW">    -1</i>
    <i type="int" name="NBANDSO">    -1</i>
    <i type="int" name="NBANDSV">    -1</i>
-   <i type="int" name="NELM">     1</i>
+   <i type="int" name="NELM">    50</i>
    <i type="int" name="NELMHF">     1</i>
    <i type="int" name="DIM">     3</i>
    <i type="int" name="ANTIRES">     0</i>
    <i name="OMEGAMAX">    -30.00000000</i>
    <i name="OMEGAMIN">    -30.00000000</i>
    <i name="OMEGATL">   -200.00000000</i>
-   <i type="int" name="OMEGAGRID">     0</i>
+   <i type="int" name="OMEGAGRID">   140</i>
    <i name="CSHIFT">     -0.10000000</i>
    <i type="logical" name="SELFENERGY"> F  </i>
-   <i type="logical" name="LSPECTRAL"> T  </i>
+   <i type="logical" name="LSPECTRAL"> F  </i>
    <i type="logical" name="LSPECTRALGW"> F  </i>
    <i type="logical" name="LSINGLES"> F  </i>
    <i type="logical" name="LFERMIGW"> F  </i>
@@ -853,3 +854,23 @@
    <v>       0.00000000       0.00000000       0.00000000 </v>
   </varray>
  </structure>
+ <calculation>
+  <scstep>
+   <time name="diag">   13.58   13.58</time>
+   <time name="total">   13.61   13.61</time>
+   <energy>
+    <i name="alphaZ">     16.68370675 </i>
+    <i name="ewald">   -502.27794943 </i>
+    <i name="hartreedc">   -331.90264988 </i>
+    <i name="XCdc">     45.55543059 </i>
+    <i name="pawpsdc">    737.54481553 </i>
+    <i name="pawaedc">   -778.91955166 </i>
+    <i name="eentropy">      0.00000000 </i>
+    <i name="bandstr">   -136.23345782 </i>
+    <i name="atom">    952.67806118 </i>
+    <i name="e_fr_energy">      3.12840525 </i>
+    <i name="e_wo_entrp">      3.12840525 </i>
+    <i name="e_0_energy">      3.12840525 </i>
+   </energy>
+  </scstep>
+  <scstep>

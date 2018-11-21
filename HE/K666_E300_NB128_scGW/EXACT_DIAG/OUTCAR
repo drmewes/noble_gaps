@@ -1,9 +1,9 @@
  vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 09 2018 16:43:14) complex          
   
- executed on             LinuxIFC date 2018.11.21  22:29:23
+ executed on             LinuxIFC date 2018.11.21  22:27:54
  running on   32 total cores
- distrk:  each k-point on    2 cores,   16 groups
- distr:  one band on NCORES_PER_BAND=   1 cores,    2 groups
+ distrk:  each k-point on   16 cores,    2 groups
+ distr:  one band on NCORES_PER_BAND=   4 cores,    4 groups
 
 
 --------------------------------------------------------------------------------------------------------
@@ -11,28 +11,6 @@
 
  INCAR:
  POTCAR:    PAW_PBE Ne_GW 22Sep2014               
-
- ----------------------------------------------------------------------------- 
-|                                                                             |
-|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
-|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
-|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
-|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
-|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
-|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
-|                                                                             |
-|      For optimal performance we recommend to set                            |
-|        NCORE= 4 - approx SQRT( number of cores)                             |
-|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
-|      This setting can  greatly improve the performance of VASP for DFT.     |
-|      The default,   NCORE=1            might be grossly inefficient         |
-|      on modern multi-core architectures or massively parallel machines.     |
-|      Do your own testing !!!!                                               |
-|      Unfortunately you need to use the default for GW and RPA calculations. |
-|      (for HF NCORE is supported but not extensively tested yet)             |
-|                                                                             |
- ----------------------------------------------------------------------------- 
-
 
  ----------------------------------------------------------------------------- 
 |                                                                             |
@@ -54,6 +32,45 @@
  ----------------------------------------------------------------------------- 
 
  POTCAR:    PAW_PBE Ne_GW 22Sep2014               
+   VRHFIN =Ne: s2p6                                                             
+   LEXCH  = PE                                                                  
+   EATOM  =   955.3367 eV,   70.2153 Ry                                         
+                                                                                
+   TITEL  = PAW_PBE Ne_GW 22Sep2014                                             
+   LULTRA =        F    use ultrasoft PP ?                                      
+   IUNSCR =        1    unscreen: 0-lin 1-nonlin 2-no                           
+   RPACOR =    0.800    partial core radius                                     
+   POMASS =   20.180; ZVAL   =    8.000    mass and valenz                      
+   RCORE  =    1.600    outmost cutoff radius                                   
+   RWIGS  =    1.600; RWIGS  =    0.847    wigner-seitz radius (au A)           
+   ENMAX  =  432.275; ENMIN  =  324.206 eV                                      
+   RCLOC  =    1.003    cutoff for local pot                                    
+   LCOR   =        T    correct aug charges                                     
+   LPAW   =        T    paw PP                                                  
+   EAUG   =  755.753                                                            
+   RMAX   =    1.638    core radius for proj-oper                               
+   RAUG   =    1.300    factor for augmentation sphere                          
+   RDEP   =    1.674    radius for radial grids                                 
+   RDEPT  =    1.500    core radius for aug-charge                              
+                                                                                
+   Atomic configuration                                                         
+    5 entries                                                                   
+     n  l   j            E        occ.                                          
+     1  0  0.50      -830.7932   2.0000                                         
+     2  0  0.50       -36.4050   2.0000                                         
+     2  1  0.50       -13.3338   6.0000                                         
+     3  2  1.50       -13.6058   0.0000                                         
+     4  3  2.50        -1.3606   0.0000                                         
+   Description                                                                  
+     l       E           TYP  RCUT    TYP  RCUT                                 
+     0    -36.4049700     23  1.400                                             
+     0    -40.8174780     23  1.400                                             
+     0    258.5106940     23  1.400                                             
+     1    -13.3337612     23  1.500                                             
+     1     -9.5240782     23  1.500                                             
+     1    190.4815640     23  1.500                                             
+     2     40.8174780     23  1.500                                             
+     2    190.4815640     23  1.600                                             
   local pseudopotential read in
   partial core-charges read in
   partial kinetic energy density read in
@@ -556,229 +573,6 @@ Space group operators:
  -0.112074 -0.000000  0.000000      1.000000
  -0.056037 -0.032353 -0.022877      1.000000
  
- 
- Subroutine IBZKPT_HF returns following result:
- ==============================================
- 
- Found    216 k-points in 1st BZ
- the following    216 k-points will be used (e.g. in the exchange kernel)
- Following reciprocal coordinates:   # in IRBZ
-  0.000000  0.000000  0.000000    0.00462963   1 t-inv F
-  0.166667  0.000000  0.000000    0.00462963   2 t-inv F
-  0.333333 -0.000000  0.000000    0.00462963   3 t-inv F
-  0.500000  0.000000 -0.000000    0.00462963   4 t-inv F
- -0.333333  0.000000  0.000000    0.00462963   5 t-inv F
- -0.166667  0.000000 -0.000000    0.00462963   6 t-inv F
-  0.000000  0.166667  0.000000    0.00462963   7 t-inv F
-  0.166667  0.166667  0.000000    0.00462963   8 t-inv F
-  0.333333  0.166667  0.000000    0.00462963   9 t-inv F
-  0.500000  0.166667  0.000000    0.00462963  10 t-inv F
- -0.333333  0.166667 -0.000000    0.00462963  11 t-inv F
- -0.166667  0.166667 -0.000000    0.00462963  12 t-inv F
-  0.000000  0.333333  0.000000    0.00462963  13 t-inv F
-  0.166667  0.333333  0.000000    0.00462963  14 t-inv F
-  0.333333  0.333333  0.000000    0.00462963  15 t-inv F
-  0.500000  0.333333  0.000000    0.00462963  16 t-inv F
- -0.333333  0.333333 -0.000000    0.00462963  17 t-inv F
- -0.166667  0.333333  0.000000    0.00462963  18 t-inv F
-  0.000000  0.500000  0.000000    0.00462963  19 t-inv F
-  0.166667  0.500000  0.000000    0.00462963  20 t-inv F
-  0.333333  0.500000  0.000000    0.00462963  21 t-inv F
-  0.500000  0.500000  0.000000    0.00462963  22 t-inv F
- -0.333333  0.500000  0.000000    0.00462963  23 t-inv F
- -0.166667  0.500000  0.000000    0.00462963  24 t-inv F
-  0.000000 -0.333333 -0.000000    0.00462963  25 t-inv F
-  0.166667 -0.333333 -0.000000    0.00462963  26 t-inv F
-  0.333333 -0.333333  0.000000    0.00462963  27 t-inv F
-  0.500000 -0.333333  0.000000    0.00462963  28 t-inv F
- -0.333333 -0.333333 -0.000000    0.00462963  29 t-inv F
- -0.166667 -0.333333 -0.000000    0.00462963  30 t-inv F
-  0.000000 -0.166667 -0.000000    0.00462963  31 t-inv F
-  0.166667 -0.166667  0.000000    0.00462963  32 t-inv F
-  0.333333 -0.166667  0.000000    0.00462963  33 t-inv F
-  0.500000 -0.166667  0.000000    0.00462963  34 t-inv F
- -0.333333 -0.166667 -0.000000    0.00462963  35 t-inv F
- -0.166667 -0.166667 -0.000000    0.00462963  36 t-inv F
-  0.000000  0.000000  0.166667    0.00462963  37 t-inv F
-  0.166667  0.000000  0.166667    0.00462963  38 t-inv F
-  0.333333 -0.000000  0.166667    0.00462963  39 t-inv F
-  0.500000  0.000000  0.166667    0.00462963  40 t-inv F
- -0.333333  0.000000  0.166667    0.00462963  41 t-inv F
- -0.166667  0.000000  0.166667    0.00462963  42 t-inv F
-  0.000000  0.166667  0.166667    0.00462963  43 t-inv F
-  0.166667  0.166667  0.166667    0.00462963  44 t-inv F
-  0.333333  0.166667  0.166667    0.00462963  45 t-inv F
-  0.500000  0.166667  0.166667    0.00462963  46 t-inv F
- -0.333333  0.166667  0.166667    0.00462963  47 t-inv F
- -0.166667  0.166667  0.166667    0.00462963  48 t-inv F
-  0.000000  0.333333  0.166667    0.00462963  49 t-inv F
-  0.166667  0.333333  0.166667    0.00462963  50 t-inv F
-  0.333333  0.333333  0.166667    0.00462963  51 t-inv F
-  0.500000  0.333333  0.166667    0.00462963  52 t-inv F
- -0.333333  0.333333  0.166667    0.00462963  53 t-inv F
- -0.166667  0.333333  0.166667    0.00462963  54 t-inv F
-  0.000000  0.500000  0.166667    0.00462963  55 t-inv F
-  0.166667  0.500000  0.166667    0.00462963  56 t-inv F
-  0.333333  0.500000  0.166667    0.00462963  57 t-inv F
-  0.500000  0.500000  0.166667    0.00462963  58 t-inv F
- -0.333333  0.500000  0.166667    0.00462963  59 t-inv F
- -0.166667  0.500000  0.166667    0.00462963  60 t-inv F
-  0.000000 -0.333333  0.166667    0.00462963  61 t-inv F
-  0.166667 -0.333333  0.166667    0.00462963  62 t-inv F
-  0.333333 -0.333333  0.166667    0.00462963  63 t-inv F
-  0.500000 -0.333333  0.166667    0.00462963  64 t-inv F
- -0.333333 -0.333333  0.166667    0.00462963  65 t-inv F
- -0.166667 -0.333333  0.166667    0.00462963  66 t-inv F
-  0.000000 -0.166667  0.166667    0.00462963  67 t-inv F
-  0.166667 -0.166667  0.166667    0.00462963  68 t-inv F
-  0.333333 -0.166667  0.166667    0.00462963  69 t-inv F
-  0.500000 -0.166667  0.166667    0.00462963  70 t-inv F
- -0.333333 -0.166667  0.166667    0.00462963  71 t-inv F
- -0.166667 -0.166667  0.166667    0.00462963  72 t-inv F
-  0.000000  0.000000  0.333333    0.00462963  73 t-inv F
-  0.166667  0.000000  0.333333    0.00462963  74 t-inv F
-  0.333333 -0.000000  0.333333    0.00462963  75 t-inv F
-  0.500000  0.000000  0.333333    0.00462963  76 t-inv F
- -0.333333  0.000000  0.333333    0.00462963  77 t-inv F
- -0.166667  0.000000  0.333333    0.00462963  78 t-inv F
-  0.000000  0.166667  0.333333    0.00462963  79 t-inv F
-  0.166667  0.166667  0.333333    0.00462963  80 t-inv F
-  0.333333  0.166667  0.333333    0.00462963  81 t-inv F
-  0.500000  0.166667  0.333333    0.00462963  82 t-inv F
- -0.333333  0.166667  0.333333    0.00462963  83 t-inv F
- -0.166667  0.166667  0.333333    0.00462963  84 t-inv F
-  0.000000  0.333333  0.333333    0.00462963  85 t-inv F
-  0.166667  0.333333  0.333333    0.00462963  86 t-inv F
-  0.333333  0.333333  0.333333    0.00462963  87 t-inv F
-  0.500000  0.333333  0.333333    0.00462963  88 t-inv F
- -0.333333  0.333333  0.333333    0.00462963  89 t-inv F
- -0.166667  0.333333  0.333333    0.00462963  90 t-inv F
-  0.000000  0.500000  0.333333    0.00462963  91 t-inv F
-  0.166667  0.500000  0.333333    0.00462963  92 t-inv F
-  0.333333  0.500000  0.333333    0.00462963  93 t-inv F
-  0.500000  0.500000  0.333333    0.00462963  94 t-inv F
- -0.333333  0.500000  0.333333    0.00462963  95 t-inv F
- -0.166667  0.500000  0.333333    0.00462963  96 t-inv F
-  0.000000 -0.333333  0.333333    0.00462963  97 t-inv F
-  0.166667 -0.333333  0.333333    0.00462963  98 t-inv F
-  0.333333 -0.333333  0.333333    0.00462963  99 t-inv F
-  0.500000 -0.333333  0.333333    0.00462963 100 t-inv F
- -0.333333 -0.333333  0.333333    0.00462963 101 t-inv F
- -0.166667 -0.333333  0.333333    0.00462963 102 t-inv F
-  0.000000 -0.166667  0.333333    0.00462963 103 t-inv F
-  0.166667 -0.166667  0.333333    0.00462963 104 t-inv F
-  0.333333 -0.166667  0.333333    0.00462963 105 t-inv F
-  0.500000 -0.166667  0.333333    0.00462963 106 t-inv F
- -0.333333 -0.166667  0.333333    0.00462963 107 t-inv F
- -0.166667 -0.166667  0.333333    0.00462963 108 t-inv F
-  0.000000  0.000000  0.500000    0.00462963 109 t-inv F
-  0.166667  0.000000  0.500000    0.00462963 110 t-inv F
-  0.333333 -0.000000  0.500000    0.00462963 111 t-inv F
-  0.500000  0.000000  0.500000    0.00462963 112 t-inv F
- -0.333333  0.000000  0.500000    0.00462963 113 t-inv F
- -0.166667  0.000000  0.500000    0.00462963 114 t-inv F
-  0.000000  0.166667  0.500000    0.00462963 115 t-inv F
-  0.166667  0.166667  0.500000    0.00462963 116 t-inv F
-  0.333333  0.166667  0.500000    0.00462963 117 t-inv F
-  0.500000  0.166667  0.500000    0.00462963 118 t-inv F
- -0.333333  0.166667  0.500000    0.00462963 119 t-inv F
- -0.166667  0.166667  0.500000    0.00462963 120 t-inv F
-  0.000000  0.333333  0.500000    0.00462963 121 t-inv F
-  0.166667  0.333333  0.500000    0.00462963 122 t-inv F
-  0.333333  0.333333  0.500000    0.00462963 123 t-inv F
-  0.500000  0.333333  0.500000    0.00462963 124 t-inv F
- -0.333333  0.333333  0.500000    0.00462963 125 t-inv F
- -0.166667  0.333333  0.500000    0.00462963 126 t-inv F
-  0.000000  0.500000  0.500000    0.00462963 127 t-inv F
-  0.166667  0.500000  0.500000    0.00462963 128 t-inv F
-  0.333333  0.500000  0.500000    0.00462963 129 t-inv F
-  0.500000  0.500000  0.500000    0.00462963 130 t-inv F
- -0.333333  0.500000  0.500000    0.00462963 131 t-inv F
- -0.166667  0.500000  0.500000    0.00462963 132 t-inv F
-  0.000000 -0.333333  0.500000    0.00462963 133 t-inv F
-  0.166667 -0.333333  0.500000    0.00462963 134 t-inv F
-  0.333333 -0.333333  0.500000    0.00462963 135 t-inv F
-  0.500000 -0.333333  0.500000    0.00462963 136 t-inv F
- -0.333333 -0.333333  0.500000    0.00462963 137 t-inv F
- -0.166667 -0.333333  0.500000    0.00462963 138 t-inv F
-  0.000000 -0.166667  0.500000    0.00462963 139 t-inv F
-  0.166667 -0.166667  0.500000    0.00462963 140 t-inv F
-  0.333333 -0.166667  0.500000    0.00462963 141 t-inv F
-  0.500000 -0.166667  0.500000    0.00462963 142 t-inv F
- -0.333333 -0.166667  0.500000    0.00462963 143 t-inv F
- -0.166667 -0.166667  0.500000    0.00462963 144 t-inv F
-  0.000000  0.000000 -0.333333    0.00462963 145 t-inv F
-  0.166667  0.000000 -0.333333    0.00462963 146 t-inv F
-  0.333333 -0.000000 -0.333333    0.00462963 147 t-inv F
-  0.500000  0.000000 -0.333333    0.00462963 148 t-inv F
- -0.333333  0.000000 -0.333333    0.00462963 149 t-inv F
- -0.166667  0.000000 -0.333333    0.00462963 150 t-inv F
-  0.000000  0.166667 -0.333333    0.00462963 151 t-inv F
-  0.166667  0.166667 -0.333333    0.00462963 152 t-inv F
-  0.333333  0.166667 -0.333333    0.00462963 153 t-inv F
-  0.500000  0.166667 -0.333333    0.00462963 154 t-inv F
- -0.333333  0.166667 -0.333333    0.00462963 155 t-inv F
- -0.166667  0.166667 -0.333333    0.00462963 156 t-inv F
-  0.000000  0.333333 -0.333333    0.00462963 157 t-inv F
-  0.166667  0.333333 -0.333333    0.00462963 158 t-inv F
-  0.333333  0.333333 -0.333333    0.00462963 159 t-inv F
-  0.500000  0.333333 -0.333333    0.00462963 160 t-inv F
- -0.333333  0.333333 -0.333333    0.00462963 161 t-inv F
- -0.166667  0.333333 -0.333333    0.00462963 162 t-inv F
-  0.000000  0.500000 -0.333333    0.00462963 163 t-inv F
-  0.166667  0.500000 -0.333333    0.00462963 164 t-inv F
-  0.333333  0.500000 -0.333333    0.00462963 165 t-inv F
-  0.500000  0.500000 -0.333333    0.00462963 166 t-inv F
- -0.333333  0.500000 -0.333333    0.00462963 167 t-inv F
- -0.166667  0.500000 -0.333333    0.00462963 168 t-inv F
-  0.000000 -0.333333 -0.333333    0.00462963 169 t-inv F
-  0.166667 -0.333333 -0.333333    0.00462963 170 t-inv F
-  0.333333 -0.333333 -0.333333    0.00462963 171 t-inv F
-  0.500000 -0.333333 -0.333333    0.00462963 172 t-inv F
- -0.333333 -0.333333 -0.333333    0.00462963 173 t-inv F
- -0.166667 -0.333333 -0.333333    0.00462963 174 t-inv F
-  0.000000 -0.166667 -0.333333    0.00462963 175 t-inv F
-  0.166667 -0.166667 -0.333333    0.00462963 176 t-inv F
-  0.333333 -0.166667 -0.333333    0.00462963 177 t-inv F
-  0.500000 -0.166667 -0.333333    0.00462963 178 t-inv F
- -0.333333 -0.166667 -0.333333    0.00462963 179 t-inv F
- -0.166667 -0.166667 -0.333333    0.00462963 180 t-inv F
-  0.000000  0.000000 -0.166667    0.00462963 181 t-inv F
-  0.166667  0.000000 -0.166667    0.00462963 182 t-inv F
-  0.333333 -0.000000 -0.166667    0.00462963 183 t-inv F
-  0.500000  0.000000 -0.166667    0.00462963 184 t-inv F
- -0.333333  0.000000 -0.166667    0.00462963 185 t-inv F
- -0.166667  0.000000 -0.166667    0.00462963 186 t-inv F
-  0.000000  0.166667 -0.166667    0.00462963 187 t-inv F
-  0.166667  0.166667 -0.166667    0.00462963 188 t-inv F
-  0.333333  0.166667 -0.166667    0.00462963 189 t-inv F
-  0.500000  0.166667 -0.166667    0.00462963 190 t-inv F
- -0.333333  0.166667 -0.166667    0.00462963 191 t-inv F
- -0.166667  0.166667 -0.166667    0.00462963 192 t-inv F
-  0.000000  0.333333 -0.166667    0.00462963 193 t-inv F
-  0.166667  0.333333 -0.166667    0.00462963 194 t-inv F
-  0.333333  0.333333 -0.166667    0.00462963 195 t-inv F
-  0.500000  0.333333 -0.166667    0.00462963 196 t-inv F
- -0.333333  0.333333 -0.166667    0.00462963 197 t-inv F
- -0.166667  0.333333 -0.166667    0.00462963 198 t-inv F
-  0.000000  0.500000 -0.166667    0.00462963 199 t-inv F
-  0.166667  0.500000 -0.166667    0.00462963 200 t-inv F
-  0.333333  0.500000 -0.166667    0.00462963 201 t-inv F
-  0.500000  0.500000 -0.166667    0.00462963 202 t-inv F
- -0.333333  0.500000 -0.166667    0.00462963 203 t-inv F
- -0.166667  0.500000 -0.166667    0.00462963 204 t-inv F
-  0.000000 -0.333333 -0.166667    0.00462963 205 t-inv F
-  0.166667 -0.333333 -0.166667    0.00462963 206 t-inv F
-  0.333333 -0.333333 -0.166667    0.00462963 207 t-inv F
-  0.500000 -0.333333 -0.166667    0.00462963 208 t-inv F
- -0.333333 -0.333333 -0.166667    0.00462963 209 t-inv F
- -0.166667 -0.333333 -0.166667    0.00462963 210 t-inv F
-  0.000000 -0.166667 -0.166667    0.00462963 211 t-inv F
-  0.166667 -0.166667 -0.166667    0.00462963 212 t-inv F
-  0.333333 -0.166667 -0.166667    0.00462963 213 t-inv F
-  0.500000 -0.166667 -0.166667    0.00462963 214 t-inv F
- -0.333333 -0.166667 -0.166667    0.00462963 215 t-inv F
- -0.166667 -0.166667 -0.166667    0.00462963 216 t-inv F
 
 
 --------------------------------------------------------------------------------------------------------
@@ -803,7 +597,7 @@ Space group operators:
  POSCAR =  Ne_FCC                                  
 
  Startparameter for this run:
-   NWRITE =      1    write-flag & timer
+   NWRITE =      2    write-flag & timer
    PREC   = accura    normal or accurate (medium, high low for compatibility)
    ISTART =      1    job   : 0-new  1-cont  2-samecut
    ICHARG =      0    charge: 1-file 2-atom 10-const
@@ -818,7 +612,7 @@ Space group operators:
    ENCUT  =  300.0 eV  22.05 Ry    4.70 a.u.   4.20  4.20  4.20*2*pi/ulx,y,z
    ENINI  =  300.0     initial cutoff
    ENAUG  =  755.8 eV  augmentation charge cutoff
-   NELM   =      1;   NELMIN=  2; NELMDL=  0     # of ELM steps 
+   NELM   =     50;   NELMIN=  2; NELMDL= -5     # of ELM steps 
    EDIFF  = 0.1E-07   stopping-criterion for ELM
    LREAL  =      F    real-space projection
    NLSPLINE    = F    spline interpolate recip. space projectors
@@ -865,7 +659,7 @@ Space group operators:
    ISMEAR =     0;   SIGMA  =   0.00  broadening in eV -4-tet -1-fermi 0-gaus
 
  Electronic relaxation 2 (details)
-   IALGO  =     38    algorithm
+   IALGO  =     90    algorithm
    LDIAG  =      T    sub-space diagonalisation (order eigenvalues)
    LSUBROT=      F    optimize rotation matrix (better conditioning)
    TURBO    =      0    0=normal 1=particle mesh
@@ -873,7 +667,7 @@ Space group operators:
    NREBOOT  =      0    no. of reboots
    NMIN     =      0    reboot dimension
    EREF     =   0.00    reference energy to select bands
-   IMIX   =      1    mixing-type and parameters
+   IMIX   =      4    mixing-type and parameters
      AMIX     =   0.40;   BMIX     =  1.00
      AMIX_MAG =   1.60;   BMIX_MAG =  1.00
      AMIN     =   0.10
@@ -910,39 +704,10 @@ Space group operators:
    GGA     =    PE    GGA type
    LEXCH   =     8    internal setting for exchange type
    VOSKOWN=      0    Vosko Wilk Nusair interpolation
-   EXXOEP  =     0    0=HF, 1=EXX-LHF (local Hartree Fock) 2=EXX OEP
-   LHFCALC =     T    Hartree Fock is set to
-   LSYMGRAD=     F    symmetrize gradient (conserves proper symmetry)
-   PRECFOCK=normal    Normal, Fast or Accurate (Low or Medium for compatibility)
-   LRHFCALC=     F    long range Hartree Fock
-   LRSCOR  =     F    long range correlation only (use DFT for short range part)
-   LTHOMAS =     F    Thomas Fermi screening in HF
-   LMODELHF=     F    short range full HF, long range fraction AEXX
-   ENCUT4O =  -1.0   cutoff for four orbital integrals eV
-   LMAXFOCK=     4    L truncation for augmentation on plane wave grid
-   LMAXFOCKAE=   4    L truncation for all-electron charge restoration on plane wave grid
-   NMAXFOCKAE=   1    number of basis functions for all-electron charge restoration
-   LFOCKAEDFT=     F  apply the AE augmentation even for DFT
-   NKREDX  =     1    reduce k-point grid by
-   NKREDY  =     1    reduce k-point grid by
-   NKREDZ  =     1    reduce k-point grid by
-   SHIFTRED=     F    shift reduced grid of Gamma
-   HFKIDENT=     F    idential grid for each k-point
-   ODDONLY =     F    use only odd q-grid points
-   EVENONLY=     F    use only even q-grid points
-   HFALPHA =   -1.0000 decay constant for conv. correction
-   MCALPHA =    0.0000 extent of test-charge in conv. correction in multipole expansion
-   AEXX    =    1.0000 exact exchange contribution
-   HFSCREEN=    0.0000 screening length (either q_TF or 0.3 A-1)
-   HFSCREENC=   0.0000 screening length for correlation (either q_TF or 0.3 A-1)
-   HFRCUT  =    0.0000 spherical cutoff for potential kernel
-   ALDAX   =    0.0000 LDA exchange part
-   AGGAX   =    0.0000 GGA exchange part
-   ALDAC   =    0.0000 LDA correlation
-   AGGAC   =    0.0000 GGA correlation
-   ENCUTFOCK=  -1.0 apply spherical cutoff to Coloumb kernel
-   NBANDSGWLOW=     1    first orbital included in HF term
-   NBLOCK_FOCK=    64    blocking factor in FOCK_ACC
+   LHFCALC =     F    Hartree Fock is set to
+   LHFONE  =     F    Hartree Fock one center treatment
+   AEXX    =    0.0000 exact exchange contribution
+
  Linear response parameters
    LEPSILON=     F    determine dielectric tensor
    LRPA    =     F    only Hartree local field effects (RPA)
@@ -963,58 +728,6 @@ Space group operators:
    DQ        =  0.001000  dq finite difference perturbation B field
    LLRAUG    =     F  two centre corrections for induced B field
 
- Response functions by sum over occupied states:
-   ALGO    =QPGW       execute GW part
-   LFXC    =     F    include DFT xc kernel in TD-HF and W
-   LADDER  =     F    particle hole ladder diagrams for BSE/TD-HF and W (Nano-quanta)
-   LRPAFORCE=     F   calculate RPA forces
-   LHARTREE=     T    include Hartree terms (bubbles-RPA) in BSE/TD-HF
-   IBSE    =     0    BSE modus: 0 exact, 1 time-evolution (store matrix), 10 time-evolution (implicit)
-   KPOINT  =    -1   0   0   0    k-point index at which BSE equation is solved (and G at which response is eval.)
-   LTRIPLET=     F    triplet instead of singlet excitation (BSE only)
-   LRSRPA  =     F    range separated RPA (total - short) in ACFDT
-   LTCTE   =     F    use test-charge test-electron dielectric function
-   LTETE   =     F    use test-electron test-electron dielectric function
-   LFXCEPS =     F    determine f_xc=epsilon-1/Xi Sharma and Gross kernel
-   LFXHEG  =     F    model exchange using f_x(G,k_F) from free electron gas
-   NATURALO=     2    0 natural orbitals, 1 only virtual, 2 only occupied-virtual rotation
-   L2ORDER =     F    2nd order terms only
-   LMP2LT   =     F    use LT MP2
-   LUSEW   =     F    use screened W from WXXXX.tmp files instead of (screened) HF kernel
-   ENCUTGW = 200.0    cutoff for response function in eV
-   ENCUTGWSOFT = 200.0 soft cutoff for Coulomb kernel in GW response function in eV
-   ENCUTLF =  -1.0    cutoff for local field effects
-   LMAXMP2 =    -1    maximum L for one center terms
-   SCISSOR =   0.0    scissor correction
-   NOMEGA  =    50    number of frequencies
-   NOMEGAR =    50    number of frequencies along real axis
-   NBANDSGW=    -1    number of bands for which selfenergy shift is calculated
-   NBANDSGWLOW=     1 lowest band included in GW (to exclude core correlation)
-   NBANDSO =    -1    number of bands for electron-hole treatment (occupied)
-   NBANDSV =    -1    number of bands for electron-hole treatment (virtual)
-   NELM    =     1    number of iterations in solving QP/BSE equation
-   NELMHF  =     1    number of iterations in the inner HF iteration
-   DIM     =     3    dimensionality of system (0=0D molecules, 3=3D)
-   ANTIRES =     0    antiresonant part (0) no TDA (1) w=0 exact (2) accurate
-   OMEGAMAX= -30.0    maximum frequency
-   OMEGAMIN= -30.000    minimum frequency
-   OMEGATL =-200.0    maximum frequency of tail
-   OMEGAGRID=     0    grid type (0 default)
-   CSHIFT  =-0.100    complex shift used in evaluation of response functions
-   SELFENERGY=   F    calculate selfenergy instead of QP shifts
-   LSPECTRAL =   T    use spectral functions                   
-   LSPECTRALGW=   F   use spectral functions to calculate int dz G(w-z) W(z) (more accurate)
-   LSINGLES  =   F   calculate the singles contribution to the correlation energy
-   LFERMIGW  =   F   update Fermi-energy in the Greens function
-
-   ODDONLYGW =   F    avoid all even points for polarizability 
-   EVENONLYGW=   F    avoid all odd  points for polarizability 
-   NKREDLFX  =   1   NKREDLFY  =   1   NKREDLFZ  =   1
-
-   TELESCOPE =   0   use telescope k-point sampling
-   TAUPAR    =   1   number of TAU groups used in imaginary time calculation
-   OMEGAPAR  =  -1   number of OMEGA groups used in imaginary frequency calculation
-
 
 
 --------------------------------------------------------------------------------------------------------
@@ -1023,11 +736,15 @@ Space group operators:
  Static calculation
  charge density and potential will be updated during run
  non collinear spin polarized calculation
- Variant of blocked Davidson
- Davidson routine will perform the subspace rotation
+ Exact diagonalization
+ preconditioned conjugated gradient (Jacobi prec)
+    charged. constant during bandupdate  
+    band-by band algorithm
  perform sub-space diagonalisation
     after iterative eigenvector-optimisation
- Kerker-like  mixing scheme
+ modified Broyden-mixing scheme, WC =      100.0
+ initial mixing is a Kerker type mixing with AMIX =  0.4000 and BMIX =      1.0000
+ Hartree-type preconditioning will be used
  using additional bands          124
  reciprocal scheme for non local part
  use partial core corrections
@@ -1743,7 +1460,7 @@ Space group operators:
  k-point ** :  -0.3333-0.1667-0.1667  plane waves:     436
  k-point ** :  -0.1667-0.1667-0.1667  plane waves:     428
 
- maximum and minimum number of plane-waves per node :       458      428
+ maximum and minimum number of plane-waves per node :       140       80
 
  maximum number of plane-waves:       458
  maximum index in each direction: 
@@ -1751,50 +1468,108 @@ Space group operators:
    IXMIN=   -4   IYMIN=   -4   IZMIN=   -4
 
 
- serial   3D FFT for wavefunctions
+ parallel 3D FFT for wavefunctions:
+    minimum data exchange during FFTs selected (reduces bandwidth)
  parallel 3D FFT for charge:
     minimum data exchange during FFTs selected (reduces bandwidth)
 
 
- FFT grid for exact exchange (Hartree Fock) 
-  NGX = 14; NGY = 14; NGZ = 14
-
- 
- Radii for the augmentation spheres in the non-local exchange
- for species   1 augmentation radius   0.831 (default was   0.831)
- error exchange integrals (PW-AE in eV) (mean, max) 1.950 8.224 density error[0,qmax] 0.0145
- Maximum index for augmentation-charges in exchange          369
-  SETUP_FOCK is finished
-
- total amount of memory used by VASP MPI-rank0   163478. kBytes
+ total amount of memory used by VASP MPI-rank0    56136. kBytes
 =======================================================================
 
    base      :      30000. kBytes
-   nonl-proj :       8747. kBytes
-   fftplans  :       6831. kBytes
-   grid      :       5971. kBytes
+   nonl-proj :       2738. kBytes
+   fftplans  :        995. kBytes
+   grid      :       1078. kBytes
    one-center:         92. kBytes
-   HF        :        193. kBytes
-   nonlr-proj:        168. kBytes
-   wavefun   :     111476. kBytes
+   wavefun   :      21233. kBytes
  
-     INWAV:  cpu time    1.5939: real time    1.5942
+     INWAV:  cpu time    1.9673: real time    1.9677
+ Broyden mixing: mesh for mixing (old mesh)
+   NGX =  9   NGY =  9   NGZ =  9
+  (NGX  = 36   NGY  = 36   NGZ  = 36)
+  gives a total of    729 points
+
  charge density for first step will be calculated from the start-wavefunctions
 
 
 --------------------------------------------------------------------------------------------------------
 
 
- Maximum index for augmentation-charges        24099 (set IRDMAX)
+ Maximum index for augmentation-charges         3716 (set IRDMAX)
 
 
 --------------------------------------------------------------------------------------------------------
 
 
  initial charge from wavefunction
-    FEWALD:  cpu time    0.0010: real time    0.0010
+ First call to EWALD:  gamma=   0.669
+ Maximum number of real-space cells 3x 3x 3
+ Maximum number of reciprocal cells 3x 3x 3
 
- The Fermi energy was updated, please check that it is located mid-gap
- values below the HOMO (VB) or above the LUMO (CB) will cause erroneous energies
- E-fermi :  -4.5791
+    FEWALD:  cpu time    0.0017: real time    0.0020
 
+
+--------------------------------------- Iteration      1(   1)  ---------------------------------------
+
+
+    POTLOK:  cpu time    0.0130: real time    0.0141
+    SETDIJ:  cpu time    0.0131: real time    0.0131
+
+ total amount of memory used by VASP MPI-rank0   132444. kBytes
+=======================================================================
+
+   base      :      30000. kBytes
+   nonl-proj :       2738. kBytes
+   fftplans  :        995. kBytes
+   grid      :       1078. kBytes
+   one-center:         92. kBytes
+   wavefun   :      97541. kBytes
+ 
+    EDDIAG:  cpu time   13.5766: real time   13.5816
+       DOS:  cpu time    0.0024: real time    0.0024
+    --------------------------------------------
+      LOOP:  cpu time   13.6052: real time   13.6113
+
+ eigenvalue-minimisations  :     0
+ total energy-change (2. order) : 0.3128405E+01  ( 0.0000000E+00)
+ number of electron       8.0000000 magnetization      -0.0000000      0.0000000      0.0000000
+ augmentation part        2.1002893 magnetization      -0.0000000     -0.0000000     -0.0000000
+
+ Free energy of the ion-electron system (eV)
+  ---------------------------------------------------
+  alpha Z        PSCENC =        16.68370675
+  Ewald energy   TEWEN  =      -502.27794943
+  -Hartree energ DENC   =      -331.90264988
+  -exchange      EXHF   =         0.00000000
+  -V(xc)+E(xc)   XCENC  =        45.55543059
+  PAW double counting   =       737.54481553     -778.91955166
+  entropy T*S    EENTRO =         0.00000000
+  eigenvalues    EBANDS =      -136.23345782
+  atomic energy  EATOM  =       952.67806118
+  Solvation  Ediel_sol  =         0.00000000
+  ---------------------------------------------------
+  free energy    TOTEN  =         3.12840525 eV
+
+  energy without entropy =        3.12840525  energy(sigma->0) =        3.12840525
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+--------------------------------------- Iteration      1(   2)  ---------------------------------------
+
+
+
+ total amount of memory used by VASP MPI-rank0   132444. kBytes
+=======================================================================
+
+   base      :      30000. kBytes
+   nonl-proj :       2738. kBytes
+   fftplans  :        995. kBytes
+   grid      :       1078. kBytes
+   one-center:         92. kBytes
+   wavefun   :      97541. kBytes
+ 
