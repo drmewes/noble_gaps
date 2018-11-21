@@ -1,0 +1,141 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140117
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140117
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140117
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140117
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140117
+SCRATCH=/scratch/mewes/140117
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140117
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140117
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140117
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140117
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140117
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140117
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140117
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140117
+SCRATCH=/scratch/mewes/140117
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140117
+ running on   16 total cores
+ distrk:  each k-point on    8 cores,    2 groups
+ distr:  one band on    4 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...      60
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DIA:   1    -0.131548211562E+02   -0.13155E+02    0.00000E+00     0   0.000E+00
+DIA:   2    -0.131548211562E+02    0.63665E-11    0.00000E+00     0   0.000E+00
+DIA:   3    -0.131548211562E+02   -0.11823E-10    0.00000E+00     0   0.000E+00
+DIA:   4    -0.131548211562E+02    0.16371E-10    0.00000E+00     0   0.000E+00
+DIA:   5    -0.131548211562E+02   -0.59117E-11    0.00000E+00     0   0.000E+00    0.829E-05
+DIA:   6    -0.131548212176E+02   -0.61444E-07    0.00000E+00     0   0.000E+00    0.249E-04
+DIA:   7    -0.131548211539E+02    0.63747E-07    0.00000E+00     0   0.000E+00    0.587E-05

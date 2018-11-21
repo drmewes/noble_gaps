@@ -1,0 +1,201 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140364
+ running on   16 total cores
+ distrk:  each k-point on    8 cores,    2 groups
+ distr:  one band on    4 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:43) complex          
+  
+ POSCAR found type information on POSCAR  Rn
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ generate k-points for:   10   10   10
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.189449590380E+03    0.18945E+03   -0.10884E+04  1418   0.819E+03
+DAV:   2     0.567815607519E+02   -0.13267E+03   -0.12646E+03  1694   0.105E+03
+DAV:   3     0.124623741859E+02   -0.44319E+02   -0.44056E+02  1786   0.295E+02
+DAV:   4     0.355084705615E+01   -0.89115E+01   -0.89033E+01  1714   0.180E+02
+DAV:   5     0.187840902939E+00   -0.33630E+01   -0.33629E+01  2366   0.961E+01    0.159E-01
+DAV:   6     0.155924829152E+00   -0.31916E-01   -0.32028E-01  1852   0.724E+00    0.108E-01
+DAV:   7     0.151468561847E+00   -0.44563E-02   -0.45094E-02  2542   0.394E+00    0.154E-01
+DAV:   8     0.151460635730E+00   -0.79261E-05   -0.42832E-04  2306   0.551E-01    0.117E-01
+DAV:   9     0.151129331733E+00   -0.33130E-03   -0.94589E-04  1790   0.142E+00    0.201E-01
+DAV:  10     0.151408048903E+00    0.27872E-03   -0.57165E-04  1772   0.109E+00    0.695E-02
+DAV:  11     0.151426007281E+00    0.17958E-04   -0.52423E-05  2168   0.307E-01    0.225E-02
+DAV:  12     0.151424701412E+00   -0.13059E-05   -0.14072E-05  1794   0.169E-01    0.623E-03
+DAV:  13     0.151423475128E+00   -0.12263E-05   -0.83426E-07  2190   0.295E-02    0.116E-02
+DAV:  14     0.151425541718E+00    0.20666E-05   -0.28417E-06  1730   0.793E-02    0.262E-04
+DAV:  15     0.151425601293E+00    0.59575E-07   -0.20348E-08  1138   0.456E-03
+   1 F= -.13124367E+00 E0= -.13139490E+00  d E =-.131244E+00
+ BRION: g(F)=  0.000E+00 g(S)=  0.156E-01
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.320077560718E-01   -0.11942E+00   -0.43742E+00  1604   0.109E+02    0.151E+00
+DAV:   2    -0.349107649458E-01   -0.66919E-01   -0.12822E-01  2208   0.749E+00    0.386E+00
+DAV:   3     0.744054170304E-01    0.10932E+00   -0.70696E-02  1712   0.123E+01    0.268E+00
+DAV:   4     0.130416618556E+00    0.56011E-01   -0.13119E-01  1598   0.165E+01    0.452E-01
+DAV:   5     0.130689036773E+00    0.27242E-03   -0.54466E-03  2292   0.218E+00    0.742E-02
+DAV:   6     0.130675057165E+00   -0.13980E-04   -0.80384E-05  2596   0.173E-01    0.189E-02
+DAV:   7     0.130674749817E+00   -0.30735E-06   -0.27714E-06  2052   0.492E-02    0.123E-02
+DAV:   8     0.130676416002E+00    0.16662E-05   -0.14321E-06  1814   0.554E-02    0.422E-03
+DAV:   9     0.130676766085E+00    0.35008E-06   -0.33532E-08   982   0.749E-03    0.561E-04
+DAV:  10     0.130676837786E+00    0.71700E-07   -0.13707E-08   886   0.268E-03
+   2 F= -.14585256E+00 E0= -.14601578E+00  d E =-.146089E-01
+ BRION: g(F)=  0.000E+00 g(S)=  0.121E-01 retain N=  1 mean eig= 8.90
+ eig:   8.898
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.588548411545E+01   -0.60162E+01   -0.34909E+02  1550   0.130E+03    0.107E+01
+DAV:   2     0.618559426230E-01    0.59473E+01   -0.18005E+01  1740   0.156E+02    0.233E+00
+DAV:   3     0.166811776508E-01   -0.45175E-01   -0.50558E-01  2298   0.111E+01    0.279E-01
+DAV:   4     0.169957022636E-01    0.31452E-03   -0.47825E-02  2178   0.900E+00    0.983E-01
+DAV:   5     0.221100572498E-01    0.51144E-02   -0.14430E-02  1646   0.540E+00    0.838E-02
+DAV:   6     0.222343029595E-01    0.12425E-03   -0.76001E-04  2276   0.962E-01    0.423E-02
+DAV:   7     0.222461148546E-01    0.11812E-04   -0.25105E-05  1820   0.958E-02    0.599E-03
+DAV:   8     0.222477842531E-01    0.16694E-05   -0.25697E-06  2062   0.358E-02    0.284E-03
+DAV:   9     0.222476041326E-01   -0.18012E-06   -0.31983E-07  1516   0.204E-02    0.960E-04
+DAV:  10     0.222474673428E-01   -0.13679E-06   -0.47904E-08  1144   0.796E-03    0.255E-04
+DAV:  11     0.222474842367E-01    0.16894E-07   -0.16300E-08   844   0.463E-03
+   3 F= -.20955522E+00 E0= -.20987763E+00  d E =-.637027E-01
+ BRION: g(F)=  0.000E+00 g(S)=  0.102E-02 retain N=  1 mean eig=12.81
+ eig:  12.811
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.104805428384E+01   -0.10703E+01   -0.51913E+01  1544   0.404E+02    0.475E+00
+DAV:   2     0.137782874563E-01    0.10618E+01   -0.39341E+00  1666   0.773E+01    0.495E-01
+DAV:   3    -0.451028484986E-02   -0.18289E-01   -0.20687E-01  2378   0.558E+00    0.452E-01
+DAV:   4    -0.440188035191E-02    0.10840E-03   -0.33651E-03  2412   0.177E+00    0.476E-02
+DAV:   5    -0.426794492478E-02    0.13394E-03   -0.19884E-04  2010   0.527E-01    0.219E-02
+DAV:   6    -0.425088707198E-02    0.17058E-04   -0.62080E-05  1726   0.320E-01    0.123E-03
+DAV:   7    -0.425127020981E-02   -0.38314E-06   -0.21992E-06  2482   0.288E-02    0.159E-03
+DAV:   8    -0.425104898250E-02    0.22123E-06   -0.54322E-08  1024   0.969E-03    0.326E-04
+DAV:   9    -0.425096098661E-02    0.87996E-07   -0.10687E-08   880   0.158E-03
+   4 F= -.21820738E+00 E0= -.21865844E+00  d E =-.865216E-02
+ BRION: g(F)=  0.000E+00 g(S)=  0.134E-03 retain N=  1 mean eig=20.39
+ eig:  20.392
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.369769366425E+00   -0.36552E+00   -0.16596E+01  1544   0.212E+02    0.281E+00
+DAV:   2    -0.895778357608E-02    0.36081E+00   -0.13496E+00  1606   0.459E+01    0.121E-01
+DAV:   3    -0.159840612105E-01   -0.70263E-02   -0.75636E-02  2444   0.337E+00    0.201E-02
+DAV:   4    -0.160390104338E-01   -0.54949E-04   -0.50719E-04  1808   0.317E-01    0.130E-02
+DAV:   5    -0.160419513481E-01   -0.29409E-05   -0.37862E-05  2478   0.145E-01    0.411E-03
+DAV:   6    -0.160419443746E-01    0.69736E-08   -0.50222E-07  1882   0.187E-02
+   5 F= -.21990193E+00 E0= -.22045038E+00  d E =-.169456E-02
+ BRION: g(F)=  0.000E+00 g(S)=  0.715E-05 retain N=  1 mean eig=26.63
+ eig:  26.626
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.520635555758E-01   -0.36022E-01   -0.14436E+00  1544   0.583E+01    0.862E-01
+DAV:   2    -0.185223132298E-01    0.33541E-01   -0.11944E-01  1610   0.139E+01    0.419E-02
+DAV:   3    -0.190367215578E-01   -0.51441E-03   -0.52843E-03  1694   0.936E-01    0.281E-02
+DAV:   4    -0.191568879072E-01   -0.12017E-03   -0.12213E-03  2546   0.625E-01    0.152E-02
+DAV:   5    -0.191586749474E-01   -0.17870E-05   -0.40860E-06  2284   0.350E-02    0.632E-03
+DAV:   6    -0.191587326076E-01   -0.57660E-07   -0.20228E-07  1206   0.120E-02
+   6 F= -.21999966E+00 E0= -.22058134E+00  d E =-.977245E-04
+ BRION: g(F)=  0.000E+00 g(S)=  0.299E-05 retain N=  1 mean eig=75.95
+ eig:  75.950
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.135598858940E+00   -0.11644E+00   -0.50106E+00  1544   0.111E+02    0.158E+00
+DAV:   2    -0.220993622875E-01    0.11350E+00   -0.39391E-01  1606   0.249E+01    0.597E-02
+DAV:   3    -0.242165942718E-01   -0.21172E-02   -0.20979E-02  1834   0.174E+00    0.332E-02
+DAV:   4    -0.243850047591E-01   -0.16841E-03   -0.17179E-03  2454   0.731E-01    0.349E-02
+DAV:   5    -0.243856274951E-01   -0.62274E-06   -0.42649E-05  2258   0.180E-01    0.413E-03
+DAV:   6    -0.243863285009E-01   -0.70101E-06   -0.43658E-07  1732   0.110E-02    0.119E-03
+DAV:   7    -0.243864826602E-01   -0.15416E-06   -0.43526E-08   964   0.563E-03    0.280E-04
+DAV:   8    -0.243864634172E-01    0.19243E-07   -0.23264E-08   790   0.653E-03
+   7 F= -.21971626E+00 E0= -.22036395E+00  d E =0.283392E-03
+ BRION: g(F)=  0.000E+00 g(S)=  0.190E-04 retain N=  1 mean eig=21.46
+ eig:  21.460
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.791832937039E-01   -0.54797E-01   -0.23870E+00  1550   0.697E+01    0.115E+00
+DAV:   2    -0.198780664141E-01    0.59305E-01   -0.18773E-01  1598   0.177E+01    0.801E-02
+DAV:   3    -0.207069044582E-01   -0.82884E-03   -0.10194E-02  2446   0.164E+00    0.234E-02
+DAV:   4    -0.207106425682E-01   -0.37381E-05   -0.55589E-05  2564   0.170E-01    0.300E-02
+DAV:   5    -0.207063480630E-01    0.42945E-05   -0.14617E-05  1724   0.159E-01    0.608E-03
+DAV:   6    -0.207060910775E-01    0.25699E-06   -0.46805E-07  1936   0.198E-02    0.942E-04
+DAV:   7    -0.207060160164E-01    0.75061E-07   -0.21876E-08   886   0.292E-03
+   8 F= -.21997933E+00 E0= -.22057903E+00  d E =-.263063E-03
+ BRION: g(F)=  0.000E+00 g(S)=  0.518E-05 retain N=  1 mean eig=44.63
+ eig:  44.629
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.852138876749E-01   -0.64508E-01   -0.28001E+00  1556   0.754E+01    0.124E+00
+DAV:   2    -0.153189234661E-01    0.69895E-01   -0.22456E-01  1600   0.195E+01    0.630E-02
+DAV:   3    -0.163281067353E-01   -0.10092E-02   -0.11261E-02  2410   0.151E+00    0.336E-02
+DAV:   4    -0.163262538013E-01    0.18529E-05   -0.69707E-05  2554   0.203E-01    0.906E-03
+DAV:   5    -0.163261283478E-01    0.12545E-06   -0.11421E-06  2092   0.189E-02    0.562E-03
+DAV:   6    -0.163262678916E-01   -0.13954E-06   -0.27551E-08  1258   0.484E-03    0.132E-03
+DAV:   7    -0.163263437471E-01   -0.75855E-07   -0.16642E-08   844   0.329E-03
+   9 F= -.21991780E+00 E0= -.22046913E+00  d E =0.615296E-04
+ BRION: g(F)=  0.000E+00 g(S)=  0.640E-05 retain N=  1 mean eig=21.20
+ eig:  21.197
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.374074740207E-01   -0.21081E-01   -0.81505E-01  1550   0.435E+01    0.650E-01
+DAV:   2    -0.183242589378E-01    0.19083E-01   -0.67093E-02  1612   0.105E+01    0.317E-03
+DAV:   3    -0.186681374053E-01   -0.34388E-03   -0.34496E-03  1826   0.700E-01    0.277E-02
+DAV:   4    -0.186810388054E-01   -0.12901E-04   -0.11655E-04  2384   0.186E-01    0.125E-02
+DAV:   5    -0.186804743548E-01    0.56445E-06   -0.47718E-06  2376   0.398E-02    0.368E-03
+DAV:   6    -0.186804269192E-01    0.47436E-07   -0.67608E-08  1070   0.383E-03
+  10 F= -.21999646E+00 E0= -.22057274E+00  d E =-.786574E-04
+ BRION: g(F)=  0.000E+00 g(S)=  0.136E-07 retain N=  1 mean eig=22.23
+ eig:  22.226
+ reached required accuracy - stopping structural energy minimisation

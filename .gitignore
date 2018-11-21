@@ -1,9 +1,3 @@
-*
-!/**/
-!*.*
 *tmp
 **/WAVECAR
 **/WAVEDER
-Makefile
-rsc*pdf
-.latexmkrc

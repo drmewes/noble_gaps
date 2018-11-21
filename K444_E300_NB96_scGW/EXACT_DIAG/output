@@ -1,0 +1,156 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140286
+ running on   40 total cores
+ distrk:  each k-point on   20 cores,    2 groups
+ distr:  one band on    4 cores,    5 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      The number of bands has been changed from the values supplied          |
+|      in the INCAR file. This is a result of running the parallel version.   |
+|      The orbitals not found in the WAVECAR file will be initialized with    |
+|      random numbers, which is usually adequate. For correlated              |
+|      calculations, however, you should redo the groundstate calculation.    |
+|      I found NBANDS    =       96  now  NBANDS  =     100                   |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ found WAVECAR, reading the header
+  number of bands has changed, file:    30 present:   100
+  trying to continue reading WAVECAR, but it might fail
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ random initialization beyond band           31
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DIA:   1    -0.131532834097E+02   -0.13153E+02    0.00000E+00     0   0.000E+00
+DIA:   2    -0.131532834097E+02    0.72760E-11    0.00000E+00     0   0.000E+00
+DIA:   3    -0.131532834097E+02   -0.27285E-11    0.00000E+00     0   0.000E+00
+DIA:   4    -0.131532834097E+02   -0.27285E-11    0.00000E+00     0   0.000E+00
+DIA:   5    -0.131532834097E+02    0.11823E-10    0.00000E+00     0   0.000E+00    0.122E-04
+DIA:   6    -0.131532834346E+02   -0.24913E-07    0.00000E+00     0   0.000E+00    0.210E-04
+DIA:   7    -0.131532834051E+02    0.29514E-07    0.00000E+00     0   0.000E+00    0.858E-05
+DIA:   8    -0.131532834082E+02   -0.31196E-08    0.00000E+00     0   0.000E+00
+   1 F= -.13593246E+02 E0= -.13593246E+02  d E =-.103513E-14  mag=     0.0042     0.0045     0.0027
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+ recalculating local potential from charge density
+ direction            1
+ direction            2
+ direction            3

@@ -1,0 +1,222 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140221
+ running on   56 total cores
+ distrk:  each k-point on   28 cores,    2 groups
+ distr:  one band on    4 cores,    7 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          ort
+DAV:   1     0.335504178825E+02    0.33550E+02   -0.33280E+00  1792   0.765E+00
+DAV:   2     0.335442779376E+02   -0.61399E-02   -0.61399E-02  1792   0.161E+00
+DAV:   3     0.335437929985E+02   -0.48494E-03   -0.48494E-03  1792   0.351E-01
+DAV:   4     0.335437278927E+02   -0.65106E-04   -0.65106E-04  1792   0.105E-01
+DAV:   5     0.335437173123E+02   -0.10580E-04   -0.10580E-04  1792   0.392E-02
+ gam= 0.000 g(H,U,f)=  0.183E+01 0.424E+00 0.420E-01 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   6    -0.123772230487E+02   -0.45921E+02   -0.91686E+00  1792   0.229E+01 0.000E+00
+ gam= 0.382 g(H,U,f)=  0.796E+00 0.128E+00 0.160E-07 ort(H,U,f) =-0.661E+00 0.214E+00 0.110E-07
+DMP:   7    -0.127401212866E+02   -0.36290E+00   -0.30145E+00  1792   0.924E+00-0.447E+00
+ gam= 0.382 g(H,U,f)=  0.101E+00 0.626E-01 0.332E-10 ort(H,U,f) = 0.259E-01 0.137E+00 0.716E-10
+DMP:   8    -0.129237381355E+02   -0.18362E+00   -0.90210E-01  1792   0.163E+00 0.163E+00
+ gam= 0.382 g(H,U,f)=  0.121E+00 0.359E-01 0.247E-15 ort(H,U,f) =-0.119E+00 0.821E-01 0.155E-15
+DMP:   9    -0.129616621728E+02   -0.37924E-01   -0.57084E-01  1792   0.157E+00-0.365E-01
+ gam= 0.382 g(H,U,f)=  0.227E-01 0.132E-01 0.381-104 ort(H,U,f) =-0.164E-02 0.385E-01 0.112-103
+DMP:  10    -0.129975065304E+02   -0.35844E-01   -0.19974E-01  1792   0.358E-01 0.369E-01
+ gam= 0.382 g(H,U,f)=  0.168E-01 0.522E-02 0.296E-44 ort(H,U,f) =-0.168E-02 0.165E-01 0.977E-44
+DMP:  11    -0.130104339756E+02   -0.12927E-01   -0.11065E-01  1792   0.220E-01 0.148E-01
+ gam= 0.382 g(H,U,f)=  0.391E-02 0.291E-02 0.335E-18 ort(H,U,f) =-0.229E-02 0.841E-02 0.114E-17
+DMP:  12    -0.130171881094E+02   -0.67541E-02   -0.36633E-02  1792   0.682E-02 0.612E-02
+ gam= 0.382 g(H,U,f)=  0.163E-02 0.151E-02 0.725E-36 ort(H,U,f) =-0.733E-03 0.433E-02 0.263E-35
+DMP:  13    -0.130197285613E+02   -0.25405E-02   -0.18054E-02  1792   0.314E-02 0.359E-02
+ gam= 0.382 g(H,U,f)=  0.568E-03 0.654E-03 0.216E-86 ort(H,U,f) =-0.239E-03 0.203E-02 0.884E-86
+DMP:  14    -0.130209943200E+02   -0.12658E-02   -0.76205E-03  1792   0.122E-02 0.179E-02
+ gam= 0.382 g(H,U,f)=  0.235E-03 0.290E-03 0.166-101 ort(H,U,f) =-0.240E-04 0.920E-03 0.173-100
+DMP:  15    -0.130215656218E+02   -0.57130E-03   -0.34663E-03  1792   0.524E-03 0.896E-03
+ gam= 0.382 g(H,U,f)=  0.811E-04 0.141E-03 0.399-101 ort(H,U,f) =-0.516E-04 0.439E-03-0.233E-99
+DMP:  16    -0.130218218002E+02   -0.25618E-03   -0.14801E-03  1792   0.222E-03 0.387E-03
+ gam= 0.382 g(H,U,f)=  0.372E-04 0.696E-04 0.962E-98 ort(H,U,f) =-0.623E-05 0.214E-03-0.310E-97
+DMP:  17    -0.130219384659E+02   -0.11667E-03   -0.74420E-04  1792   0.107E-03 0.207E-03
+ gam= 0.382 g(H,U,f)=  0.122E-04 0.340E-04 0.380E-96 ort(H,U,f) =-0.207E-05 0.104E-03-0.683E-97
+DMP:  18    -0.130219966773E+02   -0.58211E-04   -0.34000E-04  1792   0.462E-04 0.102E-03
+ gam= 0.382 g(H,U,f)=  0.664E-05 0.170E-04 0.380E-95 ort(H,U,f) = 0.116E-05 0.513E-04 0.366E-95
+DMP:  19    -0.130220253009E+02   -0.28624E-04   -0.17484E-04  1792   0.237E-04 0.525E-04
+ gam= 0.382 g(H,U,f)=  0.202E-05 0.869E-05 0.179E-94 ort(H,U,f) =-0.317E-06 0.261E-04 0.283E-94
+DMP:  20    -0.130220400890E+02   -0.14788E-04   -0.82183E-05  1792   0.107E-04 0.258E-04
+ gam= 0.382 g(H,U,f)=  0.103E-05 0.446E-05 0.650E-94 ort(H,U,f) = 0.258E-06 0.133E-04 0.128E-93
+DMP:  21    -0.130220472264E+02   -0.71374E-05   -0.42721E-05  1792   0.549E-05 0.136E-04
+ gam= 0.382 g(H,U,f)=  0.324E-06 0.229E-05 0.193E-93 ort(H,U,f) = 0.207E-06 0.682E-05 0.431E-93
+DMP:  22    -0.130220509292E+02   -0.37028E-05   -0.21181E-05  1792   0.261E-05 0.702E-05
+ gam= 0.382 g(H,U,f)=  0.210E-06 0.118E-05 0.434E-93 ort(H,U,f) = 0.140E-06 0.350E-05 0.105E-92
+DMP:  23    -0.130220529359E+02   -0.20067E-05   -0.11109E-05  1792   0.139E-05 0.364E-05
+ gam= 0.382 g(H,U,f)=  0.687E-07 0.606E-06 0.749E-93 ort(H,U,f) = 0.101E-06 0.180E-05 0.193E-92
+DMP:  24    -0.130220540817E+02   -0.11458E-05   -0.56065E-06  1792   0.675E-06 0.190E-05
+ gam= 0.382 g(H,U,f)=  0.409E-07 0.312E-06 0.104E-92 ort(H,U,f) = 0.575E-07 0.928E-06 0.281E-92
+DMP:  25    -0.130220546861E+02   -0.60440E-06   -0.29168E-06  1792   0.353E-06 0.985E-06
+ gam= 0.382 g(H,U,f)=  0.199E-07 0.161E-06 0.119E-92 ort(H,U,f) = 0.401E-07 0.478E-06 0.333E-92
+DMP:  26    -0.130220550036E+02   -0.31751E-06   -0.15130E-06  1792   0.180E-06 0.518E-06
+ gam= 0.382 g(H,U,f)=  0.128E-07 0.828E-07 0.114E-92 ort(H,U,f) = 0.247E-07 0.246E-06 0.328E-92
+DMP:  27    -0.130220551758E+02   -0.17218E-06   -0.79623E-07  1792   0.956E-07 0.271E-06
+ gam= 0.382 g(H,U,f)=  0.813E-08 0.428E-07 0.944E-93 ort(H,U,f) = 0.168E-07 0.127E-06 0.276E-92
+DMP:  28    -0.130220552782E+02   -0.10242E-06   -0.42339E-07  1792   0.509E-07 0.144E-06
+ gam= 0.382 g(H,U,f)=  0.596E-08 0.221E-07 0.695E-93 ort(H,U,f) = 0.119E-07 0.656E-07 0.207E-92
+DMP:  29    -0.130220553416E+02   -0.63425E-07   -0.23055E-07  1792   0.281E-07 0.774E-07
+ gam= 0.382 g(H,U,f)=  0.449E-08 0.114E-07 0.468E-93 ort(H,U,f) = 0.881E-08 0.339E-07 0.141E-92
+DMP:  30    -0.130220553811E+02   -0.39508E-07   -0.12898E-07  1792   0.159E-07 0.427E-07
+ gam= 0.382 g(H,U,f)=  0.319E-08 0.595E-08 0.294E-93 ort(H,U,f) = 0.668E-08 0.176E-07 0.894E-93
+DMP:  31    -0.130220554064E+02   -0.25286E-07   -0.73592E-08  1792   0.914E-08 0.242E-07
+ gam= 0.382 g(H,U,f)=  0.250E-08 0.311E-08 0.176E-93 ort(H,U,f) = 0.482E-08 0.913E-08 0.536E-93
+DMP:  32    -0.130220554232E+02   -0.16778E-07   -0.43743E-08  1792   0.561E-08 0.140E-07
+ gam= 0.382 g(H,U,f)=  0.242E-08 0.164E-08 0.101E-93 ort(H,U,f) = 0.324E-08 0.477E-08 0.308E-93
+DMP:  33    -0.130220554345E+02   -0.11308E-07   -0.28471E-08  1792   0.406E-08 0.801E-08
+ gam= 0.382 g(H,U,f)=  0.369E-08 0.877E-09 0.565E-94 ort(H,U,f) = 0.162E-08 0.252E-08 0.172E-93
+DMP:  34    -0.130220554421E+02   -0.76261E-08   -0.24609E-08  1792   0.457E-08 0.414E-08
+ final diagonalization
+   1 F= -.13462018E+02 E0= -.13462018E+02  d E =-.542461E-90  mag=    -0.0073     0.0002     0.0003
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+ recalculating local potential from charge density
+ direction            1
+ direction            2
+ direction            3

@@ -1,0 +1,150 @@
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140174
+ running on   32 total cores
+ distrk:  each k-point on   16 cores,    2 groups
+ distr:  one band on    1 cores,   16 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      The number of bands has been changed from the values supplied          |
+|      in the INCAR file. This is a result of running the parallel version.   |
+|      The orbitals not found in the WAVECAR file will be initialized with    |
+|      random numbers, which is usually adequate. For correlated              |
+|      calculations, however, you should redo the groundstate calculation.    |
+|      I found NBANDS    =       56  now  NBANDS  =      64                   |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          ort
+ gam= 0.000 g(H,U,f)=  0.703E-09 0.381E-09 0.000E+00 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   1    -0.130220554518E+02   -0.13022E+02   -0.43384E-09  4096   0.108E-08 0.000E+00
+ gam= 0.382 g(H,U,f)=  0.492E-09 0.333E-09 0.000E+00 ort(H,U,f) = 0.529E-09 0.358E-09 0.000E+00
+DMP:   2    -0.130220554531E+02   -0.12496E-08   -0.46562E-09  4096   0.825E-09 0.888E-09
+ final diagonalization
+   1 F= -.13462018E+02 E0= -.13462018E+02  d E =0.000000E+00  mag=    -0.0074     0.0002     0.0003
+ writing wavefunctions

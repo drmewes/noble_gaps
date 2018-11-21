@@ -1,0 +1,134 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140127
+ running on   32 total cores
+ distrk:  each k-point on   16 cores,    2 groups
+ distr:  one band on    4 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ generate k-points for:    9    9    9
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.307909283965E+03    0.30791E+03   -0.96376E+03 20920   0.127E+03
+DAV:   2     0.151569491683E+01   -0.30639E+03   -0.29699E+03 26828   0.459E+02
+DAV:   3    -0.129233549381E+02   -0.14439E+02   -0.14384E+02 24772   0.123E+02
+DAV:   4    -0.133653042139E+02   -0.44195E+00   -0.44170E+00 30648   0.264E+01
+DAV:   5    -0.133800395225E+02   -0.14735E-01   -0.14734E-01 27788   0.397E+00    0.632E+00
+RMM:   6    -0.132629958946E+02    0.11704E+00   -0.89089E-01 21327   0.113E+01    0.214E+00
+RMM:   7    -0.132604921405E+02    0.25038E-02   -0.18155E-01 21296   0.457E+00    0.858E-01
+RMM:   8    -0.132726270630E+02   -0.12135E-01   -0.40486E-02 21148   0.262E+00    0.448E-01
+RMM:   9    -0.132784563812E+02   -0.58293E-02   -0.71005E-03 22846   0.107E+00    0.279E-01
+RMM:  10    -0.132798915276E+02   -0.14351E-02   -0.32668E-03 24000   0.737E-01    0.651E-02
+RMM:  11    -0.132799646200E+02   -0.73092E-04   -0.56123E-04 22419   0.300E-01    0.175E-02
+RMM:  12    -0.132800194385E+02   -0.54819E-04   -0.16048E-04 21396   0.183E-01    0.921E-03
+RMM:  13    -0.132800292991E+02   -0.98606E-05   -0.35134E-05 21944   0.643E-02    0.342E-03
+RMM:  14    -0.132800318677E+02   -0.25686E-05   -0.90915E-06 21823   0.383E-02    0.774E-04
+RMM:  15    -0.132800329036E+02   -0.10359E-05   -0.24887E-06 23337   0.137E-02    0.763E-04
+RMM:  16    -0.132800323052E+02    0.59841E-06   -0.48807E-07 18924   0.779E-03    0.288E-04
+RMM:  17    -0.132800321776E+02    0.12755E-06   -0.15399E-07 15865   0.422E-03    0.138E-04
+RMM:  18    -0.132800322183E+02   -0.40628E-07   -0.34626E-08 13903   0.303E-03
+   1 F= -.13720129E+02 E0= -.13720122E+02  d E =-.137201E+02  mag=     0.0000     0.0000    -0.0000
+ BRION: g(F)=  0.000E+00 g(S)=  0.312E-05
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.132801970577E+02   -0.16488E-03   -0.88909E-04 26572   0.421E-01    0.229E-02
+RMM:   2    -0.132801722595E+02    0.24798E-04   -0.12298E-04 21892   0.132E-01    0.308E-03
+RMM:   3    -0.132801714457E+02    0.81387E-06   -0.34403E-06 24361   0.206E-02    0.188E-03
+RMM:   4    -0.132801701548E+02    0.12908E-05   -0.12124E-06 22612   0.135E-02    0.538E-04
+RMM:   5    -0.132801697637E+02    0.39116E-06   -0.17916E-07 15724   0.466E-03    0.126E-04
+RMM:   6    -0.132801700487E+02   -0.28508E-06   -0.25072E-08 13532   0.268E-03    0.705E-05
+RMM:   7    -0.132801702940E+02   -0.24531E-06   -0.12079E-08 12135   0.158E-03    0.154E-05
+RMM:   8    -0.132801702775E+02    0.16554E-07   -0.66925E-09 11732   0.135E-03
+   2 F= -.13720132E+02 E0= -.13720125E+02  d E =-.300938E-05  mag=    -0.0000    -0.0000    -0.0000
+ BRION: g(F)=  0.000E+00 g(S)=  0.240E-05 retain N=  1 mean eig= 8.15
+ eig:   8.149
+ reached required accuracy - stopping structural energy minimisation
