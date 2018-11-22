@@ -10,8 +10,8 @@ SYSTEM  =   He_FCC
 #Major precision parameters
 PREC    =   accurate  #Influences FFT-Grids and real-space projector accuracy (LREAL!=F). Recommended: accurate; normal for pre-opt (error ca. 1meV/atom)
 ENCUT   =   600         #PW-cutoff. strongly system dependent. 350-500eV sensible choice. Set always.
-EDIFF   =   1E-07       #accuracy of SCF cycle. Increase to at least 1E-07 for Freq. 
-EDIFFG  =   1E-05    #accuracy of ionic steps. Negative: 
+EDIFF   =   1E-08       #accuracy of SCF cycle. Increase to at least 1E-07 for Freq. 
+EDIFFG  =   1E-07    #accuracy of ionic steps. Negative: 
 LREAL   =   False      #Real-space projectors automagic. LREAL = False for highly accurate calc. and IBRION=3/8.
 ISYM    =   2           #Do not use symmetry. SYMPREC sets precision for automatic determination of symmetry.
 SYMPREC =   1E-7

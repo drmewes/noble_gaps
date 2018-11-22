@@ -4,7 +4,7 @@
  using from now: INCAR     
  vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 09 2018 16:43:14) complex          
   
- POSCAR found type information on POSCAR  Ne
+ POSCAR found type information on POSCAR  He
  POSCAR found :  1 types and       1 ions
  scaLAPACK will be used
 
@@ -29,14 +29,27 @@
 
  LDA part: xc-table for Pade appr. of Perdew
  found WAVECAR, reading the header
-  number of bands has changed, file:    20 present:   128
+  number of bands has changed, file:    12 present:   128
   trying to continue reading WAVECAR, but it might fail
  POSCAR, INCAR and KPOINTS ok, starting setup
  FFT: planning ...
  reading WAVECAR
- random initialization beyond band           21
+ random initialization beyond band           13
  the WAVECAR file was read successfully
  initial charge from wavefunction
  entering main loop
        N       E                     dE             d eps       ncg     rms          rms(c)
-DIA:   1     0.312840525423E+01    0.31284E+01    0.00000E+00     0   0.000E+00
+DIA:   1    -0.771715285405E-01   -0.77172E-01    0.00000E+00     0   0.000E+00
+DIA:   2    -0.771715285380E-01    0.25580E-11    0.00000E+00     0   0.000E+00
+DIA:   3    -0.771715285389E-01   -0.90949E-12    0.00000E+00     0   0.000E+00
+DIA:   4    -0.771715285390E-01   -0.14211E-12    0.00000E+00     0   0.000E+00
+DIA:   5    -0.771715285357E-01    0.33253E-11    0.00000E+00     0   0.000E+00    0.352E-05
+DIA:   6    -0.771715282553E-01    0.28037E-09    0.00000E+00     0   0.000E+00
+   1 F= -.84824000E-01 E0= -.84824000E-01  d E =0.000000E+00  mag=    -0.0000    -0.0000    -0.0000
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+ recalculating local potential from charge density
+ direction            1
+ direction            2
+ direction            3

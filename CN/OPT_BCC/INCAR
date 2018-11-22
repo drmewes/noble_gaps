@@ -1,4 +1,4 @@
-KPAR = 1
+KPAR = 2
 NCORE = 4 
 
 GGA = PS
