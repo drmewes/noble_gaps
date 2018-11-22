@@ -5202,3 +5202,183 @@ NQ=  90    0.5000   -0.1667    0.3333,
   XI_RED_T:  cpu time    0.0010: real time    0.0010
    XI_TO_W:  cpu time    0.0021: real time    0.0021
    KRAMKRO:  cpu time    0.2682: real time    0.2709
+   TWOEINT:  cpu time    6.9632: real time    6.9627
+   KRAMKRO:  cpu time    0.5188: real time    0.5196
+   TWOEINT:  cpu time    0.5165: real time    0.5165
+        GW:  cpu time    9.7234: real time    9.7269
+ 
+ performed     138992000 updates of chi_q(r,r)
+ total number of BLAS operations   152994.91 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  91   -0.3333   -0.1667    0.3333, 
+       CHI:  cpu time    1.1189: real time    1.1188
+   KRAMKRO:  cpu time    0.2666: real time    0.2666
+    LFIELD:  cpu time    0.0001: real time    0.0001
+  XI_LOCAL:  cpu time    0.0299: real time    0.0310
+  XI_RED_T:  cpu time    0.0010: real time    0.0010
+   XI_TO_W:  cpu time    0.0021: real time    0.0021
+   KRAMKRO:  cpu time    0.2686: real time    0.2706
+   TWOEINT:  cpu time    6.9380: real time    6.9375
+   KRAMKRO:  cpu time    0.4856: real time    0.4855
+   TWOEINT:  cpu time    0.5143: real time    0.5147
+        GW:  cpu time    9.6621: real time    9.6655
+ 
+ performed     140560000 updates of chi_q(r,r)
+ total number of BLAS operations   154712.83 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  92   -0.1667   -0.1667    0.3333, 
+       CHI:  cpu time    1.1208: real time    1.1207
+   KRAMKRO:  cpu time    0.2728: real time    0.2728
+    LFIELD:  cpu time    0.0001: real time    0.0005
+  XI_LOCAL:  cpu time    0.0312: real time    0.0316
+  XI_RED_T:  cpu time    0.0010: real time    0.0010
+   XI_TO_W:  cpu time    0.0021: real time    0.0021
+   KRAMKRO:  cpu time    0.2679: real time    0.2699
+   TWOEINT:  cpu time    6.8942: real time    6.8937
+   KRAMKRO:  cpu time    0.5940: real time    0.5940
+   TWOEINT:  cpu time    0.5068: real time    0.5068
+        GW:  cpu time    9.7353: real time    9.7374
+ 
+ performed     142128000 updates of chi_q(r,r)
+ total number of BLAS operations   156477.50 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  93    0.0000    0.0000    0.5000, 
+       CHI:  cpu time    1.1024: real time    1.1023
+   KRAMKRO:  cpu time    0.2776: real time    0.2775
+    LFIELD:  cpu time    0.0001: real time    0.0001
+  XI_LOCAL:  cpu time    0.0292: real time    0.0292
+  XI_RED_T:  cpu time    0.0010: real time    0.0010
+   XI_TO_W:  cpu time    0.0020: real time    0.0020
+   KRAMKRO:  cpu time    0.2681: real time    0.2703
+   TWOEINT:  cpu time    3.8078: real time    3.8076
+   KRAMKRO:  cpu time    0.4737: real time    0.4737
+   TWOEINT:  cpu time    0.3024: real time    0.3024
+        GW:  cpu time    6.2904: real time    6.2922
+ 
+ performed     143164000 updates of chi_q(r,r)
+ total number of BLAS operations   157600.01 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  94    0.1667    0.0000    0.5000, 
+       CHI:  cpu time    1.1103: real time    1.1102
+   KRAMKRO:  cpu time    0.2924: real time    0.2924
+    LFIELD:  cpu time    0.0001: real time    0.0001
+  XI_LOCAL:  cpu time    0.0312: real time    0.0312
+  XI_RED_T:  cpu time    0.0010: real time    0.0010
+   XI_TO_W:  cpu time    0.0021: real time    0.0021
+   KRAMKRO:  cpu time    0.2679: real time    0.2701
+   TWOEINT:  cpu time    6.7941: real time    6.7936
+   KRAMKRO:  cpu time    0.6810: real time    0.6810
+   TWOEINT:  cpu time    0.5061: real time    0.5061
+        GW:  cpu time    9.7238: real time    9.7255
+ 
+ performed     144732000 updates of chi_q(r,r)
+ total number of BLAS operations   159364.68 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  95    0.3333    0.0000    0.5000, 
+       CHI:  cpu time    1.1066: real time    1.1065
+   KRAMKRO:  cpu time    0.2940: real time    0.2940
+    LFIELD:  cpu time    0.0001: real time    0.0001
+  XI_LOCAL:  cpu time    0.0307: real time    0.0307
+  XI_RED_T:  cpu time    0.0010: real time    0.0010
+   XI_TO_W:  cpu time    0.0022: real time    0.0022
+   KRAMKRO:  cpu time    0.2683: real time    0.2690
+   TWOEINT:  cpu time    6.7826: real time    6.7822
+   KRAMKRO:  cpu time    0.6754: real time    0.6754
+   TWOEINT:  cpu time    0.5124: real time    0.5124
+        GW:  cpu time    9.7017: real time    9.7017
+ 
+ performed     146300000 updates of chi_q(r,r)
+ total number of BLAS operations   161138.77 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  96    0.5000   -0.0000    0.5000, 
+       CHI:  cpu time    1.1462: real time    1.1461
+   KRAMKRO:  cpu time    0.3573: real time    0.3573
+    LFIELD:  cpu time    0.0001: real time    0.0001
+  XI_LOCAL:  cpu time    0.0343: real time    0.0343
+  XI_RED_T:  cpu time    0.0010: real time    0.0010
+   XI_TO_W:  cpu time    0.0022: real time    0.0022
+   KRAMKRO:  cpu time    0.2683: real time    0.2690
+   TWOEINT:  cpu time    3.9777: real time    3.9775
+   KRAMKRO:  cpu time    0.4442: real time    0.4442
+   TWOEINT:  cpu time    0.2963: real time    0.2963
+        GW:  cpu time    6.5692: real time    6.5695
+ 
+ performed     147336000 updates of chi_q(r,r)
+ total number of BLAS operations   162386.61 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  97   -0.0000    0.1667    0.5000, 
+       CHI:  cpu time    1.1082: real time    1.1082
+   KRAMKRO:  cpu time    0.2984: real time    0.2984
+    LFIELD:  cpu time    0.0001: real time    0.0001
+  XI_LOCAL:  cpu time    0.0311: real time    0.0311
+  XI_RED_T:  cpu time    0.0010: real time    0.0010
+   XI_TO_W:  cpu time    0.0022: real time    0.0022
+   KRAMKRO:  cpu time    0.2684: real time    0.2691
+   TWOEINT:  cpu time    6.7853: real time    6.7848
+   KRAMKRO:  cpu time    0.5520: real time    0.5520
+   TWOEINT:  cpu time    0.5176: real time    0.5175
+        GW:  cpu time    9.5777: real time    9.5778
+ 
+ performed     148904000 updates of chi_q(r,r)
+ total number of BLAS operations   164151.28 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  98    0.1667    0.1667    0.5000, 
+       CHI:  cpu time    1.1004: real time    1.1003
+   KRAMKRO:  cpu time    0.2793: real time    0.2793
+    LFIELD:  cpu time    0.0001: real time    0.0001
+  XI_LOCAL:  cpu time    0.0310: real time    0.0310
+  XI_RED_T:  cpu time    0.0010: real time    0.0010
+   XI_TO_W:  cpu time    0.0021: real time    0.0021
+   KRAMKRO:  cpu time    0.2689: real time    0.2695
+   TWOEINT:  cpu time    6.7691: real time    6.7687
+   KRAMKRO:  cpu time    0.5611: real time    0.5610
+   TWOEINT:  cpu time    0.5240: real time    0.5239
+        GW:  cpu time    9.5442: real time    9.5443
+ 
+ performed     150472000 updates of chi_q(r,r)
+ total number of BLAS operations   165897.17 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  99    0.3333    0.1667    0.5000, 
+       CHI:  cpu time    1.1060: real time    1.1060
+   KRAMKRO:  cpu time    0.2859: real time    0.2859
+    LFIELD:  cpu time    0.0001: real time    0.0001
+  XI_LOCAL:  cpu time    0.0310: real time    0.0310
+  XI_RED_T:  cpu time    0.0010: real time    0.0010
+   XI_TO_W:  cpu time    0.0021: real time    0.0021
+   KRAMKRO:  cpu time    0.2684: real time    0.2691
