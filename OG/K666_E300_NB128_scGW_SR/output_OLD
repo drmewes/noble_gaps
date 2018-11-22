@@ -1,0 +1,57 @@
+ running on   64 total cores
+ distrk:  each k-point on   32 cores,    2 groups
+ distr:  one band on    8 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 09 2018 16:43:14) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.130754587595E+03    0.13075E+03   -0.84469E+03  5080   0.632E+02
+DAV:   2     0.229294497300E+01   -0.12846E+03   -0.12669E+03  4696   0.264E+02
+DAV:   3     0.230946986867E+00   -0.20620E+01   -0.20602E+01  4912   0.385E+01
+DAV:   4     0.182694341481E+00   -0.48253E-01   -0.48248E-01  4848   0.568E+00
+DAV:   5     0.179618966452E+00   -0.30754E-02   -0.30754E-02  5528   0.129E+00    0.329E-01
+DAV:   6     0.176894705904E+00   -0.27243E-02   -0.10910E-03  5280   0.343E-01    0.187E-01
+DAV:   7     0.175309731736E+00   -0.15850E-02   -0.86418E-04  5672   0.295E-01    0.281E-02
+DAV:   8     0.175282929732E+00   -0.26802E-04   -0.43658E-05  4544   0.707E-02    0.546E-03
+DAV:   9     0.175279952215E+00   -0.29775E-05   -0.26437E-06  5616   0.120E-02    0.852E-04
+DAV:  10     0.175279586631E+00   -0.36558E-06   -0.15865E-07  4920   0.216E-03    0.328E-04
+DAV:  11     0.175279153849E+00   -0.43278E-06   -0.36143E-08  4680   0.130E-03    0.967E-05
+DAV:  12     0.175279208351E+00    0.54502E-07   -0.19425E-09  3392   0.384E-04    0.171E-05
+DAV:  13     0.175279233872E+00    0.25520E-07   -0.37373E-10  2784   0.164E-04    0.764E-06
+DAV:  14     0.175279234755E+00    0.88312E-09   -0.13970E-10  2664   0.113E-04
+   1 F= 0.63070616E+96 E0= 0.63070616E+96  d E =0.000000E+00
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+ recalculating local potential from charge density
+ direction            1
+ direction            2
+ direction            3

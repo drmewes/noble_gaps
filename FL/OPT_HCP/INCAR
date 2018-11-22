@@ -1,8 +1,7 @@
-KPAR = 1
+KPAR = 4
 NCORE = 4 
 
-GGA = PE
-IVDW = 12
+GGA = PS
 GGA_COMPAT = .FALSE.
 
 SYSTEM  =   Cn_HCP
