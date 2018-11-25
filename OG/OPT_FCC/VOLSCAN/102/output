@@ -1,0 +1,65 @@
+ running on   16 total cores
+ distrk:  each k-point on    4 cores,    4 groups
+ distr:  one band on    4 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 09 2018 16:43:14) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You enforced a specific xc-type in the INCAR file,                     |
+|      a different type was found on the POTCAR file                          |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ generate k-points for:    9    9    9
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.308874034704E+03    0.30887E+03   -0.94357E+03 20944   0.126E+03
+DAV:   2     0.228712267323E+01   -0.30659E+03   -0.29681E+03 27008   0.453E+02
+DAV:   3    -0.132228371245E+02   -0.15510E+02   -0.15451E+02 24468   0.127E+02
+DAV:   4    -0.136857143107E+02   -0.46288E+00   -0.46261E+00 30544   0.271E+01
+DAV:   5    -0.137019507998E+02   -0.16236E-01   -0.16235E-01 27832   0.415E+00    0.632E+00
+RMM:   6    -0.135640027127E+02    0.13795E+00   -0.89672E-01 24148   0.113E+01    0.212E+00
+RMM:   7    -0.135741063909E+02   -0.10104E-01   -0.18716E-01 23329   0.447E+00    0.847E-01
+RMM:   8    -0.135845573148E+02   -0.10451E-01   -0.38271E-02 23758   0.262E+00    0.447E-01
+RMM:   9    -0.135900637854E+02   -0.55065E-02   -0.69401E-03 26654   0.100E+00    0.278E-01
+RMM:  10    -0.135911825461E+02   -0.11188E-02   -0.29477E-03 27794   0.707E-01    0.640E-02
+RMM:  11    -0.135912279225E+02   -0.45376E-04   -0.51619E-04 26533   0.280E-01    0.162E-02
+RMM:  12    -0.135912683202E+02   -0.40398E-04   -0.12336E-04 25743   0.161E-01    0.874E-03
+RMM:  13    -0.135912781875E+02   -0.98673E-05   -0.28334E-05 27695   0.562E-02    0.333E-03
+RMM:  14    -0.135912802922E+02   -0.21046E-05   -0.69931E-06 27710   0.348E-02    0.727E-04
+RMM:  15    -0.135912804902E+02   -0.19806E-06   -0.15970E-06 29405   0.114E-02    0.628E-04
+RMM:  16    -0.135912797228E+02    0.76740E-06   -0.33644E-07 24573   0.691E-03    0.274E-04
+RMM:  17    -0.135912796576E+02    0.65238E-07   -0.94243E-08 20402   0.375E-03
+   1 F= -.13591280E+02 E0= -.13591275E+02  d E =-.149505E-04  mag=     0.0000     0.0000     0.0000

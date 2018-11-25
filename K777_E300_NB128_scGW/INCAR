@@ -1,6 +1,5 @@
-KPAR = 2
-NCORE = 7 
-
+KPAR = 8
+NCORE = 4 
 GGA = PE
 IVDW = 12
 GGA_COMPAT = .FALSE.
