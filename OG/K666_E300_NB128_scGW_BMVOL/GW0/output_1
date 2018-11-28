@@ -1,0 +1,104 @@
+ running on   64 total cores
+ distrk:  each k-point on    2 cores,   32 groups
+ distr:  one band on    1 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 09 2018 16:43:14) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+
+ The Fermi energy was updated, please check that it is located mid-gap
+ values below the HOMO (VB) or above the LUMO (CB) will cause erroneous energies
+ E-fermi :   3.8471
+
+ calculate exact exchange contribution
+ the WAVEDER file was read successfully
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have a very small band gap. This results in slow convergence       |
+|      of the energy with respect to NOMEGA                                   |
+|      Usually VASP defaults OMEGAMIN to the bandgap which guarantees an      |
+|      optimal grid for OMEGAGRID=140.                                        |
+|      The gap was found to be OMEGAMIN= 0.0100                               |
+|      Now OMEGAMIN is set to 0.02 instead, which effectively removes some    |
+|      excitations from the spectrum.                                         |
+|      You can set OMEGAMIN manually in the INCAR, however.                   |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+energies w= 
+   0.00   0.00   0.49   0.00   0.97   0.00   1.45   0.00   1.93   0.00
+   2.40   0.00   2.86   0.00   3.31   0.00   3.76   0.00   4.20   0.00
+   4.63   0.00   5.05   0.00   5.47   0.00   5.88   0.00   6.29   0.00
+   6.70   0.00   7.10   0.00   7.50   0.00   7.91   0.00   8.32   0.00
+   8.73   0.00   9.14   0.00   9.57   0.00  10.01   0.00  10.45   0.00
+  10.92   0.00  11.40   0.00  11.91   0.00  12.44   0.00  13.01   0.00
+  13.61   0.00  14.25   0.00  14.95   0.00  15.71   0.00  16.55   0.00
+  17.47   0.00  18.51   0.00  19.68   0.00  21.02   0.00  22.57   0.00
+  24.39   0.00  26.56   0.00  29.21   0.00  32.50   0.00  36.72   0.00
+  42.30   0.00  50.04   0.00  61.46   0.00  79.98   0.00 115.01   0.00
+ responsefunction array rank=     388
+ LDA part: xc-table for Pade appr. of Perdew
+ allocating   1 responsefunctions rank=   388
+ shmem allocating   4 responsefunctions rank=   388
+ response function shared by NCSHMEM nodes    1
+ Doing            1  frequencies on each core in blocks of            4
+NQ=   1    0.0000    0.0000    0.0000, 
