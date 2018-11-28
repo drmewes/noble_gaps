@@ -1,0 +1,40 @@
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140766
+SCRATCH=/scratch/mewes/140766
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140766
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140766
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140766
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140766
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140766
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140766
+ running on    8 total cores
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ distrk:  each k-point on    2 cores,    4 groups
+ distr:  one band on    2 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:43) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
