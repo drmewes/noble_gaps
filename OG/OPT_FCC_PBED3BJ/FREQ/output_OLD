@@ -1,92 +1,40 @@
- running on   64 total cores
- distrk:  each k-point on   16 cores,    4 groups
- distr:  one band on    4 cores,    4 groups
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140913
+SCRATCH=/scratch/mewes/140913
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140913
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140913
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140913
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140913
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140913
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140913
+ running on    8 total cores
+ distrk:  each k-point on    8 cores,    1 groups
+ distr:  one band on    1 cores,    8 groups
  using from now: INCAR     
- vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 09 2018 16:43:14) complex          
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:43) complex          
   
  POSCAR found type information on POSCAR  Og
  POSCAR found :  1 types and       1 ions
- scaLAPACK will be used
-
- ----------------------------------------------------------------------------- 
-|                                                                             |
-|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
-|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
-|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
-|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
-|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
-|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
-|                                                                             |
-|      You have enabled k-point parallelism (KPAR>1).                         |
-|      This developmental code was originally  written by Paul Kent at ORNL,  |
-|      and carefully double checked in Vienna.                                |
-|      GW as well as linear response parallelism added by Martijn Marsman     |
-|      and Georg Kresse.                                                      |
-|      Carefully verify results versus KPAR=1.                                |
-|      Report problems to Paul Kent and Vienna.                               |
-|                                                                             |
- ----------------------------------------------------------------------------- 
-
-
- ----------------------------------------------------------------------------- 
-|                                                                             |
-|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
-|                                                                             |
-|      You enforced a specific xc-type in the INCAR file,                     |
-|      a different type was found on the POTCAR file                          |
-|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
-|                                                                             |
- ----------------------------------------------------------------------------- 
-
- LDA part: xc-table for Pade appr. of Perdew
- generate k-points for:    9    9    9
- POSCAR, INCAR and KPOINTS ok, starting setup
- FFT: planning ...
- WAVECAR not read
- entering main loop
-       N       E                     dE             d eps       ncg     rms          rms(c)
-DAV:   1     0.307151615775E+03    0.30715E+03   -0.95981E+03 20984   0.127E+03
-DAV:   2     0.148414623952E+01   -0.30567E+03   -0.29619E+03 26868   0.457E+02
-DAV:   3    -0.132464084864E+02   -0.14731E+02   -0.14668E+02 24624   0.124E+02
-DAV:   4    -0.136922212638E+02   -0.44581E+00   -0.44555E+00 30540   0.265E+01
-DAV:   5    -0.137077955485E+02   -0.15574E-01   -0.15573E-01 27644   0.413E+00    0.633E+00
-RMM:   6    -0.135756322889E+02    0.13216E+00   -0.88888E-01 21475   0.113E+01    0.214E+00
-RMM:   7    -0.135780064010E+02   -0.23741E-02   -0.18174E-01 21359   0.444E+00    0.852E-01
-RMM:   8    -0.135883751313E+02   -0.10369E-01   -0.38527E-02 21277   0.262E+00    0.447E-01
-RMM:   9    -0.135937676917E+02   -0.53926E-02   -0.69021E-03 23214   0.101E+00    0.278E-01
-RMM:  10    -0.135947673333E+02   -0.99964E-03   -0.27932E-03 24009   0.702E-01    0.615E-02
-RMM:  11    -0.135948066926E+02   -0.39359E-04   -0.48657E-04 22306   0.273E-01    0.153E-02
-RMM:  12    -0.135948413000E+02   -0.34607E-04   -0.11534E-04 21492   0.157E-01    0.829E-03
-RMM:  13    -0.135948496522E+02   -0.83522E-05   -0.26455E-05 23274   0.537E-02    0.308E-03
-RMM:  14    -0.135948514168E+02   -0.17646E-05   -0.58892E-06 22046   0.313E-02    0.640E-04
-RMM:  15    -0.135948517122E+02   -0.29537E-06   -0.13370E-06 25230   0.109E-02    0.568E-04
-RMM:  16    -0.135948511280E+02    0.58423E-06   -0.27356E-07 23795   0.574E-03    0.239E-04
-RMM:  17    -0.135948510598E+02    0.68186E-07   -0.71821E-08 19971   0.282E-03    0.147E-04
-RMM:  18    -0.135948511005E+02   -0.40727E-07   -0.13875E-08 15007   0.163E-03    0.436E-05
-RMM:  19    -0.135948511577E+02   -0.57155E-07   -0.56063E-09 14251   0.998E-04    0.230E-05
-RMM:  20    -0.135948511647E+02   -0.70468E-08   -0.22680E-09 13861   0.795E-04
-   1 F= -.13594851E+02 E0= -.13594843E+02  d E =-.247419E-04  mag=     0.0000     0.0000     0.0000
- Found     3 degrees of freedom:
- Adding 6 more for cell shape distortion
- Finite differences POTIM= 0.02000 DOF=   9
- generate k-points for:    9    9    9
-
- ----------------------------------------------------------------------------- 
-|                                                                             |
-|     EEEEEEE  RRRRRR   RRRRRR   OOOOOOO  RRRRRR      ###     ###     ###     |
-|     E        R     R  R     R  O     O  R     R     ###     ###     ###     |
-|     E        R     R  R     R  O     O  R     R     ###     ###     ###     |
-|     EEEEE    RRRRRR   RRRRRR   O     O  RRRRRR       #       #       #      |
-|     E        R   R    R   R    O     O  R   R                               |
-|     E        R    R   R    R   O     O  R    R      ###     ###     ###     |
-|     EEEEEEE  R     R  R     R  OOOOOOO  R     R     ###     ###     ###     |
-|                                                                             |
-|      VASP internal routines  have requested a change of the k-point set.    |
-|      Unfortunately this is only possible if NPAR=number of nodes.           |
-|      Please remove the tag NPAR from the INCAR file and restart the         |
-|      calculations.                                                          |
-|                                                                             |
-|      ---->  I REFUSE TO CONTINUE WITH THIS SICK JOB ..., BYE!!! <----       |
-|                                                                             |
- ----------------------------------------------------------------------------- 
-
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+  without the flag -DNGXhalf and -DNGZhalf

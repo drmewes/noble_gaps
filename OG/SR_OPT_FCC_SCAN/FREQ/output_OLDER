@@ -1,0 +1,77 @@
+ running on   16 total cores
+ distrk:  each k-point on    4 cores,    4 groups
+ distr:  one band on    4 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 09 2018 16:43:14) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You enforced a specific xc-type in the INCAR file,                     |
+|      a different type was found on the POTCAR file                          |
+|          I HOPE YOU KNOW, WHAT YOU ARE  DOING                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ generate k-points for:    9    9    9
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.306987526230E+03    0.30699E+03   -0.95760E+03 20952   0.127E+03
+DAV:   2     0.142804925267E+01   -0.30556E+03   -0.29634E+03 26856   0.457E+02
+DAV:   3    -0.132497576438E+02   -0.14678E+02   -0.14623E+02 24712   0.124E+02
+DAV:   4    -0.136926613599E+02   -0.44290E+00   -0.44265E+00 30492   0.265E+01
+DAV:   5    -0.137078126697E+02   -0.15151E-01   -0.15150E-01 27680   0.408E+00    0.633E+00
+RMM:   6    -0.135756033460E+02    0.13221E+00   -0.88855E-01 21473   0.113E+01    0.214E+00
+RMM:   7    -0.135779880142E+02   -0.23847E-02   -0.18166E-01 21361   0.444E+00    0.852E-01
+RMM:   8    -0.135883431138E+02   -0.10355E-01   -0.38396E-02 21231   0.262E+00    0.447E-01
+RMM:   9    -0.135937452836E+02   -0.54022E-02   -0.69689E-03 23150   0.101E+00    0.278E-01
+RMM:  10    -0.135947377266E+02   -0.99244E-03   -0.28090E-03 23977   0.706E-01    0.614E-02
+RMM:  11    -0.135947789371E+02   -0.41210E-04   -0.49692E-04 22338   0.273E-01    0.153E-02
+RMM:  12    -0.135948135775E+02   -0.34640E-04   -0.11461E-04 21518   0.156E-01    0.821E-03
+RMM:  13    -0.135948218773E+02   -0.82998E-05   -0.26278E-05 23294   0.533E-02    0.304E-03
+RMM:  14    -0.135948236076E+02   -0.17303E-05   -0.58363E-06 22038   0.310E-02    0.640E-04
+RMM:  15    -0.135948239105E+02   -0.30285E-06   -0.13039E-06 22746   0.109E-02    0.567E-04
+RMM:  16    -0.135948233332E+02    0.57729E-06   -0.27152E-07 17794   0.662E-03    0.239E-04
+RMM:  17    -0.135948232692E+02    0.63962E-07   -0.80210E-08 14655   0.384E-03
+   1 F= -.13594823E+02 E0= -.13594815E+02  d E =-.135948E+02  mag=     0.0000     0.0000     0.0000
+ BRION: g(F)=  0.000E+00 g(S)=  0.251E-05
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.135948466957E+02   -0.23363E-04   -0.71426E-04 26476   0.377E-01    0.205E-02
+RMM:   2    -0.135948272664E+02    0.19429E-04   -0.96127E-05 21896   0.117E-01    0.304E-03
+RMM:   3    -0.135948251815E+02    0.20849E-05   -0.26590E-06 23866   0.194E-02    0.140E-03
+RMM:   4    -0.135948249270E+02    0.25453E-06   -0.76044E-07 21347   0.103E-02    0.571E-04
+RMM:   5    -0.135948248577E+02    0.69277E-07   -0.25881E-07 16675   0.597E-03
+   2 F= -.13594825E+02 E0= -.13594817E+02  d E =-.158846E-05  mag=    -0.0000    -0.0000    -0.0000
+ BRION: g(F)=  0.000E+00 g(S)=  0.648E-06 retain N=  1 mean eig= 2.03
+ eig:   2.032
+ reached required accuracy - stopping structural energy minimisation

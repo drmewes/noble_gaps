@@ -1,0 +1,94 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140900
+ running on   16 total cores
+ distrk:  each k-point on    4 cores,    4 groups
+ distr:  one band on    2 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:43) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ generate k-points for:    9    9    9
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.137943686608E+03    0.13794E+03   -0.96685E+03   988   0.124E+03
+DAV:   2    -0.133071489441E+03   -0.27102E+03   -0.26540E+03  1192   0.412E+02
+DAV:   3    -0.140416322427E+03   -0.73448E+01   -0.73367E+01  1304   0.854E+01
+DAV:   4    -0.140562325272E+03   -0.14600E+00   -0.14599E+00  1566   0.130E+01
+DAV:   5    -0.140564759116E+03   -0.24338E-02   -0.24338E-02  1316   0.145E+00    0.163E+00
+RMM:   6    -0.137059544000E+03    0.35052E+01   -0.49193E+00  1120   0.258E+01    0.813E-01
+RMM:   7    -0.137035649743E+03    0.23894E-01   -0.15047E-01   991   0.533E+00    0.594E-01
+RMM:   8    -0.137029061351E+03    0.65884E-02   -0.21834E-02  1040   0.176E+00    0.499E-01
+RMM:   9    -0.137014790630E+03    0.14271E-01   -0.72409E-02  1015   0.315E+00    0.494E-02
+RMM:  10    -0.137014766613E+03    0.24017E-04   -0.20616E-03  1050   0.639E-01    0.307E-02
+RMM:  11    -0.137014676685E+03    0.89927E-04   -0.25593E-03   980   0.812E-01    0.509E-02
+RMM:  12    -0.137014583725E+03    0.92961E-04   -0.44679E-04  1059   0.262E-01    0.187E-02
+RMM:  13    -0.137014585282E+03   -0.15570E-05   -0.20517E-04  1028   0.142E-01    0.773E-03
+RMM:  14    -0.137014585052E+03    0.22955E-06   -0.10933E-04   980   0.121E-01    0.531E-03
+RMM:  15    -0.137014585650E+03   -0.59807E-06   -0.11437E-05  1091   0.401E-02    0.300E-03
+RMM:  16    -0.137014592300E+03   -0.66497E-05   -0.11748E-05   983   0.475E-02    0.135E-03
+RMM:  17    -0.137014598398E+03   -0.60983E-05   -0.65344E-06  1015   0.331E-02    0.173E-03
+RMM:  18    -0.137014598423E+03   -0.24959E-07   -0.42622E-06   980   0.293E-02    0.817E-04
+RMM:  19    -0.137014597352E+03    0.10715E-05   -0.89955E-07  1030   0.133E-02    0.384E-04
+RMM:  20    -0.137014597514E+03   -0.16283E-06   -0.15847E-07  1044   0.470E-03    0.208E-04
+RMM:  21    -0.137014597672E+03   -0.15774E-06   -0.30565E-08   803   0.229E-03    0.187E-04
+RMM:  22    -0.137014597582E+03    0.90236E-07   -0.17729E-08   719   0.188E-03    0.129E-04
+RMM:  23    -0.137014597589E+03   -0.76179E-08   -0.20560E-08   769   0.230E-03
+   1 F= -.13701460E+03 E0= -.13701466E+03  d E =-.137015E+03
+ BRION: g(F)=  0.000E+00 g(S)=  0.273E-09
+ reached required accuracy - stopping structural energy minimisation

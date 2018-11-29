@@ -1,11 +1,8 @@
 KPAR = 4
 NCORE = 4 
 
-GGA = PE
-IVDW = 12
+METAGGA = SCAN
 GGA_COMPAT = .FALSE.
-IVDW = 12
-
 SYSTEM  =   Og_FCC
 
 #Major precision parameters

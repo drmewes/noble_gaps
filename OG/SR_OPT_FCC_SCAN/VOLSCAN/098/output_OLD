@@ -1,0 +1,65 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140738
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140738
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140738
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140738
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140738
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140738
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140738
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140738
+ running on    8 total cores
+ distrk:  each k-point on    2 cores,    4 groups
+ distr:  one band on    2 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:43) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ generate k-points for:    9    9    9
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.295033601438E+03    0.29503E+03   -0.97328E+03   926   0.133E+03
+DAV:   2     0.946295888581E+01   -0.28557E+03   -0.27812E+03  1124   0.446E+02
+DAV:   3     0.248651098896E+00   -0.92143E+01   -0.91975E+01  1120   0.100E+02
+DAV:   4     0.814712526776E-01   -0.16718E+00   -0.16713E+00  1298   0.163E+01
+DAV:   5     0.730006613180E-01   -0.84706E-02   -0.84703E-02  1227   0.301E+00    0.154E-01
+RMM:   6     0.720497842071E-01   -0.95088E-03   -0.53157E-03  1057   0.787E-01    0.828E-02
+RMM:   7     0.716461112283E-01   -0.40367E-03   -0.13062E-03  1110   0.357E-01    0.110E-02
+RMM:   8     0.716190801309E-01   -0.27031E-04   -0.14798E-04  1203   0.157E-01    0.760E-03
+RMM:   9     0.716075684986E-01   -0.11512E-04   -0.34176E-05  1264   0.495E-02    0.625E-04
+RMM:  10     0.716072512123E-01   -0.31729E-06   -0.40651E-06  1251   0.228E-02    0.347E-04
+RMM:  11     0.716069415407E-01   -0.30967E-06   -0.11747E-06  1269   0.765E-03    0.182E-04
+RMM:  12     0.716069505934E-01    0.90527E-08   -0.88215E-08   992   0.306E-03
+   1 F= -.35591720E+00 E0= -.35598046E+00  d E =0.189768E-03
