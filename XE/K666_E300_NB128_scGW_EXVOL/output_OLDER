@@ -1,0 +1,74 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140358
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140358
+SCRATCH=/scratch/mewes/140358
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140358
+SCRATCH=/scratch/mewes/140358
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140358
+SCRATCH=/scratch/mewes/140358
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140358
+ running on    8 total cores
+ distrk:  each k-point on    4 cores,    2 groups
+ distr:  one band on    4 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ POSCAR found type information on POSCAR  Xe
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.337501061858E+02    0.33750E+02   -0.20365E+03  2304   0.451E+02
+DAV:   2     0.288085508029E+01   -0.30869E+02   -0.28720E+02  3236   0.103E+02
+DAV:   3     0.319892932420E+00   -0.25610E+01   -0.25524E+01  2804   0.302E+01
+DAV:   4     0.293346882457E+00   -0.26546E-01   -0.26542E-01  2800   0.400E+00
+DAV:   5     0.293145869002E+00   -0.20101E-03   -0.20101E-03  2802   0.376E-01    0.435E+00
+DAV:   6    -0.685955020327E-01   -0.36174E+00   -0.13186E-01  2386   0.430E+00    0.122E+00
+DAV:   7    -0.153483285331E+00   -0.84888E-01   -0.69770E-02  2330   0.182E+00    0.238E-01
+DAV:   8    -0.153821099690E+00   -0.33781E-03   -0.11138E-03  2544   0.291E-01    0.363E-02
+DAV:   9    -0.153841637668E+00   -0.20538E-04   -0.42932E-05  2506   0.565E-02    0.183E-02
+DAV:  10    -0.153849670760E+00   -0.80331E-05   -0.96026E-06  2494   0.263E-02    0.814E-03
+DAV:  11    -0.153848321739E+00    0.13490E-05   -0.42703E-06  2446   0.166E-02    0.142E-03
+DAV:  12    -0.153848389885E+00   -0.68146E-07   -0.13331E-07  2620   0.274E-03    0.600E-04
+DAV:  13    -0.153848539172E+00   -0.14929E-06   -0.18637E-08  2548   0.123E-03    0.263E-04
+DAV:  14    -0.153848587498E+00   -0.48325E-07   -0.50586E-09  2122   0.707E-04    0.975E-05
+DAV:  15    -0.153848583490E+00    0.40078E-08   -0.70654E-10  1992   0.232E-04
+   1 F= -.32364910E+00 E0= -.32364910E+00  d E =0.000000E+00  mag=     0.0000     0.0000     0.0000
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+ recalculating local potential from charge density
+ direction            1
+ direction            2
+ direction            3

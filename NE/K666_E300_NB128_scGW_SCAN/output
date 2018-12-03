@@ -1,0 +1,78 @@
+ running on   64 total cores
+ distrk:  each k-point on   16 cores,    4 groups
+ distr:  one band on    4 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 09 2018 16:43:14) complex          
+  
+ POSCAR found type information on POSCAR  Ne
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.688401296257E+00    0.68840E+00   -0.52767E-02  9056   0.318E+00
+DAV:   2     0.688297379695E+00   -0.10392E-03   -0.10392E-03  9656   0.321E-01
+DAV:   3     0.688297334608E+00   -0.45087E-07   -0.45086E-07  9596   0.729E-03
+DAV:   4     0.688297334518E+00   -0.89358E-10   -0.73433E-10  7924   0.249E-04
+DAV:   5     0.688297334525E+00    0.68212E-11   -0.32243E-11  7012   0.620E-05    0.455E-01
+DAV:   6     0.694037020560E+00    0.57397E-02   -0.64565E-03  8764   0.116E+00    0.141E-01
+DAV:   7     0.693967569149E+00   -0.69451E-04   -0.13874E-03  8888   0.519E-01    0.588E-02
+DAV:   8     0.693819892663E+00   -0.14768E-03   -0.42008E-05  9436   0.111E-01    0.128E-02
+DAV:   9     0.693826680370E+00    0.67877E-05   -0.50963E-06  9636   0.348E-02    0.315E-03
+DAV:  10     0.693827919808E+00    0.12394E-05   -0.13664E-06  8984   0.139E-02    0.296E-03
+DAV:  11     0.693828018193E+00    0.98385E-07   -0.35800E-07  9340   0.991E-03    0.115E-04
+DAV:  12     0.693828030281E+00    0.12088E-07   -0.19511E-09  8240   0.506E-04    0.892E-05
+DAV:  13     0.693827995975E+00   -0.34306E-07   -0.60535E-10  5520   0.402E-04    0.305E-05
+DAV:  14     0.693827986086E+00   -0.98885E-08   -0.37541E-11  4852   0.970E-05
+   1 F= 0.69382799E+00 E0= 0.69382799E+00  d E =0.000000E+00  mag=     0.0000     0.0000     0.0000
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have switched on METAGGA and linear response routines.             |
+|      This combination is currently not supported.                           |
+|      If you have selected LOPTICS=.TRUE., VASP will continue but some       |
+|      matrix elements [H,r] are neglected   (you might try to use            |
+|      LPEAD=.TRUE. which works irrespective of H).                           |
+|      In all other cases VASP will stop now. SOOO sorry...                   |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ direction            1
+ direction            2
+ direction            3
