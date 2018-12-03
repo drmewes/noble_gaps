@@ -1,4 +1,4 @@
-KPAR = 32
+KPAR = 16
 
 GGA = PE
 IVDW = 12

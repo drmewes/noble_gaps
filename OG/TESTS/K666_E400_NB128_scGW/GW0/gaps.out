@@ -6,3 +6,15 @@ LUMO: 3.1963 eV (band# 19)
 HOMO: 2.6264 eV (band# 18)
 LUMO: 3.3810 eV (band# 19)
  Gap: .7546 eV
+### GW iteration 3 ###
+HOMO: 2.5806 eV (band# 18)
+LUMO: 3.3988 eV (band# 19)
+ Gap: .8182 eV
+### GW iteration 4 ###
+HOMO: 2.5682 eV (band# 18)
+LUMO: 3.4083 eV (band# 19)
+ Gap: .8401 eV
+### GW iteration 5 ###
+HOMO: 2.5644 eV (band# 18)
+LUMO: 3.4123 eV (band# 19)
+ Gap: .8479 eV

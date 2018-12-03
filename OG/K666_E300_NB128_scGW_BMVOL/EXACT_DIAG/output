@@ -1,6 +1,6 @@
  running on   64 total cores
- distrk:  each k-point on   32 cores,    2 groups
- distr:  one band on    8 cores,    4 groups
+ distrk:  each k-point on    8 cores,    8 groups
+ distr:  one band on    4 cores,    2 groups
  using from now: INCAR     
  vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 09 2018 16:43:14) complex          
   
@@ -39,13 +39,13 @@
  initial charge from wavefunction
  entering main loop
        N       E                     dE             d eps       ncg     rms          rms(c)
-DIA:   1    -0.131830614657E+02   -0.13183E+02    0.00000E+00     0   0.000E+00
-DIA:   2    -0.131830614657E+02    0.63665E-11    0.00000E+00     0   0.000E+00
-DIA:   3    -0.131830614657E+02    0.27285E-11    0.00000E+00     0   0.000E+00
-DIA:   4    -0.131830614657E+02   -0.15007E-10    0.00000E+00     0   0.000E+00
-DIA:   5    -0.131830614657E+02    0.14097E-10    0.00000E+00     0   0.000E+00    0.616E-05
-DIA:   6    -0.131830614715E+02   -0.57471E-08    0.00000E+00     0   0.000E+00
-   1 F= 0.61809765E+96 E0= 0.61809765E+96  d E =-.145727E-07  mag=     0.0017    -0.0007    -0.0005
+DIA:   1    -0.131799938261E+02   -0.13180E+02    0.00000E+00     0   0.000E+00
+DIA:   2    -0.131799938261E+02    0.13188E-10    0.00000E+00     0   0.000E+00
+DIA:   3    -0.131799938261E+02   -0.68212E-11    0.00000E+00     0   0.000E+00
+DIA:   4    -0.131799938261E+02    0.54570E-11    0.00000E+00     0   0.000E+00
+DIA:   5    -0.131799938261E+02    0.68212E-11    0.00000E+00     0   0.000E+00    0.410E-05
+DIA:   6    -0.131799938310E+02   -0.49122E-08    0.00000E+00     0   0.000E+00
+   1 F= 0.62202775E+96 E0= 0.62202775E+96  d E =-.143326E-07  mag=     0.0017    -0.0007    -0.0005
  writing wavefunctions
  optical routines
  imaginary and real dielectric function
