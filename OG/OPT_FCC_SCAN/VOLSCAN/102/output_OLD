@@ -1,22 +1,38 @@
 Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140784
+SCRATCH=/scratch/mewes/140969
 Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140784
+SCRATCH=/scratch/mewes/140969
 Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140784
+SCRATCH=/scratch/mewes/140969
 Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140784
+SCRATCH=/scratch/mewes/140969
 Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140784
+SCRATCH=/scratch/mewes/140969
 Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140784
+SCRATCH=/scratch/mewes/140969
 Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140784
+SCRATCH=/scratch/mewes/140969
 Please use the following directory for all temporary/scratch files:
-SCRATCH=/scratch/mewes/140784
- running on    8 total cores
- distrk:  each k-point on    2 cores,    4 groups
- distr:  one band on    2 cores,    1 groups
+SCRATCH=/scratch/mewes/140969
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140969
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140969
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140969
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140969
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140969
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140969
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140969
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/140969
+ running on   16 total cores
+ distrk:  each k-point on    4 cores,    4 groups
+ distr:  one band on    4 cores,    1 groups
  using from now: INCAR     
  vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
   
@@ -50,22 +66,22 @@ SCRATCH=/scratch/mewes/140784
  WAVECAR not read
  entering main loop
        N       E                     dE             d eps       ncg     rms          rms(c)
-DAV:   1     0.308457699537E+03    0.30846E+03   -0.96009E+03 20952   0.127E+03
-DAV:   2     0.173475342265E+01   -0.30672E+03   -0.29742E+03 26888   0.459E+02
-DAV:   3    -0.129201370170E+02   -0.14655E+02   -0.14599E+02 24684   0.124E+02
-DAV:   4    -0.133674173541E+02   -0.44728E+00   -0.44703E+00 30980   0.265E+01
-DAV:   5    -0.133817435826E+02   -0.14326E-01   -0.14325E-01 27388   0.393E+00    0.632E+00
-RMM:   6    -0.132647094870E+02    0.11703E+00   -0.89173E-01 23725   0.113E+01    0.213E+00
-RMM:   7    -0.132624001984E+02    0.23093E-02   -0.18149E-01 23209   0.458E+00    0.858E-01
-RMM:   8    -0.132745564210E+02   -0.12156E-01   -0.40869E-02 23669   0.264E+00    0.448E-01
-RMM:   9    -0.132803945197E+02   -0.58381E-02   -0.72059E-03 26255   0.107E+00    0.279E-01
-RMM:  10    -0.132818394658E+02   -0.14449E-02   -0.32808E-03 27632   0.738E-01    0.655E-02
-RMM:  11    -0.132819132252E+02   -0.73759E-04   -0.56805E-04 26546   0.300E-01    0.175E-02
-RMM:  12    -0.132819683476E+02   -0.55122E-04   -0.16365E-04 25492   0.186E-01    0.932E-03
-RMM:  13    -0.132819781999E+02   -0.98523E-05   -0.35802E-05 26785   0.647E-02    0.351E-03
-RMM:  14    -0.132819807778E+02   -0.25778E-05   -0.94440E-06 28272   0.391E-02    0.779E-04
-RMM:  15    -0.132819818440E+02   -0.10662E-05   -0.25700E-06 29647   0.139E-02    0.780E-04
-RMM:  16    -0.132819812382E+02    0.60578E-06   -0.50061E-07 25519   0.786E-03    0.297E-04
-RMM:  17    -0.132819811091E+02    0.12908E-06   -0.15650E-07 21671   0.425E-03    0.141E-04
- num prob  num prob RMM:  18    -0.132819811504E+02   -0.41286E-07   -0.35670E-08 17264   0.309E-03
-   1 F= -.13720260E+02 E0= -.13720252E+02  d E =-.231940E-04  mag=     0.0000    -0.0000    -0.0000
+DAV:   1     0.310013925510E+03    0.31001E+03   -0.95151E+03 20856   0.126E+03
+DAV:   2     0.216092424651E+01   -0.30785E+03   -0.29839E+03 26892   0.456E+02
+DAV:   3    -0.129250392142E+02   -0.15086E+02   -0.15025E+02 24664   0.126E+02
+DAV:   4    -0.133788662626E+02   -0.45383E+00   -0.45357E+00 30524   0.268E+01
+DAV:   5    -0.133947278580E+02   -0.15862E-01   -0.15860E-01 27680   0.414E+00    0.632E+00
+RMM:   6    -0.132738851196E+02    0.12084E+00   -0.89398E-01 23836   0.113E+01    0.212E+00
+RMM:   7    -0.132769223436E+02   -0.30372E-02   -0.18090E-01 23184   0.455E+00    0.853E-01
+RMM:   8    -0.132888658753E+02   -0.11944E-01   -0.39633E-02 23607   0.262E+00    0.449E-01
+RMM:   9    -0.132947222790E+02   -0.58564E-02   -0.70422E-03 26017   0.106E+00    0.278E-01
+RMM:  10    -0.132962463828E+02   -0.15241E-02   -0.33576E-03 27371   0.749E-01    0.668E-02
+RMM:  11    -0.132963247872E+02   -0.78404E-04   -0.58610E-04 26222   0.306E-01    0.181E-02
+RMM:  12    -0.132963853017E+02   -0.60514E-04   -0.17141E-04 25258   0.189E-01    0.952E-03
+RMM:  13    -0.132963960932E+02   -0.10791E-04   -0.39018E-05 26432   0.672E-02    0.355E-03
+RMM:  14    -0.132963991061E+02   -0.30129E-05   -0.10318E-05 27758   0.406E-02    0.822E-04
+RMM:  15    -0.132964001711E+02   -0.10650E-05   -0.28334E-06 29410   0.144E-02    0.810E-04
+RMM:  16    -0.132963994950E+02    0.67618E-06   -0.58908E-07 25784   0.864E-03    0.277E-04
+RMM:  17    -0.132963993540E+02    0.14096E-06   -0.18793E-07 22112   0.422E-03    0.114E-04
+ num prob  num prob RMM:  18    -0.132963994133E+02   -0.59265E-07   -0.32893E-08 17569   0.287E-03
+   1 F= -.13718929E+02 E0= -.13718924E+02  d E =-.158847E-04  mag=     0.0000     0.0000     0.0000

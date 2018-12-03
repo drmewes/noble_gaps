@@ -1,7 +1,7 @@
 KPAR = 1
 NCORE = 1 
 
-GGA = PS
+METAGGA = SCAN
 GGA_COMPAT = .FALSE.
 
 SYSTEM  =   Og_FCC

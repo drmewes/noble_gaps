@@ -263,3 +263,34 @@ SCRATCH=/scratch/mewes/140918
  initial charge from wavefunction
  entering main loop
        N       E                     dE             d eps       ncg     rms          rms(c)
+DIA:   1    -0.131810760861E+02   -0.13181E+02    0.00000E+00     0   0.000E+00
+DIA:   2    -0.131810760862E+02   -0.20918E-10    0.00000E+00     0   0.000E+00
+DIA:   3    -0.131810760860E+02    0.15461E-09    0.00000E+00     0   0.000E+00
+DIA:   4    -0.131810760860E+02    0.19554E-10    0.00000E+00     0   0.000E+00
+DIA:   5    -0.131810760858E+02    0.14961E-09    0.00000E+00     0   0.000E+00    0.714E-05
+DIA:   6    -0.131810760881E+02   -0.22756E-08    0.00000E+00     0   0.000E+00
+   1 F= -.13621038E+02 E0= -.13621037E+02  d E =-.139147E-05  mag=    -0.0005     0.0001     0.0000
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+ recalculating local potential from charge density
+ direction            1
+ direction            2
+ direction            3
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You are using a small complex shift. This can yield unreliable results |
+|      when the Kramers Kronig relation is used for systems with spin-orbit   |
+|      interactions.                                                          |
+|      Please increase CSHIFT in the INCAR file.                              |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
