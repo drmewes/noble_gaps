@@ -42,5 +42,5 @@ LWAVE   =   F           #Generate WAVECAR
 LCHARG  =   F           #Generate CHGCAR
 LVTOT   =   F           #Generate LOCPOT
 
-KSPACING = 0.30
+KSPACING = 0.20
 
