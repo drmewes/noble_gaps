@@ -1,0 +1,2915 @@
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ executed on             LinuxIFC date 2018.12.04  15:43:14
+ running on   32 total cores
+ distrk:  each k-point on    2 cores,   16 groups
+ distr:  one band on NCORES_PER_BAND=   1 cores,    2 groups
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+ INCAR:
+ POTCAR:    PAW_PBE Ne_GW 22Sep2014               
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ POTCAR:    PAW_PBE Ne_GW 22Sep2014               
+  local pseudopotential read in
+  partial core-charges read in
+  partial kinetic energy density read in
+  kinetic energy density of atom read in
+  atomic valenz-charges read in
+  non local Contribution for L=           0  read in
+    real space projection operators read in
+  non local Contribution for L=           0  read in
+    real space projection operators read in
+  non local Contribution for L=           0  read in
+    real space projection operators read in
+  non local Contribution for L=           1  read in
+    real space projection operators read in
+  non local Contribution for L=           1  read in
+    real space projection operators read in
+  non local Contribution for L=           1  read in
+    real space projection operators read in
+  non local Contribution for L=           2  read in
+    real space projection operators read in
+  non local Contribution for L=           2  read in
+    real space projection operators read in
+    PAW grid and wavefunctions read in
+ 
+   number of l-projection  operators is LMAX  =           8
+   number of lm-projection operators is LMMAX =          22
+ 
+  PAW_PBE Ne_GW 22Sep2014               :
+ energy of atom  1       EATOM= -955.3367
+ kinetic energy error for atom=   17.6195 (will be added to EATOM!!)
+ 
+ 
+ POSCAR: Ne_FCC                                  
+  positions in direct lattice
+  velocities in cartesian coordinates
+ exchange correlation table for  LEXCH =        8
+   RHO(1)=    0.500       N(1)  =     2000
+   RHO(2)=  100.500       N(2)  =     4000
+ 
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+ ion  position               nearest neighbor table
+   1  0.000  0.000  0.000-
+ 
+
+IMPORTANT INFORMATION: All symmetrisations will be switched off!
+NOSYMM: (Re-)initialisation of all symmetry stuff for point group C_1.
+
+ 
+ 
+ KPOINTS: k-points                                
+
+Automatic generation of k-mesh.
+Space group operators:
+ irot       det(A)        alpha          n_x          n_y          n_z        tau_x        tau_y        tau_z
+    1     1.000000     0.000000     1.000000     0.000000     0.000000     0.000000     0.000000     0.000000
+ 
+ Subroutine IBZKPT returns following result:
+ ===========================================
+ 
+ Found     64 irreducible k-points:
+ 
+ Following reciprocal coordinates:
+            Coordinates               Weight
+  0.000000  0.000000  0.000000      1.000000
+  0.250000  0.000000 -0.000000      1.000000
+  0.500000  0.000000 -0.000000      1.000000
+ -0.250000 -0.000000  0.000000      1.000000
+  0.000000  0.250000  0.000000      1.000000
+  0.250000  0.250000 -0.000000      1.000000
+  0.500000  0.250000  0.000000      1.000000
+ -0.250000  0.250000  0.000000      1.000000
+  0.000000  0.500000  0.000000      1.000000
+  0.250000  0.500000 -0.000000      1.000000
+  0.500000  0.500000 -0.000000      1.000000
+ -0.250000  0.500000  0.000000      1.000000
+  0.000000 -0.250000 -0.000000      1.000000
+  0.250000 -0.250000 -0.000000      1.000000
+  0.500000 -0.250000 -0.000000      1.000000
+ -0.250000 -0.250000  0.000000      1.000000
+  0.000000  0.000000  0.250000      1.000000
+  0.250000  0.000000  0.250000      1.000000
+  0.500000  0.000000  0.250000      1.000000
+ -0.250000 -0.000000  0.250000      1.000000
+  0.000000  0.250000  0.250000      1.000000
+  0.250000  0.250000  0.250000      1.000000
+  0.500000  0.250000  0.250000      1.000000
+ -0.250000  0.250000  0.250000      1.000000
+  0.000000  0.500000  0.250000      1.000000
+  0.250000  0.500000  0.250000      1.000000
+  0.500000  0.500000  0.250000      1.000000
+ -0.250000  0.500000  0.250000      1.000000
+  0.000000 -0.250000  0.250000      1.000000
+  0.250000 -0.250000  0.250000      1.000000
+  0.500000 -0.250000  0.250000      1.000000
+ -0.250000 -0.250000  0.250000      1.000000
+  0.000000  0.000000  0.500000      1.000000
+  0.250000  0.000000  0.500000      1.000000
+  0.500000  0.000000  0.500000      1.000000
+ -0.250000 -0.000000  0.500000      1.000000
+  0.000000  0.250000  0.500000      1.000000
+  0.250000  0.250000  0.500000      1.000000
+  0.500000  0.250000  0.500000      1.000000
+ -0.250000  0.250000  0.500000      1.000000
+  0.000000  0.500000  0.500000      1.000000
+  0.250000  0.500000  0.500000      1.000000
+  0.500000  0.500000  0.500000      1.000000
+ -0.250000  0.500000  0.500000      1.000000
+  0.000000 -0.250000  0.500000      1.000000
+  0.250000 -0.250000  0.500000      1.000000
+  0.500000 -0.250000  0.500000      1.000000
+ -0.250000 -0.250000  0.500000      1.000000
+  0.000000  0.000000 -0.250000      1.000000
+  0.250000  0.000000 -0.250000      1.000000
+  0.500000  0.000000 -0.250000      1.000000
+ -0.250000 -0.000000 -0.250000      1.000000
+  0.000000  0.250000 -0.250000      1.000000
+  0.250000  0.250000 -0.250000      1.000000
+  0.500000  0.250000 -0.250000      1.000000
+ -0.250000  0.250000 -0.250000      1.000000
+  0.000000  0.500000 -0.250000      1.000000
+  0.250000  0.500000 -0.250000      1.000000
+  0.500000  0.500000 -0.250000      1.000000
+ -0.250000  0.500000 -0.250000      1.000000
+  0.000000 -0.250000 -0.250000      1.000000
+  0.250000 -0.250000 -0.250000      1.000000
+  0.500000 -0.250000 -0.250000      1.000000
+ -0.250000 -0.250000 -0.250000      1.000000
+ 
+ Following cartesian coordinates:
+            Coordinates               Weight
+  0.000000  0.000000  0.000000      1.000000
+  0.084056 -0.048530 -0.034316      1.000000
+  0.168111 -0.097059 -0.068631      1.000000
+ -0.084056  0.048530  0.034316      1.000000
+  0.000000  0.097059 -0.034316      1.000000
+  0.084056  0.048530 -0.068631      1.000000
+  0.168111  0.000000 -0.102947      1.000000
+ -0.084056  0.145589  0.000000      1.000000
+  0.000000  0.194118 -0.068631      1.000000
+  0.084056  0.145589 -0.102947      1.000000
+  0.168111  0.097059 -0.137262      1.000000
+ -0.084056  0.242648 -0.034316      1.000000
+  0.000000 -0.097059  0.034316      1.000000
+  0.084056 -0.145589 -0.000000      1.000000
+  0.168111 -0.194118 -0.034316      1.000000
+ -0.084056 -0.048530  0.068631      1.000000
+  0.000000  0.000000  0.102947      1.000000
+  0.084056 -0.048530  0.068631      1.000000
+  0.168111 -0.097059  0.034316      1.000000
+ -0.084056  0.048530  0.137262      1.000000
+  0.000000  0.097059  0.068631      1.000000
+  0.084056  0.048530  0.034316      1.000000
+  0.168111  0.000000  0.000000      1.000000
+ -0.084056  0.145589  0.102947      1.000000
+  0.000000  0.194118  0.034316      1.000000
+  0.084056  0.145589  0.000000      1.000000
+  0.168111  0.097059 -0.034316      1.000000
+ -0.084056  0.242648  0.068631      1.000000
+  0.000000 -0.097059  0.137262      1.000000
+  0.084056 -0.145589  0.102947      1.000000
+  0.168111 -0.194118  0.068631      1.000000
+ -0.084056 -0.048530  0.171578      1.000000
+  0.000000  0.000000  0.205893      1.000000
+  0.084056 -0.048530  0.171578      1.000000
+  0.168111 -0.097059  0.137262      1.000000
+ -0.084056  0.048530  0.240209      1.000000
+  0.000000  0.097059  0.171578      1.000000
+  0.084056  0.048530  0.137262      1.000000
+  0.168111  0.000000  0.102947      1.000000
+ -0.084056  0.145589  0.205893      1.000000
+  0.000000  0.194118  0.137262      1.000000
+  0.084056  0.145589  0.102947      1.000000
+  0.168111  0.097059  0.068631      1.000000
+ -0.084056  0.242648  0.171578      1.000000
+  0.000000 -0.097059  0.240209      1.000000
+  0.084056 -0.145589  0.205893      1.000000
+  0.168111 -0.194118  0.171578      1.000000
+ -0.084056 -0.048530  0.274525      1.000000
+  0.000000  0.000000 -0.102947      1.000000
+  0.084056 -0.048530 -0.137262      1.000000
+  0.168111 -0.097059 -0.171578      1.000000
+ -0.084056  0.048530 -0.068631      1.000000
+  0.000000  0.097059 -0.137262      1.000000
+  0.084056  0.048530 -0.171578      1.000000
+  0.168111  0.000000 -0.205893      1.000000
+ -0.084056  0.145589 -0.102947      1.000000
+  0.000000  0.194118 -0.171578      1.000000
+  0.084056  0.145589 -0.205893      1.000000
+  0.168111  0.097059 -0.240209      1.000000
+ -0.084056  0.242648 -0.137262      1.000000
+  0.000000 -0.097059 -0.068631      1.000000
+  0.084056 -0.145589 -0.102947      1.000000
+  0.168111 -0.194118 -0.137262      1.000000
+ -0.084056 -0.048530 -0.034316      1.000000
+ 
+ 
+ Subroutine IBZKPT_HF returns following result:
+ ==============================================
+ 
+ Found     64 k-points in 1st BZ
+ the following     64 k-points will be used (e.g. in the exchange kernel)
+ Following reciprocal coordinates:   # in IRBZ
+  0.000000  0.000000  0.000000    0.01562500   1 t-inv F
+  0.250000  0.000000 -0.000000    0.01562500   2 t-inv F
+  0.500000  0.000000 -0.000000    0.01562500   3 t-inv F
+ -0.250000 -0.000000  0.000000    0.01562500   4 t-inv F
+  0.000000  0.250000  0.000000    0.01562500   5 t-inv F
+  0.250000  0.250000 -0.000000    0.01562500   6 t-inv F
+  0.500000  0.250000  0.000000    0.01562500   7 t-inv F
+ -0.250000  0.250000  0.000000    0.01562500   8 t-inv F
+  0.000000  0.500000  0.000000    0.01562500   9 t-inv F
+  0.250000  0.500000 -0.000000    0.01562500  10 t-inv F
+  0.500000  0.500000 -0.000000    0.01562500  11 t-inv F
+ -0.250000  0.500000  0.000000    0.01562500  12 t-inv F
+  0.000000 -0.250000 -0.000000    0.01562500  13 t-inv F
+  0.250000 -0.250000 -0.000000    0.01562500  14 t-inv F
+  0.500000 -0.250000 -0.000000    0.01562500  15 t-inv F
+ -0.250000 -0.250000  0.000000    0.01562500  16 t-inv F
+  0.000000  0.000000  0.250000    0.01562500  17 t-inv F
+  0.250000  0.000000  0.250000    0.01562500  18 t-inv F
+  0.500000  0.000000  0.250000    0.01562500  19 t-inv F
+ -0.250000 -0.000000  0.250000    0.01562500  20 t-inv F
+  0.000000  0.250000  0.250000    0.01562500  21 t-inv F
+  0.250000  0.250000  0.250000    0.01562500  22 t-inv F
+  0.500000  0.250000  0.250000    0.01562500  23 t-inv F
+ -0.250000  0.250000  0.250000    0.01562500  24 t-inv F
+  0.000000  0.500000  0.250000    0.01562500  25 t-inv F
+  0.250000  0.500000  0.250000    0.01562500  26 t-inv F
+  0.500000  0.500000  0.250000    0.01562500  27 t-inv F
+ -0.250000  0.500000  0.250000    0.01562500  28 t-inv F
+  0.000000 -0.250000  0.250000    0.01562500  29 t-inv F
+  0.250000 -0.250000  0.250000    0.01562500  30 t-inv F
+  0.500000 -0.250000  0.250000    0.01562500  31 t-inv F
+ -0.250000 -0.250000  0.250000    0.01562500  32 t-inv F
+  0.000000  0.000000  0.500000    0.01562500  33 t-inv F
+  0.250000  0.000000  0.500000    0.01562500  34 t-inv F
+  0.500000  0.000000  0.500000    0.01562500  35 t-inv F
+ -0.250000 -0.000000  0.500000    0.01562500  36 t-inv F
+  0.000000  0.250000  0.500000    0.01562500  37 t-inv F
+  0.250000  0.250000  0.500000    0.01562500  38 t-inv F
+  0.500000  0.250000  0.500000    0.01562500  39 t-inv F
+ -0.250000  0.250000  0.500000    0.01562500  40 t-inv F
+  0.000000  0.500000  0.500000    0.01562500  41 t-inv F
+  0.250000  0.500000  0.500000    0.01562500  42 t-inv F
+  0.500000  0.500000  0.500000    0.01562500  43 t-inv F
+ -0.250000  0.500000  0.500000    0.01562500  44 t-inv F
+  0.000000 -0.250000  0.500000    0.01562500  45 t-inv F
+  0.250000 -0.250000  0.500000    0.01562500  46 t-inv F
+  0.500000 -0.250000  0.500000    0.01562500  47 t-inv F
+ -0.250000 -0.250000  0.500000    0.01562500  48 t-inv F
+  0.000000  0.000000 -0.250000    0.01562500  49 t-inv F
+  0.250000  0.000000 -0.250000    0.01562500  50 t-inv F
+  0.500000  0.000000 -0.250000    0.01562500  51 t-inv F
+ -0.250000 -0.000000 -0.250000    0.01562500  52 t-inv F
+  0.000000  0.250000 -0.250000    0.01562500  53 t-inv F
+  0.250000  0.250000 -0.250000    0.01562500  54 t-inv F
+  0.500000  0.250000 -0.250000    0.01562500  55 t-inv F
+ -0.250000  0.250000 -0.250000    0.01562500  56 t-inv F
+  0.000000  0.500000 -0.250000    0.01562500  57 t-inv F
+  0.250000  0.500000 -0.250000    0.01562500  58 t-inv F
+  0.500000  0.500000 -0.250000    0.01562500  59 t-inv F
+ -0.250000  0.500000 -0.250000    0.01562500  60 t-inv F
+  0.000000 -0.250000 -0.250000    0.01562500  61 t-inv F
+  0.250000 -0.250000 -0.250000    0.01562500  62 t-inv F
+  0.500000 -0.250000 -0.250000    0.01562500  63 t-inv F
+ -0.250000 -0.250000 -0.250000    0.01562500  64 t-inv F
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+ Dimension of arrays:
+   k-points           NKPTS =     64   k-points in BZ     NKDIM =     64   number of bands    NBANDS=    128
+   number of dos      NEDOS =    301   number of ions     NIONS =      1
+   non local maximal  LDIM  =      8   non local SUM 2l+1 LMDIM =     22
+   total plane-waves  NPLWV =   2744
+   max r-space proj   IRMAX =      1   max aug-charges    IRDMAX=  23591
+   dimension x,y,z NGX =    14 NGY =   14 NGZ =   14
+   dimension x,y,z NGXF=    28 NGYF=   28 NGZF=   28
+   support grid    NGXF=    56 NGYF=   56 NGZF=   56
+   ions per type =               1
+   NGX,Y,Z   is equivalent  to a cutoff of   7.83,  7.83,  7.83 a.u.
+   NGXF,Y,Z  is equivalent  to a cutoff of  15.65, 15.65, 15.65 a.u.
+
+ SYSTEM =  Og_FCC                                  
+ POSCAR =  Ne_FCC                                  
+
+ Startparameter for this run:
+   NWRITE =      1    write-flag & timer
+   PREC   = accura    normal or accurate (medium, high low for compatibility)
+   ISTART =      1    job   : 0-new  1-cont  2-samecut
+   ICHARG =      0    charge: 1-file 2-atom 10-const
+   ISPIN  =      1    spin polarized calculation?
+   LNONCOLLINEAR =      T non collinear calculations
+   LSORBIT =      T    spin-orbit coupling
+   INIWAV =      1    electr: 0-lowe 1-rand  2-diag
+   LASPH  =      F    aspherical Exc in radial PAW
+   METAGGA=      F    non-selfconsistent MetaGGA calc.
+
+ Electronic Relaxation 1
+   ENCUT  =  200.0 eV  14.70 Ry    3.83 a.u.   3.43  3.43  3.43*2*pi/ulx,y,z
+   ENINI  =  200.0     initial cutoff
+   ENAUG  =  755.8 eV  augmentation charge cutoff
+   NELM   =      1;   NELMIN=  2; NELMDL=  0     # of ELM steps 
+   EDIFF  = 0.1E-07   stopping-criterion for ELM
+   LREAL  =      F    real-space projection
+   NLSPLINE    = F    spline interpolate recip. space projectors
+   LCOMPAT=      F    compatible to vasp.4.4
+   GGA_COMPAT  = F    GGA compatible to vasp.4.4-vasp.4.6
+   LMAXPAW     = -100 max onsite density
+   LMAXMIX     =    2 max onsite mixed and CHGCAR
+   VOSKOWN=      0    Vosko Wilk Nusair interpolation
+   ROPT   =    0.00000
+ Ionic relaxation
+   EDIFFG = 0.1E-04   stopping-criterion for IOM
+   NSW    =      1    number of steps for IOM
+   NBLOCK =      1;   KBLOCK =      1    inner block; outer block 
+   IBRION =     -1    ionic relax: 0-MD 1-quasi-New 2-CG
+   NFREE  =      5    steps in history (QN), initial steepest desc. (CG)
+   ISIF   =      3    stress and relaxation
+   IWAVPR =     10    prediction:  0-non 1-charg 2-wave 3-comb
+   ISYM   =      0    0-nonsym 1-usesym 2-fastsym
+   LCORR  =      T    Harris-Foulkes like correction to forces
+
+   POTIM  = 0.1000    time-step for ionic-motion
+   TEIN   =    0.0    initial temperature
+   TEBEG  =    0.0;   TEEND  =   0.0 temperature during run
+   SMASS  =  -3.00    Nose mass-parameter (am)
+   estimated Nose-frequenzy (Omega)   =  0.10E-29 period in steps =****** mass=  -0.202E-27a.u.
+   SCALEE = 1.0000    scale energy and forces
+   NPACO  =    256;   APACO  = 16.0  distance and # of slots for P.C.
+   PSTRESS=    0.0 pullay stress
+
+  Mass of Ions in am
+   POMASS =  20.18
+  Ionic Valenz
+   ZVAL   =   8.00
+  Atomic Wigner-Seitz radii
+   RWIGS  =  -1.00
+  virtual crystal weights 
+   VCA    =   1.00
+   NELECT =       8.0000    total number of electrons
+   NUPDOWN=      -1.0000    fix difference up-down
+
+ DOS related values:
+   EMIN   =  10.00;   EMAX   =-10.00  energy-range for DOS
+   EFERMI =   0.00
+   ISMEAR =     0;   SIGMA  =   0.00  broadening in eV -4-tet -1-fermi 0-gaus
+
+ Electronic relaxation 2 (details)
+   IALGO  =     38    algorithm
+   LDIAG  =      T    sub-space diagonalisation (order eigenvalues)
+   LSUBROT=      F    optimize rotation matrix (better conditioning)
+   TURBO    =      0    0=normal 1=particle mesh
+   IRESTART =      0    0=no restart 2=restart with 2 vectors
+   NREBOOT  =      0    no. of reboots
+   NMIN     =      0    reboot dimension
+   EREF     =   0.00    reference energy to select bands
+   IMIX   =      1    mixing-type and parameters
+     AMIX     =   0.40;   BMIX     =  1.00
+     AMIX_MAG =   1.60;   BMIX_MAG =  1.00
+     AMIN     =   0.10
+     WC   =   100.;   INIMIX=   1;  MIXPRE=   1;  MAXMIX=  50
+
+ Intra band minimization:
+   WEIMIN = 0.0000     energy-eigenvalue tresh-hold
+   EBREAK =  0.20E-10  absolut break condition
+   DEPER  =   0.30     relativ break condition  
+
+   TIME   =   0.40     timestep for ELM
+
+  volume/ion in A,a.u.               =      18.60       125.55
+  Fermi-wavevector in a.u.,A,eV,Ry     =   1.235672  2.335082 20.774542  1.526886
+  Thomas-Fermi vector in A             =   2.370312
+ 
+ Write flags
+   LWAVE        =      T    write WAVECAR
+   LDOWNSAMPLE  =      F    k-point downsampling of WAVECAR
+   LCHARG       =      T    write CHGCAR
+   LVTOT        =      F    write LOCPOT, total local potential
+   LVHAR        =      F    write LOCPOT, Hartree potential only
+   LELF         =      F    write electronic localiz. function (ELF)
+   LORBIT       =      0    0 simple, 1 ext, 2 COOP (PROOUT), +10 PAW based schemes
+
+
+ Dipole corrections
+   LMONO  =      F    monopole corrections only (constant potential shift)
+   LDIPOL =      F    correct potential (dipole corrections)
+   IDIPOL =      0    1-x, 2-y, 3-z, 4-all directions 
+   EPSILON=  1.0000000 bulk dielectric constant
+
+ Exchange correlation treatment:
+   GGA     =    PE    GGA type
+   LEXCH   =     8    internal setting for exchange type
+   VOSKOWN=      0    Vosko Wilk Nusair interpolation
+   EXXOEP  =     0    0=HF, 1=EXX-LHF (local Hartree Fock) 2=EXX OEP
+   LHFCALC =     T    Hartree Fock is set to
+   LSYMGRAD=     F    symmetrize gradient (conserves proper symmetry)
+   PRECFOCK=normal    Normal, Fast or Accurate (Low or Medium for compatibility)
+   LRHFCALC=     F    long range Hartree Fock
+   LRSCOR  =     F    long range correlation only (use DFT for short range part)
+   LTHOMAS =     F    Thomas Fermi screening in HF
+   LMODELHF=     F    short range full HF, long range fraction AEXX
+   ENCUT4O =  -1.0   cutoff for four orbital integrals eV
+   LMAXFOCK=     4    L truncation for augmentation on plane wave grid
+   LMAXFOCKAE=   4    L truncation for all-electron charge restoration on plane wave grid
+   NMAXFOCKAE=   1    number of basis functions for all-electron charge restoration
+   LFOCKAEDFT=     F  apply the AE augmentation even for DFT
+   NKREDX  =     1    reduce k-point grid by
+   NKREDY  =     1    reduce k-point grid by
+   NKREDZ  =     1    reduce k-point grid by
+   SHIFTRED=     F    shift reduced grid of Gamma
+   HFKIDENT=     F    idential grid for each k-point
+   ODDONLY =     F    use only odd q-grid points
+   EVENONLY=     F    use only even q-grid points
+   HFALPHA =   -1.0000 decay constant for conv. correction
+   MCALPHA =    0.0000 extent of test-charge in conv. correction in multipole expansion
+   AEXX    =    1.0000 exact exchange contribution
+   HFSCREEN=    0.0000 screening length (either q_TF or 0.3 A-1)
+   HFSCREENC=   0.0000 screening length for correlation (either q_TF or 0.3 A-1)
+   HFRCUT  =    0.0000 spherical cutoff for potential kernel
+   ALDAX   =    0.0000 LDA exchange part
+   AGGAX   =    0.0000 GGA exchange part
+   ALDAC   =    0.0000 LDA correlation
+   AGGAC   =    0.0000 GGA correlation
+   ENCUTFOCK=  -1.0 apply spherical cutoff to Coloumb kernel
+   NBANDSGWLOW=     1    first orbital included in HF term
+   NBLOCK_FOCK=    64    blocking factor in FOCK_ACC
+ Linear response parameters
+   LEPSILON=     F    determine dielectric tensor
+   LRPA    =     F    only Hartree local field effects (RPA)
+   LNABLA  =     F    use nabla operator in PAW spheres
+   LVEL    =     F    velocity operator in full k-point grid
+   LINTERFAST=   F  fast interpolation
+   KINTER  =     0    interpolate to denser k-point grid
+   CSHIFT  =0.1000    complex shift for real part using Kramers Kronig
+   OMEGAMAX=  -1.0    maximum frequency
+   DEG_THRESHOLD= 0.2000000E-02 threshold for treating states as degnerate
+   RTIME   =   -0.100 relaxation time in fs
+  (WPLASMAI=    0.000 imaginary part of plasma frequency in eV, 0.658/RTIME)
+   DFIELD  = 0.0000000 0.0000000 0.0000000 field for delta impulse in time
+ 
+ Orbital magnetization related:
+   ORBITALMAG=     F  switch on orbital magnetization
+   LCHIMAG   =     F  perturbation theory with respect to B field
+   DQ        =  0.001000  dq finite difference perturbation B field
+   LLRAUG    =     F  two centre corrections for induced B field
+
+ Response functions by sum over occupied states:
+   ALGO    =QPGW       execute GW part
+   LFXC    =     F    include DFT xc kernel in TD-HF and W
+   LADDER  =     F    particle hole ladder diagrams for BSE/TD-HF and W (Nano-quanta)
+   LRPAFORCE=     F   calculate RPA forces
+   LHARTREE=     T    include Hartree terms (bubbles-RPA) in BSE/TD-HF
+   IBSE    =     0    BSE modus: 0 exact, 1 time-evolution (store matrix), 10 time-evolution (implicit)
+   KPOINT  =    -1   0   0   0    k-point index at which BSE equation is solved (and G at which response is eval.)
+   LTRIPLET=     F    triplet instead of singlet excitation (BSE only)
+   LRSRPA  =     F    range separated RPA (total - short) in ACFDT
+   LTCTE   =     F    use test-charge test-electron dielectric function
+   LTETE   =     F    use test-electron test-electron dielectric function
+   LFXCEPS =     F    determine f_xc=epsilon-1/Xi Sharma and Gross kernel
+   LFXHEG  =     F    model exchange using f_x(G,k_F) from free electron gas
+   NATURALO=     2    0 natural orbitals, 1 only virtual, 2 only occupied-virtual rotation
+   L2ORDER =     F    2nd order terms only
+   LMP2LT   =     F    use LT MP2
+   LUSEW   =     F    use screened W from WXXXX.tmp files instead of (screened) HF kernel
+   ENCUTGW = 133.3    cutoff for response function in eV
+   ENCUTGWSOFT = 133.3 soft cutoff for Coulomb kernel in GW response function in eV
+   ENCUTLF =  -1.0    cutoff for local field effects
+   LMAXMP2 =    -1    maximum L for one center terms
+   SCISSOR =   0.0    scissor correction
+   NOMEGA  =    50    number of frequencies
+   NOMEGAR =    50    number of frequencies along real axis
+   NBANDSGW=    -1    number of bands for which selfenergy shift is calculated
+   NBANDSGWLOW=     1 lowest band included in GW (to exclude core correlation)
+   NBANDSO =    -1    number of bands for electron-hole treatment (occupied)
+   NBANDSV =    -1    number of bands for electron-hole treatment (virtual)
+   NELM    =     1    number of iterations in solving QP/BSE equation
+   NELMHF  =     1    number of iterations in the inner HF iteration
+   DIM     =     3    dimensionality of system (0=0D molecules, 3=3D)
+   ANTIRES =     0    antiresonant part (0) no TDA (1) w=0 exact (2) accurate
+   OMEGAMAX= -30.0    maximum frequency
+   OMEGAMIN= -30.000    minimum frequency
+   OMEGATL =-200.0    maximum frequency of tail
+   OMEGAGRID=     0    grid type (0 default)
+   CSHIFT  =-0.100    complex shift used in evaluation of response functions
+   SELFENERGY=   F    calculate selfenergy instead of QP shifts
+   LSPECTRAL =   T    use spectral functions                   
+   LSPECTRALGW=   F   use spectral functions to calculate int dz G(w-z) W(z) (more accurate)
+   LSINGLES  =   F   calculate the singles contribution to the correlation energy
+   LFERMIGW  =   F   update Fermi-energy in the Greens function
+
+   ODDONLYGW =   F    avoid all even points for polarizability 
+   EVENONLYGW=   F    avoid all odd  points for polarizability 
+   NKREDLFX  =   1   NKREDLFY  =   1   NKREDLFZ  =   1
+
+   TELESCOPE =   0   use telescope k-point sampling
+   TAUPAR    =   1   number of TAU groups used in imaginary time calculation
+   OMEGAPAR  =  -1   number of OMEGA groups used in imaginary frequency calculation
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+ Static calculation
+ charge density and potential will be updated during run
+ non collinear spin polarized calculation
+ Variant of blocked Davidson
+ Davidson routine will perform the subspace rotation
+ perform sub-space diagonalisation
+    after iterative eigenvector-optimisation
+ Kerker-like  mixing scheme
+ using additional bands          124
+ reciprocal scheme for non local part
+ use partial core corrections
+ calculate Harris-corrections to forces 
+   (improved forces if not selfconsistent)
+ use gradient corrections 
+ use of overlap-Matrix (Vanderbilt PP)
+ Gauss-broadening in eV      SIGMA  =   0.00
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+  energy-cutoff  :      200.00
+  volume of cell :       18.60
+      direct lattice vectors                 reciprocal lattice vectors
+     2.974220868  0.000000000  0.000000000     0.336222508 -0.194118156 -0.137262264
+     1.487110434  2.575750828  0.000000000     0.000000000  0.388236311 -0.137262264
+     1.487110434  0.858583609  2.428441169     0.000000000  0.000000000  0.411786793
+
+  length of vectors
+     2.974220868  2.974220868  2.974220868     0.411786793  0.411786793  0.411786793
+
+
+ 
+ old parameters found on file WAVECAR:
+  energy-cutoff  :      200.00
+  volume of cell :       18.60
+      direct lattice vectors                 reciprocal lattice vectors
+     2.974220868  0.000000000  0.000000000     0.336222508 -0.194118156 -0.137262264
+     1.487110434  2.575750828  0.000000000     0.000000000  0.388236311 -0.137262264
+     1.487110434  0.858583609  2.428441169     0.000000000  0.000000000  0.411786793
+
+  length of vectors
+
+ 
+ k-points in units of 2pi/SCALE and weight: k-points                                
+   0.00000000  0.00000000  0.00000000       0.016
+   0.08405563 -0.04852954 -0.03431557       0.016
+   0.16811125 -0.09705908 -0.06863113       0.016
+  -0.08405563  0.04852954  0.03431557       0.016
+   0.00000000  0.09705908 -0.03431557       0.016
+   0.08405563  0.04852954 -0.06863113       0.016
+   0.16811125  0.00000000 -0.10294670       0.016
+  -0.08405563  0.14558862  0.00000000       0.016
+   0.00000000  0.19411816 -0.06863113       0.016
+   0.08405563  0.14558862 -0.10294670       0.016
+   0.16811125  0.09705908 -0.13726226       0.016
+  -0.08405563  0.24264769 -0.03431557       0.016
+   0.00000000 -0.09705908  0.03431557       0.016
+   0.08405563 -0.14558862 -0.00000000       0.016
+   0.16811125 -0.19411816 -0.03431557       0.016
+  -0.08405563 -0.04852954  0.06863113       0.016
+   0.00000000  0.00000000  0.10294670       0.016
+   0.08405563 -0.04852954  0.06863113       0.016
+   0.16811125 -0.09705908  0.03431557       0.016
+  -0.08405563  0.04852954  0.13726226       0.016
+   0.00000000  0.09705908  0.06863113       0.016
+   0.08405563  0.04852954  0.03431557       0.016
+   0.16811125  0.00000000  0.00000000       0.016
+  -0.08405563  0.14558862  0.10294670       0.016
+   0.00000000  0.19411816  0.03431557       0.016
+   0.08405563  0.14558862  0.00000000       0.016
+   0.16811125  0.09705908 -0.03431557       0.016
+  -0.08405563  0.24264769  0.06863113       0.016
+   0.00000000 -0.09705908  0.13726226       0.016
+   0.08405563 -0.14558862  0.10294670       0.016
+   0.16811125 -0.19411816  0.06863113       0.016
+  -0.08405563 -0.04852954  0.17157783       0.016
+   0.00000000  0.00000000  0.20589340       0.016
+   0.08405563 -0.04852954  0.17157783       0.016
+   0.16811125 -0.09705908  0.13726226       0.016
+  -0.08405563  0.04852954  0.24020896       0.016
+   0.00000000  0.09705908  0.17157783       0.016
+   0.08405563  0.04852954  0.13726226       0.016
+   0.16811125  0.00000000  0.10294670       0.016
+  -0.08405563  0.14558862  0.20589340       0.016
+   0.00000000  0.19411816  0.13726226       0.016
+   0.08405563  0.14558862  0.10294670       0.016
+   0.16811125  0.09705908  0.06863113       0.016
+  -0.08405563  0.24264769  0.17157783       0.016
+   0.00000000 -0.09705908  0.24020896       0.016
+   0.08405563 -0.14558862  0.20589340       0.016
+   0.16811125 -0.19411816  0.17157783       0.016
+  -0.08405563 -0.04852954  0.27452453       0.016
+   0.00000000  0.00000000 -0.10294670       0.016
+   0.08405563 -0.04852954 -0.13726226       0.016
+   0.16811125 -0.09705908 -0.17157783       0.016
+  -0.08405563  0.04852954 -0.06863113       0.016
+   0.00000000  0.09705908 -0.13726226       0.016
+   0.08405563  0.04852954 -0.17157783       0.016
+   0.16811125  0.00000000 -0.20589340       0.016
+  -0.08405563  0.14558862 -0.10294670       0.016
+   0.00000000  0.19411816 -0.17157783       0.016
+   0.08405563  0.14558862 -0.20589340       0.016
+   0.16811125  0.09705908 -0.24020896       0.016
+  -0.08405563  0.24264769 -0.13726226       0.016
+   0.00000000 -0.09705908 -0.06863113       0.016
+   0.08405563 -0.14558862 -0.10294670       0.016
+   0.16811125 -0.19411816 -0.13726226       0.016
+  -0.08405563 -0.04852954 -0.03431557       0.016
+ 
+ k-points in reciprocal lattice and weights: k-points                                
+   0.00000000  0.00000000  0.00000000       0.016
+   0.25000000  0.00000000 -0.00000000       0.016
+   0.50000000  0.00000000 -0.00000000       0.016
+  -0.25000000 -0.00000000  0.00000000       0.016
+   0.00000000  0.25000000  0.00000000       0.016
+   0.25000000  0.25000000 -0.00000000       0.016
+   0.50000000  0.25000000  0.00000000       0.016
+  -0.25000000  0.25000000  0.00000000       0.016
+   0.00000000  0.50000000  0.00000000       0.016
+   0.25000000  0.50000000 -0.00000000       0.016
+   0.50000000  0.50000000 -0.00000000       0.016
+  -0.25000000  0.50000000  0.00000000       0.016
+   0.00000000 -0.25000000 -0.00000000       0.016
+   0.25000000 -0.25000000 -0.00000000       0.016
+   0.50000000 -0.25000000 -0.00000000       0.016
+  -0.25000000 -0.25000000  0.00000000       0.016
+   0.00000000  0.00000000  0.25000000       0.016
+   0.25000000  0.00000000  0.25000000       0.016
+   0.50000000  0.00000000  0.25000000       0.016
+  -0.25000000 -0.00000000  0.25000000       0.016
+   0.00000000  0.25000000  0.25000000       0.016
+   0.25000000  0.25000000  0.25000000       0.016
+   0.50000000  0.25000000  0.25000000       0.016
+  -0.25000000  0.25000000  0.25000000       0.016
+   0.00000000  0.50000000  0.25000000       0.016
+   0.25000000  0.50000000  0.25000000       0.016
+   0.50000000  0.50000000  0.25000000       0.016
+  -0.25000000  0.50000000  0.25000000       0.016
+   0.00000000 -0.25000000  0.25000000       0.016
+   0.25000000 -0.25000000  0.25000000       0.016
+   0.50000000 -0.25000000  0.25000000       0.016
+  -0.25000000 -0.25000000  0.25000000       0.016
+   0.00000000  0.00000000  0.50000000       0.016
+   0.25000000  0.00000000  0.50000000       0.016
+   0.50000000  0.00000000  0.50000000       0.016
+  -0.25000000 -0.00000000  0.50000000       0.016
+   0.00000000  0.25000000  0.50000000       0.016
+   0.25000000  0.25000000  0.50000000       0.016
+   0.50000000  0.25000000  0.50000000       0.016
+  -0.25000000  0.25000000  0.50000000       0.016
+   0.00000000  0.50000000  0.50000000       0.016
+   0.25000000  0.50000000  0.50000000       0.016
+   0.50000000  0.50000000  0.50000000       0.016
+  -0.25000000  0.50000000  0.50000000       0.016
+   0.00000000 -0.25000000  0.50000000       0.016
+   0.25000000 -0.25000000  0.50000000       0.016
+   0.50000000 -0.25000000  0.50000000       0.016
+  -0.25000000 -0.25000000  0.50000000       0.016
+   0.00000000  0.00000000 -0.25000000       0.016
+   0.25000000  0.00000000 -0.25000000       0.016
+   0.50000000  0.00000000 -0.25000000       0.016
+  -0.25000000 -0.00000000 -0.25000000       0.016
+   0.00000000  0.25000000 -0.25000000       0.016
+   0.25000000  0.25000000 -0.25000000       0.016
+   0.50000000  0.25000000 -0.25000000       0.016
+  -0.25000000  0.25000000 -0.25000000       0.016
+   0.00000000  0.50000000 -0.25000000       0.016
+   0.25000000  0.50000000 -0.25000000       0.016
+   0.50000000  0.50000000 -0.25000000       0.016
+  -0.25000000  0.50000000 -0.25000000       0.016
+   0.00000000 -0.25000000 -0.25000000       0.016
+   0.25000000 -0.25000000 -0.25000000       0.016
+   0.50000000 -0.25000000 -0.25000000       0.016
+  -0.25000000 -0.25000000 -0.25000000       0.016
+ 
+ position of ions in fractional coordinates (direct lattice) 
+   0.00000000  0.00000000  0.00000000
+ 
+ position of ions in cartesian coordinates  (Angst):
+   0.00000000  0.00000000  0.00000000
+ 
+ Euler angles ALPHA=     0.0000000  BETA=     0.0000000
+
+ transformation matrix from SAXIS to cartesian coordinates
+ ---------------------------------------------------------
+     1.0000000 m_x     0.0000000 m_y     0.0000000 m_z
+     0.0000000 m_x     1.0000000 m_y     0.0000000 m_z
+     0.0000000 m_x     0.0000000 m_y     1.0000000 m_z
+
+ transformation matrix from cartesian coordinates to SAXIS
+ ---------------------------------------------------------
+     1.0000000 m_x     0.0000000 m_y     0.0000000 m_z
+     0.0000000 m_x     1.0000000 m_y     0.0000000 m_z
+     0.0000000 m_x     0.0000000 m_y     1.0000000 m_z
+
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+ k-point  1 :   0.0000 0.0000 0.0000  plane waves:     226
+ k-point  2 :   0.2500 0.0000-0.0000  plane waves:     246
+ k-point  3 :   0.5000 0.0000-0.0000  plane waves:     240
+ k-point  4 :  -0.2500-0.0000 0.0000  plane waves:     246
+ k-point  5 :   0.0000 0.2500 0.0000  plane waves:     246
+ k-point  6 :   0.2500 0.2500-0.0000  plane waves:     250
+ k-point  7 :   0.5000 0.2500 0.0000  plane waves:     238
+ k-point  8 :  -0.2500 0.2500 0.0000  plane waves:     250
+ k-point  9 :   0.0000 0.5000 0.0000  plane waves:     240
+ k-point 10 :   0.2500 0.5000-0.0000  plane waves:     238
+ k-point 11 :   0.5000 0.5000-0.0000  plane waves:     232
+ k-point 12 :  -0.2500 0.5000 0.0000  plane waves:     238
+ k-point 13 :   0.0000-0.2500-0.0000  plane waves:     246
+ k-point 14 :   0.2500-0.2500-0.0000  plane waves:     250
+ k-point 15 :   0.5000-0.2500-0.0000  plane waves:     238
+ k-point 16 :  -0.2500-0.2500 0.0000  plane waves:     250
+ k-point 17 :   0.0000 0.0000 0.2500  plane waves:     246
+ k-point 18 :   0.2500 0.0000 0.2500  plane waves:     250
+ k-point 19 :   0.5000 0.0000 0.2500  plane waves:     238
+ k-point 20 :  -0.2500-0.0000 0.2500  plane waves:     250
+ k-point 21 :   0.0000 0.2500 0.2500  plane waves:     250
+ k-point 22 :   0.2500 0.2500 0.2500  plane waves:     246
+ k-point 23 :   0.5000 0.2500 0.2500  plane waves:     250
+ k-point 24 :  -0.2500 0.2500 0.2500  plane waves:     238
+ k-point 25 :   0.0000 0.5000 0.2500  plane waves:     238
+ k-point 26 :   0.2500 0.5000 0.2500  plane waves:     250
+ k-point 27 :   0.5000 0.5000 0.2500  plane waves:     238
+ k-point 28 :  -0.2500 0.5000 0.2500  plane waves:     232
+ k-point 29 :   0.0000-0.2500 0.2500  plane waves:     250
+ k-point 30 :   0.2500-0.2500 0.2500  plane waves:     238
+ k-point 31 :   0.5000-0.2500 0.2500  plane waves:     232
+ k-point 32 :  -0.2500-0.2500 0.2500  plane waves:     238
+ k-point 33 :   0.0000 0.0000 0.5000  plane waves:     240
+ k-point 34 :   0.2500 0.0000 0.5000  plane waves:     238
+ k-point 35 :   0.5000 0.0000 0.5000  plane waves:     232
+ k-point 36 :  -0.2500-0.0000 0.5000  plane waves:     238
+ k-point 37 :   0.0000 0.2500 0.5000  plane waves:     238
+ k-point 38 :   0.2500 0.2500 0.5000  plane waves:     250
+ k-point 39 :   0.5000 0.2500 0.5000  plane waves:     238
+ k-point 40 :  -0.2500 0.2500 0.5000  plane waves:     232
+ k-point 41 :   0.0000 0.5000 0.5000  plane waves:     232
+ k-point 42 :   0.2500 0.5000 0.5000  plane waves:     238
+ k-point 43 :   0.5000 0.5000 0.5000  plane waves:     240
+ k-point 44 :  -0.2500 0.5000 0.5000  plane waves:     238
+ k-point 45 :   0.0000-0.2500 0.5000  plane waves:     238
+ k-point 46 :   0.2500-0.2500 0.5000  plane waves:     232
+ k-point 47 :   0.5000-0.2500 0.5000  plane waves:     238
+ k-point 48 :  -0.2500-0.2500 0.5000  plane waves:     250
+ k-point 49 :   0.0000 0.0000-0.2500  plane waves:     246
+ k-point 50 :   0.2500 0.0000-0.2500  plane waves:     250
+ k-point 51 :   0.5000 0.0000-0.2500  plane waves:     238
+ k-point 52 :  -0.2500-0.0000-0.2500  plane waves:     250
+ k-point 53 :   0.0000 0.2500-0.2500  plane waves:     250
+ k-point 54 :   0.2500 0.2500-0.2500  plane waves:     238
+ k-point 55 :   0.5000 0.2500-0.2500  plane waves:     232
+ k-point 56 :  -0.2500 0.2500-0.2500  plane waves:     238
+ k-point 57 :   0.0000 0.5000-0.2500  plane waves:     238
+ k-point 58 :   0.2500 0.5000-0.2500  plane waves:     232
+ k-point 59 :   0.5000 0.5000-0.2500  plane waves:     238
+ k-point 60 :  -0.2500 0.5000-0.2500  plane waves:     250
+ k-point 61 :   0.0000-0.2500-0.2500  plane waves:     250
+ k-point 62 :   0.2500-0.2500-0.2500  plane waves:     238
+ k-point 63 :   0.5000-0.2500-0.2500  plane waves:     250
+ k-point 64 :  -0.2500-0.2500-0.2500  plane waves:     246
+
+ maximum and minimum number of plane-waves per node :       250      226
+
+ maximum number of plane-waves:       250
+ maximum index in each direction: 
+   IXMAX=    3   IYMAX=    3   IZMAX=    3
+   IXMIN=   -3   IYMIN=   -3   IZMIN=   -3
+
+
+ serial   3D FFT for wavefunctions
+ parallel 3D FFT for charge:
+    minimum data exchange during FFTs selected (reduces bandwidth)
+
+
+ FFT grid for exact exchange (Hartree Fock) 
+  NGX = 12; NGY = 12; NGZ = 12
+
+ 
+ Radii for the augmentation spheres in the non-local exchange
+ for species   1 augmentation radius   0.831 (default was   0.831)
+ error exchange integrals (PW-AE in eV) (mean, max) 1.950 8.224 density error[0,qmax] 0.0145
+ Maximum index for augmentation-charges in exchange          225
+  SETUP_FOCK is finished
+
+ total amount of memory used by VASP MPI-rank0    57226. kBytes
+=======================================================================
+
+   base      :      30000. kBytes
+   nonl-proj :       1421. kBytes
+   fftplans  :       3211. kBytes
+   grid      :       2809. kBytes
+   one-center:         92. kBytes
+   HF        :        193. kBytes
+   nonlr-proj:        102. kBytes
+   wavefun   :      19398. kBytes
+ 
+     INWAV:  cpu time    0.3422: real time    0.3427
+ charge density for first step will be calculated from the start-wavefunctions
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+ Maximum index for augmentation-charges        11383 (set IRDMAX)
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+ initial charge from wavefunction
+    FEWALD:  cpu time    0.0010: real time    0.0010
+
+ The Fermi energy was updated, please check that it is located mid-gap
+ values below the HOMO (VB) or above the LUMO (CB) will cause erroneous energies
+ E-fermi :  -4.6542
+
+ Response functions by sum over occupied states:
+ ===============================================
+   NOMEGA  =    50    number of frequencies
+   NOMEGAR =    50    number of frequencies along real axis
+   OMEGAMAX=  30.00   maximum frequency
+   OMEGAMIN=   5.10   minimum frequency
+   OMEGATL = 200.00   maximum frequency of tail
+   CSHIFT  =  0.780   complex shift used in evaluation of response functions
+
+
+ Energies iw= 
+ ============
+   0.000   0.000   1.267   0.000   2.529   0.000   3.783   0.000   5.024   0.000
+   6.250   0.000   7.458   0.000   8.646   0.000   9.814   0.000  10.962   0.000
+  12.091   0.000  13.201   0.000  14.295   0.000  15.375   0.000  16.442   0.000
+  17.501   0.000  18.554   0.000  19.604   0.000  20.656   0.000  21.712   0.000
+  22.777   0.000  23.856   0.000  24.953   0.000  26.073   0.000  27.223   0.000
+  28.409   0.000  29.637   0.000  30.917   0.000  32.256   0.000  33.668   0.000
+  35.163   0.000  36.757   0.000  38.467   0.000  40.315   0.000  42.326   0.000
+  44.533   0.000  46.975   0.000  49.701   0.000  52.776   0.000  56.281   0.000
+  60.326   0.000  65.059   0.000  70.682   0.000  77.484   0.000  85.890   0.000
+  96.547   0.000 110.496   0.000 129.528   0.000 156.996   0.000 200.000   0.000
+ 
+
+IMPORTANT INFORMATION: All symmetrisations will be switched off!
+NOSYMM: (Re-)initialisation of all symmetry stuff for point group C_1.
+
+ 
+ KPOINTS: k-points                                
+
+Automatic generation of k-mesh.
+Space group operators:
+ irot       det(A)        alpha          n_x          n_y          n_z        tau_x        tau_y        tau_z
+    1     1.000000     0.000000     1.000000     0.000000     0.000000     0.000000     0.000000     0.000000
+ 
+ Subroutine IBZKPT returns following result:
+ ===========================================
+ 
+ Found     64 irreducible k-points:
+ 
+ Following reciprocal coordinates:
+            Coordinates               Weight
+  0.000000  0.000000  0.000000      1.000000
+  0.250000  0.000000 -0.000000      1.000000
+  0.500000  0.000000 -0.000000      1.000000
+ -0.250000 -0.000000  0.000000      1.000000
+  0.000000  0.250000  0.000000      1.000000
+  0.250000  0.250000 -0.000000      1.000000
+  0.500000  0.250000  0.000000      1.000000
+ -0.250000  0.250000  0.000000      1.000000
+  0.000000  0.500000  0.000000      1.000000
+  0.250000  0.500000 -0.000000      1.000000
+  0.500000  0.500000 -0.000000      1.000000
+ -0.250000  0.500000  0.000000      1.000000
+  0.000000 -0.250000 -0.000000      1.000000
+  0.250000 -0.250000 -0.000000      1.000000
+  0.500000 -0.250000 -0.000000      1.000000
+ -0.250000 -0.250000  0.000000      1.000000
+  0.000000  0.000000  0.250000      1.000000
+  0.250000  0.000000  0.250000      1.000000
+  0.500000  0.000000  0.250000      1.000000
+ -0.250000 -0.000000  0.250000      1.000000
+  0.000000  0.250000  0.250000      1.000000
+  0.250000  0.250000  0.250000      1.000000
+  0.500000  0.250000  0.250000      1.000000
+ -0.250000  0.250000  0.250000      1.000000
+  0.000000  0.500000  0.250000      1.000000
+  0.250000  0.500000  0.250000      1.000000
+  0.500000  0.500000  0.250000      1.000000
+ -0.250000  0.500000  0.250000      1.000000
+  0.000000 -0.250000  0.250000      1.000000
+  0.250000 -0.250000  0.250000      1.000000
+  0.500000 -0.250000  0.250000      1.000000
+ -0.250000 -0.250000  0.250000      1.000000
+  0.000000  0.000000  0.500000      1.000000
+  0.250000  0.000000  0.500000      1.000000
+  0.500000  0.000000  0.500000      1.000000
+ -0.250000 -0.000000  0.500000      1.000000
+  0.000000  0.250000  0.500000      1.000000
+  0.250000  0.250000  0.500000      1.000000
+  0.500000  0.250000  0.500000      1.000000
+ -0.250000  0.250000  0.500000      1.000000
+  0.000000  0.500000  0.500000      1.000000
+  0.250000  0.500000  0.500000      1.000000
+  0.500000  0.500000  0.500000      1.000000
+ -0.250000  0.500000  0.500000      1.000000
+  0.000000 -0.250000  0.500000      1.000000
+  0.250000 -0.250000  0.500000      1.000000
+  0.500000 -0.250000  0.500000      1.000000
+ -0.250000 -0.250000  0.500000      1.000000
+  0.000000  0.000000 -0.250000      1.000000
+  0.250000  0.000000 -0.250000      1.000000
+  0.500000  0.000000 -0.250000      1.000000
+ -0.250000 -0.000000 -0.250000      1.000000
+  0.000000  0.250000 -0.250000      1.000000
+  0.250000  0.250000 -0.250000      1.000000
+  0.500000  0.250000 -0.250000      1.000000
+ -0.250000  0.250000 -0.250000      1.000000
+  0.000000  0.500000 -0.250000      1.000000
+  0.250000  0.500000 -0.250000      1.000000
+  0.500000  0.500000 -0.250000      1.000000
+ -0.250000  0.500000 -0.250000      1.000000
+  0.000000 -0.250000 -0.250000      1.000000
+  0.250000 -0.250000 -0.250000      1.000000
+  0.500000 -0.250000 -0.250000      1.000000
+ -0.250000 -0.250000 -0.250000      1.000000
+ 
+ Following cartesian coordinates:
+            Coordinates               Weight
+  0.000000  0.000000  0.000000      1.000000
+  0.084056 -0.048530 -0.034316      1.000000
+  0.168111 -0.097059 -0.068631      1.000000
+ -0.084056  0.048530  0.034316      1.000000
+  0.000000  0.097059 -0.034316      1.000000
+  0.084056  0.048530 -0.068631      1.000000
+  0.168111  0.000000 -0.102947      1.000000
+ -0.084056  0.145589  0.000000      1.000000
+  0.000000  0.194118 -0.068631      1.000000
+  0.084056  0.145589 -0.102947      1.000000
+  0.168111  0.097059 -0.137262      1.000000
+ -0.084056  0.242648 -0.034316      1.000000
+  0.000000 -0.097059  0.034316      1.000000
+  0.084056 -0.145589 -0.000000      1.000000
+  0.168111 -0.194118 -0.034316      1.000000
+ -0.084056 -0.048530  0.068631      1.000000
+  0.000000  0.000000  0.102947      1.000000
+  0.084056 -0.048530  0.068631      1.000000
+  0.168111 -0.097059  0.034316      1.000000
+ -0.084056  0.048530  0.137262      1.000000
+  0.000000  0.097059  0.068631      1.000000
+  0.084056  0.048530  0.034316      1.000000
+  0.168111  0.000000  0.000000      1.000000
+ -0.084056  0.145589  0.102947      1.000000
+  0.000000  0.194118  0.034316      1.000000
+  0.084056  0.145589  0.000000      1.000000
+  0.168111  0.097059 -0.034316      1.000000
+ -0.084056  0.242648  0.068631      1.000000
+  0.000000 -0.097059  0.137262      1.000000
+  0.084056 -0.145589  0.102947      1.000000
+  0.168111 -0.194118  0.068631      1.000000
+ -0.084056 -0.048530  0.171578      1.000000
+  0.000000  0.000000  0.205893      1.000000
+  0.084056 -0.048530  0.171578      1.000000
+  0.168111 -0.097059  0.137262      1.000000
+ -0.084056  0.048530  0.240209      1.000000
+  0.000000  0.097059  0.171578      1.000000
+  0.084056  0.048530  0.137262      1.000000
+  0.168111  0.000000  0.102947      1.000000
+ -0.084056  0.145589  0.205893      1.000000
+  0.000000  0.194118  0.137262      1.000000
+  0.084056  0.145589  0.102947      1.000000
+  0.168111  0.097059  0.068631      1.000000
+ -0.084056  0.242648  0.171578      1.000000
+  0.000000 -0.097059  0.240209      1.000000
+  0.084056 -0.145589  0.205893      1.000000
+  0.168111 -0.194118  0.171578      1.000000
+ -0.084056 -0.048530  0.274525      1.000000
+  0.000000  0.000000 -0.102947      1.000000
+  0.084056 -0.048530 -0.137262      1.000000
+  0.168111 -0.097059 -0.171578      1.000000
+ -0.084056  0.048530 -0.068631      1.000000
+  0.000000  0.097059 -0.137262      1.000000
+  0.084056  0.048530 -0.171578      1.000000
+  0.168111  0.000000 -0.205893      1.000000
+ -0.084056  0.145589 -0.102947      1.000000
+  0.000000  0.194118 -0.171578      1.000000
+  0.084056  0.145589 -0.205893      1.000000
+  0.168111  0.097059 -0.240209      1.000000
+ -0.084056  0.242648 -0.137262      1.000000
+  0.000000 -0.097059 -0.068631      1.000000
+  0.084056 -0.145589 -0.102947      1.000000
+  0.168111 -0.194118 -0.137262      1.000000
+ -0.084056 -0.048530 -0.034316      1.000000
+ 
+ files read and symmetry switched off, memory is now:
+ total amount of memory used by VASP MPI-rank0    57226. kBytes
+=======================================================================
+
+   base      :      30000. kBytes
+   nonl-proj :       1421. kBytes
+   fftplans  :       3211. kBytes
+   grid      :       2809. kBytes
+   one-center:         92. kBytes
+   HF        :        193. kBytes
+   nonlr-proj:        102. kBytes
+   wavefun   :      19398. kBytes
+ 
+ Basis sets for responsefunctions:
+ =================================
+ k-point  1 :   0.0000 0.0000 0.0000  plane waves:     118
+ k-point  2 :   0.2500 0.0000-0.0000  plane waves:     124
+ k-point  3 :   0.5000 0.0000-0.0000  plane waves:     140
+ k-point  4 :  -0.2500-0.0000 0.0000  plane waves:     124
+ k-point  5 :   0.0000 0.2500 0.0000  plane waves:     124
+ k-point  6 :   0.2500 0.2500-0.0000  plane waves:     120
+ k-point  7 :   0.5000 0.2500 0.0000  plane waves:     126
+ k-point  8 :  -0.2500 0.2500 0.0000  plane waves:     134
+ k-point  9 :   0.0000 0.5000 0.0000  plane waves:     140
+ k-point 10 :   0.2500 0.5000-0.0000  plane waves:     126
+ k-point 11 :   0.5000 0.5000-0.0000  plane waves:     128
+ k-point 12 :  -0.2500 0.5000 0.0000  plane waves:     126
+ k-point 13 :   0.0000-0.2500-0.0000  plane waves:     124
+ k-point 14 :   0.2500-0.2500-0.0000  plane waves:     134
+ k-point 15 :   0.5000-0.2500-0.0000  plane waves:     126
+ k-point 16 :  -0.2500-0.2500 0.0000  plane waves:     120
+ k-point 17 :   0.0000 0.0000 0.2500  plane waves:     124
+ k-point 18 :   0.2500 0.0000 0.2500  plane waves:     120
+ k-point 19 :   0.5000 0.0000 0.2500  plane waves:     126
+ k-point 20 :  -0.2500-0.0000 0.2500  plane waves:     134
+ k-point 21 :   0.0000 0.2500 0.2500  plane waves:     120
+ k-point 22 :   0.2500 0.2500 0.2500  plane waves:     124
+ k-point 23 :   0.5000 0.2500 0.2500  plane waves:     134
+ k-point 24 :  -0.2500 0.2500 0.2500  plane waves:     126
+ k-point 25 :   0.0000 0.5000 0.2500  plane waves:     126
+ k-point 26 :   0.2500 0.5000 0.2500  plane waves:     134
+ k-point 27 :   0.5000 0.5000 0.2500  plane waves:     126
+ k-point 28 :  -0.2500 0.5000 0.2500  plane waves:     136
+ k-point 29 :   0.0000-0.2500 0.2500  plane waves:     134
+ k-point 30 :   0.2500-0.2500 0.2500  plane waves:     126
+ k-point 31 :   0.5000-0.2500 0.2500  plane waves:     136
+ k-point 32 :  -0.2500-0.2500 0.2500  plane waves:     126
+ k-point 33 :   0.0000 0.0000 0.5000  plane waves:     140
+ k-point 34 :   0.2500 0.0000 0.5000  plane waves:     126
+ k-point 35 :   0.5000 0.0000 0.5000  plane waves:     128
+ k-point 36 :  -0.2500-0.0000 0.5000  plane waves:     126
+ k-point 37 :   0.0000 0.2500 0.5000  plane waves:     126
+ k-point 38 :   0.2500 0.2500 0.5000  plane waves:     134
+ k-point 39 :   0.5000 0.2500 0.5000  plane waves:     126
+ k-point 40 :  -0.2500 0.2500 0.5000  plane waves:     136
+ k-point 41 :   0.0000 0.5000 0.5000  plane waves:     128
+ k-point 42 :   0.2500 0.5000 0.5000  plane waves:     126
+ k-point 43 :   0.5000 0.5000 0.5000  plane waves:     140
+ k-point 44 :  -0.2500 0.5000 0.5000  plane waves:     126
+ k-point 45 :   0.0000-0.2500 0.5000  plane waves:     126
+ k-point 46 :   0.2500-0.2500 0.5000  plane waves:     136
+ k-point 47 :   0.5000-0.2500 0.5000  plane waves:     126
+ k-point 48 :  -0.2500-0.2500 0.5000  plane waves:     134
+ k-point 49 :   0.0000 0.0000-0.2500  plane waves:     124
+ k-point 50 :   0.2500 0.0000-0.2500  plane waves:     134
+ k-point 51 :   0.5000 0.0000-0.2500  plane waves:     126
+ k-point 52 :  -0.2500-0.0000-0.2500  plane waves:     120
+ k-point 53 :   0.0000 0.2500-0.2500  plane waves:     134
+ k-point 54 :   0.2500 0.2500-0.2500  plane waves:     126
+ k-point 55 :   0.5000 0.2500-0.2500  plane waves:     136
+ k-point 56 :  -0.2500 0.2500-0.2500  plane waves:     126
+ k-point 57 :   0.0000 0.5000-0.2500  plane waves:     126
+ k-point 58 :   0.2500 0.5000-0.2500  plane waves:     136
+ k-point 59 :   0.5000 0.5000-0.2500  plane waves:     126
+ k-point 60 :  -0.2500 0.5000-0.2500  plane waves:     134
+ k-point 61 :   0.0000-0.2500-0.2500  plane waves:     120
+ k-point 62 :   0.2500-0.2500-0.2500  plane waves:     126
+ k-point 63 :   0.5000-0.2500-0.2500  plane waves:     134
+ k-point 64 :  -0.2500-0.2500-0.2500  plane waves:     124
+
+ maximum and minimum number of plane-waves per node :       140      118
+
+ maximum number of plane-waves:       140
+ maximum index in each direction: 
+   IXMAX=    3   IYMAX=    3   IZMAX=    3
+   IXMIN=   -3   IYMIN=   -3   IZMIN=   -3
+
+ exchange correlation table for  LEXCH =        8
+   RHO(1)=    0.500       N(1)  =     2000
+   RHO(2)=  100.500       N(2)  =     4000
+ shmem allocating  50 responsefunctions rank=    70
+ response function shared by NCSHMEM nodes    1
+ all allocation done, memory is now:
+ total amount of memory used by VASP MPI-rank0   169461. kBytes
+=======================================================================
+
+   base      :      30000. kBytes
+   nonl-proj :       1421. kBytes
+   fftplans  :       3211. kBytes
+   grid      :       2809. kBytes
+   one-center:         92. kBytes
+   HF        :        193. kBytes
+   nonlr-proj:        102. kBytes
+   wavefun   :      58194. kBytes
+   2eintegral:      67108. kBytes
+   fockhandle:        911. kBytes
+   response  :       5420. kBytes
+ 
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=   1    0.0000    0.0000    0.0000, 
+       CHI:  cpu time    0.2114: real time    0.2117
+   KRAMKRO:  cpu time    0.0094: real time    0.0095
+    LFIELD:  cpu time    0.0000: real time    0.0000
+
+ HEAD OF MICROSCOPIC DIELECTRIC TENSOR (INDEPENDENT PARTICLE)
+ -------------------------------------
+ w=     0.000     0.000
+         1.3402   -0.0000      0.0000    0.0000      0.0000    0.0000
+         0.0000   -0.0000      1.3402    0.0000      0.0000   -0.0000
+         0.0000   -0.0000      0.0000    0.0000      1.3402   -0.0000
+
+        0.000         1.340    -0.000 dielectric  constant
+ 
+ w=     1.267     0.000
+         1.3414    0.0014      0.0000    0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.3414    0.0014      0.0000    0.0000
+         0.0000   -0.0000      0.0000    0.0000      1.3414    0.0014
+
+        1.267         1.341     0.001 dielectric  constant
+ 
+ w=     2.529     0.000
+         1.3449    0.0030      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.3449    0.0030      0.0000    0.0000
+         0.0000   -0.0000      0.0000    0.0000      1.3449    0.0030
+
+        2.529         1.345     0.003 dielectric  constant
+ 
+ w=     3.783     0.000
+         1.3510    0.0048      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.3510    0.0048      0.0000    0.0000
+         0.0000   -0.0000      0.0000    0.0000      1.3510    0.0048
+
+        3.783         1.351     0.005 dielectric  constant
+ 
+ w=     5.024     0.000
+         1.3603    0.0072      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.3603    0.0072      0.0000    0.0000
+         0.0000   -0.0000      0.0000    0.0000      1.3603    0.0072
+
+        5.024         1.360     0.007 dielectric  constant
+ 
+ w=     6.250     0.000
+         1.3738    0.0108      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.3738    0.0108      0.0000    0.0000
+         0.0000   -0.0000      0.0000    0.0000      1.3738    0.0108
+
+        6.250         1.374     0.011 dielectric  constant
+ 
+ w=     7.458     0.000
+         1.3936    0.0176      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.3936    0.0176      0.0000    0.0000
+         0.0000   -0.0000      0.0000    0.0000      1.3936    0.0176
+
+        7.458         1.394     0.018 dielectric  constant
+ 
+ w=     8.646     0.000
+         1.4210    0.0382      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.4210    0.0382      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      1.4210    0.0382
+
+        8.646         1.421     0.038 dielectric  constant
+ 
+ w=     9.814     0.000
+         1.4242    0.0765      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.4242    0.0765      0.0000    0.0000
+         0.0000   -0.0000      0.0000    0.0000      1.4242    0.0765
+
+        9.814         1.424     0.076 dielectric  constant
+ 
+ w=    10.962     0.000
+         1.4213    0.0789      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.4213    0.0789      0.0000    0.0000
+         0.0000   -0.0000      0.0000    0.0000      1.4213    0.0789
+
+       10.962         1.421     0.079 dielectric  constant
+ 
+ w=    12.091     0.000
+         1.4642    0.0902      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.4642    0.0902      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      1.4642    0.0902
+
+       12.091         1.464     0.090 dielectric  constant
+ 
+ w=    13.201     0.000
+         1.4903    0.1651     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.4903    0.1651      0.0000    0.0000
+        -0.0000    0.0000      0.0000    0.0000      1.4903    0.1651
+
+       13.201         1.490     0.165 dielectric  constant
+ 
+ w=    14.295     0.000
+         1.4456    0.2263     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.4456    0.2263      0.0000    0.0000
+        -0.0000   -0.0000      0.0000    0.0000      1.4456    0.2263
+
+       14.295         1.446     0.226 dielectric  constant
+ 
+ w=    15.375     0.000
+         1.4067    0.2164     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.4067    0.2164      0.0000    0.0000
+        -0.0000   -0.0000      0.0000    0.0000      1.4067    0.2164
+
+       15.375         1.407     0.216 dielectric  constant
+ 
+ w=    16.442     0.000
+         1.4286    0.1997     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.4286    0.1997      0.0000   -0.0000
+        -0.0000   -0.0000      0.0000   -0.0000      1.4286    0.1997
+
+       16.442         1.429     0.200 dielectric  constant
+ 
+ w=    17.501     0.000
+         1.4969    0.2364     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.4969    0.2364      0.0000   -0.0000
+        -0.0000   -0.0000      0.0000   -0.0000      1.4969    0.2364
+
+       17.501         1.497     0.236 dielectric  constant
+ 
+ w=    18.554     0.000
+         1.5142    0.3704     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.5142    0.3704      0.0000   -0.0000
+        -0.0000   -0.0000      0.0000   -0.0000      1.5142    0.3704
+
+       18.554         1.514     0.370 dielectric  constant
+ 
+ w=    19.604     0.000
+         1.4141    0.4836      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.4141    0.4836      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      1.4141    0.4836
+
+       19.604         1.414     0.484 dielectric  constant
+ 
+ w=    20.656     0.000
+         1.2712    0.4911      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.2712    0.4911      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      1.2712    0.4911
+
+       20.656         1.271     0.491 dielectric  constant
+ 
+ w=    21.712     0.000
+         1.2040    0.4031      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.2040    0.4031      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      1.2040    0.4031
+
+       21.712         1.204     0.403 dielectric  constant
+ 
+ w=    22.777     0.000
+         1.2483    0.3569      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.2483    0.3569      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      1.2483    0.3569
+
+       22.777         1.248     0.357 dielectric  constant
+ 
+ w=    23.856     0.000
+         1.2734    0.4167      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.2734    0.4167      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      1.2734    0.4167
+
+       23.856         1.273     0.417 dielectric  constant
+ 
+ w=    24.953     0.000
+         1.2279    0.4753      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.2279    0.4753      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      1.2279    0.4753
+
+       24.953         1.228     0.475 dielectric  constant
+ 
+ w=    26.073     0.000
+         1.1400    0.5144      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.1400    0.5144      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      1.1400    0.5144
+
+       26.073         1.140     0.514 dielectric  constant
+ 
+ w=    27.223     0.000
+         1.0132    0.4702      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.0132    0.4702      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      1.0132    0.4702
+
+       27.223         1.013     0.470 dielectric  constant
+ 
+ w=    28.409     0.000
+         1.0173    0.3240      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.0173    0.3240      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      1.0173    0.3240
+
+       28.409         1.017     0.324 dielectric  constant
+ 
+ w=    29.637     0.000
+         1.1309    0.3495      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.1309    0.3495      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      1.1309    0.3495
+
+       29.637         1.131     0.350 dielectric  constant
+ 
+ w=    30.917     0.000
+         1.0708    0.4914      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.0708    0.4914     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000      1.0708    0.4914
+
+       30.917         1.071     0.491 dielectric  constant
+ 
+ w=    32.256     0.000
+         0.8704    0.4562      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.8704    0.4562     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000      0.8704    0.4562
+
+       32.256         0.870     0.456 dielectric  constant
+ 
+ w=    33.668     0.000
+         0.8390    0.2437     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      0.8390    0.2437     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      0.8390    0.2437
+
+       33.668         0.839     0.244 dielectric  constant
+ 
+ w=    35.163     0.000
+         0.9661    0.1844      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9661    0.1844      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9661    0.1844
+
+       35.163         0.966     0.184 dielectric  constant
+ 
+ w=    36.757     0.000
+         1.0062    0.2353      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.0062    0.2353      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      1.0062    0.2353
+
+       36.757         1.006     0.235 dielectric  constant
+ 
+ w=    38.467     0.000
+         0.9920    0.2339     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      0.9920    0.2339     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      0.9920    0.2339
+
+       38.467         0.992     0.234 dielectric  constant
+ 
+ w=    40.315     0.000
+         1.0088    0.2303     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.0088    0.2303     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      1.0088    0.2303
+
+       40.315         1.009     0.230 dielectric  constant
+ 
+ w=    42.326     0.000
+         1.0218    0.2651     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.0218    0.2651     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      1.0218    0.2651
+
+       42.326         1.022     0.265 dielectric  constant
+ 
+ w=    44.533     0.000
+         0.9749    0.3252     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      0.9749    0.3252     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      0.9749    0.3252
+
+       44.533         0.975     0.325 dielectric  constant
+ 
+ w=    46.975     0.000
+         0.8481    0.3176     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.8481    0.3176     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.8481    0.3176
+
+       46.975         0.848     0.318 dielectric  constant
+ 
+ w=    49.701     0.000
+         0.8177    0.1578     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.8177    0.1578     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.8177    0.1578
+
+       49.701         0.818     0.158 dielectric  constant
+ 
+ w=    52.776     0.000
+         0.8759    0.1362     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      0.8759    0.1362     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      0.8759    0.1362
+
+       52.776         0.876     0.136 dielectric  constant
+ 
+ w=    56.281     0.000
+         0.8903    0.1064     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.8903    0.1064     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.8903    0.1064
+
+       56.281         0.890     0.106 dielectric  constant
+ 
+ w=    60.326     0.000
+         0.9056    0.1010     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9056    0.1010     -0.0000    0.0000
+        -0.0000   -0.0000     -0.0000    0.0000      0.9057    0.1010
+
+       60.326         0.906     0.101 dielectric  constant
+ 
+ w=    65.059     0.000
+         0.9140    0.0797     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9140    0.0797     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.9140    0.0797
+
+       65.059         0.914     0.080 dielectric  constant
+ 
+ w=    70.682     0.000
+         0.9196    0.0792     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9196    0.0792     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.9196    0.0792
+
+       70.682         0.920     0.079 dielectric  constant
+ 
+ w=    77.484     0.000
+         0.9162    0.0556      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      0.9162    0.0556      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      0.9162    0.0556
+
+       77.484         0.916     0.056 dielectric  constant
+ 
+ w=    85.890     0.000
+         0.9280    0.0324     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9280    0.0324      0.0000   -0.0000
+        -0.0000   -0.0000      0.0000   -0.0000      0.9280    0.0324
+
+       85.890         0.928     0.032 dielectric  constant
+ 
+ w=    96.547     0.000
+         0.9449    0.0191      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      0.9449    0.0191      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      0.9449    0.0191
+
+       96.547         0.945     0.019 dielectric  constant
+ 
+ w=   110.496     0.000
+         0.9584    0.0132      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9584    0.0132     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000      0.9584    0.0132
+
+      110.496         0.958     0.013 dielectric  constant
+ 
+ w=   129.528     0.000
+         0.9688    0.0062     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9688    0.0062     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.9688    0.0062
+
+      129.528         0.969     0.006 dielectric  constant
+ 
+ w=   156.996     0.000
+         0.9794    0.0020     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9794    0.0020     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.9794    0.0020
+
+      156.996         0.979     0.002 dielectric  constant
+ 
+ w=   200.000     0.000
+         0.9880    0.0002     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9880    0.0002     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.9880    0.0002
+
+      200.000         0.988     0.000 dielectric  constant
+ 
+  XI_LOCAL:  cpu time    0.0049: real time    0.0049
+
+ 1 + v P,  with REDUCIBLE POLARIZABILTY P=P_0 (1 -(v+f) P_0)^-1
+ -------------------------------------
+ w=     0.000     0.000
+         1.2934   -0.0000     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000    0.0000      1.2934    0.0000     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.2934   -0.0000
+
+        0.000         1.293    -0.000 dielectric  constant
+ 
+ w=     1.267     0.000
+         1.2944    0.0012     -0.0000   -0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.2944    0.0012     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.2944    0.0012
+
+        1.267         1.294     0.001 dielectric  constant
+ 
+ w=     2.529     0.000
+         1.2975    0.0026     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.2975    0.0026     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.2975    0.0026
+
+        2.529         1.297     0.003 dielectric  constant
+ 
+ w=     3.783     0.000
+         1.3028    0.0042     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.3028    0.0042     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.3028    0.0042
+
+        3.783         1.303     0.004 dielectric  constant
+ 
+ w=     5.024     0.000
+         1.3109    0.0063     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.3109    0.0063     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.3109    0.0063
+
+        5.024         1.311     0.006 dielectric  constant
+ 
+ w=     6.250     0.000
+         1.3227    0.0095     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.3227    0.0095     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.3227    0.0095
+
+        6.250         1.323     0.009 dielectric  constant
+ 
+ w=     7.458     0.000
+         1.3402    0.0157     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.3402    0.0157     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.3402    0.0157
+
+        7.458         1.340     0.016 dielectric  constant
+ 
+ w=     8.646     0.000
+         1.3646    0.0347     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.3646    0.0347     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.3646    0.0347
+
+        8.646         1.365     0.035 dielectric  constant
+ 
+ w=     9.814     0.000
+         1.3659    0.0702     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.3659    0.0702     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.3659    0.0702
+
+        9.814         1.366     0.070 dielectric  constant
+ 
+ w=    10.962     0.000
+         1.3606    0.0718     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.3606    0.0718     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.3606    0.0718
+
+       10.962         1.361     0.072 dielectric  constant
+ 
+ w=    12.091     0.000
+         1.3975    0.0803     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.3975    0.0803     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.3975    0.0803
+
+       12.091         1.397     0.080 dielectric  constant
+ 
+ w=    13.201     0.000
+         1.4203    0.1463      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.4203    0.1463     -0.0000   -0.0000
+         0.0000   -0.0000     -0.0000   -0.0000      1.4203    0.1463
+
+       13.201         1.420     0.146 dielectric  constant
+ 
+ w=    14.295     0.000
+         1.3792    0.2017      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.3792    0.2017     -0.0000   -0.0000
+         0.0000    0.0000     -0.0000   -0.0000      1.3792    0.2017
+
+       14.295         1.379     0.202 dielectric  constant
+ 
+ w=    15.375     0.000
+         1.3406    0.1925      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.3406    0.1925     -0.0000   -0.0000
+         0.0000    0.0000     -0.0000   -0.0000      1.3406    0.1925
+
+       15.375         1.341     0.193 dielectric  constant
+ 
+ w=    16.442     0.000
+         1.3552    0.1750      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.3552    0.1750     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000      1.3552    0.1750
+
+       16.442         1.355     0.175 dielectric  constant
+ 
+ w=    17.501     0.000
+         1.4119    0.2003      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.4119    0.2003     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000      1.4119    0.2003
+
+       17.501         1.412     0.200 dielectric  constant
+ 
+ w=    18.554     0.000
+         1.4306    0.3088      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.4306    0.3088     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000      1.4306    0.3088
+
+       18.554         1.431     0.309 dielectric  constant
+ 
+ w=    19.604     0.000
+         1.3536    0.4083     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.3536    0.4083     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      1.3536    0.4083
+
+       19.604         1.354     0.408 dielectric  constant
+ 
+ w=    20.656     0.000
+         1.2273    0.4263     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.2273    0.4263     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      1.2273    0.4263
+
+       20.656         1.227     0.426 dielectric  constant
+ 
+ w=    21.712     0.000
+         1.1550    0.3471     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.1550    0.3471     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      1.1550    0.3471
+
+       21.712         1.155     0.347 dielectric  constant
+ 
+ w=    22.777     0.000
+         1.1892    0.2946     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.1892    0.2946     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.1892    0.2946
+
+       22.777         1.189     0.295 dielectric  constant
+ 
+ w=    23.856     0.000
+         1.2167    0.3342     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.2167    0.3342     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.2167    0.3342
+
+       23.856         1.217     0.334 dielectric  constant
+ 
+ w=    24.953     0.000
+         1.1875    0.3799     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.1875    0.3799     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.1875    0.3799
+
+       24.953         1.188     0.380 dielectric  constant
+ 
+ w=    26.073     0.000
+         1.1252    0.4160     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.1252    0.4160     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.1252    0.4160
+
+       26.073         1.125     0.416 dielectric  constant
+ 
+ w=    27.223     0.000
+         1.0159    0.3953     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.0159    0.3953     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.0159    0.3953
+
+       27.223         1.016     0.395 dielectric  constant
+ 
+ w=    28.409     0.000
+         0.9979    0.2645     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9979    0.2645     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.9979    0.2645
+
+       28.409         0.998     0.265 dielectric  constant
+ 
+ w=    29.637     0.000
+         1.0984    0.2568     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.0984    0.2568     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.0984    0.2568
+
+       29.637         1.098     0.257 dielectric  constant
+ 
+ w=    30.917     0.000
+         1.0937    0.3708     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.0937    0.3708      0.0000   -0.0000
+        -0.0000   -0.0000      0.0000   -0.0000      1.0936    0.3708
+
+       30.917         1.094     0.371 dielectric  constant
+ 
+ w=    32.256     0.000
+         0.9331    0.3989     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9331    0.3989      0.0000   -0.0000
+        -0.0000   -0.0000      0.0000   -0.0000      0.9331    0.3989
+
+       32.256         0.933     0.399 dielectric  constant
+ 
+ w=    33.668     0.000
+         0.8558    0.2213      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      0.8558    0.2213      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      0.8558    0.2213
+
+       33.668         0.856     0.221 dielectric  constant
+ 
+ w=    35.163     0.000
+         0.9558    0.1463     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9558    0.1463     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.9558    0.1463
+
+       35.163         0.956     0.146 dielectric  constant
+ 
+ w=    36.757     0.000
+         0.9991    0.1733     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9991    0.1733     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.9991    0.1733
+
+       36.757         0.999     0.173 dielectric  constant
+ 
+ w=    38.467     0.000
+         0.9937    0.1692      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      0.9937    0.1692      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      0.9937    0.1692
+
+       38.467         0.994     0.169 dielectric  constant
+ 
+ w=    40.315     0.000
+         1.0130    0.1580      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.0130    0.1580      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      1.0130    0.1580
+
+       40.315         1.013     0.158 dielectric  constant
+ 
+ w=    42.326     0.000
+         1.0343    0.1733      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.0343    0.1733      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      1.0343    0.1733
+
+       42.326         1.034     0.173 dielectric  constant
+ 
+ w=    44.533     0.000
+         1.0427    0.2110      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.0427    0.2110      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      1.0427    0.2110
+
+       44.533         1.043     0.211 dielectric  constant
+ 
+ w=    46.975     0.000
+         0.9910    0.2796      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9910    0.2796      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9910    0.2796
+
+       46.975         0.991     0.280 dielectric  constant
+ 
+ w=    49.701     0.000
+         0.8646    0.1877      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.8646    0.1877      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.8646    0.1877
+
+       49.701         0.865     0.188 dielectric  constant
+ 
+ w=    52.776     0.000
+         0.9158    0.1382      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      0.9158    0.1382      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      0.9158    0.1382
+
+       52.776         0.916     0.138 dielectric  constant
+ 
+ w=    56.281     0.000
+         0.9188    0.1100      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9188    0.1100      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9188    0.1100
+
+       56.281         0.919     0.110 dielectric  constant
+ 
+ w=    60.326     0.000
+         0.9363    0.1018      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9363    0.1018      0.0000   -0.0000
+         0.0000    0.0000      0.0000   -0.0000      0.9363    0.1018
+
+       60.326         0.936     0.102 dielectric  constant
+ 
+ w=    65.059     0.000
+         0.9369    0.0826      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9369    0.0826      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9369    0.0826
+
+       65.059         0.937     0.083 dielectric  constant
+ 
+ w=    70.682     0.000
+         0.9519    0.0834      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9519    0.0834      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9519    0.0834
+
+       70.682         0.952     0.083 dielectric  constant
+ 
+ w=    77.484     0.000
+         0.9351    0.0749     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      0.9351    0.0749     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      0.9351    0.0749
+
+       77.484         0.935     0.075 dielectric  constant
+ 
+ w=    85.890     0.000
+         0.9347    0.0488      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9347    0.0488     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000      0.9347    0.0488
+
+       85.890         0.935     0.049 dielectric  constant
+ 
+ w=    96.547     0.000
+         0.9459    0.0297     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      0.9459    0.0297     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      0.9459    0.0297
+
+       96.547         0.946     0.030 dielectric  constant
+ 
+ w=   110.496     0.000
+         0.9584    0.0207     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9584    0.0207      0.0000   -0.0000
+        -0.0000   -0.0000      0.0000   -0.0000      0.9584    0.0207
+
+      110.496         0.958     0.021 dielectric  constant
+ 
+ w=   129.528     0.000
+         0.9657    0.0101      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9657    0.0101      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9657    0.0101
+
+      129.528         0.966     0.010 dielectric  constant
+ 
+ w=   156.996     0.000
+         0.9776    0.0022      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9776    0.0022      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9776    0.0022
+
+      156.996         0.978     0.002 dielectric  constant
+ 
+ w=   200.000     0.000
+         0.9876    0.0002      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9876    0.0002      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9876    0.0002
+
+      200.000         0.988     0.000 dielectric  constant
+ 
+  XI_RED_T:  cpu time    0.0018: real time    0.0018
+
+ INVERSE MACROSCOPIC DIELECTRIC TENSOR (including local field effects in RPA (Hartree))
+ -------------------------------------
+ w=     0.000     0.000
+         1.2934   -0.0000     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000    0.0000      1.2934    0.0000     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.2934   -0.0000
+
+        0.000         1.293    -0.000 dielectric  constant
+ 
+ w=     1.267     0.000
+         1.2944    0.0012     -0.0000   -0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.2944    0.0012     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.2944    0.0012
+
+        1.267         1.294     0.001 dielectric  constant
+ 
+ w=     2.529     0.000
+         1.2975    0.0026     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.2975    0.0026     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.2975    0.0026
+
+        2.529         1.297     0.003 dielectric  constant
+ 
+ w=     3.783     0.000
+         1.3028    0.0042     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.3028    0.0042     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.3028    0.0042
+
+        3.783         1.303     0.004 dielectric  constant
+ 
+ w=     5.024     0.000
+         1.3109    0.0063     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.3109    0.0063     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.3109    0.0063
+
+        5.024         1.311     0.006 dielectric  constant
+ 
+ w=     6.250     0.000
+         1.3227    0.0095     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.3227    0.0095     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.3227    0.0095
+
+        6.250         1.323     0.009 dielectric  constant
+ 
+ w=     7.458     0.000
+         1.3402    0.0157     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.3402    0.0157     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.3402    0.0157
+
+        7.458         1.340     0.016 dielectric  constant
+ 
+ w=     8.646     0.000
+         1.3646    0.0347     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.3646    0.0347     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.3646    0.0347
+
+        8.646         1.365     0.035 dielectric  constant
+ 
+ w=     9.814     0.000
+         1.3659    0.0702     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.3659    0.0702     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.3659    0.0702
+
+        9.814         1.366     0.070 dielectric  constant
+ 
+ w=    10.962     0.000
+         1.3606    0.0718     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.3606    0.0718     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000      1.3606    0.0718
+
+       10.962         1.361     0.072 dielectric  constant
+ 
+ w=    12.091     0.000
+         1.3975    0.0803     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.3975    0.0803     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.3975    0.0803
+
+       12.091         1.397     0.080 dielectric  constant
+ 
+ w=    13.201     0.000
+         1.4203    0.1463      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.4203    0.1463     -0.0000   -0.0000
+         0.0000   -0.0000     -0.0000   -0.0000      1.4203    0.1463
+
+       13.201         1.420     0.146 dielectric  constant
+ 
+ w=    14.295     0.000
+         1.3792    0.2017      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.3792    0.2017     -0.0000   -0.0000
+         0.0000    0.0000     -0.0000   -0.0000      1.3792    0.2017
+
+       14.295         1.379     0.202 dielectric  constant
+ 
+ w=    15.375     0.000
+         1.3406    0.1925      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.3406    0.1925     -0.0000   -0.0000
+         0.0000    0.0000     -0.0000   -0.0000      1.3406    0.1925
+
+       15.375         1.341     0.193 dielectric  constant
+ 
+ w=    16.442     0.000
+         1.3552    0.1750      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.3552    0.1750     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000      1.3552    0.1750
+
+       16.442         1.355     0.175 dielectric  constant
+ 
+ w=    17.501     0.000
+         1.4119    0.2003      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.4119    0.2003     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000      1.4119    0.2003
+
+       17.501         1.412     0.200 dielectric  constant
+ 
+ w=    18.554     0.000
+         1.4306    0.3088      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      1.4306    0.3088     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000      1.4306    0.3088
+
+       18.554         1.431     0.309 dielectric  constant
+ 
+ w=    19.604     0.000
+         1.3536    0.4083     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.3536    0.4083     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      1.3536    0.4083
+
+       19.604         1.354     0.408 dielectric  constant
+ 
+ w=    20.656     0.000
+         1.2273    0.4263     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.2273    0.4263     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      1.2273    0.4263
+
+       20.656         1.227     0.426 dielectric  constant
+ 
+ w=    21.712     0.000
+         1.1550    0.3471     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      1.1550    0.3471     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      1.1550    0.3471
+
+       21.712         1.155     0.347 dielectric  constant
+ 
+ w=    22.777     0.000
+         1.1892    0.2946     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.1892    0.2946     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.1892    0.2946
+
+       22.777         1.189     0.295 dielectric  constant
+ 
+ w=    23.856     0.000
+         1.2167    0.3342     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.2167    0.3342     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.2167    0.3342
+
+       23.856         1.217     0.334 dielectric  constant
+ 
+ w=    24.953     0.000
+         1.1875    0.3799     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.1875    0.3799     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.1875    0.3799
+
+       24.953         1.188     0.380 dielectric  constant
+ 
+ w=    26.073     0.000
+         1.1252    0.4160     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.1252    0.4160     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.1252    0.4160
+
+       26.073         1.125     0.416 dielectric  constant
+ 
+ w=    27.223     0.000
+         1.0159    0.3953     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.0159    0.3953     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.0159    0.3953
+
+       27.223         1.016     0.395 dielectric  constant
+ 
+ w=    28.409     0.000
+         0.9979    0.2645     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9979    0.2645     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.9979    0.2645
+
+       28.409         0.998     0.265 dielectric  constant
+ 
+ w=    29.637     0.000
+         1.0984    0.2568     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.0984    0.2568     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      1.0984    0.2568
+
+       29.637         1.098     0.257 dielectric  constant
+ 
+ w=    30.917     0.000
+         1.0937    0.3708     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      1.0937    0.3708      0.0000   -0.0000
+        -0.0000   -0.0000      0.0000   -0.0000      1.0936    0.3708
+
+       30.917         1.094     0.371 dielectric  constant
+ 
+ w=    32.256     0.000
+         0.9331    0.3989     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9331    0.3989      0.0000   -0.0000
+        -0.0000   -0.0000      0.0000   -0.0000      0.9331    0.3989
+
+       32.256         0.933     0.399 dielectric  constant
+ 
+ w=    33.668     0.000
+         0.8558    0.2213      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      0.8558    0.2213      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      0.8558    0.2213
+
+       33.668         0.856     0.221 dielectric  constant
+ 
+ w=    35.163     0.000
+         0.9558    0.1463     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9558    0.1463     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.9558    0.1463
+
+       35.163         0.956     0.146 dielectric  constant
+ 
+ w=    36.757     0.000
+         0.9991    0.1733     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9991    0.1733     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.9991    0.1733
+
+       36.757         0.999     0.173 dielectric  constant
+ 
+ w=    38.467     0.000
+         0.9937    0.1692      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      0.9937    0.1692      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      0.9937    0.1692
+
+       38.467         0.994     0.169 dielectric  constant
+ 
+ w=    40.315     0.000
+         1.0130    0.1580      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.0130    0.1580      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      1.0130    0.1580
+
+       40.315         1.013     0.158 dielectric  constant
+ 
+ w=    42.326     0.000
+         1.0343    0.1733      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.0343    0.1733      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      1.0343    0.1733
+
+       42.326         1.034     0.173 dielectric  constant
+ 
+ w=    44.533     0.000
+         1.0427    0.2110      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      1.0427    0.2110      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      1.0427    0.2110
+
+       44.533         1.043     0.211 dielectric  constant
+ 
+ w=    46.975     0.000
+         0.9910    0.2796      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9910    0.2796      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9910    0.2796
+
+       46.975         0.991     0.280 dielectric  constant
+ 
+ w=    49.701     0.000
+         0.8646    0.1877      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.8646    0.1877      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.8646    0.1877
+
+       49.701         0.865     0.188 dielectric  constant
+ 
+ w=    52.776     0.000
+         0.9158    0.1382      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      0.9158    0.1382      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      0.9158    0.1382
+
+       52.776         0.916     0.138 dielectric  constant
+ 
+ w=    56.281     0.000
+         0.9188    0.1100      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9188    0.1100      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9188    0.1100
+
+       56.281         0.919     0.110 dielectric  constant
+ 
+ w=    60.326     0.000
+         0.9363    0.1018      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9363    0.1018      0.0000   -0.0000
+         0.0000    0.0000      0.0000   -0.0000      0.9363    0.1018
+
+       60.326         0.936     0.102 dielectric  constant
+ 
+ w=    65.059     0.000
+         0.9369    0.0826      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9369    0.0826      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9369    0.0826
+
+       65.059         0.937     0.083 dielectric  constant
+ 
+ w=    70.682     0.000
+         0.9519    0.0834      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9519    0.0834      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9519    0.0834
+
+       70.682         0.952     0.083 dielectric  constant
+ 
+ w=    77.484     0.000
+         0.9351    0.0749     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      0.9351    0.0749     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      0.9351    0.0749
+
+       77.484         0.935     0.075 dielectric  constant
+ 
+ w=    85.890     0.000
+         0.9347    0.0488      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9347    0.0488     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000      0.9347    0.0488
+
+       85.890         0.935     0.049 dielectric  constant
+ 
+ w=    96.547     0.000
+         0.9459    0.0297     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      0.9459    0.0297     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      0.9459    0.0297
+
+       96.547         0.946     0.030 dielectric  constant
+ 
+ w=   110.496     0.000
+         0.9584    0.0207     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.9584    0.0207      0.0000   -0.0000
+        -0.0000   -0.0000      0.0000   -0.0000      0.9584    0.0207
+
+      110.496         0.958     0.021 dielectric  constant
+ 
+ w=   129.528     0.000
+         0.9657    0.0101      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9657    0.0101      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9657    0.0101
+
+      129.528         0.966     0.010 dielectric  constant
+ 
+ w=   156.996     0.000
+         0.9776    0.0022      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9776    0.0022      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9776    0.0022
+
+      156.996         0.978     0.002 dielectric  constant
+ 
+ w=   200.000     0.000
+         0.9876    0.0002      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.9876    0.0002      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.9876    0.0002
+
+      200.000         0.988     0.000 dielectric  constant
+ 
+   XI_TO_W:  cpu time    0.0019: real time    0.0018
+
+ screened Coulomb potential
+ -------------------------------------
+ w=     0.000     0.000
+        -0.2268    0.0000     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000    0.0000     -0.2268   -0.0000     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000   -0.0000     -0.2268    0.0000
+
+        0.000        -0.227     0.000 dielectric  constant
+ 
+ w=     1.267     0.000
+        -0.2274   -0.0007     -0.0000   -0.0000     -0.0000    0.0000
+        -0.0000    0.0000     -0.2274   -0.0007     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000     -0.2274   -0.0007
+
+        1.267        -0.227    -0.001 dielectric  constant
+ 
+ w=     2.529     0.000
+        -0.2293   -0.0015     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000     -0.2293   -0.0015     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000     -0.2293   -0.0015
+
+        2.529        -0.229    -0.002 dielectric  constant
+ 
+ w=     3.783     0.000
+        -0.2324   -0.0025     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000     -0.2324   -0.0025     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000     -0.2324   -0.0025
+
+        3.783        -0.232    -0.002 dielectric  constant
+ 
+ w=     5.024     0.000
+        -0.2372   -0.0037     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000     -0.2372   -0.0037     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000     -0.2372   -0.0037
+
+        5.024        -0.237    -0.004 dielectric  constant
+ 
+ w=     6.250     0.000
+        -0.2440   -0.0054     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000     -0.2440   -0.0054     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000     -0.2440   -0.0054
+
+        6.250        -0.244    -0.005 dielectric  constant
+ 
+ w=     7.458     0.000
+        -0.2540   -0.0088     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000     -0.2540   -0.0088     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000     -0.2540   -0.0088
+
+        7.458        -0.254    -0.009 dielectric  constant
+ 
+ w=     8.646     0.000
+        -0.2676   -0.0186     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.2676   -0.0186     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000     -0.2676   -0.0186
+
+        8.646        -0.268    -0.019 dielectric  constant
+ 
+ w=     9.814     0.000
+        -0.2698   -0.0375     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000     -0.2698   -0.0375     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000     -0.2698   -0.0375
+
+        9.814        -0.270    -0.038 dielectric  constant
+ 
+ w=    10.962     0.000
+        -0.2671   -0.0387     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000     -0.2671   -0.0387     -0.0000   -0.0000
+        -0.0000    0.0000     -0.0000   -0.0000     -0.2671   -0.0387
+
+       10.962        -0.267    -0.039 dielectric  constant
+ 
+ w=    12.091     0.000
+        -0.2868   -0.0410     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.2868   -0.0410     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000     -0.2868   -0.0410
+
+       12.091        -0.287    -0.041 dielectric  constant
+ 
+ w=    13.201     0.000
+        -0.3033   -0.0718      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000     -0.3033   -0.0718     -0.0000   -0.0000
+         0.0000   -0.0000     -0.0000   -0.0000     -0.3033   -0.0718
+
+       13.201        -0.303    -0.072 dielectric  constant
+ 
+ w=    14.295     0.000
+        -0.2901   -0.1038      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000     -0.2901   -0.1038     -0.0000   -0.0000
+         0.0000    0.0000     -0.0000   -0.0000     -0.2901   -0.1038
+
+       14.295        -0.290    -0.104 dielectric  constant
+ 
+ w=    15.375     0.000
+        -0.2691   -0.1050      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000     -0.2691   -0.1050     -0.0000   -0.0000
+         0.0000    0.0000     -0.0000   -0.0000     -0.2691   -0.1050
+
+       15.375        -0.269    -0.105 dielectric  constant
+ 
+ w=    16.442     0.000
+        -0.2742   -0.0937      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000     -0.2742   -0.0937     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000     -0.2742   -0.0937
+
+       16.442        -0.274    -0.094 dielectric  constant
+ 
+ w=    17.501     0.000
+        -0.3057   -0.0985      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000     -0.3057   -0.0985     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000     -0.3057   -0.0985
+
+       17.501        -0.306    -0.099 dielectric  constant
+ 
+ w=    18.554     0.000
+        -0.3321   -0.1442      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000     -0.3321   -0.1442     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000     -0.3321   -0.1442
+
+       18.554        -0.332    -0.144 dielectric  constant
+ 
+ w=    19.604     0.000
+        -0.3228   -0.2042     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000     -0.3228   -0.2042     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000     -0.3228   -0.2042
+
+       19.604        -0.323    -0.204 dielectric  constant
+ 
+ w=    20.656     0.000
+        -0.2729   -0.2526     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000     -0.2729   -0.2526     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000     -0.2729   -0.2526
+
+       20.656        -0.273    -0.253 dielectric  constant
+ 
+ w=    21.712     0.000
+        -0.2059   -0.2386     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000     -0.2059   -0.2386     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000     -0.2059   -0.2386
+
+       21.712        -0.206    -0.239 dielectric  constant
+ 
+ w=    22.777     0.000
+        -0.2077   -0.1962     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.2077   -0.1962     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000     -0.2077   -0.1962
+
+       22.777        -0.208    -0.196 dielectric  constant
+ 
+ w=    23.856     0.000
+        -0.2358   -0.2099     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.2358   -0.2099     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000     -0.2358   -0.2099
+
+       23.856        -0.236    -0.210 dielectric  constant
+ 
+ w=    24.953     0.000
+        -0.2361   -0.2444     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.2361   -0.2444     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000     -0.2361   -0.2444
+
+       24.953        -0.236    -0.244 dielectric  constant
+ 
+ w=    26.073     0.000
+        -0.2181   -0.2890     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.2181   -0.2890     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000     -0.2181   -0.2890
+
+       26.073        -0.218    -0.289 dielectric  constant
+ 
+ w=    27.223     0.000
+        -0.1451   -0.3327     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.1451   -0.3327     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000     -0.1451   -0.3327
+
+       27.223        -0.145    -0.333 dielectric  constant
+ 
+ w=    28.409     0.000
+        -0.0637   -0.2482     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0637   -0.2482     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000     -0.0637   -0.2482
+
+       28.409        -0.064    -0.248 dielectric  constant
+ 
+ w=    29.637     0.000
+        -0.1368   -0.2019     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.1368   -0.2019     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000     -0.1368   -0.2019
+
+       29.637        -0.137    -0.202 dielectric  constant
+ 
+ w=    30.917     0.000
+        -0.1799   -0.2780     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.1799   -0.2780      0.0000   -0.0000
+        -0.0000   -0.0000      0.0000   -0.0000     -0.1799   -0.2780
+
+       30.917        -0.180    -0.278 dielectric  constant
+ 
+ w=    32.256     0.000
+        -0.0939   -0.3874     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0939   -0.3874      0.0000   -0.0000
+        -0.0000   -0.0000      0.0000   -0.0000     -0.0939   -0.3874
+
+       32.256        -0.094    -0.387 dielectric  constant
+ 
+ w=    33.668     0.000
+         0.0953   -0.2832      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      0.0953   -0.2832      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      0.0953   -0.2832
+
+       33.668         0.095    -0.283 dielectric  constant
+ 
+ w=    35.163     0.000
+         0.0223   -0.1565     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.0223   -0.1565     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000      0.0223   -0.1565
+
+       35.163         0.022    -0.156 dielectric  constant
+ 
+ w=    36.757     0.000
+        -0.0283   -0.1686     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0283   -0.1686     -0.0000   -0.0000
+        -0.0000   -0.0000     -0.0000   -0.0000     -0.0283   -0.1686
+
+       36.757        -0.028    -0.169 dielectric  constant
+ 
+ w=    38.467     0.000
+        -0.0220   -0.1665      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000     -0.0220   -0.1665      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000     -0.0220   -0.1665
+
+       38.467        -0.022    -0.167 dielectric  constant
+ 
+ w=    40.315     0.000
+        -0.0363   -0.1503      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000     -0.0363   -0.1503      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000     -0.0363   -0.1503
+
+       40.315        -0.036    -0.150 dielectric  constant
+ 
+ w=    42.326     0.000
+        -0.0595   -0.1576      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000     -0.0595   -0.1576      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000     -0.0595   -0.1576
+
+       42.326        -0.060    -0.158 dielectric  constant
+ 
+ w=    44.533     0.000
+        -0.0786   -0.1865      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000     -0.0786   -0.1865      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000     -0.0786   -0.1865
+
+       44.533        -0.079    -0.186 dielectric  constant
+ 
+ w=    46.975     0.000
+        -0.0653   -0.2637      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000     -0.0653   -0.2637      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000     -0.0653   -0.2637
+
+       46.975        -0.065    -0.264 dielectric  constant
+ 
+ w=    49.701     0.000
+         0.1046   -0.2398      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.1046   -0.2398      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.1046   -0.2398
+
+       49.701         0.105    -0.240 dielectric  constant
+ 
+ w=    52.776     0.000
+         0.0677   -0.1611      0.0000   -0.0000      0.0000   -0.0000
+         0.0000   -0.0000      0.0677   -0.1611      0.0000   -0.0000
+         0.0000   -0.0000      0.0000   -0.0000      0.0677   -0.1611
+
+       52.776         0.068    -0.161 dielectric  constant
+ 
+ w=    56.281     0.000
+         0.0729   -0.1285      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.0729   -0.1285      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.0729   -0.1285
+
+       56.281         0.073    -0.129 dielectric  constant
+ 
+ w=    60.326     0.000
+         0.0556   -0.1148      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.0556   -0.1148      0.0000   -0.0000
+         0.0000    0.0000      0.0000   -0.0000      0.0556   -0.1148
+
+       60.326         0.056    -0.115 dielectric  constant
+ 
+ w=    65.059     0.000
+         0.0592   -0.0934      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.0592   -0.0934      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.0592   -0.0934
+
+       65.059         0.059    -0.093 dielectric  constant
+ 
+ w=    70.682     0.000
+         0.0425   -0.0914      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.0425   -0.0914      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.0425   -0.0914
+
+       70.682         0.043    -0.091 dielectric  constant
+ 
+ w=    77.484     0.000
+         0.0626   -0.0851     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      0.0626   -0.0851     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      0.0626   -0.0851
+
+       77.484         0.063    -0.085 dielectric  constant
+ 
+ w=    85.890     0.000
+         0.0669   -0.0557      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.0669   -0.0557     -0.0000    0.0000
+         0.0000    0.0000     -0.0000    0.0000      0.0669   -0.0557
+
+       85.890         0.067    -0.056 dielectric  constant
+ 
+ w=    96.547     0.000
+         0.0562   -0.0331     -0.0000    0.0000     -0.0000    0.0000
+        -0.0000    0.0000      0.0562   -0.0331     -0.0000    0.0000
+        -0.0000    0.0000     -0.0000    0.0000      0.0562   -0.0331
+
+       96.547         0.056    -0.033 dielectric  constant
+ 
+ w=   110.496     0.000
+         0.0429   -0.0225     -0.0000   -0.0000     -0.0000   -0.0000
+        -0.0000   -0.0000      0.0429   -0.0225      0.0000   -0.0000
+        -0.0000   -0.0000      0.0000   -0.0000      0.0429   -0.0225
+
+      110.496         0.043    -0.023 dielectric  constant
+ 
+ w=   129.528     0.000
+         0.0354   -0.0108      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.0354   -0.0108      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.0354   -0.0108
+
+      129.528         0.035    -0.011 dielectric  constant
+ 
+ w=   156.996     0.000
+         0.0229   -0.0023      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.0229   -0.0023      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.0229   -0.0023
+
+      156.996         0.023    -0.002 dielectric  constant
+ 
+ w=   200.000     0.000
+         0.0126   -0.0002      0.0000    0.0000      0.0000    0.0000
+         0.0000    0.0000      0.0126   -0.0002      0.0000    0.0000
+         0.0000    0.0000      0.0000    0.0000      0.0126   -0.0002
+
+      200.000         0.013    -0.000 dielectric  constant
+ 
+   KRAMKRO:  cpu time    0.0115: real time    0.0136
+   TWOEINT:  cpu time    1.6069: real time    1.6093
+   KRAMKRO:  cpu time    0.0124: real time    0.0124
+   TWOEINT:  cpu time    0.0851: real time    0.0852
+        GW:  cpu time    1.9459: real time    1.9506
+ 
+ performed        385000 updates of chi_q(r,r)
+ total number of BLAS operations       10.72 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=   2    0.2500    0.0000   -0.0000, 
+       CHI:  cpu time    0.1951: real time    0.1964
+   KRAMKRO:  cpu time    0.0093: real time    0.0093
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0012: real time    0.0012
+  XI_RED_T:  cpu time    0.0000: real time    0.0000
+   XI_TO_W:  cpu time    0.0003: real time    0.0003
+   KRAMKRO:  cpu time    0.0101: real time    0.0122
+   TWOEINT:  cpu time    1.6866: real time    1.6888
+   KRAMKRO:  cpu time    0.0083: real time    0.0083
+   TWOEINT:  cpu time    0.0824: real time    0.0825
+        GW:  cpu time    2.0006: real time    2.0063
+ 
+ performed        770000 updates of chi_q(r,r)
+ total number of BLAS operations       22.56 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=   3    0.5000    0.0000   -0.0000, 
+       CHI:  cpu time    0.2084: real time    0.2086
+   KRAMKRO:  cpu time    0.0091: real time    0.0092
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0015: real time    0.0015
+  XI_RED_T:  cpu time    0.0000: real time    0.0001
+   XI_TO_W:  cpu time    0.0004: real time    0.0003
+   KRAMKRO:  cpu time    0.0102: real time    0.0122
+   TWOEINT:  cpu time    1.8236: real time    1.8260
+   KRAMKRO:  cpu time    0.0080: real time    0.0080
+   TWOEINT:  cpu time    0.0967: real time    0.0969
+        GW:  cpu time    2.1580: real time    2.1629
+ 
+ performed       1155000 updates of chi_q(r,r)
+ total number of BLAS operations       37.66 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=   4   -0.2500   -0.0000    0.0000, 
+       CHI:  cpu time    0.1937: real time    0.1949
+   KRAMKRO:  cpu time    0.0214: real time    0.0214
+    LFIELD:  cpu time    0.0001: real time    0.0000
+  XI_LOCAL:  cpu time    0.0012: real time    0.0012
+  XI_RED_T:  cpu time    0.0000: real time    0.0001
+   XI_TO_W:  cpu time    0.0003: real time    0.0003
+   KRAMKRO:  cpu time    0.0100: real time    0.0120
+   TWOEINT:  cpu time    1.6801: real time    1.6825
+   KRAMKRO:  cpu time    0.1358: real time    0.1359
+   TWOEINT:  cpu time    0.0881: real time    0.0882
+        GW:  cpu time    2.1334: real time    2.1392
+ 
+ performed       1540000 updates of chi_q(r,r)
+ total number of BLAS operations       49.50 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=   5    0.0000    0.2500    0.0000, 
+       CHI:  cpu time    0.1958: real time    0.1962
+   KRAMKRO:  cpu time    0.0093: real time    0.0093
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0012: real time    0.0012
+  XI_RED_T:  cpu time    0.0001: real time    0.0001
+   XI_TO_W:  cpu time    0.0002: real time    0.0002
+   KRAMKRO:  cpu time    0.0102: real time    0.0123
+   TWOEINT:  cpu time    1.6706: real time    1.6729
+   KRAMKRO:  cpu time    0.0083: real time    0.0083
+   TWOEINT:  cpu time    0.0821: real time    0.0822
+        GW:  cpu time    1.9856: real time    1.9905
+ 
+ performed       1925000 updates of chi_q(r,r)
+ total number of BLAS operations       61.34 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=   6    0.2500    0.2500   -0.0000, 
+       CHI:  cpu time    0.1915: real time    0.1918
+   KRAMKRO:  cpu time    0.0093: real time    0.0093
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0011: real time    0.0011
+  XI_RED_T:  cpu time    0.0000: real time    0.0000
+   XI_TO_W:  cpu time    0.0009: real time    0.0002
+   KRAMKRO:  cpu time    0.0095: real time    0.0122
+   TWOEINT:  cpu time    1.6801: real time    1.6826
+   KRAMKRO:  cpu time    0.0177: real time    0.0177
+   TWOEINT:  cpu time    0.0846: real time    0.0847
+        GW:  cpu time    2.0028: real time    2.0078
+ 
+ performed       2310000 updates of chi_q(r,r)
+ total number of BLAS operations       72.42 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=   7    0.5000    0.2500    0.0000, 
+       CHI:  cpu time    0.2066: real time    0.2069
+   KRAMKRO:  cpu time    0.0092: real time    0.0092
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0012: real time    0.0012
+  XI_RED_T:  cpu time    0.0000: real time    0.0000
+   XI_TO_W:  cpu time    0.0003: real time    0.0003
+   KRAMKRO:  cpu time    0.0100: real time    0.0122
+   TWOEINT:  cpu time    1.8132: real time    1.8158
+   KRAMKRO:  cpu time    0.0084: real time    0.0084
+   TWOEINT:  cpu time    0.0969: real time    0.0971
+        GW:  cpu time    2.1460: real time    2.1512
+ 
+ performed       2695000 updates of chi_q(r,r)
+ total number of BLAS operations       84.65 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=   8   -0.2500    0.2500    0.0000, 
+       CHI:  cpu time    0.1972: real time    0.1977
+   KRAMKRO:  cpu time    0.0229: real time    0.0229
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0014: real time    0.0014
+  XI_RED_T:  cpu time    0.0001: real time    0.0001
+   XI_TO_W:  cpu time    0.0003: real time    0.0003
+   KRAMKRO:  cpu time    0.0101: real time    0.0120
+   TWOEINT:  cpu time    1.6736: real time    1.6759
+   KRAMKRO:  cpu time    0.1627: real time    0.1628
+   TWOEINT:  cpu time    0.0963: real time    0.0964
+        GW:  cpu time    2.1656: real time    2.1706
+ 
+ performed       3080000 updates of chi_q(r,r)
+ total number of BLAS operations       98.48 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=   9    0.0000    0.5000    0.0000, 
+       CHI:  cpu time    0.2146: real time    0.2148
+   KRAMKRO:  cpu time    0.0092: real time    0.0092
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0014: real time    0.0014
+  XI_RED_T:  cpu time    0.0001: real time    0.0001
+   XI_TO_W:  cpu time    0.0010: real time    0.0003
+   KRAMKRO:  cpu time    0.0094: real time    0.0123
+   TWOEINT:  cpu time    1.8168: real time    1.8193
+   KRAMKRO:  cpu time    0.0079: real time    0.0079
+   TWOEINT:  cpu time    0.1007: real time    0.1009
+        GW:  cpu time    2.1612: real time    2.1664
+ 
+ performed       3465000 updates of chi_q(r,r)
+ total number of BLAS operations      113.57 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  10    0.2500    0.5000   -0.0000, 
+       CHI:  cpu time    0.2105: real time    0.2107
+   KRAMKRO:  cpu time    0.0090: real time    0.0090
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0012: real time    0.0012
+  XI_RED_T:  cpu time    0.0000: real time    0.0000
+   XI_TO_W:  cpu time    0.0010: real time    0.0002
+   KRAMKRO:  cpu time    0.0093: real time    0.0120
+   TWOEINT:  cpu time    1.8225: real time    1.8250
+   KRAMKRO:  cpu time    0.0080: real time    0.0080
+   TWOEINT:  cpu time    0.0981: real time    0.0983
+        GW:  cpu time    2.1596: real time    2.1647
+ 
+ performed       3850000 updates of chi_q(r,r)
+ total number of BLAS operations      125.80 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  11    0.5000    0.5000   -0.0000, 
+       CHI:  cpu time    0.2119: real time    0.2122
+   KRAMKRO:  cpu time    0.0089: real time    0.0089
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0013: real time    0.0013
+  XI_RED_T:  cpu time    0.0001: real time    0.0001
+   XI_TO_W:  cpu time    0.0002: real time    0.0002
+   KRAMKRO:  cpu time    0.0099: real time    0.0120
+   TWOEINT:  cpu time    1.8315: real time    1.8341
+   KRAMKRO:  cpu time    0.0080: real time    0.0080
+   TWOEINT:  cpu time    0.1015: real time    0.1017
+        GW:  cpu time    2.1735: real time    2.1786
+ 
+ performed       4235000 updates of chi_q(r,r)
+ total number of BLAS operations      138.41 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  12   -0.2500    0.5000    0.0000, 
+       CHI:  cpu time    0.2100: real time    0.2102
+   KRAMKRO:  cpu time    0.0092: real time    0.0092
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0013: real time    0.0013
+  XI_RED_T:  cpu time    0.0000: real time    0.0000
+   XI_TO_W:  cpu time    0.0002: real time    0.0002
+   KRAMKRO:  cpu time    0.0101: real time    0.0121
+   TWOEINT:  cpu time    1.8170: real time    1.8195
+   KRAMKRO:  cpu time    0.0323: real time    0.0323
+   TWOEINT:  cpu time    0.0936: real time    0.0937
+        GW:  cpu time    2.1738: real time    2.1787
+ 
+ performed       4620000 updates of chi_q(r,r)
+ total number of BLAS operations      150.64 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  13    0.0000   -0.2500   -0.0000, 
+       CHI:  cpu time    0.1954: real time    0.1958
+   KRAMKRO:  cpu time    0.0094: real time    0.0094
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0012: real time    0.0012
+  XI_RED_T:  cpu time    0.0000: real time    0.0000
+   XI_TO_W:  cpu time    0.0002: real time    0.0002
+   KRAMKRO:  cpu time    0.0102: real time    0.0123
+   TWOEINT:  cpu time    1.6805: real time    1.6827
+   KRAMKRO:  cpu time    0.0084: real time    0.0083
+   TWOEINT:  cpu time    0.0832: real time    0.0834
+        GW:  cpu time    1.9915: real time    1.9962
+ 
+ performed       5005000 updates of chi_q(r,r)
+ total number of BLAS operations      162.48 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  14    0.2500   -0.2500   -0.0000, 
+       CHI:  cpu time    0.1949: real time    0.1955
+   KRAMKRO:  cpu time    0.0094: real time    0.0095
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0014: real time    0.0014
+  XI_RED_T:  cpu time    0.0001: real time    0.0001
+   XI_TO_W:  cpu time    0.0003: real time    0.0003
+   KRAMKRO:  cpu time    0.0103: real time    0.0124
+   TWOEINT:  cpu time    1.6811: real time    1.6836
+   KRAMKRO:  cpu time    0.0249: real time    0.0249
+   TWOEINT:  cpu time    0.0900: real time    0.0902
+        GW:  cpu time    2.0138: real time    2.0192
+ 
+ performed       5390000 updates of chi_q(r,r)
+ total number of BLAS operations      176.30 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  15    0.5000   -0.2500   -0.0000, 
+       CHI:  cpu time    0.2062: real time    0.2065
+   KRAMKRO:  cpu time    0.0091: real time    0.0091
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0012: real time    0.0012
+  XI_RED_T:  cpu time    0.0000: real time    0.0000
+   XI_TO_W:  cpu time    0.0003: real time    0.0002
+   KRAMKRO:  cpu time    0.0100: real time    0.0121
+   TWOEINT:  cpu time    1.8202: real time    1.8227
+   KRAMKRO:  cpu time    0.0080: real time    0.0080
+   TWOEINT:  cpu time    0.0988: real time    0.0990
+        GW:  cpu time    2.1541: real time    2.1591
+ 
+ performed       5775000 updates of chi_q(r,r)
+ total number of BLAS operations      188.53 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  16   -0.2500   -0.2500    0.0000, 
+       CHI:  cpu time    0.1950: real time    0.1953
+   KRAMKRO:  cpu time    0.0210: real time    0.0210
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0011: real time    0.0011
+  XI_RED_T:  cpu time    0.0001: real time    0.0001
+   XI_TO_W:  cpu time    0.0002: real time    0.0003
+   KRAMKRO:  cpu time    0.0101: real time    0.0120
+   TWOEINT:  cpu time    1.6917: real time    1.6942
+   KRAMKRO:  cpu time    0.1385: real time    0.1385
+   TWOEINT:  cpu time    0.0889: real time    0.0890
+        GW:  cpu time    2.1498: real time    2.1546
+ 
+ performed       6160000 updates of chi_q(r,r)
+ total number of BLAS operations      199.62 Gflops
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+NQ=  17    0.0000    0.0000    0.2500, 
+       CHI:  cpu time    0.1989: real time    0.1995
+   KRAMKRO:  cpu time    0.0092: real time    0.0092
+    LFIELD:  cpu time    0.0000: real time    0.0000
+  XI_LOCAL:  cpu time    0.0012: real time    0.0012
+  XI_RED_T:  cpu time    0.0000: real time    0.0001
+   XI_TO_W:  cpu time    0.0002: real time    0.0002
+   KRAMKRO:  cpu time    0.0100: real time    0.0120

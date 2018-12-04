@@ -1,8 +1,72 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141277
  running on   32 total cores
  distrk:  each k-point on    8 cores,    4 groups
- distr:  one band on    8 cores,    1 groups
+ distr:  one band on    4 cores,    2 groups
  using from now: INCAR     
- vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 09 2018 16:43:14) complex          
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
   
  POSCAR found type information on POSCAR  Ne
  POSCAR found :  1 types and       1 ions
@@ -39,7 +103,17 @@
  initial charge from wavefunction
  entering main loop
        N       E                     dE             d eps       ncg     rms          rms(c)
-DIA:   1     0.304710885423E+01    0.30471E+01    0.00000E+00     0   0.000E+00
-DIA:   2     0.304710885423E+01    0.68212E-12    0.00000E+00     0   0.000E+00
-DIA:   3     0.304710885423E+01    0.23874E-11    0.00000E+00     0   0.000E+00
-DIA:   4     0.304710885423E+01   -0.59117E-11    0.00000E+00     0   0.000E+00
+DIA:   1     0.304710885375E+01    0.30471E+01    0.00000E+00     0   0.000E+00
+DIA:   2     0.304710885375E+01   -0.79581E-11    0.00000E+00     0   0.000E+00
+DIA:   3     0.304710885375E+01    0.15916E-11    0.00000E+00     0   0.000E+00
+DIA:   4     0.304710885375E+01   -0.90949E-12    0.00000E+00     0   0.000E+00
+DIA:   5     0.304710885375E+01    0.45475E-11    0.00000E+00     0   0.000E+00    0.351E-05
+DIA:   6     0.304710885421E+01    0.45861E-09    0.00000E+00     0   0.000E+00
+   1 F= 0.30280058E+01 E0= 0.30280058E+01  d E =0.000000E+00  mag=     0.0000     0.0000     0.0000
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+ recalculating local potential from charge density
+ direction            1
+ direction            2
+ direction            3

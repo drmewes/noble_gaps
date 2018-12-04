@@ -1,0 +1,3273 @@
+STATUS:Searching for applets
+STATUS:Creating menu items
+MSG   :Add menu Edit::New
+MSG   :Add menu Structure::Window
+MSG   :Add menu Structure::Control
+MSG   :Add menu Electronic::DOS + bands
+MSG   :Add menu Electronic::Local DOS+bands control
+MSG   :Add menu Edit::Info
+MSG   :Add menu Edit::Move atoms
+MSG   :Add menu Convergence::Energy
+MSG   :Add menu Electronic::STM Control
+MSG   :Add menu Convergence::Forces
+MSG   :Add menu Edit::Edit sub-Z-matrix
+MSG   :Add menu Electronic::Dielectric function
+MSG   :Add menu Mechanics::Phonon dispersion
+MSG   :Add menu Database::Query
+MSG   :Add menu Structure::Lattice
+MSG   :Add menu Electronic::Local potential
+MSG   :Add menu Mechanics::VAC
+MSG   :Add menu Structure::Show (old)
+MSG   :Add menu Structure::Measure
+MSG   :Add menu Electronic::View k-points
+MSG   :Add menu Structure::Export
+MSG   :Add menu Electronic::STM Window
+MSG   :Add menu Edit::Rotate atoms
+MSG   :Add menu Convergence::Selected forces
+MSG   :Add menu Edit::Multiply cell
+MSG   :Add menu Database::Commit
+MSG   :Add menu Structure::Show/hide atoms
+MSG   :Add menu Mechanics::Phonons k-points path
+MSG   :Add menu Edit::Builder
+STATUS:Initializing toolbar buttons
+STATUS:Initializing selection applet
+STATUS:loading setup
+ERROR : Can not read setup.xml
+STATUS:setup loaded
+STATUS:reading vasprun.xml
+STATUS:reading vasprun.xml OK
+STATUS:OK
+STATUS:Parsing free energy sequence
+STATUS:OK
+STATUS:reading graph dos from /usr/lib/p4vasp/data/graphs/dos.agr
+STATUS:reading graph dos_x from /usr/lib/p4vasp/data/graphs/dos_x.agr
+STATUS:reading graph dos_y from /usr/lib/p4vasp/data/graphs/dos_y.agr
+STATUS:reading graph bands from /usr/lib/p4vasp/data/graphs/bands.agr
+STATUS:reading graph dosbands from /usr/lib/p4vasp/data/graphs/dosbands.agr
+STATUS:reading graph inverse_participation_ratio from /usr/lib/p4vasp/data/graphs/inverse_participation_ratio.agr
+STATUS:reading graph dos_ipr from /usr/lib/p4vasp/data/graphs/dos_ipr.agr
+STATUS:Update
+STATUS:Update data
+STATUS:Read structure
+STATUS:Parsing initial structure
+STATUS:OK
+STATUS:OK
+STATUS:Update DOS data
+STATUS:Parsing DOS, please wait
+STATUS:OK
+STATUS:OK
+STATUS:OK
+STATUS:OK
+STATUS:Update
+STATUS:Update data
+STATUS:Update k-points
+STATUS:Scanning k-points
+STATUS:OK
+STATUS:Update eigenvalues
+STATUS:Parsing eigenvalues (L)
+STATUS:OK
+STATUS:Scanning eigenvalues.
+STATUS:Scanning eigenvalues..
+STATUS:Eigenvalues updated
+STATUS:OK
+STATUS:OK
+STATUS:Parsing primitive cell
+STATUS:OK
+MSG   :get DYNA file /home/mewes/CLUSTER/CALC/BANDGAPS/NE/K444_E200_NB128_scGW/GW0/PLOT/DYNA
+ERROR : Unable to create Glade object from Applet.glade, Applet
+ERROR : Glade error in KpointsViewerApplet
+MSG   :Show primitive cell
+MSG   :read PARCHG from /home/mewes/CLUSTER/CALC/BANDGAPS/NE/K444_E200_NB128_scGW/GW0/PLOT/PARCHG
+ERROR : Can not read /home/mewes/CLUSTER/CALC/BANDGAPS/NE/K444_E200_NB128_scGW/GW0/PLOT/PARCHG
+ERROR : PARCHG not available in STM applet.
+ERROR : Smoothed PARCHG not available - press 'Smooth' to create.
+ERROR : PARCHG not available in STM applet.
+EXCEPT:Traceback (most recent call last):
+          File "/usr/bin/p4v.py", line 660, in idle_func
+           x=filter(lambda x,s=w.this:x.getWindowPtr()==s,applets())[0]
+        IndexError: list index out of range
+       
+EXCEPT:Traceback (most recent call last):
+          File "/usr/bin/p4v.py", line 660, in idle_func
+           x=filter(lambda x,s=w.this:x.getWindowPtr()==s,applets())[0]
+        IndexError: list index out of range
+       
+EXCEPT:Traceback (most recent call last):
+          File "/usr/bin/p4v.py", line 660, in idle_func
+           x=filter(lambda x,s=w.this:x.getWindowPtr()==s,applets())[0]
+        IndexError: list index out of range
+       
+EXCEPT:Traceback (most recent call last):
+          File "/usr/bin/p4v.py", line 660, in idle_func
+           x=filter(lambda x,s=w.this:x.getWindowPtr()==s,applets())[0]
+        IndexError: list index out of range
+       
+EXCEPT:Traceback (most recent call last):
+          File "/usr/bin/p4v.py", line 660, in idle_func
+           x=filter(lambda x,s=w.this:x.getWindowPtr()==s,applets())[0]
+        IndexError: list index out of range
+       
+STATUS:reading graph dielectric from /usr/lib/p4vasp/data/graphs/dielectric.agr
+STATUS:Updating the dielectric function
+ERROR : Dielectric functions not available.
+STATUS:Update
+STATUS:Update data
+STATUS:Read structure
+STATUS:OK
+STATUS:Update DOS data
+STATUS:OK
+STATUS:OK
+STATUS:OK
+STATUS:Parsing partial DOS
+ERROR : Error - no partial DOS available
+EXCEPT:Traceback (most recent call last):
+          File "/usr/lib/python2.7/dist-packages/p4vasp/SystemPM.py", line 896, in getPartialDOS_L
+           partial=     dos.getElementsByTagName("partial")[0]
+          File "/usr/lib/python2.7/dist-packages/p4vasp/ODPdom.py", line 202, in __getitem__
+           raise IndexError
+        IndexError
+       
+ERROR : Error reading property PARTIAL_DOS_L
+EXCEPT:Traceback (most recent call last):
+          File "/usr/lib/python2.7/dist-packages/p4vasp/Property.py", line 159, in get
+           self.value=self.read()
+          File "/usr/lib/python2.7/dist-packages/p4vasp/Property.py", line 172, in read
+           return apply(self.read_func,(self,))
+          File "/usr/lib/python2.7/dist-packages/p4vasp/SystemPM.py", line 896, in getPartialDOS_L
+           partial=     dos.getElementsByTagName("partial")[0]
+          File "/usr/lib/python2.7/dist-packages/p4vasp/ODPdom.py", line 202, in __getitem__
+           raise IndexError
+        IndexError
+       
+STATUS:Update
+STATUS:Update data
+STATUS:Reading partial DOS
+STATUS:OK
+STATUS:OK
+STATUS:Update
+STATUS:Update data
+STATUS:Reading partial DOS
+STATUS:OK
+STATUS:OK
+STATUS:Update
+STATUS:Update data
+STATUS:OK
+STATUS:OK
+STATUS:Update
+STATUS:Update data
+STATUS:OK
+STATUS:OK
+STATUS:Update
+STATUS:Update data
+STATUS:Reading partial DOS
+STATUS:OK
+STATUS:OK
+STATUS:Update
+STATUS:Update data
+STATUS:Reading partial DOS
+STATUS:OK
+STATUS:OK
+STATUS:Update
+STATUS:Update data
+STATUS:Update k-points
+STATUS:Scanning k-points
+STATUS:OK
+STATUS:Update eigenvalues
+STATUS:Scanning eigenvalues.
+STATUS:Scanning eigenvalues..
+STATUS:Eigenvalues updated
+STATUS:Update eigenvalues: ()
+STATUS:Read projected eigenvalues
+STATUS:Parsing projected eigenvalues (L)
+ERROR : Error - no projected eigenvalues available
+EXCEPT:Traceback (most recent call last):
+          File "/usr/lib/python2.7/dist-packages/p4vasp/SystemPM.py", line 1001, in getProjectedEigenvalues_L
+           projected   =         dom.getElementsByTagName("projected")[0]
+          File "/usr/lib/python2.7/dist-packages/p4vasp/ODPdom.py", line 202, in __getitem__
+           raise IndexError
+        IndexError
+       
+ERROR : Error reading property PROJECTED_EIGENVALUES_L
+EXCEPT:Traceback (most recent call last):
+          File "/usr/lib/python2.7/dist-packages/p4vasp/Property.py", line 159, in get
+           self.value=self.read()
+          File "/usr/lib/python2.7/dist-packages/p4vasp/Property.py", line 172, in read
+           return apply(self.read_func,(self,))
+          File "/usr/lib/python2.7/dist-packages/p4vasp/SystemPM.py", line 1001, in getProjectedEigenvalues_L
+           projected   =         dom.getElementsByTagName("projected")[0]
+          File "/usr/lib/python2.7/dist-packages/p4vasp/ODPdom.py", line 202, in __getitem__
+           raise IndexError
+        IndexError
+       
+STATUS:Update eigenvalues: ()
+STATUS:Read projected eigenvalues
+STATUS:OK
+STATUS:OK
+STATUS:Update
+STATUS:Update data
+STATUS:Read structure
+STATUS:Parsing initial structure
+STATUS:OK
+STATUS:OK
+STATUS:Update k-points
+STATUS:Scanning k-points
+STATUS:OK
+STATUS:Update eigenvalues
+STATUS:Parsing eigenvalues (L)
+STATUS:OK
+STATUS:Scanning eigenvalues.
+STATUS:Scanning eigenvalues..
+STATUS:Eigenvalues updated
+STATUS:Update eigenvalues: ()
+STATUS:Read projected eigenvalues
+STATUS:Parsing projected eigenvalues (L)
+ERROR : Error - no projected eigenvalues available
+EXCEPT:Traceback (most recent call last):
+          File "/usr/lib/python2.7/dist-packages/p4vasp/SystemPM.py", line 1001, in getProjectedEigenvalues_L
+           projected   =         dom.getElementsByTagName("projected")[0]
+          File "/usr/lib/python2.7/dist-packages/p4vasp/ODPdom.py", line 202, in __getitem__
+           raise IndexError
+        IndexError
+       
+ERROR : Error reading property PROJECTED_EIGENVALUES_L
+EXCEPT:Traceback (most recent call last):
+          File "/usr/lib/python2.7/dist-packages/p4vasp/Property.py", line 159, in get
+           self.value=self.read()
+          File "/usr/lib/python2.7/dist-packages/p4vasp/Property.py", line 172, in read
+           return apply(self.read_func,(self,))
+          File "/usr/lib/python2.7/dist-packages/p4vasp/SystemPM.py", line 1001, in getProjectedEigenvalues_L
+           projected   =         dom.getElementsByTagName("projected")[0]
+          File "/usr/lib/python2.7/dist-packages/p4vasp/ODPdom.py", line 202, in __getitem__
+           raise IndexError
+        IndexError
+       
+STATUS:Update eigenvalues: ()
+STATUS:Read projected eigenvalues
+STATUS:OK
+STATUS:OK
+STATUS:Update
+STATUS:Update data
+STATUS:Read structure
+STATUS:Parsing initial structure
+STATUS:OK
+STATUS:OK
+STATUS:Update k-points
+STATUS:Scanning k-points
+STATUS:OK
+STATUS:Update eigenvalues
+STATUS:Parsing eigenvalues (L)
+STATUS:OK
+STATUS:Scanning eigenvalues.
+STATUS:Scanning eigenvalues..
+STATUS:Eigenvalues updated
+STATUS:Update eigenvalues: ()
+STATUS:Read projected eigenvalues
+STATUS:Parsing projected eigenvalues (L)
+ERROR : Error - no projected eigenvalues available
+EXCEPT:Traceback (most recent call last):
+          File "/usr/lib/python2.7/dist-packages/p4vasp/SystemPM.py", line 1001, in getProjectedEigenvalues_L
+           projected   =         dom.getElementsByTagName("projected")[0]
+          File "/usr/lib/python2.7/dist-packages/p4vasp/ODPdom.py", line 202, in __getitem__
+           raise IndexError
+        IndexError
+       
+ERROR : Error reading property PROJECTED_EIGENVALUES_L
+EXCEPT:Traceback (most recent call last):
+          File "/usr/lib/python2.7/dist-packages/p4vasp/Property.py", line 159, in get
+           self.value=self.read()
+          File "/usr/lib/python2.7/dist-packages/p4vasp/Property.py", line 172, in read
+           return apply(self.read_func,(self,))
+          File "/usr/lib/python2.7/dist-packages/p4vasp/SystemPM.py", line 1001, in getProjectedEigenvalues_L
+           projected   =         dom.getElementsByTagName("projected")[0]
+          File "/usr/lib/python2.7/dist-packages/p4vasp/ODPdom.py", line 202, in __getitem__
+           raise IndexError
+        IndexError
+       
+STATUS:Update eigenvalues: ()
+STATUS:Read projected eigenvalues
+STATUS:OK
+STATUS:OK
+STATUS:256 -14
+STATUS:255 -14
+STATUS:254 -14
+STATUS:251 -13
+STATUS:247 -13
+STATUS:241 -13
+STATUS:232 -13
+STATUS:198 -13
+STATUS:180 -13
+STATUS:145 -15
+STATUS:107 -16
+STATUS: 64 -16
+STATUS: 49 -18
+STATUS: 22 -18
+STATUS: 16 -18
+STATUS: 12 -18
+STATUS: 10 -18
+STATUS: 11 -18
+STATUS: 12 -17
+STATUS: 14 -16
+STATUS: 16 -16
+STATUS: 19 -15
+STATUS: 22 -14
+STATUS: 25 -14
+STATUS: 28 -13
+STATUS: 31 -13
+STATUS: 35 -13
+STATUS: 38 -12
+STATUS: 42 -12
+STATUS: 47 -12
+STATUS: 50 -11
+STATUS: 53 -11
+STATUS: 56 -11
+STATUS: 58 -11
+STATUS: 60 -11
+STATUS: 61 -11
+STATUS: 62 -11
+STATUS: 64 -11
+STATUS: 65 -11
+STATUS: 66 -11
+STATUS: 67 -11
+STATUS: 67 -10
+STATUS: 67  -9
+STATUS: 68 -10
+STATUS: 69 -11
+STATUS: 71 -12
+STATUS: 73 -13
+STATUS: 75 -15
+STATUS: 77 -16
+STATUS: 80 -17
+STATUS: 82 -18
+STATUS: 85 -19
+STATUS: 87 -20
+STATUS: 91 -21
+STATUS: 92 -22
+STATUS: 93 -23
+STATUS: 94 -24
+STATUS: 94 -25
+STATUS: 95 -25
+STATUS: 95 -26
+STATUS: 96 -26
+STATUS: 96 -27
+STATUS: 96 -26
+STATUS: 96 -25
+STATUS: 96 -23
+STATUS: 97 -19
+STATUS: 97 -15
+STATUS:100  -8
+STATUS:108   8
+STATUS:119  22
+STATUS:131  38
+STATUS:153  63
+STATUS:175  85
+STATUS:213 121
+STATUS:G0 [0.049884, 45.613025] set 10: point 11, [0.073059, 24.311351]
+STATUS:G0 [0.073277, 42.057383] set 10: point 15, [0.099626, 25.816651]
+STATUS:G0 [0.097783, 38.501742] set 10: point 15, [0.099626, 25.816651]
+STATUS:G0 [0.122290, 35.183143] set 10: point 18, [0.119551, 24.789551]
+STATUS:G0 [0.141227, 32.812715] set 10: point 24, [0.159401, 25.650051]
+STATUS:G0 [0.170189, 29.257074] set 10: point 27, [0.179327, 26.851751]
+STATUS:G0 [0.189126, 27.360731] set 10: point 29, [0.192610, 27.172451]
+STATUS:G0 [0.219203, 24.042133] set 10: point 33, [0.213563, 26.437051]
+STATUS:G0 [0.249279, 21.197619] set 10: point 37, [0.244239, 24.231151]
+STATUS:G0 [0.268216, 19.301277] set 10: point 41, [0.274916, 23.489751]
+STATUS:G0 [0.297178, 16.693807] set 10: point 44, [0.297924, 22.729051]
+STATUS:G0 [0.316115, 14.797465] set 8: point 46, [0.313262, 8.444051]
+STATUS:G0 [0.341736, 12.427037] set 8: point 50, [0.343939, 9.080851]
+STATUS:G0 [0.356217, 11.004780] set 8: point 52, [0.359277, 9.991951]
+STATUS:G0 [0.371812, 9.345481] set 8: point 53, [0.366947, 10.806751]
+STATUS:G0 [0.385179, 7.923224] set 8: point 55, [0.382285, 11.446051]
+STATUS:G0 [0.397433, 6.738011] set 8: point 56, [0.389954, 12.133851]
+STATUS:G0 [0.404116, 6.026882] set 6: point 58, [0.405293, -0.113149]
+STATUS:G0 [0.413028, 5.315754] set 6: point 58, [0.405293, -0.113149]
+STATUS:G0 [0.417484, 4.841668] set 6: point 58, [0.405293, -0.113149]
+STATUS:G0 [0.423053, 4.367583] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.425281, 4.130540] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.426395, 4.130540] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.426395, 4.249061] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.426395, 4.486104] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.426395, 4.604626] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.426952, 4.486104] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.437535, 3.182369] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.446446, 2.589762] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.455915, 1.997155] set 6: point 69, [0.457196, -3.612749]
+STATUS:G0 [0.474295, 0.456377] set 6: point 75, [0.473465, -3.613749]
+STATUS:G0 [0.484320, -0.136230] set 6: point 80, [0.487022, -2.815549]
+STATUS:G0 [0.491561, -0.847358] set 6: point 82, [0.492445, -2.839649]
+STATUS:G0 [0.500472, -1.439965] set 6: point 85, [0.500580, -2.894549]
+STATUS:G0 [0.507713, -2.151093] set 6: point 88, [0.508714, -2.953849]
+STATUS:G0 [0.515510, -2.980743] set 6: point 91, [0.516848, -2.587349]
+STATUS:G0 [0.523865, -3.810393] set 6: point 94, [0.524983, -2.671449]
+STATUS:G0 [0.528878, -4.284478] set 4: point 95, [0.527694, -5.244549]
+STATUS:G0 [0.537789, -5.469692] set 4: point 97, [0.535829, -5.809649]
+STATUS:G0 [0.545587, -6.773427] set 2: point 98, [0.543963, -7.667749]
+STATUS:G0 [0.549485, -7.840120] set 2: point 99, [0.552097, -7.650249]
+STATUS:G0 [0.557283, -9.262376] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.563410, -10.329069] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.567308, -11.395761] set 2: point 101, [0.568366, -8.707849]
+STATUS:G0 [0.571207, -13.173582] set 2: point 101, [0.568366, -8.707849]
+STATUS:G0 [0.573992, -14.477317] set 2: point 102, [0.576501, -8.695249]
+STATUS:G0 [0.575106, -15.425488] set 2: point 102, [0.576501, -8.695249]
+STATUS:G0 [0.575106, -16.373659] set 2: point 102, [0.576501, -8.695249]
+STATUS:G0 [0.575106, -17.203309] set 2: point 102, [0.576501, -8.695249]
+STATUS:G0 [0.575106, -18.032959] set 2: point 102, [0.576501, -8.695249]
+STATUS:G0 [0.573992, -18.981130] set 2: point 102, [0.576501, -8.695249]
+STATUS:G0 [0.572321, -19.810780] set 2: point 101, [0.568366, -8.707849]
+STATUS:G0 [0.571207, -20.640429] set 2: point 101, [0.568366, -8.707849]
+STATUS:G0 [0.569536, -21.233036] set 2: point 101, [0.568366, -8.707849]
+STATUS:G0 [0.567308, -21.825643] set 2: point 101, [0.568366, -8.707849]
+STATUS:G0 [0.564524, -22.299729] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.563410, -22.418250] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.561182, -22.773814] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.558954, -22.892336] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.556169, -23.010857] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.554498, -23.010857] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.552270, -23.010857] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.549485, -23.010857] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.547815, -22.892336] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.545587, -22.773814] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.545030, -22.773814] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.544473, -22.773814] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.543916, -22.773814] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.543916, -22.892336] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.543359, -23.247900] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.542802, -23.484942] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.541688, -23.603464] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.541131, -23.721985] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.540574, -23.840507] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.540017, -23.959028] set 0: point 97, [0.535829, -39.654749]
+STATUS:G0 [0.539460, -24.196071] set 0: point 97, [0.535829, -39.654749]
+STATUS:G0 [0.538903, -24.196071] set 0: point 97, [0.535829, -39.654749]
+STATUS:G0 [0.538346, -24.314592] set 0: point 97, [0.535829, -39.654749]
+STATUS:G0 [0.537789, -24.433114] set 0: point 97, [0.535829, -39.654749]
+STATUS:G0 [0.537232, -24.433114] set 0: point 97, [0.535829, -39.654749]
+STATUS:G0 [0.536675, -24.433114] set 0: point 97, [0.535829, -39.654749]
+STATUS:G0 [0.536118, -24.433114] set 0: point 97, [0.535829, -39.654749]
+STATUS:G0 [0.535561, -24.433114] set 0: point 97, [0.535829, -39.654749]
+STATUS:G0 [0.535561, -24.314592] set 0: point 97, [0.535829, -39.654749]
+STATUS:G0 [0.535561, -24.196071] set 0: point 97, [0.535829, -39.654749]
+STATUS:G0 [0.535561, -24.077549] set 0: point 97, [0.535829, -39.654749]
+STATUS:G0 [0.535561, -23.959028] set 0: point 97, [0.535829, -39.654749]
+STATUS:G0 [0.535561, -23.840507] set 0: point 97, [0.535829, -39.654749]
+STATUS:G0 [0.535561, -23.721985] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.535004, -23.721985] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.535004, -23.603464] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.535004, -23.484942] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.534447, -23.366421] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.533890, -23.010857] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.533333, -22.892336] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.532776, -22.536771] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.531662, -22.299729] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.531105, -22.181207] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.530548, -22.062686] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.530548, -21.944164] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.529992, -21.825643] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.529992, -21.707122] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.529435, -21.588600] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.529435, -21.470079] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.528878, -21.351558] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.528878, -21.233036] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.528321, -21.114515] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.528321, -20.995993] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.527764, -20.995993] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.527207, -20.758951] set 2: point 95, [0.527694, -7.882549]
+STATUS:G0 [0.526650, -20.640429] set 2: point 94, [0.524983, -7.889349]
+STATUS:G0 [0.526093, -20.521908] set 2: point 94, [0.524983, -7.889349]
+STATUS:G0 [0.525536, -20.521908] set 2: point 94, [0.524983, -7.889349]
+STATUS:G0 [0.525536, -20.640429] set 2: point 94, [0.524983, -7.889349]
+STATUS:G0 [0.524979, -20.640429] set 2: point 94, [0.524983, -7.889349]
+STATUS:G0 [0.523865, -20.284865] set 2: point 93, [0.522271, -7.895749]
+STATUS:G0 [0.522751, -19.810780] set 2: point 93, [0.522271, -7.895749]
+STATUS:G0 [0.521080, -19.099651] set 2: point 92, [0.519560, -7.901649]
+STATUS:G0 [0.519409, -18.270002] set 2: point 92, [0.519560, -7.901649]
+STATUS:G0 [0.516624, -17.321831] set 2: point 91, [0.516848, -7.907149]
+STATUS:G0 [0.512725, -16.018095] set 2: point 91, [0.516848, -7.907149]
+STATUS:G0 [0.508270, -14.477317] set 2: point 89, [0.511425, -7.732349]
+STATUS:G0 [0.501586, -12.580975] set 2: point 89, [0.511425, -7.732349]
+STATUS:G0 [0.493232, -10.092026] set 2: point 82, [0.492445, -7.049949]
+STATUS:G0 [0.485991, -8.432727] set 2: point 80, [0.487022, -7.065949]
+STATUS:G0 [0.475409, -6.417863] set 2: point 76, [0.476176, -7.092049]
+STATUS:G0 [0.465940, -4.877085] set 4: point 72, [0.465330, -5.263149]
+STATUS:G0 [0.460370, -4.047435] set 6: point 70, [0.459907, -3.610849]
+STATUS:G0 [0.456472, -3.691871] set 6: point 69, [0.457196, -3.612749]
+STATUS:G0 [0.451459, -2.980743] set 6: point 67, [0.451773, -3.619349]
+STATUS:G0 [0.450345, -2.980743] set 6: point 66, [0.449062, -3.624049]
+STATUS:G0 [0.449788, -2.980743] set 6: point 66, [0.449062, -3.624049]
+STATUS:G0 [0.448674, -3.217786] set 6: point 66, [0.449062, -3.624049]
+STATUS:G0 [0.447560, -3.454829] set 6: point 65, [0.446350, -3.629649]
+STATUS:G0 [0.447003, -3.691871] set 6: point 65, [0.446350, -3.629649]
+STATUS:G0 [0.446446, -4.047435] set 6: point 65, [0.446350, -3.629649]
+STATUS:G0 [0.445889, -4.284478] set 6: point 65, [0.446350, -3.629649]
+STATUS:G0 [0.445332, -4.758564] set 4: point 65, [0.446350, -5.287549]
+STATUS:G0 [0.444775, -4.995607] set 4: point 63, [0.443639, -5.286849]
+STATUS:G0 [0.444218, -5.232649] set 4: point 63, [0.443639, -5.286849]
+STATUS:G0 [0.443661, -5.706735] set 4: point 63, [0.443639, -5.286849]
+STATUS:G0 [0.443104, -5.943778] set 4: point 63, [0.443639, -5.286849]
+STATUS:G0 [0.441990, -6.417863] set 2: point 63, [0.443639, -7.124149]
+STATUS:G0 [0.441433, -6.654906] set 2: point 63, [0.443639, -7.124149]
+STATUS:G0 [0.440876, -7.010470] set 2: point 63, [0.443639, -7.124149]
+STATUS:G0 [0.440319, -7.603077] set 2: point 63, [0.443639, -7.124149]
+STATUS:G0 [0.439762, -7.958641] set 2: point 63, [0.443639, -7.124149]
+STATUS:G0 [0.438649, -8.432727] set 2: point 63, [0.443639, -7.124149]
+STATUS:G0 [0.436978, -9.262376] set 2: point 63, [0.443639, -7.124149]
+STATUS:G0 [0.436421, -9.617941] set 2: point 63, [0.443639, -7.124149]
+STATUS:G0 [0.435307, -10.092026] set 2: point 62, [0.435969, -6.675249]
+STATUS:G0 [0.433079, -10.803154] set 2: point 61, [0.428300, -6.934449]
+STATUS:G0 [0.432522, -11.277240] set 2: point 61, [0.428300, -6.934449]
+STATUS:G0 [0.431408, -11.632804] set 2: point 61, [0.428300, -6.934449]
+STATUS:G0 [0.430851, -11.988368] set 2: point 61, [0.428300, -6.934449]
+STATUS:G0 [0.428623, -12.699497] set 2: point 61, [0.428300, -6.934449]
+STATUS:G0 [0.428066, -12.936539] set 2: point 61, [0.428300, -6.934449]
+STATUS:G0 [0.427509, -13.173582] set 2: point 61, [0.428300, -6.934449]
+STATUS:G0 [0.427509, -13.529146] set 2: point 61, [0.428300, -6.934449]
+STATUS:G0 [0.426395, -13.884710] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.426395, -14.003232] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.425281, -14.121753] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.424724, -14.240275] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.424724, -14.358796] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.423610, -14.477317] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.423053, -14.477317] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.422496, -14.477317] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.421939, -14.358796] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.421382, -14.240275] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.420826, -14.240275] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.420269, -14.240275] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.419712, -14.240275] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.419155, -14.240275] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.418598, -14.240275] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.418041, -14.240275] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.417484, -14.240275] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.416927, -14.240275] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.416370, -14.358796] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.415813, -14.477317] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.415256, -14.595839] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.414699, -14.714360] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.412471, -14.832881] set 2: point 59, [0.412962, -6.942449]
+STATUS:G0 [0.411914, -14.951403] set 2: point 59, [0.412962, -6.942449]
+STATUS:G0 [0.410243, -15.188446] set 2: point 59, [0.412962, -6.942449]
+STATUS:G0 [0.408015, -15.425488] set 2: point 59, [0.412962, -6.942449]
+STATUS:G0 [0.405787, -15.662531] set 2: point 59, [0.412962, -6.942449]
+STATUS:G0 [0.403003, -15.899574] set 2: point 57, [0.397623, -6.832649]
+STATUS:G0 [0.401332, -16.136617] set 2: point 57, [0.397623, -6.832649]
+STATUS:G0 [0.399661, -16.255138] set 2: point 55, [0.382285, -7.647049]
+STATUS:G0 [0.397433, -16.492181] set 2: point 55, [0.382285, -7.647049]
+STATUS:G0 [0.395762, -16.729224] set 2: point 55, [0.382285, -7.647049]
+STATUS:G0 [0.393534, -16.966266] set 2: point 55, [0.382285, -7.647049]
+STATUS:G0 [0.391863, -17.203309] set 2: point 55, [0.382285, -7.647049]
+STATUS:G0 [0.390749, -17.321831] set 2: point 55, [0.382285, -7.647049]
+STATUS:G0 [0.389635, -17.558873] set 2: point 55, [0.382285, -7.647049]
+STATUS:G0 [0.388521, -17.914437] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.387407, -18.032959] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.386850, -18.151480] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.386293, -18.270002] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.385736, -18.388523] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.385179, -18.388523] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.386293, -18.388523] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.388521, -18.388523] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.390749, -18.388523] set 2: point 55, [0.382285, -7.647049]
+STATUS:G0 [0.392420, -18.388523] set 2: point 55, [0.382285, -7.647049]
+STATUS:G0 [0.395205, -18.388523] set 2: point 55, [0.382285, -7.647049]
+STATUS:G0 [0.398547, -18.270002] set 2: point 55, [0.382285, -7.647049]
+STATUS:G0 [0.400775, -18.270002] set 2: point 55, [0.382285, -7.647049]
+STATUS:G0 [0.405230, -18.270002] set 2: point 59, [0.412962, -6.942449]
+STATUS:G0 [0.409686, -18.032959] set 2: point 59, [0.412962, -6.942449]
+STATUS:G0 [0.414699, -18.032959] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.422496, -18.032959] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.428623, -17.914437] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.435864, -17.914437] set 2: point 63, [0.443639, -7.124149]
+STATUS:G0 [0.443104, -17.795916] set 2: point 63, [0.443639, -7.124149]
+STATUS:G0 [0.447560, -17.795916] set 2: point 65, [0.446350, -7.124149]
+STATUS:G0 [0.454801, -17.558873] set 2: point 68, [0.454484, -7.121249]
+STATUS:G0 [0.461484, -17.558873] set 2: point 70, [0.459907, -7.116849]
+STATUS:G0 [0.464826, -17.440352] set 2: point 72, [0.465330, -7.110549]
+STATUS:G0 [0.474852, -17.440352] set 2: point 75, [0.473465, -7.097449]
+STATUS:G0 [0.478193, -17.440352] set 2: point 77, [0.478888, -7.086249]
+STATUS:G0 [0.483206, -17.440352] set 2: point 78, [0.481599, -7.079949]
+STATUS:G0 [0.484877, -17.440352] set 2: point 79, [0.484311, -7.073149]
+STATUS:G0 [0.486548, -17.440352] set 2: point 80, [0.487022, -7.065949]
+STATUS:G0 [0.488219, -17.440352] set 2: point 80, [0.487022, -7.065949]
+STATUS:G0 [0.489333, -17.440352] set 2: point 81, [0.489734, -7.058149]
+STATUS:G0 [0.489333, -17.558873] set 2: point 81, [0.489734, -7.058149]
+STATUS:G0 [0.489333, -17.677395] set 2: point 81, [0.489734, -7.058149]
+STATUS:G0 [0.489890, -17.795916] set 2: point 81, [0.489734, -7.058149]
+STATUS:G0 [0.489890, -17.914437] set 2: point 81, [0.489734, -7.058149]
+STATUS:G0 [0.490447, -18.388523] set 2: point 81, [0.489734, -7.058149]
+STATUS:G0 [0.491561, -19.099651] set 2: point 81, [0.489734, -7.058149]
+STATUS:G0 [0.491561, -19.455215] set 2: point 81, [0.489734, -7.058149]
+STATUS:G0 [0.493232, -20.403386] set 2: point 89, [0.511425, -7.732349]
+STATUS:G0 [0.494345, -20.877472] set 2: point 89, [0.511425, -7.732349]
+STATUS:G0 [0.493788, -20.877472] set 2: point 89, [0.511425, -7.732349]
+STATUS:G0 [0.492118, -20.640429] set 2: point 89, [0.511425, -7.732349]
+STATUS:G0 [0.491004, -20.521908] set 2: point 81, [0.489734, -7.058149]
+STATUS:G0 [0.490447, -20.521908] set 2: point 81, [0.489734, -7.058149]
+STATUS:G0 [0.489890, -20.403386] set 2: point 81, [0.489734, -7.058149]
+STATUS:G0 [0.489333, -20.403386] set 2: point 81, [0.489734, -7.058149]
+STATUS:G0 [0.488776, -20.403386] set 2: point 80, [0.487022, -7.065949]
+STATUS:G0 [0.487662, -20.403386] set 2: point 80, [0.487022, -7.065949]
+STATUS:G0 [0.486548, -20.403386] set 2: point 80, [0.487022, -7.065949]
+STATUS:G0 [0.485434, -20.403386] set 2: point 79, [0.484311, -7.073149]
+STATUS:G0 [0.483763, -20.403386] set 2: point 79, [0.484311, -7.073149]
+STATUS:G0 [0.482092, -20.403386] set 2: point 78, [0.481599, -7.079949]
+STATUS:G0 [0.479864, -20.403386] set 2: point 77, [0.478888, -7.086249]
+STATUS:G0 [0.477079, -20.403386] set 2: point 76, [0.476176, -7.092049]
+STATUS:G0 [0.474295, -20.403386] set 2: point 75, [0.473465, -7.097449]
+STATUS:G0 [0.472624, -20.403386] set 2: point 74, [0.470753, -7.102249]
+STATUS:G0 [0.468725, -20.403386] set 2: point 73, [0.468042, -7.106649]
+STATUS:G0 [0.464269, -20.403386] set 2: point 71, [0.462619, -7.113949]
+STATUS:G0 [0.459813, -20.403386] set 2: point 70, [0.459907, -7.116849]
+STATUS:G0 [0.454801, -20.403386] set 2: point 68, [0.454484, -7.121249]
+STATUS:G0 [0.452573, -20.403386] set 2: point 67, [0.451773, -7.122749]
+STATUS:G0 [0.445889, -20.403386] set 2: point 65, [0.446350, -7.124149]
+STATUS:G0 [0.438649, -20.166344] set 2: point 63, [0.443639, -7.124149]
+STATUS:G0 [0.431408, -20.166344] set 2: point 61, [0.428300, -6.934449]
+STATUS:G0 [0.423610, -20.166344] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.419155, -20.166344] set 2: point 60, [0.420631, -7.066749]
+STATUS:G0 [0.411357, -20.166344] set 2: point 59, [0.412962, -6.942449]
+STATUS:G0 [0.395762, -19.929301] set 2: point 55, [0.382285, -7.647049]
+STATUS:G0 [0.386293, -19.929301] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.378496, -19.810780] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.371255, -19.810780] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.363458, -19.573737] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.356217, -19.336694] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.350647, -19.218173] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.345078, -18.981130] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.338394, -18.744087] set 2: point 49, [0.336270, -7.935849]
+STATUS:G0 [0.331710, -18.507044] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.325027, -18.388523] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.319457, -17.914437] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.312217, -17.795916] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.306090, -17.440352] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.299406, -17.203309] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.290495, -16.847745] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.284368, -16.610702] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.276570, -16.255138] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.268773, -16.018095] set 2: point 40, [0.267247, -7.648449]
+STATUS:G0 [0.262646, -15.899574] set 2: point 40, [0.267247, -7.648449]
+STATUS:G0 [0.253735, -15.662531] set 2: point 38, [0.251909, -7.545149]
+STATUS:G0 [0.244823, -15.544010] set 2: point 37, [0.244239, -7.554549]
+STATUS:G0 [0.239254, -15.306967] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.229228, -15.069924] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.222544, -14.951403] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.215861, -14.714360] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.206392, -14.477317] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.200823, -14.477317] set 2: point 29, [0.192610, -6.282449]
+STATUS:G0 [0.196367, -14.477317] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.191354, -14.477317] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.188012, -14.477317] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.184671, -14.477317] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.180772, -14.477317] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.178544, -14.714360] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.175759, -14.714360] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.174645, -14.714360] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.173531, -14.714360] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.172417, -14.832881] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.171860, -14.832881] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.170189, -14.832881] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.169632, -14.951403] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.167961, -15.069924] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.167404, -15.069924] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.166291, -15.188446] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.164620, -15.306967] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.163506, -15.425488] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.161278, -15.544010] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.159607, -15.662531] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.157379, -15.781053] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.154037, -16.018095] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.152366, -16.018095] set 2: point 22, [0.146118, -7.668149]
+STATUS:G0 [0.148468, -16.136617] set 2: point 22, [0.146118, -7.668149]
+STATUS:G0 [0.146797, -16.136617] set 2: point 22, [0.146118, -7.668149]
+STATUS:G0 [0.142341, -16.136617] set 2: point 21, [0.139476, -7.760249]
+STATUS:G0 [0.140113, -16.255138] set 2: point 21, [0.139476, -7.760249]
+STATUS:G0 [0.137328, -16.255138] set 2: point 21, [0.139476, -7.760249]
+STATUS:G0 [0.135100, -16.255138] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.131758, -16.255138] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.129531, -16.255138] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.127860, -16.255138] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.122290, -16.255138] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.120062, -16.255138] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.116163, -16.255138] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.110037, -16.255138] set 2: point 17, [0.112909, -8.422049]
+STATUS:G0 [0.106695, -16.255138] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.102239, -16.255138] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.093885, -16.255138] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.088872, -16.255138] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.084416, -16.255138] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.076062, -16.492181] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.072163, -16.492181] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.068264, -16.492181] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.063808, -16.610702] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.055454, -16.610702] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.051555, -16.610702] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.048213, -16.729224] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.044314, -16.729224] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.037631, -16.966266] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.034846, -16.966266] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.032061, -17.084788] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.029276, -17.084788] set 2: point 4, [0.026567, -7.471149]
+STATUS:G0 [0.027048, -17.084788] set 2: point 4, [0.026567, -7.471149]
+STATUS:G0 [0.022592, -17.321831] set 2: point 4, [0.026567, -7.471149]
+STATUS:G0 [0.020365, -17.440352] set 2: point 3, [0.019925, -7.426349]
+STATUS:G0 [0.019251, -17.440352] set 2: point 3, [0.019925, -7.426349]
+STATUS:G0 [0.018137, -17.440352] set 2: point 3, [0.019925, -7.426349]
+STATUS:G0 [0.016466, -17.558873] set 2: point 2, [0.013283, -7.445449]
+STATUS:G0 [0.015909, -17.558873] set 2: point 2, [0.013283, -7.445449]
+STATUS:G0 [0.015352, -17.677395] set 2: point 2, [0.013283, -7.445449]
+STATUS:G0 [0.014795, -17.677395] set 2: point 2, [0.013283, -7.445449]
+STATUS:G0 [0.014238, -17.795916] set 2: point 2, [0.013283, -7.445449]
+STATUS:G0 [0.013681, -17.914437] set 2: point 2, [0.013283, -7.445449]
+STATUS:G0 [0.014238, -18.032959] set 2: point 2, [0.013283, -7.445449]
+STATUS:G0 [0.015352, -18.151480] set 2: point 2, [0.013283, -7.445449]
+STATUS:G0 [0.016466, -18.151480] set 2: point 2, [0.013283, -7.445449]
+STATUS:G0 [0.017580, -18.270002] set 2: point 3, [0.019925, -7.426349]
+STATUS:G0 [0.018694, -18.388523] set 2: point 3, [0.019925, -7.426349]
+STATUS:G0 [0.019808, -18.388523] set 2: point 3, [0.019925, -7.426349]
+STATUS:G0 [0.020365, -18.507044] set 2: point 3, [0.019925, -7.426349]
+STATUS:G0 [0.022036, -18.625566] set 2: point 4, [0.026567, -7.471149]
+STATUS:G0 [0.024263, -18.744087] set 2: point 4, [0.026567, -7.471149]
+STATUS:G0 [0.024820, -18.744087] set 2: point 4, [0.026567, -7.471149]
+STATUS:G0 [0.025934, -18.862609] set 2: point 4, [0.026567, -7.471149]
+STATUS:G0 [0.027048, -18.862609] set 2: point 4, [0.026567, -7.471149]
+STATUS:G0 [0.028162, -18.981130] set 2: point 4, [0.026567, -7.471149]
+STATUS:G0 [0.028719, -18.981130] set 2: point 4, [0.026567, -7.471149]
+STATUS:G0 [0.029276, -18.981130] set 2: point 4, [0.026567, -7.471149]
+STATUS:G0 [0.029833, -18.981130] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.030947, -19.099651] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.031504, -19.099651] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.032061, -19.099651] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.032618, -19.099651] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.033732, -19.218173] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.034289, -19.218173] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.034846, -19.218173] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.035403, -19.218173] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.035960, -19.218173] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.036517, -19.218173] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.037074, -19.336694] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.037631, -19.336694] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.038188, -19.336694] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.038745, -19.336694] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.039302, -19.336694] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.039859, -19.336694] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.040416, -19.336694] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.041529, -19.455215] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.042643, -19.455215] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.043757, -19.455215] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.044871, -19.455215] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.045985, -19.573737] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.047099, -19.573737] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.048770, -19.573737] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.049327, -19.692258] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.050998, -19.692258] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.052112, -19.810780] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.053226, -19.810780] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.054340, -19.929301] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.056568, -19.929301] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.057125, -20.047822] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.059352, -20.047822] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.060466, -20.047822] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.062694, -20.166344] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.063808, -20.166344] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.065479, -20.284865] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.066593, -20.284865] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.068821, -20.284865] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.069935, -20.284865] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.071049, -20.403386] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.073834, -20.403386] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.074948, -20.521908] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.076619, -20.521908] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.079403, -20.640429] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.081074, -20.758951] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.084416, -20.877472] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.086087, -20.995993] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.087758, -20.995993] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.089429, -21.114515] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.092771, -21.233036] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.094442, -21.351558] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.095555, -21.351558] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.098340, -21.470079] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.100568, -21.470079] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.101682, -21.470079] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.102239, -21.470079] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.104467, -21.588600] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.105024, -21.588600] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.106138, -21.588600] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.106695, -21.588600] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.107252, -21.588600] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.108366, -21.707122] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.108923, -21.707122] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.109480, -21.707122] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.110037, -21.707122] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.110594, -21.707122] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.111151, -21.707122] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.112265, -21.825643] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.113378, -21.825643] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.113935, -21.825643] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.114492, -21.825643] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.115049, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.115606, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.116163, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.116720, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.117277, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.118391, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.120062, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.120619, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.121733, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.122847, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.123404, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.124518, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.125632, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.126746, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.127860, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.129531, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.130645, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.132315, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.133986, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.135657, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.137328, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.139556, -21.825643] set 2: point 18, [0.119551, -8.461049]
+STATUS:G0 [0.141227, -21.825643] set 2: point 21, [0.139476, -7.760249]
+STATUS:G0 [0.144569, -21.825643] set 2: point 21, [0.139476, -7.760249]
+STATUS:G0 [0.146240, -21.825643] set 2: point 21, [0.139476, -7.760249]
+STATUS:G0 [0.147354, -21.825643] set 2: point 22, [0.146118, -7.668149]
+STATUS:G0 [0.148468, -21.825643] set 2: point 22, [0.146118, -7.668149]
+STATUS:G0 [0.149581, -21.825643] set 2: point 22, [0.146118, -7.668149]
+STATUS:G0 [0.150695, -21.825643] set 2: point 22, [0.146118, -7.668149]
+STATUS:G0 [0.151252, -21.825643] set 2: point 22, [0.146118, -7.668149]
+STATUS:G0 [0.152366, -21.825643] set 2: point 22, [0.146118, -7.668149]
+STATUS:G0 [0.154594, -21.825643] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.155708, -21.825643] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.156822, -21.707122] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.157379, -21.707122] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.158493, -21.707122] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.159050, -21.707122] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.160164, -21.707122] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.160721, -21.707122] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.161278, -21.707122] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.161835, -21.588600] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.162392, -21.588600] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.162949, -21.588600] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.163506, -21.588600] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.164063, -21.588600] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.164620, -21.588600] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.165177, -21.470079] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.165734, -21.470079] set 2: point 24, [0.159401, -7.596849]
+STATUS:G0 [0.166291, -21.351558] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.166848, -21.351558] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.167404, -21.233036] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.167961, -21.233036] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.168518, -21.114515] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.169075, -21.114515] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.169632, -20.995993] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.170189, -20.995993] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.170746, -20.877472] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.171303, -20.758951] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.171860, -20.758951] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.172417, -20.640429] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.172974, -20.521908] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.173531, -20.521908] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.174088, -20.403386] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.174088, -20.284865] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.174645, -20.284865] set 2: point 25, [0.166043, -7.529249]
+STATUS:G0 [0.175202, -20.166344] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.175759, -20.166344] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.176316, -20.166344] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.176316, -20.047822] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.176873, -20.047822] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.177987, -20.047822] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.178544, -20.047822] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.179658, -20.047822] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.180215, -20.047822] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.181329, -20.047822] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.181886, -20.047822] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.183000, -20.047822] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.183557, -20.047822] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.184671, -20.047822] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.185784, -20.047822] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.186898, -19.929301] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.187455, -19.929301] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.188569, -19.929301] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.189683, -19.810780] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.190240, -19.810780] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.191354, -19.692258] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.191911, -19.692258] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.192468, -19.692258] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.193582, -19.573737] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.193582, -19.455215] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.194139, -19.455215] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.194696, -19.336694] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.195253, -19.336694] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.195810, -19.218173] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.196367, -19.218173] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.196924, -19.099651] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.197481, -19.099651] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.198038, -18.981130] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.198595, -18.981130] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.199152, -18.862609] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.199709, -18.744087] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.200266, -18.744087] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.200823, -18.744087] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.201380, -18.744087] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.201937, -18.744087] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.202494, -18.744087] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.203051, -18.744087] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.203608, -18.862609] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.204164, -18.862609] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.204164, -18.981130] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.204721, -18.981130] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.205278, -18.981130] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.205835, -18.981130] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.205835, -19.099651] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.206949, -19.099651] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.207506, -19.099651] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.208063, -19.218173] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.208620, -19.218173] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209177, -19.336694] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -19.336694] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.210848, -19.455215] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.211405, -19.455215] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.211962, -19.573737] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.212519, -19.573737] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.213076, -19.692258] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.212519, -19.692258] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.211405, -19.692258] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.210848, -19.692258] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.210291, -19.692258] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.210291, -19.573737] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -19.573737] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209177, -19.573737] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.208620, -19.573737] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.208063, -19.455215] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.207506, -19.455215] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.206949, -19.455215] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.206392, -19.336694] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.205835, -19.336694] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.205278, -19.218173] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.204721, -19.218173] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.204164, -19.099651] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.203608, -19.099651] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.203051, -19.099651] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.203051, -18.981130] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.202494, -18.981130] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.201937, -18.981130] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.201937, -18.862609] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.201380, -18.862609] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.200823, -18.744087] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.200266, -18.744087] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.200266, -18.625566] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.199709, -18.625566] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.199152, -18.625566] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.199152, -18.507044] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.198595, -18.507044] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.199152, -18.507044] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.199152, -18.625566] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.199709, -18.744087] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.200266, -18.862609] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.200823, -18.981130] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.201380, -19.099651] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.201937, -19.218173] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.202494, -19.218173] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.202494, -19.336694] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.203051, -19.336694] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.203051, -19.455215] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.203608, -19.455215] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.204164, -19.455215] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.204164, -19.573737] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.204721, -19.573737] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.205278, -19.692258] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.205835, -19.692258] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.206392, -19.692258] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.206949, -19.810780] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.207506, -19.810780] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.208063, -19.810780] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.208620, -19.929301] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209177, -19.929301] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -19.929301] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -20.047822] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -20.166344] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -20.284865] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -20.403386] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -20.521908] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -20.640429] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -20.758951] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -20.877472] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -20.995993] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -21.233036] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -21.351558] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -21.470079] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -21.588600] set 2: point 34, [0.221232, -6.638749]
+STATUS:G0 [0.209734, -21.707122] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.209734, -21.825643] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.210291, -21.825643] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.210291, -21.944164] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.210291, -22.062686] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.210291, -22.181207] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.210291, -22.299729] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.210848, -22.299729] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.210848, -22.418250] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.211405, -22.418250] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.211405, -22.536771] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.211962, -22.536771] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.213076, -22.536771] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.214190, -22.536771] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.216418, -22.536771] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.218089, -22.536771] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.221431, -22.536771] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.223101, -22.536771] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.227000, -22.536771] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.229228, -22.536771] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.231456, -22.536771] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.237026, -22.655293] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.239811, -22.655293] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.245380, -22.773814] set 2: point 37, [0.244239, -7.554549]
+STATUS:G0 [0.247608, -22.892336] set 2: point 37, [0.244239, -7.554549]
+STATUS:G0 [0.250393, -22.892336] set 2: point 38, [0.251909, -7.545149]
+STATUS:G0 [0.254849, -23.010857] set 2: point 38, [0.251909, -7.545149]
+STATUS:G0 [0.257077, -23.010857] set 2: point 38, [0.251909, -7.545149]
+STATUS:G0 [0.260418, -23.247900] set 2: point 40, [0.267247, -7.648449]
+STATUS:G0 [0.262646, -23.247900] set 2: point 40, [0.267247, -7.648449]
+STATUS:G0 [0.264874, -23.247900] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.265431, -23.247900] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.268216, -23.247900] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.269330, -23.247900] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.269887, -23.247900] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.270444, -23.247900] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.271001, -23.247900] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.272115, -23.247900] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.272672, -23.247900] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.273786, -23.247900] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.274343, -23.366421] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.275457, -23.366421] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.277127, -23.366421] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.278241, -23.366421] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.279355, -23.366421] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.279912, -23.366421] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.281583, -23.484942] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.282697, -23.484942] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.284368, -23.484942] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.286596, -23.603464] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.288267, -23.603464] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.289938, -23.603464] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.292166, -23.721985] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.294393, -23.721985] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.295507, -23.721985] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.297735, -23.840507] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.299406, -23.840507] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.301634, -23.959028] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.302748, -23.959028] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.305533, -23.959028] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.307761, -24.077549] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.308875, -24.077549] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.311103, -24.077549] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.312217, -24.196071] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.317229, -24.196071] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.320014, -24.314592] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.321128, -24.314592] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.322799, -24.314592] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.325584, -24.433114] set 0: point 47, [0.320931, -40.400549]
+STATUS:G0 [0.327255, -24.433114] set 0: point 48, [0.328601, -40.421449]
+STATUS:G0 [0.329483, -24.433114] set 0: point 49, [0.336270, -40.322249]
+STATUS:G0 [0.331153, -24.433114] set 0: point 49, [0.336270, -40.322249]
+STATUS:G0 [0.333381, -24.551635] set 0: point 49, [0.336270, -40.322249]
+STATUS:G0 [0.335609, -24.551635] set 0: point 49, [0.336270, -40.322249]
+STATUS:G0 [0.337280, -24.551635] set 0: point 50, [0.343939, -40.238749]
+STATUS:G0 [0.339508, -24.551635] set 0: point 50, [0.343939, -40.238749]
+STATUS:G0 [0.341179, -24.551635] set 0: point 50, [0.343939, -40.238749]
+STATUS:G0 [0.342850, -24.551635] set 0: point 50, [0.343939, -40.238749]
+STATUS:G0 [0.344521, -24.551635] set 0: point 50, [0.343939, -40.238749]
+STATUS:G0 [0.345635, -24.551635] set 0: point 50, [0.343939, -40.238749]
+STATUS:G0 [0.347306, -24.551635] set 0: point 50, [0.343939, -40.238749]
+STATUS:G0 [0.348976, -24.551635] set 0: point 50, [0.343939, -40.238749]
+STATUS:G0 [0.351204, -24.670156] set 0: point 50, [0.343939, -40.238749]
+STATUS:G0 [0.352875, -24.670156] set 0: point 52, [0.359277, -40.262849]
+STATUS:G0 [0.353432, -24.670156] set 0: point 52, [0.359277, -40.262849]
+STATUS:G0 [0.355103, -24.670156] set 0: point 52, [0.359277, -40.262849]
+STATUS:G0 [0.356774, -24.670156] set 0: point 52, [0.359277, -40.262849]
+STATUS:G0 [0.357331, -24.670156] set 0: point 52, [0.359277, -40.262849]
+STATUS:G0 [0.359002, -24.670156] set 0: point 52, [0.359277, -40.262849]
+STATUS:G0 [0.359559, -24.670156] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.360116, -24.670156] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.360673, -24.788678] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.361230, -24.788678] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.361787, -24.788678] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.362344, -24.788678] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.362901, -24.788678] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.363458, -24.788678] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.364015, -24.788678] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.364572, -24.788678] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.364572, -24.907199] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.364015, -24.907199] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.363458, -24.907199] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.362344, -25.025720] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.361230, -25.025720] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.360116, -25.025720] set 0: point 53, [0.366947, -40.178949]
+STATUS:G0 [0.359002, -25.025720] set 0: point 52, [0.359277, -40.262849]
+STATUS:G0 [0.357331, -25.025720] set 0: point 52, [0.359277, -40.262849]
+STATUS:G0 [0.355660, -25.025720] set 0: point 52, [0.359277, -40.262849]
+STATUS:G0 [0.351204, -25.025720] set 0: point 50, [0.343939, -40.238749]
+STATUS:G0 [0.348976, -24.907199] set 0: point 50, [0.343939, -40.238749]
+STATUS:G0 [0.344521, -24.788678] set 0: point 50, [0.343939, -40.238749]
+STATUS:G0 [0.339508, -24.670156] set 0: point 50, [0.343939, -40.238749]
+STATUS:G0 [0.335609, -24.433114] set 0: point 49, [0.336270, -40.322249]
+STATUS:G0 [0.331710, -24.314592] set 0: point 49, [0.336270, -40.322249]
+STATUS:G0 [0.327255, -24.314592] set 0: point 48, [0.328601, -40.421449]
+STATUS:G0 [0.323913, -24.196071] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.320014, -24.196071] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.317229, -24.077549] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.313330, -24.077549] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.312217, -24.077549] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.311660, -24.077549] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.311103, -24.077549] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.311103, -24.196071] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.310546, -24.196071] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.310546, -24.314592] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.309989, -24.314592] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.309432, -24.314592] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.308875, -24.314592] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.308875, -24.433114] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.308318, -24.433114] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.307761, -24.433114] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.307204, -24.433114] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.307204, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.306647, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.306090, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.305533, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.304976, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.304419, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.303862, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.303305, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.302748, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.302191, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.301634, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.301077, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.300520, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.299963, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.299406, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.298849, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.298292, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.297735, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.297178, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.296621, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.296064, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.295507, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.294950, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.294393, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.293837, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.293280, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.292723, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.292166, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.291609, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.291052, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.290495, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.289938, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.289381, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.288824, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.288267, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.287710, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.287153, -24.670156] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.286596, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.286039, -24.551635] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.286039, -24.433114] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.286039, -24.314592] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.285482, -24.196071] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.285482, -24.077549] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.285482, -23.840507] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.285482, -23.721985] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.285482, -23.484942] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.285482, -23.129378] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.285482, -22.892336] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.285482, -22.536771] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.285482, -22.299729] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.285482, -21.944164] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.285482, -21.351558] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.285482, -20.995993] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.286039, -20.521908] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.286039, -20.166344] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.286596, -19.336694] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.287153, -18.862609] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.287710, -18.388523] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.288267, -17.914437] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.288824, -16.966266] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.289381, -16.492181] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.289938, -15.425488] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.290495, -14.951403] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.290495, -13.884710] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.290495, -13.410625] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.291052, -13.055061] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.291052, -12.106890] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.291052, -11.751325] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.291052, -11.158719] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.291052, -10.684633] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.291052, -10.447590] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.291052, -9.854983] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.291052, -9.617941] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.291052, -9.262376] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.291052, -9.143855] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.291052, -8.906812] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.291052, -8.788291] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.291052, -8.669769] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.291609, -8.669769] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.292166, -8.669769] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.293280, -8.669769] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.293837, -8.788291] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.294393, -8.788291] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.295507, -8.788291] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.296064, -8.906812] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.296621, -8.906812] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.297178, -8.906812] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.297735, -8.906812] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.298292, -9.025334] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.298849, -9.025334] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.298292, -9.025334] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.297735, -9.025334] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.297178, -9.025334] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.296621, -8.906812] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.296064, -8.906812] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.295507, -8.906812] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.294950, -8.788291] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.294393, -8.788291] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.293837, -8.788291] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.293280, -8.669769] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.292723, -8.669769] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.292166, -8.669769] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.291609, -8.669769] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.291052, -8.669769] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.290495, -8.669769] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.289938, -8.669769] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.290495, -8.669769] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.291609, -8.788291] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.292166, -8.788291] set 2: point 43, [0.290255, -7.684749]
+STATUS:G0 [0.292723, -8.906812] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.293280, -8.906812] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.293837, -9.025334] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.294950, -9.025334] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.295507, -9.025334] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.296064, -9.143855] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.296621, -9.143855] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.297178, -9.143855] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.297178, -9.262376] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.297735, -9.262376] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.298292, -9.262376] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.298849, -9.380898] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.299406, -9.380898] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.299963, -9.380898] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.299963, -9.499419] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.300520, -9.499419] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.301077, -9.499419] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.301634, -9.499419] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.302191, -9.499419] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.302748, -9.499419] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.302748, -9.617941] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.303862, -9.617941] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.304419, -9.617941] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.304976, -9.617941] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.306090, -9.736462] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.306647, -9.736462] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.307204, -9.736462] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.307761, -9.736462] set 2: point 45, [0.305593, -7.694049]
+STATUS:G0 [0.308875, -9.736462] set 2: point 45, [0.305593, -7.694049]
+STATUS:G0 [0.309432, -9.736462] set 2: point 45, [0.305593, -7.694049]
+STATUS:G0 [0.309989, -9.736462] set 2: point 46, [0.313262, -7.632949]
+STATUS:G0 [0.310546, -9.736462] set 2: point 46, [0.313262, -7.632949]
+STATUS:G0 [0.311103, -9.736462] set 2: point 46, [0.313262, -7.632949]
+STATUS:G0 [0.312217, -9.736462] set 2: point 46, [0.313262, -7.632949]
+STATUS:G0 [0.313330, -9.736462] set 2: point 46, [0.313262, -7.632949]
+STATUS:G0 [0.313887, -9.736462] set 2: point 46, [0.313262, -7.632949]
+STATUS:G0 [0.314444, -9.854983] set 2: point 46, [0.313262, -7.632949]
+STATUS:G0 [0.315558, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.316672, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.317229, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.317786, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.318343, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.318900, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.319457, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.320014, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.320571, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.321128, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.321685, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.322242, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.322799, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.323356, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.323913, -9.854983] set 2: point 47, [0.320931, -7.943549]
+STATUS:G0 [0.324470, -9.854983] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.325027, -9.854983] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.325584, -9.854983] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.326141, -9.854983] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.326698, -9.973505] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.327255, -9.973505] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.328369, -9.973505] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.330040, -9.973505] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.331153, -10.092026] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.331710, -10.092026] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.332267, -10.092026] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.333381, -10.092026] set 2: point 49, [0.336270, -7.935849]
+STATUS:G0 [0.334495, -10.210547] set 2: point 49, [0.336270, -7.935849]
+STATUS:G0 [0.335609, -10.210547] set 2: point 49, [0.336270, -7.935849]
+STATUS:G0 [0.336166, -10.210547] set 2: point 49, [0.336270, -7.935849]
+STATUS:G0 [0.337280, -10.210547] set 2: point 49, [0.336270, -7.935849]
+STATUS:G0 [0.337837, -10.329069] set 2: point 49, [0.336270, -7.935849]
+STATUS:G0 [0.338951, -10.329069] set 2: point 49, [0.336270, -7.935849]
+STATUS:G0 [0.339508, -10.329069] set 2: point 49, [0.336270, -7.935849]
+STATUS:G0 [0.340065, -10.329069] set 2: point 49, [0.336270, -7.935849]
+STATUS:G0 [0.340622, -10.329069] set 2: point 50, [0.343939, -7.874249]
+STATUS:G0 [0.341736, -10.447590] set 2: point 50, [0.343939, -7.874249]
+STATUS:G0 [0.342293, -10.447590] set 2: point 50, [0.343939, -7.874249]
+STATUS:G0 [0.342850, -10.447590] set 2: point 50, [0.343939, -7.874249]
+STATUS:G0 [0.343407, -10.447590] set 2: point 50, [0.343939, -7.874249]
+STATUS:G0 [0.343964, -10.447590] set 2: point 50, [0.343939, -7.874249]
+STATUS:G0 [0.344521, -10.447590] set 2: point 50, [0.343939, -7.874249]
+STATUS:G0 [0.345078, -10.566112] set 2: point 50, [0.343939, -7.874249]
+STATUS:G0 [0.345635, -10.566112] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.346192, -10.566112] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.346749, -10.566112] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.347306, -10.566112] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.346749, -10.566112] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.346192, -10.566112] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.345635, -10.566112] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.345078, -10.566112] set 2: point 50, [0.343939, -7.874249]
+STATUS:G0 [0.344521, -10.566112] set 2: point 50, [0.343939, -7.874249]
+STATUS:G0 [0.343964, -10.566112] set 2: point 50, [0.343939, -7.874249]
+STATUS:G0 [0.343407, -10.566112] set 2: point 50, [0.343939, -7.874249]
+STATUS:G0 [0.343407, -10.447590] set 2: point 50, [0.343939, -7.874249]
+STATUS:G0 [0.344521, -10.447590] set 2: point 50, [0.343939, -7.874249]
+STATUS:G0 [0.346192, -10.210547] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.347306, -10.092026] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.348976, -9.973505] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.350647, -9.854983] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.351204, -9.736462] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.353432, -9.617941] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.355660, -9.380898] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.356217, -9.262376] set 2: point 52, [0.359277, -7.994149]
+STATUS:G0 [0.358445, -9.025334] set 2: point 52, [0.359277, -7.994149]
+STATUS:G0 [0.359559, -8.906812] set 2: point 52, [0.359277, -7.994149]
+STATUS:G0 [0.361787, -8.551248] set 2: point 52, [0.359277, -7.994149]
+STATUS:G0 [0.364572, -8.195684] set 4: point 53, [0.366947, -8.404049]
+STATUS:G0 [0.365686, -7.958641] set 4: point 53, [0.366947, -8.404049]
+STATUS:G0 [0.368470, -7.484556] set 4: point 53, [0.366947, -8.404049]
+STATUS:G0 [0.369584, -7.247513] set 2: point 54, [0.374616, -7.404749]
+STATUS:G0 [0.372369, -6.654906] set 4: point 54, [0.374616, -5.952649]
+STATUS:G0 [0.373483, -6.417863] set 4: point 54, [0.374616, -5.952649]
+STATUS:G0 [0.377382, -5.706735] set 4: point 54, [0.374616, -5.952649]
+STATUS:G0 [0.379053, -5.351171] set 4: point 54, [0.374616, -5.952649]
+STATUS:G0 [0.383509, -4.640042] set 6: point 56, [0.389954, -5.705149]
+STATUS:G0 [0.385179, -4.284478] set 6: point 56, [0.389954, -5.705149]
+STATUS:G0 [0.386850, -3.928914] set 6: point 56, [0.389954, -5.705149]
+STATUS:G0 [0.390749, -3.454829] set 6: point 57, [0.397623, -3.285149]
+STATUS:G0 [0.392977, -3.099264] set 6: point 57, [0.397623, -3.285149]
+STATUS:G0 [0.397433, -2.388136] set 6: point 57, [0.397623, -3.285149]
+STATUS:G0 [0.399104, -2.032572] set 6: point 57, [0.397623, -3.285149]
+STATUS:G0 [0.401889, -1.677008] set 6: point 58, [0.405293, -0.113149]
+STATUS:G0 [0.408015, -0.847358] set 6: point 58, [0.405293, -0.113149]
+STATUS:G0 [0.410243, -0.373273] set 6: point 58, [0.405293, -0.113149]
+STATUS:G0 [0.413028, -0.136230] set 6: point 58, [0.405293, -0.113149]
+STATUS:G0 [0.415813, 0.219334] set 6: point 58, [0.405293, -0.113149]
+STATUS:G0 [0.421939, 1.048984] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.424724, 1.523070] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.427509, 1.760112] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.433636, 2.589762] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.436978, 3.063848] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.439206, 3.537933] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.441990, 3.893497] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.445889, 4.723147] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.447003, 4.960190] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.449231, 5.434275] set 8: point 66, [0.449062, 13.073451]
+STATUS:G0 [0.450345, 5.671318] set 8: point 66, [0.449062, 13.073451]
+STATUS:G0 [0.450902, 5.789839] set 8: point 66, [0.449062, 13.073451]
+STATUS:G0 [0.450345, 5.789839] set 8: point 66, [0.449062, 13.073451]
+STATUS:G0 [0.449788, 5.789839] set 8: point 66, [0.449062, 13.073451]
+STATUS:G0 [0.449231, 5.789839] set 8: point 66, [0.449062, 13.073451]
+STATUS:G0 [0.449231, 5.908361] set 8: point 66, [0.449062, 13.073451]
+STATUS:G0 [0.449231, 6.263925] set 8: point 66, [0.449062, 13.073451]
+STATUS:G0 [0.449231, 6.500968] set 8: point 66, [0.449062, 13.073451]
+STATUS:G0 [0.449231, 7.212096] set 8: point 66, [0.449062, 13.073451]
+STATUS:G0 [0.449231, 7.804703] set 8: point 66, [0.449062, 13.073451]
+STATUS:G0 [0.449231, 8.397310] set 8: point 66, [0.449062, 13.073451]
+STATUS:G0 [0.448117, 10.767738] set 8: point 66, [0.449062, 13.073451]
+STATUS:G0 [0.447560, 11.715909] set 8: point 65, [0.446350, 13.054651]
+STATUS:G0 [0.445889, 12.782601] set 8: point 65, [0.446350, 13.054651]
+STATUS:G0 [0.444775, 13.849294] set 8: point 63, [0.443639, 13.040551]
+STATUS:G0 [0.443104, 14.797465] set 8: point 62, [0.435969, 15.304051]
+STATUS:G0 [0.441433, 15.745636] set 8: point 62, [0.435969, 15.304051]
+STATUS:G0 [0.440319, 16.575285] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.438649, 17.404935] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.436978, 18.116063] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.436421, 18.590149] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.434193, 19.301277] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.432522, 19.893884] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.431965, 20.367970] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.430851, 20.723534] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.430294, 21.079098] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.429737, 21.553184] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.429737, 21.671705] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.429180, 21.790226] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.429180, 21.908748] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.429180, 22.027269] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.429180, 22.145791] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.429180, 22.264312] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.429180, 22.619876] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.429180, 22.975440] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.429180, 23.212483] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.429180, 23.449526] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.429180, 23.923611] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.429180, 24.160654] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.429180, 24.516218] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.429737, 24.753261] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.430294, 25.227347] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.430851, 25.464389] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.431408, 25.701432] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.431965, 26.175518] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.432522, 26.412560] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.433636, 26.886646] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.434193, 27.123689] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.434750, 27.360731] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.435307, 27.597774] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.435307, 27.716296] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.435864, 27.834817] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.435864, 27.953338] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.435864, 28.071860] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.436421, 28.071860] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.436421, 27.953338] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.435864, 27.716296] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.435864, 27.360731] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.435307, 27.242210] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.435307, 26.768125] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.434750, 26.412560] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.433636, 25.938475] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.433636, 25.701432] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.432522, 25.345868] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.431965, 24.990304] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.431965, 24.753261] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.431408, 24.516218] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.430851, 24.279175] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.430851, 24.160654] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.430851, 23.923611] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.430851, 23.805090] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.430851, 23.686569] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.430851, 23.568047] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.430851, 23.449526] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.430851, 23.331004] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.430851, 23.212483] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.430851, 23.093962] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.430851, 22.975440] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.430851, 22.856919] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.430851, 22.738397] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.430851, 22.619876] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.431408, 22.619876] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.431408, 22.501355] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.431965, 22.501355] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.431965, 22.382833] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.431965, 22.264312] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.432522, 22.264312] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.432522, 22.145791] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.433079, 22.145791] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.433636, 22.145791] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.434193, 22.027269] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.434750, 22.027269] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.435307, 21.908748] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.435864, 21.790226] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.436978, 21.671705] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.438092, 21.553184] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.438649, 21.553184] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.439206, 21.434662] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.439762, 21.434662] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.440319, 21.316141] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.439762, 21.316141] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.439206, 21.316141] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.438649, 21.316141] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.438092, 21.197619] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.437535, 21.197619] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.436978, 21.197619] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.436421, 21.197619] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.435864, 21.197619] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.435307, 21.197619] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.435307, 21.079098] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.435307, 20.960577] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.435307, 20.842055] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.435307, 20.723534] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.435864, 20.723534] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.436421, 20.723534] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.436421, 20.605013] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.436978, 20.605013] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.437535, 20.605013] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.438092, 20.605013] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.438649, 20.605013] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.439206, 20.605013] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.439206, 20.723534] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.439206, 20.842055] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.439206, 21.079098] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.439206, 21.434662] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.439206, 21.908748] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.439206, 22.382833] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.439206, 23.093962] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.439206, 23.923611] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.439206, 24.753261] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.438649, 25.701432] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.438092, 26.649603] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.436978, 27.834817] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.436978, 28.308903] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.435864, 29.612638] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.434193, 30.916373] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.433079, 32.220108] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.431965, 32.931236] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.430851, 34.353493] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.428066, 36.131314] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.427509, 36.842442] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.425838, 38.501742] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.423053, 39.923998] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.422496, 40.635126] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.419712, 41.938862] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.418598, 42.531469] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.418041, 43.598161] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.416927, 43.953725] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.416370, 44.427811] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 44.664854] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 45.020418] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 44.901896] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 44.783375] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 44.664854] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 44.546332] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 44.309289] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 44.072247] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 43.835204] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 43.716682] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 43.242597] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 42.887033] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 42.649990] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 42.175904] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 41.938862] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415256, 41.346255] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415813, 40.753648] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415813, 40.516605] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.416370, 40.042520] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.416370, 39.805477] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.417484, 39.331391] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.417484, 39.094348] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.418041, 38.620263] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.418598, 38.501742] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.419712, 37.909135] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.419712, 37.790613] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.420269, 37.553570] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.420826, 37.435049] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.420826, 37.316528] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.421382, 37.079485] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.421939, 36.960964] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.421939, 36.842442] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.422496, 36.723921] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.422496, 36.605399] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.423053, 36.605399] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.423053, 36.486878] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.423053, 36.368357] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.423610, 36.249835] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.423610, 36.131314] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.424167, 36.012792] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.424167, 35.894271] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.424724, 35.775750] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.424724, 35.657228] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.425281, 35.420186] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.425838, 35.301664] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.426395, 35.064621] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.426952, 34.827579] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.427509, 34.590536] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.429180, 33.997929] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.430294, 33.760886] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.431965, 33.405322] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.433079, 33.049758] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.434750, 32.694194] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.436421, 32.338630] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.438092, 31.864544] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.441990, 31.034894] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.443661, 30.560809] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.445889, 30.086723] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.448674, 29.494116] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.451459, 28.901509] set 10: point 67, [0.451773, 17.869451]
+STATUS:G0 [0.453130, 28.427424] set 10: point 68, [0.454484, 17.882351]
+STATUS:G0 [0.456472, 27.834817] set 10: point 69, [0.457196, 17.896551]
+STATUS:G0 [0.459256, 27.242210] set 10: point 70, [0.459907, 17.911951]
+STATUS:G0 [0.463712, 26.412560] set 10: point 72, [0.465330, 17.946351]
+STATUS:G0 [0.465940, 25.938475] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.468168, 25.701432] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.470953, 25.227347] set 10: point 74, [0.470753, 17.984351]
+STATUS:G0 [0.472624, 24.990304] set 10: point 75, [0.473465, 18.003951]
+STATUS:G0 [0.473181, 24.871782] set 10: point 75, [0.473465, 18.003951]
+STATUS:G0 [0.473738, 24.753261] set 10: point 75, [0.473465, 18.003951]
+STATUS:G0 [0.473181, 24.634740] set 10: point 75, [0.473465, 18.003951]
+STATUS:G0 [0.472624, 24.634740] set 10: point 75, [0.473465, 18.003951]
+STATUS:G0 [0.472067, 24.634740] set 10: point 75, [0.473465, 18.003951]
+STATUS:G0 [0.470953, 24.516218] set 10: point 74, [0.470753, 17.984351]
+STATUS:G0 [0.469839, 24.397697] set 10: point 74, [0.470753, 17.984351]
+STATUS:G0 [0.468725, 24.397697] set 10: point 74, [0.470753, 17.984351]
+STATUS:G0 [0.467611, 24.279175] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.465940, 24.160654] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.464269, 24.042133] set 10: point 72, [0.465330, 17.946351]
+STATUS:G0 [0.463155, 24.042133] set 10: point 72, [0.465330, 17.946351]
+STATUS:G0 [0.461484, 23.923611] set 10: point 71, [0.462619, 17.928551]
+STATUS:G0 [0.460370, 23.805090] set 10: point 70, [0.459907, 17.911951]
+STATUS:G0 [0.458699, 23.686569] set 10: point 70, [0.459907, 17.911951]
+STATUS:G0 [0.457029, 23.568047] set 10: point 69, [0.457196, 17.896551]
+STATUS:G0 [0.455358, 23.449526] set 10: point 69, [0.457196, 17.896551]
+STATUS:G0 [0.453687, 23.331004] set 10: point 68, [0.454484, 17.882351]
+STATUS:G0 [0.452016, 23.212483] set 10: point 67, [0.451773, 17.869451]
+STATUS:G0 [0.450902, 23.212483] set 10: point 67, [0.451773, 17.869451]
+STATUS:G0 [0.449231, 22.975440] set 10: point 66, [0.449062, 17.857851]
+STATUS:G0 [0.448117, 22.975440] set 10: point 66, [0.449062, 17.857851]
+STATUS:G0 [0.447003, 22.856919] set 10: point 65, [0.446350, 17.847451]
+STATUS:G0 [0.446446, 22.738397] set 10: point 65, [0.446350, 17.847451]
+STATUS:G0 [0.445332, 22.738397] set 10: point 65, [0.446350, 17.847451]
+STATUS:G0 [0.444775, 22.619876] set 10: point 65, [0.446350, 17.847451]
+STATUS:G0 [0.444218, 22.619876] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.443661, 22.501355] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.443104, 22.501355] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.442547, 22.382833] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.441990, 22.382833] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.441433, 22.264312] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.441990, 22.264312] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.443661, 22.264312] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.444218, 22.264312] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.445332, 22.264312] set 10: point 65, [0.446350, 17.847451]
+STATUS:G0 [0.445889, 22.264312] set 10: point 65, [0.446350, 17.847451]
+STATUS:G0 [0.446446, 22.264312] set 10: point 65, [0.446350, 17.847451]
+STATUS:G0 [0.446446, 22.145791] set 10: point 65, [0.446350, 17.847451]
+STATUS:G0 [0.447003, 22.145791] set 10: point 65, [0.446350, 17.847451]
+STATUS:G0 [0.447560, 22.145791] set 10: point 66, [0.449062, 17.857851]
+STATUS:G0 [0.448117, 22.145791] set 10: point 66, [0.449062, 17.857851]
+STATUS:G0 [0.449231, 22.145791] set 10: point 66, [0.449062, 17.857851]
+STATUS:G0 [0.449788, 22.027269] set 10: point 66, [0.449062, 17.857851]
+STATUS:G0 [0.450902, 22.027269] set 10: point 67, [0.451773, 17.869451]
+STATUS:G0 [0.451459, 22.027269] set 10: point 67, [0.451773, 17.869451]
+STATUS:G0 [0.452573, 22.027269] set 10: point 67, [0.451773, 17.869451]
+STATUS:G0 [0.453130, 22.027269] set 10: point 68, [0.454484, 17.882351]
+STATUS:G0 [0.454244, 22.027269] set 10: point 68, [0.454484, 17.882351]
+STATUS:G0 [0.454801, 22.027269] set 10: point 68, [0.454484, 17.882351]
+STATUS:G0 [0.456472, 22.145791] set 10: point 69, [0.457196, 17.896551]
+STATUS:G0 [0.457029, 22.264312] set 10: point 69, [0.457196, 17.896551]
+STATUS:G0 [0.457585, 22.382833] set 10: point 69, [0.457196, 17.896551]
+STATUS:G0 [0.458699, 22.619876] set 10: point 70, [0.459907, 17.911951]
+STATUS:G0 [0.459813, 22.738397] set 10: point 70, [0.459907, 17.911951]
+STATUS:G0 [0.460927, 22.975440] set 10: point 71, [0.462619, 17.928551]
+STATUS:G0 [0.461484, 23.093962] set 10: point 71, [0.462619, 17.928551]
+STATUS:G0 [0.462041, 23.093962] set 10: point 71, [0.462619, 17.928551]
+STATUS:G0 [0.462598, 23.212483] set 10: point 71, [0.462619, 17.928551]
+STATUS:G0 [0.463155, 23.212483] set 10: point 71, [0.462619, 17.928551]
+STATUS:G0 [0.463155, 23.331004] set 10: point 71, [0.462619, 17.928551]
+STATUS:G0 [0.463712, 23.331004] set 10: point 72, [0.465330, 17.946351]
+STATUS:G0 [0.464269, 23.331004] set 10: point 72, [0.465330, 17.946351]
+STATUS:G0 [0.464269, 23.212483] set 10: point 72, [0.465330, 17.946351]
+STATUS:G0 [0.464269, 23.093962] set 10: point 72, [0.465330, 17.946351]
+STATUS:G0 [0.464826, 22.975440] set 10: point 72, [0.465330, 17.946351]
+STATUS:G0 [0.464826, 22.856919] set 10: point 72, [0.465330, 17.946351]
+STATUS:G0 [0.465383, 22.856919] set 10: point 72, [0.465330, 17.946351]
+STATUS:G0 [0.465383, 22.738397] set 10: point 72, [0.465330, 17.946351]
+STATUS:G0 [0.465940, 22.619876] set 10: point 72, [0.465330, 17.946351]
+STATUS:G0 [0.466497, 22.619876] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.467054, 22.619876] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.467054, 22.738397] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.467054, 22.856919] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.467054, 23.093962] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.467054, 23.212483] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.467611, 23.568047] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.467611, 24.160654] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.467611, 24.516218] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.467611, 24.990304] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.467611, 25.464389] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.467611, 26.056996] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.468168, 26.886646] set 10: point 74, [0.470753, 17.984351]
+STATUS:G0 [0.468725, 27.479253] set 10: point 74, [0.470753, 17.984351]
+STATUS:G0 [0.469282, 27.953338] set 10: point 74, [0.470753, 17.984351]
+STATUS:G0 [0.469839, 28.427424] set 10: point 74, [0.470753, 17.984351]
+STATUS:G0 [0.470396, 28.782988] set 10: point 75, [0.473465, 18.003951]
+STATUS:G0 [0.470953, 29.020031] set 10: point 75, [0.473465, 18.003951]
+STATUS:G0 [0.471510, 29.138552] set 10: point 75, [0.473465, 18.003951]
+STATUS:G0 [0.471510, 29.375595] set 10: point 75, [0.473465, 18.003951]
+STATUS:G0 [0.472067, 29.731159] set 10: point 75, [0.473465, 18.003951]
+STATUS:G0 [0.472624, 29.849681] set 10: point 75, [0.473465, 18.003951]
+STATUS:G0 [0.472624, 29.968202] set 10: point 75, [0.473465, 18.003951]
+STATUS:G0 [0.473181, 29.968202] set 10: point 76, [0.476176, 18.022951]
+STATUS:G0 [0.473738, 29.968202] set 10: point 76, [0.476176, 18.022951]
+STATUS:G0 [0.474295, 29.968202] set 10: point 76, [0.476176, 18.022951]
+STATUS:G0 [0.475409, 29.849681] set 10: point 76, [0.476176, 18.022951]
+STATUS:G0 [0.476522, 29.731159] set 10: point 77, [0.478888, 18.040351]
+STATUS:G0 [0.478750, 29.257074] set 10: point 80, [0.487022, 18.212051]
+STATUS:G0 [0.480978, 28.782988] set 10: point 80, [0.487022, 18.212051]
+STATUS:G0 [0.483763, 28.308903] set 10: point 81, [0.489734, 18.282251]
+STATUS:G0 [0.486548, 27.716296] set 10: point 81, [0.489734, 18.282251]
+STATUS:G0 [0.490447, 27.242210] set 10: point 81, [0.489734, 18.282251]
+STATUS:G0 [0.493788, 26.886646] set 10: point 82, [0.492445, 18.256451]
+STATUS:G0 [0.498244, 26.294039] set 10: point 83, [0.495157, 18.219251]
+STATUS:G0 [0.503814, 25.701432] set 10: point 85, [0.500580, 18.110851]
+STATUS:G0 [0.511612, 24.990304] set 10: point 87, [0.506002, 17.964951]
+STATUS:G0 [0.523865, 23.923611] set 10: point 96, [0.527694, 17.749951]
+STATUS:G0 [0.538346, 22.975440] set 10: point 96, [0.527694, 17.749951]
+STATUS:G0 [0.555055, 21.434662] set 10: point 99, [0.552097, 16.134551]
+STATUS:G0 [0.576220, 20.012406] set 10: point 102, [0.576501, 16.767251]
+STATUS:G0 [0.598499, 18.116063] set 10: point 105, [0.600904, 18.357851]
+STATUS:G0 [0.620777, 16.219721] set 10: point 107, [0.617173, 19.682651]
+STATUS:G0 [0.641942, 14.323379] set 8: point 109, [0.633442, 10.339451]
+STATUS:G0 [0.670905, 11.478866] set 8: point 113, [0.665979, 8.123351]
+STATUS:G0 [0.682044, 10.056609] set 8: point 115, [0.682248, 7.493551]
+STATUS:G0 [0.692070, 8.634353] set 8: point 116, [0.690383, 6.972451]
+STATUS:G0 [0.697639, 7.923224] set 8: point 117, [0.698517, 6.665751]
+STATUS:G0 [0.702095, 7.212096] set 8: point 117, [0.698517, 6.665751]
+STATUS:G0 [0.707665, 6.975053] set 8: point 118, [0.706651, 6.381151]
+STATUS:G0 [0.711007, 6.975053] set 8: point 118, [0.706651, 6.381151]
+STATUS:G0 [0.714905, 6.738011] set 8: point 119, [0.714786, 6.120051]
+STATUS:G0 [0.717133, 6.738011] set 8: point 119, [0.714786, 6.120051]
+STATUS:G0 [0.714348, 6.500968] set 8: point 119, [0.714786, 6.120051]
+STATUS:G0 [0.707665, 6.145404] set 8: point 118, [0.706651, 6.381151]
+STATUS:G0 [0.699310, 5.789839] set 8: point 117, [0.698517, 6.665751]
+STATUS:G0 [0.689842, 4.841668] set 8: point 116, [0.690383, 6.972451]
+STATUS:G0 [0.681487, 4.249061] set 8: point 115, [0.682248, 7.493551]
+STATUS:G0 [0.674804, 3.182369] set 8: point 114, [0.674114, 7.761651]
+STATUS:G0 [0.669791, 2.352719] set 8: point 114, [0.674114, 7.761651]
+STATUS:G0 [0.661993, 0.693420] set 6: point 112, [0.657845, -5.990749]
+STATUS:G0 [0.656980, -0.847358] set 6: point 112, [0.657845, -5.990749]
+STATUS:G0 [0.650854, -2.506657] set 6: point 110, [0.641576, -5.288249]
+STATUS:G0 [0.646398, -4.403000] set 6: point 110, [0.641576, -5.288249]
+STATUS:G0 [0.640271, -6.299342] set 4: point 110, [0.641576, -7.009949]
+STATUS:G0 [0.635259, -8.195684] set 2: point 109, [0.633442, -7.238349]
+STATUS:G0 [0.630246, -9.854983] set 2: point 109, [0.633442, -7.238349]
+STATUS:G0 [0.625233, -11.395761] set 2: point 108, [0.625307, -7.266849]
+STATUS:G0 [0.622448, -12.699497] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.619107, -13.884710] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.617436, -14.951403] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.616322, -15.544010] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.614651, -16.136617] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.613537, -16.492181] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.612980, -16.847745] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.612980, -17.084788] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.612423, -17.084788] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.612423, -17.203309] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.611309, -17.558873] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.610752, -17.914437] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.609638, -18.270002] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.609081, -18.625566] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.608524, -19.218173] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.608524, -19.810780] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.608524, -21.351558] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.608524, -23.484942] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.609081, -25.736849] set 0: point 106, [0.609038, -40.031749]
+STATUS:G0 [0.612980, -30.122140] set 0: point 106, [0.609038, -40.031749]
+STATUS:G0 [0.616322, -33.322217] set 0: point 107, [0.617173, -40.083749]
+STATUS:G0 [0.620221, -36.759338] set 0: point 107, [0.617173, -40.083749]
+STATUS:G0 [0.621334, -38.063073] set 0: point 107, [0.617173, -40.083749]
+STATUS:1285 893
+STATUS:1285 889
+STATUS:1285 886
+STATUS:G0 [0.626904, -39.959415] set 0: point 108, [0.625307, -40.101049]
+STATUS:G0 [0.625790, -37.944551] set 0: point 108, [0.625307, -40.101049]
+STATUS:G0 [0.629689, -36.522295] set 0: point 109, [0.633442, -40.116149]
+STATUS:G0 [0.633031, -34.744474] set 0: point 109, [0.633442, -40.116149]
+STATUS:G0 [0.638044, -33.440739] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.641942, -32.255525] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644170, -31.425875] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.645284, -30.477704] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.645284, -30.003619] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.645284, -29.411012] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.645284, -28.936926] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.645284, -28.462841] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.645284, -27.988755] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644727, -27.633191] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644727, -27.277627] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644727, -27.040584] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644727, -26.803541] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644727, -26.566498] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644727, -26.329456] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644727, -26.092413] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644727, -25.855370] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644170, -25.618327] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644170, -25.499806] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644170, -25.262763] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644170, -25.025720] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644170, -24.788678] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644170, -24.433114] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644170, -24.196071] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644170, -24.077549] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.644170, -23.721985] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.644170, -23.603464] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.644170, -23.484942] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -23.366421] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -23.247900] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -23.010857] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -22.773814] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -22.418250] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -21.944164] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -21.588600] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -20.995993] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -20.403386] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -19.810780] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -19.218173] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -18.744087] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -18.625566] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -18.270002] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643056, -18.151480] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643056, -17.914437] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643056, -17.795916] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643056, -17.558873] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.642499, -17.558873] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.642499, -17.677395] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.641942, -17.677395] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.641385, -17.914437] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.641385, -18.032959] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.640828, -18.270002] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.640271, -18.507044] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.640271, -18.744087] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.639157, -19.099651] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.639157, -19.336694] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.639157, -19.573737] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.639157, -19.810780] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.639157, -20.047822] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.639157, -20.403386] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.639714, -20.758951] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.639714, -21.233036] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.639714, -21.707122] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.639714, -22.062686] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.639714, -22.299729] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.639714, -22.773814] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.639157, -23.366421] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.638044, -23.959028] set 0: point 109, [0.633442, -40.116149]
+STATUS:G0 [0.637487, -24.314592] set 0: point 109, [0.633442, -40.116149]
+STATUS:G0 [0.636373, -25.144242] set 0: point 109, [0.633442, -40.116149]
+STATUS:G0 [0.635259, -25.499806] set 0: point 109, [0.633442, -40.116149]
+STATUS:G0 [0.632474, -26.566498] set 0: point 109, [0.633442, -40.116149]
+STATUS:G0 [0.630246, -27.751712] set 0: point 109, [0.633442, -40.116149]
+STATUS:G0 [0.624676, -30.122140] set 0: point 108, [0.625307, -40.101049]
+STATUS:G0 [0.615765, -33.322217] set 0: point 107, [0.617173, -40.083749]
+STATUS:G0 [0.605739, -37.114902] set 0: point 106, [0.609038, -40.031749]
+STATUS:G0 [0.599613, -39.722372] set 0: point 105, [0.600904, -40.016849]
+STATUS:1221 898
+STATUS:1216 918
+STATUS:1212 943
+STATUS:1210 961
+STATUS:1210 958
+STATUS:1209 957
+STATUS:1205 953
+STATUS:1199 947
+STATUS:1197 943
+STATUS:1199 940
+STATUS:1201 938
+STATUS:1203 936
+STATUS:1205 934
+STATUS:1207 933
+STATUS:1207 932
+STATUS:1208 931
+STATUS:1209 930
+STATUS:1210 928
+STATUS:1212 926
+STATUS:1214 922
+STATUS:1216 918
+STATUS:1217 914
+STATUS:1219 911
+STATUS:1221 907
+STATUS:1223 903
+STATUS:1224 900
+STATUS:1225 895
+STATUS:1227 891
+STATUS:1228 887
+STATUS:1230 882
+STATUS:1230 877
+STATUS:G0 [0.597942, -40.314979] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.598499, -39.485329] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.599056, -38.892722] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.599056, -38.300116] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.599056, -37.944551] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.599056, -37.351944] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.600170, -36.996380] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.600170, -36.759338] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.600170, -36.522295] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.600727, -36.522295] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.600727, -36.403773] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.600727, -36.285252] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.600727, -35.811166] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.600727, -35.455602] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.600727, -35.218560] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.601284, -34.862995] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.601284, -34.625953] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.601841, -34.507431] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.602398, -34.388910] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.602398, -34.507431] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.601841, -34.862995] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.600727, -35.218560] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.599613, -35.574124] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.599056, -35.811166] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.598499, -36.166731] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.597942, -36.403773] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.596828, -36.877859] set 0: point 104, [0.592770, -39.999449]
+STATUS:G0 [0.596828, -36.996380] set 0: point 104, [0.592770, -39.999449]
+STATUS:G0 [0.596271, -36.996380] set 0: point 104, [0.592770, -39.999449]
+STATUS:G0 [0.596271, -37.114902] set 0: point 104, [0.592770, -39.999449]
+STATUS:G0 [0.595714, -37.233423] set 0: point 104, [0.592770, -39.999449]
+STATUS:G0 [0.594600, -37.233423] set 0: point 104, [0.592770, -39.999449]
+STATUS:G0 [0.593486, -37.114902] set 0: point 104, [0.592770, -39.999449]
+STATUS:G0 [0.594043, -37.114902] set 0: point 104, [0.592770, -39.999449]
+STATUS:G0 [0.594043, -36.996380] set 0: point 104, [0.592770, -39.999449]
+STATUS:G0 [0.594043, -36.877859] set 0: point 104, [0.592770, -39.999449]
+STATUS:G0 [0.594043, -36.759338] set 0: point 104, [0.592770, -39.999449]
+STATUS:G0 [0.595157, -36.640816] set 0: point 104, [0.592770, -39.999449]
+STATUS:G0 [0.595714, -36.522295] set 0: point 104, [0.592770, -39.999449]
+STATUS:G0 [0.596828, -36.048209] set 0: point 104, [0.592770, -39.999449]
+STATUS:G0 [0.597942, -35.574124] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.599613, -34.981517] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.600727, -34.625953] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.602398, -33.914824] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.603511, -33.440739] set 0: point 105, [0.600904, -40.016849]
+STATUS:G0 [0.605739, -32.492568] set 0: point 106, [0.609038, -40.031749]
+STATUS:G0 [0.607410, -31.899961] set 0: point 106, [0.609038, -40.031749]
+STATUS:G0 [0.609081, -31.307354] set 0: point 106, [0.609038, -40.031749]
+STATUS:G0 [0.610195, -30.714747] set 0: point 106, [0.609038, -40.031749]
+STATUS:G0 [0.611309, -30.240661] set 0: point 106, [0.609038, -40.031749]
+STATUS:G0 [0.613537, -29.529533] set 0: point 106, [0.609038, -40.031749]
+STATUS:G0 [0.615208, -28.936926] set 0: point 107, [0.617173, -40.083749]
+STATUS:G0 [0.616322, -28.581362] set 0: point 107, [0.617173, -40.083749]
+STATUS:G0 [0.617993, -28.107276] set 0: point 107, [0.617173, -40.083749]
+STATUS:G0 [0.619107, -27.633191] set 0: point 107, [0.617173, -40.083749]
+STATUS:G0 [0.620777, -27.159105] set 0: point 107, [0.617173, -40.083749]
+STATUS:G0 [0.623005, -26.566498] set 0: point 108, [0.625307, -40.101049]
+STATUS:G0 [0.623562, -26.329456] set 0: point 108, [0.625307, -40.101049]
+STATUS:G0 [0.626347, -25.618327] set 0: point 108, [0.625307, -40.101049]
+STATUS:G0 [0.628018, -25.025720] set 0: point 108, [0.625307, -40.101049]
+STATUS:G0 [0.630803, -24.433114] set 0: point 109, [0.633442, -40.116149]
+STATUS:G0 [0.633031, -23.840507] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.634145, -23.721985] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.636930, -23.129378] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.638601, -22.773814] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.640271, -22.655293] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.641385, -22.181207] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.642499, -21.944164] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -21.825643] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -21.707122] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -21.588600] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -21.588600] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -21.707122] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -21.825643] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -21.944164] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -21.825643] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -21.944164] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -22.062686] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -22.181207] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -22.299729] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -22.418250] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -22.536771] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -22.655293] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -22.773814] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -22.892336] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -22.892336] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -23.010857] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.643613, -22.892336] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644170, -22.892336] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644727, -22.773814] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.644727, -22.655293] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.645284, -22.536771] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.645841, -22.299729] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.646398, -22.181207] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.646955, -22.062686] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.647512, -22.062686] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.648069, -21.944164] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.649183, -21.707122] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.649183, -21.588600] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.649740, -21.470079] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.650854, -21.351558] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.650854, -21.233036] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.651411, -21.114515] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.651968, -21.114515] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.651968, -20.995993] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.652525, -20.995993] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.652525, -20.877472] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.652525, -20.758951] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.652525, -20.640429] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.651968, -20.521908] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.651411, -20.403386] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.650297, -20.284865] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.649740, -20.166344] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.649183, -20.047822] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.648626, -20.047822] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.647512, -19.929301] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.646955, -19.810780] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.646398, -19.810780] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.645841, -19.810780] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.645841, -19.692258] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.645841, -19.573737] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.646398, -19.455215] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.646955, -19.455215] set 2: point 111, [0.649710, -7.932749]
+STATUS:G0 [0.648069, -19.336694] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.649183, -19.336694] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.651968, -19.336694] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.657537, -19.099651] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.661993, -18.862609] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.673690, -18.744087] set 2: point 114, [0.674114, -8.554049]
+STATUS:G0 [0.696525, -18.032959] set 2: point 117, [0.698517, -7.480849]
+STATUS:G0 [0.719918, -17.321831] set 2: point 120, [0.722920, -7.365649]
+STATUS:G0 [0.747766, -16.136617] set 2: point 123, [0.747323, -7.088649]
+STATUS:1568 658
+STATUS:1616 654
+STATUS:1662 654
+STATUS:1712 654
+STATUS:1760 652
+STATUS:1711 -97
+STATUS:1364 -135
+STATUS:1092  77
+STATUS:1100 125
+STATUS:G0 [0.539460, 43.479640] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.541131, 43.361118] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.541688, 43.479640] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.543359, 44.309289] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.543359, 45.257460] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.540574, 45.850067] set 10: point 62, [0.435969, 46.077151]
+STATUS:1117 136
+STATUS:1110 131
+STATUS:1097 123
+STATUS:1073 116
+STATUS:1041 114
+STATUS:1005 112
+STATUS:957 110
+STATUS:901 108
+STATUS:847 106
+STATUS:787 104
+STATUS:731 100
+STATUS:681  98
+STATUS:633  96
+STATUS:581  96
+STATUS:535  94
+STATUS:487  92
+STATUS:445  90
+STATUS:405  86
+STATUS:375  84
+STATUS:335  82
+STATUS:305  80
+STATUS:277  80
+STATUS:251  80
+STATUS:227  80
+STATUS:207  80
+STATUS:195  82
+STATUS:177  84
+STATUS:167  84
+STATUS:155  84
+STATUS:149  84
+STATUS:145  84
+STATUS:139  84
+STATUS:135  84
+STATUS:132  82
+STATUS:130  81
+STATUS:129  81
+STATUS:128  79
+STATUS:125  79
+STATUS:124  78
+STATUS:121  76
+STATUS:119  74
+STATUS:116  71
+STATUS:112  68
+STATUS:107  63
+STATUS:103  59
+STATUS: 97  54
+STATUS: 91  50
+STATUS: 86  47
+STATUS: 78  43
+STATUS: 72  39
+STATUS: 60  34
+STATUS: 51  30
+STATUS: 43  26
+STATUS: 33  21
+STATUS: 22  16
+STATUS:  6   9
+STATUS:-21   0
+STATUS:-36  -3
+STATUS:-55  -8
+STATUS:-69 -12
+STATUS:-80 -13
+STATUS:-90 -13
+STATUS:-92 -21
+STATUS:-85 -24
+STATUS:-82 -25
+STATUS:-79 -26
+STATUS:-75 -28
+STATUS:-72 -29
+STATUS:-69 -30
+STATUS:-67 -31
+STATUS:-65 -33
+STATUS:-63 -34
+STATUS:-62 -34
+STATUS:-60 -35
+STATUS:-60 -36
+STATUS:-58 -35
+STATUS:-57 -34
+STATUS:-54 -33
+STATUS:-53 -32
+STATUS:-43 -28
+STATUS:-34 -24
+STATUS:-19 -20
+STATUS:133  11
+STATUS:191  19
+STATUS:237  25
+STATUS:289  29
+STATUS:339  33
+STATUS:373  35
+STATUS:431  39
+STATUS:487  41
+STATUS:525  43
+STATUS:577  45
+STATUS:611  47
+STATUS:661  47
+STATUS:693  49
+STATUS:741  49
+STATUS:769  49
+STATUS:793  49
+STATUS:821  49
+STATUS:843  49
+STATUS:859  49
+STATUS:869  49
+STATUS:875  49
+STATUS:875  50
+STATUS:874  52
+STATUS:873  56
+STATUS:872  60
+STATUS:872  63
+STATUS:872  68
+STATUS:872  72
+STATUS:876  80
+STATUS:878  87
+STATUS:880  95
+STATUS:888 110
+STATUS:893 121
+STATUS:899 134
+STATUS:G0 [0.416927, 45.731546] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.424167, 41.938862] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.470396, -4.640042] set 4: point 74, [0.470753, -5.243749]
+STATUS:G0 [0.473181, -4.640042] set 4: point 75, [0.473465, -5.231449]
+STATUS:G0 [0.477636, -4.758564] set 4: point 77, [0.478888, -5.201049]
+STATUS:G0 [0.483206, -4.877085] set 4: point 79, [0.484311, -5.164049]
+STATUS:G0 [0.494902, -5.232649] set 4: point 83, [0.495157, -4.746949]
+STATUS:G0 [0.503814, -5.588213] set 4: point 86, [0.503291, -4.724249]
+STATUS:G0 [0.521080, -5.943778] set 4: point 93, [0.522271, -5.257649]
+STATUS:G0 [0.542802, -6.654906] set 4: point 98, [0.543963, -5.853849]
+STATUS:G0 [0.571764, -7.366034] set 4: point 101, [0.568366, -6.897449]
+STATUS:G0 [0.601841, -8.077163] set 2: point 105, [0.600904, -8.641349]
+STATUS:G0 [0.631917, -8.788291] set 2: point 109, [0.633442, -7.238349]
+STATUS:G0 [0.665335, -9.499419] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.698753, -10.210547] set 2: point 117, [0.698517, -7.480849]
+STATUS:G0 [0.733285, -10.921676] set 2: point 121, [0.731055, -7.333049]
+STATUS:G0 [0.767817, -11.395761] set 2: point 125, [0.763592, -6.689249]
+STATUS:1592 632
+STATUS:1666 636
+STATUS:1724 636
+STATUS:1693 524
+STATUS:G0 [0.779514, 4.249061] set 8: point 127, [0.779861, 4.995051]
+STATUS:G0 [0.701538, 7.567660] set 8: point 117, [0.698517, 6.665751]
+STATUS:G0 [0.631360, 10.886259] set 8: point 109, [0.633442, 10.339451]
+STATUS:G0 [0.565638, 13.967815] set 8: point 101, [0.568366, 14.494851]
+STATUS:G0 [0.497687, 17.286414] set 10: point 84, [0.497868, 18.170551]
+STATUS:G0 [0.437535, 19.893884] set 10: point 63, [0.443639, 17.838151]
+STATUS:G0 [0.390749, 21.790226] set 10: point 56, [0.389954, 20.069651]
+STATUS:G0 [0.353989, 23.686569] set 10: point 50, [0.343939, 22.954551]
+STATUS:G0 [0.311660, 26.294039] set 10: point 46, [0.313262, 26.679851]
+STATUS:G0 [0.286039, 28.664467] set 10: point 40, [0.267247, 25.959751]
+STATUS:G0 [0.262646, 31.034894] set 10: point 40, [0.267247, 25.959751]
+STATUS:G0 [0.244823, 33.168279] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.233684, 34.827579] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.227000, 36.012792] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.222544, 36.723921] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.221431, 36.960964] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.220317, 36.960964] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.219203, 36.960964] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.209177, 37.553570] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.196924, 38.501742] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.176873, 40.635126] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.157936, 42.531469] set 10: point 27, [0.179327, 26.851751]
+STATUS:G0 [0.130088, 45.850067] set 10: point 15, [0.099626, 25.816651]
+STATUS:353 123
+STATUS:311  97
+STATUS:261  69
+STATUS:213  41
+STATUS:173  21
+STATUS: 91 -17
+STATUS: 15 -43
+STATUS:-31 -51
+STATUS:-43 -51
+STATUS:-53 -51
+STATUS:-59 -49
+STATUS:-64 -47
+STATUS:-66 -45
+STATUS:-69 -43
+STATUS:-70 -41
+STATUS:-70 -40
+STATUS:-71 -37
+STATUS:-72 -35
+STATUS:-72 -33
+STATUS:-74 -30
+STATUS:-74 -29
+STATUS:-75 -28
+STATUS:-77 -26
+STATUS:-79 -24
+STATUS:-80 -23
+STATUS:-81 -22
+STATUS:-81 -21
+STATUS:-82 -20
+STATUS:-81 -20
+STATUS:-78 -19
+STATUS:-76 -19
+STATUS:-70 -18
+STATUS:-61 -15
+STATUS:-54 -15
+STATUS:-46 -14
+STATUS:-34 -13
+STATUS:-25 -13
+STATUS:-18 -11
+STATUS:-11 -11
+STATUS: -6 -11
+STATUS: -2 -11
+STATUS: -4 -14
+STATUS: -6 -15
+STATUS: -7 -16
+STATUS: -8 -16
+STATUS:-10 -17
+STATUS:-11 -18
+STATUS:-12 -19
+STATUS:-14 -20
+STATUS:-15 -21
+STATUS:-16 -22
+STATUS:-17 -22
+STATUS:-17 -23
+STATUS:-18 -24
+STATUS:-19 -24
+STATUS:-18 -24
+STATUS:-16 -24
+STATUS: -9 -20
+STATUS: 19  -7
+STATUS: 71  13
+STATUS: 99  25
+STATUS:137  39
+STATUS:179  55
+STATUS:231  75
+STATUS:275  89
+STATUS:319 105
+STATUS:369 121
+STATUS:425 139
+STATUS:G0 [0.179101, 44.664854] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.440319, 9.582524] set 8: point 63, [0.443639, 13.040551]
+STATUS:G0 [0.440319, 9.345481] set 8: point 63, [0.443639, 13.040551]
+STATUS:G0 [0.440876, 9.108438] set 8: point 63, [0.443639, 13.040551]
+STATUS:G0 [0.441433, 8.752874] set 8: point 63, [0.443639, 13.040551]
+STATUS:G0 [0.441990, 8.397310] set 8: point 63, [0.443639, 13.040551]
+STATUS:G0 [0.443104, 8.041746] set 8: point 63, [0.443639, 13.040551]
+STATUS:G0 [0.444775, 7.686182] set 8: point 63, [0.443639, 13.040551]
+STATUS:G0 [0.445889, 7.330617] set 8: point 65, [0.446350, 13.054651]
+STATUS:G0 [0.448117, 6.975053] set 8: point 65, [0.446350, 13.054651]
+STATUS:G0 [0.449788, 6.619489] set 8: point 66, [0.449062, 13.073451]
+STATUS:G0 [0.452016, 6.263925] set 8: point 67, [0.451773, 13.097451]
+STATUS:G0 [0.453130, 6.026882] set 8: point 67, [0.451773, 13.097451]
+STATUS:G0 [0.455358, 5.671318] set 8: point 68, [0.454484, 13.127251]
+STATUS:G0 [0.457029, 5.315754] set 8: point 68, [0.454484, 13.127251]
+STATUS:G0 [0.458142, 5.197233] set 8: point 68, [0.454484, 13.127251]
+STATUS:G0 [0.459256, 4.960190] set 8: point 69, [0.457196, 13.163451]
+STATUS:G0 [0.460370, 4.841668] set 8: point 69, [0.457196, 13.163451]
+STATUS:G0 [0.460927, 4.723147] set 7: point 70, [0.459907, -3.610749]
+STATUS:G0 [0.462041, 4.604626] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.462041, 4.486104] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.462598, 4.486104] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.462598, 4.367583] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.462598, 4.249061] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.462598, 4.130540] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.462598, 4.012019] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.463155, 4.012019] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.463155, 3.893497] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.463155, 3.774976] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.463155, 3.656455] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.463155, 3.537933] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.463155, 3.419412] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.463712, 3.419412] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.463712, 3.300890] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.463712, 3.182369] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.463712, 3.063848] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.463712, 2.945326] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.464269, 2.826805] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.464269, 2.708283] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.464269, 2.589762] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.464269, 2.471241] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.464269, 2.352719] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.464269, 2.234198] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.464269, 2.115677] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.464269, 1.997155] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.464269, 1.760112] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.464269, 1.286027] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.464269, 0.930463] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.464826, 0.456377] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.464826, 0.219334] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.465940, -0.254751] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.469839, -1.084401] set 6: point 74, [0.470753, -3.611549]
+STATUS:G0 [0.473181, -1.202922] set 6: point 75, [0.473465, -3.613749]
+STATUS:G0 [0.478193, -1.202922] set 6: point 77, [0.478888, -3.620149]
+STATUS:G0 [0.480978, -0.847358] set 6: point 80, [0.487022, -2.815549]
+STATUS:G0 [0.480978, -0.728837] set 6: point 80, [0.487022, -2.815549]
+STATUS:G0 [0.480421, -0.610315] set 6: point 80, [0.487022, -2.815549]
+STATUS:G0 [0.479864, -0.610315] set 6: point 80, [0.487022, -2.815549]
+STATUS:G0 [0.477636, -0.373273] set 6: point 80, [0.487022, -2.815549]
+STATUS:G0 [0.473738, -0.136230] set 6: point 75, [0.473465, -3.613749]
+STATUS:G0 [0.469282, 0.337856] set 6: point 73, [0.468042, -3.610049]
+STATUS:G0 [0.462041, 0.811941] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.453687, 1.523070] set 6: point 68, [0.454484, -3.615649]
+STATUS:G0 [0.442547, 2.471241] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.434193, 3.419412] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.426395, 4.367583] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.402446, 5.789839] set 6: point 58, [0.405293, -0.113149]
+STATUS:G0 [0.388521, 6.382446] set 8: point 55, [0.382285, 11.446051]
+STATUS:G0 [0.374597, 7.449139] set 8: point 53, [0.366947, 10.806751]
+STATUS:G0 [0.361787, 8.397310] set 8: point 52, [0.359277, 9.991951]
+STATUS:G0 [0.347863, 9.582524] set 8: point 51, [0.351608, 9.513051]
+STATUS:G0 [0.334495, 10.767738] set 8: point 49, [0.336270, 8.927451]
+STATUS:G0 [0.324470, 11.478866] set 8: point 48, [0.328601, 8.418051]
+STATUS:G0 [0.313330, 12.189994] set 8: point 46, [0.313262, 8.444051]
+STATUS:G0 [0.304419, 12.427037] set 8: point 46, [0.313262, 8.444051]
+STATUS:G0 [0.297735, 12.664080] set 8: point 45, [0.305593, 7.655851]
+STATUS:G0 [0.295507, 12.664080] set 8: point 45, [0.305593, 7.655851]
+STATUS:G0 [0.296064, 12.664080] set 8: point 45, [0.305593, 7.655851]
+STATUS:G0 [0.297735, 12.664080] set 8: point 45, [0.305593, 7.655851]
+STATUS:G0 [0.298292, 12.664080] set 8: point 45, [0.305593, 7.655851]
+STATUS:G0 [0.301634, 12.664080] set 8: point 46, [0.313262, 8.444051]
+STATUS:G0 [0.305533, 12.782601] set 8: point 46, [0.313262, 8.444051]
+STATUS:G0 [0.314444, 13.138165] set 8: point 46, [0.313262, 8.444051]
+STATUS:G0 [0.327812, 13.730772] set 8: point 49, [0.336270, 8.927451]
+STATUS:G0 [0.342850, 14.560422] set 8: point 51, [0.351608, 9.513051]
+STATUS:G0 [0.363458, 15.982679] set 10: point 52, [0.359277, 21.065351]
+STATUS:G0 [0.383509, 17.404935] set 10: point 55, [0.382285, 20.139351]
+STATUS:G0 [0.406901, 19.301277] set 10: point 59, [0.412962, 19.906051]
+STATUS:G0 [0.431408, 21.671705] set 10: point 61, [0.428300, 18.046051]
+STATUS:G0 [0.451459, 24.042133] set 10: point 67, [0.451773, 17.869451]
+STATUS:G0 [0.477079, 27.597774] set 10: point 77, [0.478888, 18.040351]
+STATUS:G0 [0.494902, 30.205245] set 10: point 82, [0.492445, 18.256451]
+STATUS:G0 [0.511612, 33.049758] set 10: point 86, [0.503291, 18.041651]
+STATUS:G0 [0.519409, 34.709057] set 10: point 90, [0.514137, 17.813751]
+STATUS:G0 [0.529435, 37.316528] set 10: point 96, [0.527694, 17.749951]
+STATUS:G0 [0.536118, 39.923998] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.537232, 41.583298] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.536118, 42.768511] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.534447, 43.716682] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.529992, 44.546332] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.523865, 45.375982] set 10: point 62, [0.435969, 46.077151]
+STATUS:1085 143
+STATUS:1063 135
+STATUS:1036 125
+STATUS:1002 117
+STATUS:964 107
+STATUS:902  89
+STATUS:852  71
+STATUS:810  53
+STATUS:758  33
+STATUS:682   3
+STATUS:586 -31
+STATUS:536 -45
+STATUS:454 -69
+STATUS:398 -83
+STATUS:378 -87
+STATUS:366 -91
+STATUS:362 -91
+STATUS:360 -91
+STATUS:360 -92
+STATUS:361 -92
+STATUS:366 -92
+STATUS:371 -91
+STATUS:377 -90
+STATUS:384 -88
+STATUS:391 -86
+STATUS:398 -84
+STATUS:406 -81
+STATUS:408 -80
+STATUS:416 -76
+STATUS:427 -63
+STATUS:427 -61
+STATUS:427 -58
+STATUS:427 -54
+STATUS:425 -51
+STATUS:423 -47
+STATUS:419 -41
+STATUS:416 -37
+STATUS:412 -34
+STATUS:408 -30
+STATUS:403 -27
+STATUS:399 -24
+STATUS:388 -19
+STATUS:383 -17
+STATUS:379 -16
+STATUS:371 -13
+STATUS:366 -12
+STATUS:362 -11
+STATUS:355 -10
+STATUS:343  -9
+STATUS:336  -9
+STATUS:330  -9
+STATUS:325  -9
+STATUS:321  -9
+STATUS:317  -9
+STATUS:313  -9
+STATUS:310  -9
+STATUS:305  -9
+STATUS:303  -9
+STATUS:300  -9
+STATUS:297 -10
+STATUS:295 -10
+STATUS:285 -11
+STATUS:277 -11
+STATUS:269 -12
+STATUS:247 -13
+STATUS:238 -13
+STATUS:223 -14
+STATUS:201 -14
+STATUS:191 -16
+STATUS:181 -17
+STATUS:163 -19
+STATUS:154 -20
+STATUS:144 -20
+STATUS:136 -22
+STATUS:124 -23
+STATUS:118 -23
+STATUS:112 -25
+STATUS:106 -25
+STATUS:102 -25
+STATUS:100 -25
+STATUS: 96 -25
+STATUS: 94 -25
+STATUS: 93 -25
+STATUS: 92 -25
+STATUS: 90 -25
+STATUS: 89 -25
+STATUS: 86 -25
+STATUS: 84 -25
+STATUS: 80 -25
+STATUS: 78 -25
+STATUS: 76 -24
+STATUS: 75 -24
+STATUS: 74 -24
+STATUS: 73 -24
+STATUS: 73 -23
+STATUS: 73 -22
+STATUS: 72 -22
+STATUS: 72 -21
+STATUS: 71 -21
+STATUS: 71 -20
+STATUS: 71 -19
+STATUS: 70 -18
+STATUS: 68 -16
+STATUS: 68 -15
+STATUS: 67 -14
+STATUS: 66 -12
+STATUS: 66 -10
+STATUS: 65  -8
+STATUS: 65  -7
+STATUS: 64  -5
+STATUS: 63  -4
+STATUS: 63  -3
+STATUS: 60   1
+STATUS: 60   2
+STATUS: 59   2
+STATUS: 59   3
+STATUS: 58   3
+STATUS: 57   3
+STATUS: 57   4
+STATUS: 56   5
+STATUS: 55   6
+STATUS: 54   7
+STATUS: 53   8
+STATUS: 52   9
+STATUS: 51   9
+STATUS: 51  10
+STATUS: 51  11
+STATUS: 50  11
+STATUS: 51  12
+STATUS: 54  14
+STATUS: 58  15
+STATUS: 61  16
+STATUS: 65  17
+STATUS: 67  17
+STATUS: 70  18
+STATUS: 73  18
+STATUS: 76  18
+STATUS: 79  18
+STATUS: 81  18
+STATUS: 83  17
+STATUS: 84  17
+STATUS: 84  16
+STATUS: 83  13
+STATUS: 82  11
+STATUS: 80   6
+STATUS: 78   2
+STATUS: 72 -10
+STATUS: 67 -15
+STATUS: 65 -20
+STATUS: 61 -26
+STATUS: 58 -31
+STATUS: 57 -33
+STATUS: 56 -35
+STATUS: 56 -38
+STATUS: 54 -40
+STATUS: 54 -41
+STATUS: 54 -42
+STATUS: 53 -44
+STATUS: 53 -45
+STATUS: 52 -48
+STATUS: 51 -49
+STATUS: 51 -50
+STATUS: 50 -50
+STATUS: 49 -51
+STATUS: 48 -51
+STATUS: 47 -52
+STATUS: 46 -53
+STATUS: 45 -53
+STATUS: 44 -54
+STATUS: 43 -54
+STATUS: 43 -55
+STATUS: 44 -57
+STATUS: 45 -58
+STATUS: 46 -58
+STATUS: 47 -60
+STATUS: 48 -61
+STATUS: 49 -62
+STATUS: 50 -62
+STATUS: 52 -63
+STATUS: 54 -64
+STATUS: 56 -64
+STATUS: 57 -64
+STATUS:Update
+STATUS:Update data
+STATUS:OK
+STATUS:OK
+STATUS:107  48
+STATUS:107  49
+STATUS:108  50
+STATUS:110  51
+STATUS:113  53
+STATUS:121  57
+STATUS:136  64
+STATUS:150  68
+STATUS:171  72
+STATUS:203  81
+STATUS:237  87
+STATUS:272  93
+STATUS:314 101
+STATUS:350 109
+STATUS:394 119
+STATUS:436 127
+STATUS:476 137
+STATUS:506 145
+STATUS:G0 [0.208620, 45.375982] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.233127, 43.242597] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.242038, 42.057383] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.247608, 41.346255] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.252064, 40.635126] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.252064, 40.042520] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.251507, 40.042520] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.251507, 40.161041] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.251507, 40.398084] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.252064, 40.516605] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.253178, 40.753648] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.253735, 40.990691] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.254292, 41.227733] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.255963, 41.346255] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.257634, 41.583298] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.258747, 41.701819] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.259861, 41.820340] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.260418, 41.820340] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.260418, 41.938862] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.260418, 42.057383] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.260975, 42.175904] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.261532, 42.294426] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.262089, 42.531469] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.263203, 42.768511] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.263760, 43.005554] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.264874, 43.124076] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.265988, 43.479640] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.267102, 43.716682] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.267659, 43.953725] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.268216, 44.072247] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.269330, 44.309289] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.269887, 44.546332] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.269887, 44.664854] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.269887, 44.783375] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.270444, 44.783375] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.270444, 44.901896] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.270444, 45.020418] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.271001, 45.138939] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.271001, 45.257460] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.271558, 45.257460] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.272115, 45.375982] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.272672, 45.494503] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.272672, 45.613025] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.272672, 45.731546] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.273229, 45.850067] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.273786, 45.968589] set 10: point 34, [0.221232, 32.229651]
+STATUS:650 145
+STATUS:652 143
+STATUS:655 138
+STATUS:661 129
+STATUS:667 118
+STATUS:676 104
+STATUS:684  87
+STATUS:696  69
+STATUS:704  58
+STATUS:711  48
+STATUS:722  37
+STATUS:733  26
+STATUS:743  18
+STATUS:757   5
+STATUS:783  -9
+STATUS:794 -15
+STATUS:801 -18
+STATUS:812 -24
+STATUS:823 -29
+STATUS:830 -31
+STATUS:835 -34
+STATUS:841 -36
+STATUS:846 -37
+STATUS:849 -37
+STATUS:851 -37
+STATUS:853 -37
+STATUS:855 -37
+STATUS:856 -37
+STATUS:856 -36
+STATUS:857 -35
+STATUS:857 -34
+STATUS:857 -33
+STATUS:857 -32
+STATUS:857 -31
+STATUS:857 -30
+STATUS:856 -30
+STATUS:856 -29
+STATUS:855 -29
+STATUS:855 -28
+STATUS:855 -27
+STATUS:854 -27
+STATUS:854 -26
+STATUS:854 -25
+STATUS:854 -24
+STATUS:853 -23
+STATUS:853 -22
+STATUS:852 -22
+STATUS:852 -21
+STATUS:852 -20
+STATUS:851 -19
+STATUS:851 -20
+STATUS:851 -21
+STATUS:851 -20
+STATUS:851 -19
+STATUS:850 -18
+STATUS:850 -17
+STATUS:850 -16
+STATUS:849 -15
+STATUS:849 -14
+STATUS:849 -13
+STATUS:849 -12
+STATUS:848 -12
+STATUS:848 -11
+STATUS:848 -10
+STATUS:847 -10
+STATUS:846 -10
+STATUS:843  -8
+STATUS:839  -6
+STATUS:834  -5
+STATUS:825  -2
+STATUS:794   7
+STATUS:774  10
+STATUS:735  13
+STATUS:687  15
+STATUS:627  17
+STATUS:583  19
+STATUS:515  19
+STATUS:455  19
+STATUS:369  19
+STATUS:301  19
+STATUS:245  23
+STATUS:213  29
+STATUS:197  35
+STATUS:191  39
+STATUS:190  42
+STATUS:190  44
+STATUS:190  45
+STATUS:190  46
+STATUS:190  47
+STATUS:189  49
+STATUS:189  51
+STATUS:189  55
+STATUS:189  59
+STATUS:190  63
+STATUS:198  74
+STATUS:220  92
+STATUS:250 108
+STATUS:276 122
+STATUS:294 130
+STATUS:292 130
+STATUS:288 129
+STATUS:271 120
+STATUS:246 103
+STATUS:230  95
+STATUS:217  85
+STATUS:203  79
+STATUS:184  77
+STATUS:166  76
+STATUS:143  74
+STATUS:116  74
+STATUS: 93  70
+STATUS: 67  66
+STATUS: 43  64
+STATUS: 15  60
+STATUS:-33  52
+STATUS:-59  48
+STATUS:-83  42
+STATUS:-48 -154
+STATUS:-48 -146
+STATUS:-49 -138
+STATUS:-49 -104
+STATUS:-49 -89
+STATUS:-49 -73
+STATUS:-48 -38
+STATUS:-46 -14
+STATUS:-43  34
+STATUS:-41  58
+STATUS:-33 121
+STATUS:-23 177
+STATUS:-16 448
+STATUS:-18 451
+STATUS:-21 456
+STATUS:-23 459
+STATUS:-26 463
+STATUS:-28 466
+STATUS:-34 473
+STATUS:-37 476
+STATUS:-39 479
+STATUS:-42 482
+STATUS:-47 487
+STATUS:-49 490
+STATUS:-52 493
+STATUS:-55 495
+STATUS:-57 499
+STATUS:-61 503
+STATUS:-63 506
+STATUS:-65 507
+STATUS:-66 509
+STATUS:-67 510
+STATUS:-70 513
+STATUS:-71 514
+STATUS:-74 517
+STATUS:-77 519
+STATUS:-79 520
+STATUS:-82 521
+STATUS:-83 522
+STATUS:-85 523
+STATUS:-87 524
+STATUS:-88 524
+STATUS:-90 525
+STATUS:-92 552
+STATUS:-18 569
+STATUS: 74 585
+STATUS:108 591
+STATUS:G0 [0.004213, -7.958641] set 2: point 1, [0.006642, -7.489149]
+STATUS:G0 [0.036517, -9.143855] set 2: point 6, [0.039850, -7.652349]
+STATUS:G0 [0.058795, -9.854983] set 2: point 9, [0.059776, -6.504149]
+STATUS:G0 [0.089986, -11.040197] set 2: point 14, [0.092984, -9.236349]
+STATUS:G0 [0.111151, -11.751325] set 2: point 17, [0.112909, -8.422049]
+STATUS:G0 [0.143455, -12.936539] set 2: point 21, [0.139476, -7.760249]
+STATUS:G0 [0.173531, -13.884710] set 2: point 26, [0.172685, -7.393549]
+STATUS:G0 [0.193582, -14.595839] set 2: point 28, [0.185968, -6.704549]
+STATUS:G0 [0.222544, -15.544010] set 2: point 36, [0.236570, -7.552749]
+STATUS:G0 [0.241481, -16.255138] set 2: point 37, [0.244239, -7.554549]
+STATUS:G0 [0.270444, -17.203309] set 2: point 41, [0.274916, -7.681149]
+STATUS:G0 [0.288267, -17.914437] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.304976, -18.388523] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.325027, -19.099651] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.336166, -19.573737] set 2: point 49, [0.336270, -7.935849]
+STATUS:G0 [0.349533, -20.047822] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.357331, -20.284865] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.368470, -20.758951] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.374040, -20.758951] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.380724, -20.995993] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.384066, -20.995993] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.385179, -20.995993] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.385179, -20.877472] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.385179, -20.758951] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.384623, -20.758951] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.384066, -20.640429] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.383509, -20.640429] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.380167, -20.284865] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.375711, -19.692258] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.369584, -19.218173] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.361787, -18.270002] set 2: point 53, [0.366947, -8.665549]
+STATUS:G0 [0.346192, -16.729224] set 2: point 51, [0.351608, -8.214749]
+STATUS:G0 [0.325027, -14.595839] set 2: point 48, [0.328601, -8.045349]
+STATUS:G0 [0.298292, -11.751325] set 2: point 44, [0.297924, -9.407449]
+STATUS:G0 [0.270444, -8.432727] set 2: point 40, [0.267247, -7.648449]
+STATUS:G0 [0.238140, -4.165957] set 6: point 35, [0.228901, -5.159149]
+STATUS:G0 [0.212519, -0.610315] set 6: point 33, [0.213563, -4.650549]
+STATUS:G0 [0.173531, 4.604626] set 8: point 26, [0.172685, 5.334851]
+STATUS:G0 [0.142341, 8.634353] set 8: point 21, [0.139476, 5.938651]
+STATUS:G0 [0.111151, 12.427037] set 8: point 15, [0.099626, 7.581151]
+STATUS:G0 [0.069935, 17.404935] set 10: point 10, [0.066417, 17.292351]
+STATUS:G0 [0.039859, 21.197619] set 10: point 7, [0.046492, 16.254651]
+STATUS:G0 [0.000871, 25.938475] set 10: point 0, [0.000000, 14.640651]
+STATUS:109 285
+STATUS: 63 255
+STATUS: 15 221
+STATUS:-81 145
+STATUS:-88  95
+STATUS:-81  90
+STATUS:-69  83
+STATUS:-49  74
+STATUS:-33  69
+STATUS: -3  62
+STATUS: 61  52
+STATUS: 89  50
+STATUS:117  50
+STATUS:145  50
+STATUS:187  50
+STATUS:211  50
+STATUS:235  50
+STATUS:257  50
+STATUS:275  50
+STATUS:293  50
+STATUS:303  50
+STATUS:309  50
+STATUS:313  50
+STATUS:314  48
+STATUS:314  47
+STATUS:315  45
+STATUS:316  42
+STATUS:316  39
+STATUS:317  35
+STATUS:318  31
+STATUS:319  26
+STATUS:319  21
+STATUS:320  18
+STATUS:320  11
+STATUS:322   5
+STATUS:324  -8
+STATUS:324 -10
+STATUS:324 -14
+STATUS:324 -18
+STATUS:324 -20
+STATUS:325 -23
+STATUS:325 -24
+STATUS:325 -28
+STATUS:325 -29
+STATUS:325 -30
+STATUS:325 -32
+STATUS:325 -33
+STATUS:325 -34
+STATUS:326 -35
+STATUS:326 -37
+STATUS:326 -38
+STATUS:326 -40
+STATUS:326 -41
+STATUS:326 -42
+STATUS:327 -44
+STATUS:328 -50
+STATUS:328 -51
+STATUS:329 -54
+STATUS:329 -56
+STATUS:329 -57
+STATUS:329 -59
+STATUS:330 -62
+STATUS:330 -64
+STATUS:331 -65
+STATUS:332 -72
+STATUS:333 -84
+STATUS:333 -88
+STATUS:333 -92
+STATUS:334 -96
+STATUS:337 -113
+STATUS:337 -118
+STATUS:338 -121
+STATUS:339 -124
+STATUS:340 -127
+STATUS:344 -139
+STATUS:345 -141
+STATUS:346 -144
+STATUS:346 -146
+STATUS:347 -148
+STATUS:348 -151
+STATUS:349 -152
+STATUS:350 -155
+STATUS:350 -156
+STATUS:351 -156
+STATUS:131 -153
+STATUS:133 -148
+STATUS:137 -140
+STATUS:157 -107
+STATUS:250  19
+STATUS:265  39
+STATUS:G0 [0.255778, 43.604680] set 10: point 34, [0.221232, 32.229651]
+STATUS:G0 [0.305350, 31.062747] set 10: point 46, [0.313262, 26.679851]
+STATUS:G0 [0.331316, 25.361868] set 10: point 49, [0.336270, 24.220951]
+STATUS:G0 [0.357283, 19.660990] set 10: point 52, [0.359277, 21.065351]
+STATUS:G0 [0.380889, 13.960111] set 8: point 55, [0.382285, 11.446051]
+STATUS:G0 [0.409216, 8.259233] set 8: point 59, [0.412962, 13.360251]
+STATUS:G0 [0.437543, 2.558354] set 6: point 61, [0.428300, -1.084149]
+STATUS:G0 [0.465870, -2.572437] set 6: point 72, [0.465330, -3.609449]
+STATUS:G0 [0.491836, -7.703228] set 2: point 82, [0.492445, -7.049949]
+STATUS:G0 [0.520163, -12.263930] set 2: point 92, [0.519560, -7.901649]
+STATUS:G0 [0.548490, -16.824633] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.562654, -19.104985] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.588620, -23.095600] set 2: point 103, [0.584635, -8.679949]
+STATUS:G0 [0.612226, -25.946039] set 0: point 106, [0.609038, -40.031749]
+STATUS:G0 [0.635832, -29.366566] set 0: point 109, [0.633442, -40.116149]
+STATUS:G0 [0.647635, -30.506742] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.671241, -33.357181] set 0: point 114, [0.674114, -40.424649]
+STATUS:G0 [0.692486, -36.207621] set 0: point 116, [0.690383, -40.354149]
+STATUS:G0 [0.701928, -37.347796] set 0: point 117, [0.698517, -40.372349]
+STATUS:G0 [0.718452, -39.628148] set 0: point 119, [0.714786, -40.402049]
+STATUS:697 367
+STATUS:703 369
+STATUS:714 374
+STATUS:718 374
+STATUS:725 378
+STATUS:726 378
+STATUS:731 378
+STATUS:732 379
+STATUS:734 379
+STATUS:735 379
+STATUS:736 379
+STATUS:737 378
+STATUS:738 378
+STATUS:739 378
+STATUS:740 378
+STATUS:741 378
+STATUS:742 378
+STATUS:743 378
+STATUS:745 378
+STATUS:746 379
+STATUS:748 379
+STATUS:751 381
+STATUS:755 383
+STATUS:760 386
+STATUS:765 389
+STATUS:771 392
+STATUS:778 395
+STATUS:785 399
+STATUS:805 408
+STATUS:812 412
+STATUS:819 414
+STATUS:825 417
+STATUS:1208 654
+STATUS:1202 649
+STATUS:1194 645
+STATUS:1188 641
+STATUS:1165 630
+STATUS:1154 625
+STATUS:1141 619
+STATUS:1123 612
+STATUS:1097 601
+STATUS:1066 589
+STATUS:G0 [0.752092, -39.988486] set 0: point 124, [0.755458, -40.309549]
+STATUS:G0 [0.690486, -34.968845] set 0: point 116, [0.690383, -40.354149]
+STATUS:G0 [0.659683, -32.459024] set 0: point 112, [0.657845, -40.313849]
+STATUS:G0 [0.643471, -31.383386] set 0: point 110, [0.641576, -40.129749]
+STATUS:G0 [0.614290, -29.232112] set 0: point 106, [0.609038, -40.031749]
+STATUS:G0 [0.585108, -27.080837] set 0: point 103, [0.584635, -40.008349]
+STATUS:G0 [0.559169, -25.288107] set 0: point 99, [0.552097, -39.702749]
+STATUS:G0 [0.536473, -23.495378] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.520261, -22.419741] set 2: point 92, [0.519560, -7.901649]
+STATUS:G0 [0.505670, -21.344103] set 2: point 91, [0.516848, -7.907149]
+STATUS:G0 [0.487837, -20.268466] set 2: point 80, [0.487022, -7.065949]
+STATUS:G0 [0.479731, -19.551374] set 2: point 77, [0.478888, -7.086249]
+STATUS:G0 [0.473246, -18.834283] set 2: point 75, [0.473465, -7.097449]
+STATUS:G0 [0.466761, -18.475737] set 2: point 72, [0.465330, -7.110549]
+STATUS:G0 [0.463519, -18.117191] set 2: point 71, [0.462619, -7.113949]
+STATUS:G0 [0.461898, -17.758645] set 2: point 71, [0.462619, -7.113949]
+STATUS:G0 [0.460276, -17.758645] set 2: point 70, [0.459907, -7.116849]
+STATUS:G0 [0.460276, -17.400099] set 2: point 70, [0.459907, -7.116849]
+STATUS:G0 [0.459466, -17.400099] set 2: point 70, [0.459907, -7.116849]
+STATUS:G0 [0.459466, -17.758645] set 2: point 70, [0.459907, -7.116849]
+STATUS:G0 [0.461898, -19.730647] set 2: point 71, [0.462619, -7.113949]
+STATUS:G0 [0.465951, -21.881922] set 2: point 72, [0.465330, -7.110549]
+STATUS:G0 [0.470814, -24.391743] set 0: point 74, [0.470753, -39.886249]
+STATUS:G0 [0.478920, -27.260109] set 0: point 77, [0.478888, -39.853949]
+STATUS:G0 [0.490269, -30.307749] set 0: point 81, [0.489734, -39.739149]
+STATUS:G0 [0.500806, -32.996843] set 0: point 85, [0.500580, -39.695949]
+STATUS:G0 [0.515397, -36.582301] set 0: point 90, [0.514137, -39.593449]
+STATUS:G0 [0.533230, -39.809213] set 0: point 97, [0.535829, -39.654749]
+STATUS:788 591
+STATUS:814 605
+STATUS:850 627
+STATUS:900 653
+STATUS:1130 660
+STATUS:1111 638
+STATUS:1076 603
+STATUS:G0 [0.759387, -40.347032] set 0: point 124, [0.755458, -40.309549]
+STATUS:G0 [0.697781, -31.024841] set 0: point 117, [0.698517, -40.372349]
+STATUS:G0 [0.658873, -26.005199] set 0: point 112, [0.657845, -40.313849]
+STATUS:G0 [0.621585, -21.344103] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.579434, -16.324462] set 2: point 102, [0.576501, -8.695249]
+STATUS:G0 [0.535662, -11.304820] set 2: point 97, [0.535829, -7.682349]
+STATUS:G0 [0.491890, -6.285179] set 2: point 82, [0.492445, -7.049949]
+STATUS:G0 [0.462708, -3.058266] set 6: point 71, [0.462619, -3.609749]
+STATUS:G0 [0.417315, 1.244283] set 6: point 58, [0.405293, -0.113149]
+STATUS:G0 [0.373543, 5.546833] set 8: point 52, [0.359277, 9.991951]
+STATUS:G0 [0.329770, 9.132292] set 8: point 48, [0.328601, 8.418051]
+STATUS:G0 [0.285998, 13.076296] set 8: point 43, [0.290255, 6.858551]
+STATUS:G0 [0.242226, 16.661754] set 10: point 37, [0.244239, 24.231151]
+STATUS:G0 [0.214665, 18.813029] set 10: point 32, [0.205893, 25.435451]
+STATUS:G0 [0.175757, 22.039941] set 10: point 26, [0.172685, 24.137451]
+STATUS:G0 [0.149818, 24.191216] set 10: point 23, [0.152760, 23.801651]
+STATUS:G0 [0.123879, 25.983945] set 10: point 18, [0.119551, 24.789551]
+STATUS:G0 [0.089833, 28.135220] set 10: point 15, [0.099626, 25.816651]
+STATUS:G0 [0.070379, 29.210858] set 10: point 11, [0.073059, 24.311351]
+STATUS:G0 [0.050925, 30.286495] set 10: point 11, [0.073059, 24.311351]
+STATUS:G0 [0.016880, 31.720678] set 10: point 11, [0.073059, 24.311351]
+STATUS:G0 [0.005531, 32.437770] set 10: point 11, [0.073059, 24.311351]
+STATUS:105 170
+STATUS: 97 168
+STATUS: 93 166
+STATUS: 91 164
+STATUS: 92 161
+STATUS: 94 159
+STATUS:100 146
+STATUS:108 128
+STATUS:G0 [0.006342, 43.194145] set 10: point 11, [0.073059, 24.311351]
+STATUS:128  75
+STATUS:134  57
+STATUS:140  36
+STATUS:145  19
+STATUS:159 -22
+STATUS:167 -39
+STATUS:178 -64
+STATUS:195 -92
+STATUS:207 -113
+STATUS:210 -116
+STATUS:212 -119
+STATUS:213 -122
+STATUS:215 -125
+STATUS:215 -126
+STATUS:216 -128
+STATUS:216 -129
+STATUS:217 -130
+STATUS:217 -131
+STATUS:218 -133
+STATUS:218 -135
+STATUS:219 -138
+STATUS:220 -140
+STATUS:221 -142
+STATUS:221 -144
+STATUS:222 -145
+STATUS:222 -147
+STATUS:223 -149
+STATUS:223 -151
+STATUS:223 -152
+STATUS:224 -154
+STATUS:224 -155
+STATUS:224 -156
+STATUS:251 -156
+STATUS:270 -137
+STATUS:399 -16
+STATUS:455  34
+STATUS:483  58
+STATUS:503  74
+STATUS:G0 [0.344361, 46.062511] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.383270, 41.042870] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.396239, 39.608687] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.405966, 38.174503] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.415694, 37.098866] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.422178, 36.023228] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.427042, 34.947591] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.430284, 34.230499] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.435148, 33.154862] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.440012, 31.362133] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.443254, 30.286495] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.446496, 29.569404] set 10: point 58, [0.405293, 22.755351]
+STATUS:G0 [0.450549, 28.673039] set 10: point 67, [0.451773, 17.869451]
+STATUS:G0 [0.451360, 28.493766] set 10: point 67, [0.451773, 17.869451]
+STATUS:G0 [0.452981, 28.135220] set 10: point 68, [0.454484, 17.882351]
+STATUS:G0 [0.453792, 27.955947] set 10: point 68, [0.454484, 17.882351]
+STATUS:G0 [0.454602, 27.776674] set 10: point 68, [0.454484, 17.882351]
+STATUS:G0 [0.454602, 27.597401] set 10: point 68, [0.454484, 17.882351]
+STATUS:G0 [0.455413, 27.597401] set 10: point 69, [0.457196, 17.896551]
+STATUS:G0 [0.456223, 27.418129] set 10: point 69, [0.457196, 17.896551]
+STATUS:G0 [0.459466, 26.521764] set 10: point 70, [0.459907, 17.911951]
+STATUS:G0 [0.462708, 25.804672] set 10: point 71, [0.462619, 17.928551]
+STATUS:G0 [0.466761, 25.266854] set 10: point 73, [0.468042, 17.965051]
+STATUS:G0 [0.472435, 24.549762] set 10: point 75, [0.473465, 18.003951]
+STATUS:G0 [0.477299, 24.011943] set 10: point 77, [0.478888, 18.040351]
+STATUS:G0 [0.483784, 23.294852] set 10: point 80, [0.487022, 18.212051]
+STATUS:G0 [0.490269, 22.757033] set 10: point 81, [0.489734, 18.282251]
+STATUS:G0 [0.499185, 22.039941] set 10: point 84, [0.497868, 18.170551]
+STATUS:G0 [0.509723, 21.322850] set 10: point 88, [0.508714, 17.883951]
+STATUS:G0 [0.525935, 20.247212] set 10: point 96, [0.527694, 17.749951]
+STATUS:G0 [0.544579, 19.350848] set 10: point 98, [0.543963, 16.608251]
+STATUS:G0 [0.568896, 18.275210] set 10: point 101, [0.568366, 16.389451]
+STATUS:G0 [0.591593, 17.378846] set 10: point 104, [0.592770, 17.752151]
+STATUS:G0 [0.616722, 16.303208] set 10: point 106, [0.609038, 19.065351]
+STATUS:G0 [0.636987, 15.765389] set 10: point 110, [0.641576, 20.208051]
+STATUS:G0 [0.666168, 15.048298] set 10: point 112, [0.657845, 20.701851]
+STATUS:G0 [0.685623, 14.331206] set 8: point 115, [0.682248, 7.493551]
+STATUS:G0 [0.706698, 13.614114] set 8: point 117, [0.698517, 6.665751]
+STATUS:G0 [0.727774, 13.255569] set 8: point 120, [0.722920, 5.883351]
+STATUS:G0 [0.745607, 12.897023] set 8: point 122, [0.739189, 5.483651]
+STATUS:G0 [0.761819, 12.538477] set 8: point 125, [0.763592, 5.092851]
+STATUS:G0 [0.771546, 12.179931] set 8: point 126, [0.771727, 5.017451]
+STATUS:1076 285
+STATUS:1086 285
+STATUS:1098 287
+STATUS:1104 287
+STATUS:1108 287
+STATUS:1112 287
+STATUS:1113 287
+STATUS:1112 286
+STATUS:1111 285
+STATUS:1108 281
+STATUS:1104 277
+STATUS:1098 271
+STATUS:1087 261
+STATUS:1073 249
+STATUS:G0 [0.761008, 21.502122] set 10: point 124, [0.755458, 24.817651]
+STATUS:G0 [0.704266, 27.776674] set 10: point 118, [0.706651, 22.793551]
+STATUS:G0 [0.670221, 31.003587] set 10: point 115, [0.682248, 21.772951]
+STATUS:G0 [0.641040, 33.513408] set 10: point 109, [0.633442, 21.095851]
+STATUS:G0 [0.600510, 36.023228] set 10: point 108, [0.625307, 20.413351]
+STATUS:G0 [0.571328, 37.815957] set 10: point 106, [0.609038, 19.065351]
+STATUS:G0 [0.542147, 39.967232] set 10: point 96, [0.527694, 17.749951]
+STATUS:G0 [0.517829, 42.118507] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.499996, 44.269782] set 10: point 62, [0.435969, 46.077151]
+STATUS:705  94
+STATUS:687  80
+STATUS:675  66
+STATUS:667  56
+STATUS:661  44
+STATUS:659  34
+STATUS:657  20
+STATUS:657   9
+STATUS:657 -18
+STATUS:658 -28
+STATUS:663 -44
+STATUS:667 -59
+STATUS:669 -64
+STATUS:670 -68
+STATUS:676 -77
+STATUS:676 -79
+STATUS:677 -79
+STATUS:677 -80
+STATUS:678 -81
+STATUS:679 -81
+STATUS:680 -81
+STATUS:681 -81
+STATUS:682 -81
+STATUS:683 -80
+STATUS:684 -79
+STATUS:687 -77
+STATUS:689 -76
+STATUS:701 -67
+STATUS:704 -65
+STATUS:708 -62
+STATUS:711 -60
+STATUS:713 -59
+STATUS:712 -60
+STATUS:711 -61
+STATUS:709 -64
+STATUS:705 -67
+STATUS:670 -84
+STATUS:651 -91
+STATUS:638 -94
+STATUS:567 -109
+STATUS:542 -114
+STATUS:514 -120
+STATUS:490 -126
+STATUS:464 -130
+STATUS:422 -134
+STATUS:410 -134
+STATUS:406 -130
+STATUS:406 -128
+STATUS:407 -125
+STATUS:408 -122
+STATUS:409 -118
+STATUS:411 -114
+STATUS:416 -106
+STATUS:582  37
+STATUS:624  65
+STATUS:666  95
+STATUS:G0 [0.489458, 40.505051] set 10: point 62, [0.435969, 46.077151]
+STATUS:G0 [0.526745, 34.409772] set 10: point 96, [0.527694, 17.749951]
+STATUS:G0 [0.564033, 28.314493] set 10: point 102, [0.576501, 16.767251]
+STATUS:G0 [0.602942, 21.860668] set 10: point 106, [0.609038, 19.065351]
+STATUS:G0 [0.627260, 17.558118] set 10: point 108, [0.625307, 20.413351]
+STATUS:G0 [0.661305, 11.821385] set 8: point 112, [0.657845, 8.733051]
+STATUS:G0 [0.682380, 7.877381] set 8: point 115, [0.682248, 7.493551]
+STATUS:G0 [0.701834, 3.933377] set 8: point 118, [0.706651, 6.381151]
+STATUS:G0 [0.727774, -1.444810] set 6: point 122, [0.739189, -5.338749]
+STATUS:G0 [0.743986, -4.671723] set 6: point 123, [0.747323, -5.343449]
+STATUS:G0 [0.756955, -7.898635] set 2: point 124, [0.755458, -7.077549]
+STATUS:G0 [0.768303, -10.767002] set 2: point 125, [0.763592, -6.689249]
+STATUS:1074 435
+STATUS:1084 445
+STATUS:1092 457
+STATUS:1096 463
+STATUS:1100 469
+STATUS:1102 475
+STATUS:1104 479
+STATUS:1104 481
+STATUS:1104 482
+STATUS:1104 484
+STATUS:1104 486
+STATUS:1104 487
+STATUS:1104 488
+STATUS:1104 489
+STATUS:1104 490
+STATUS:1104 492
+STATUS:1104 493
+STATUS:1105 495
+STATUS:1106 498
+STATUS:1108 501
+STATUS:1109 505
+STATUS:1111 511
+STATUS:1114 517
+STATUS:1117 524
+STATUS:1122 533
+STATUS:1126 541
+STATUS:1131 549
+STATUS:1137 557
+STATUS:1143 567
+STATUS:1148 574
+STATUS:1157 585
+STATUS:1162 591
+STATUS:1172 601
+STATUS:1178 607
+STATUS:1184 614
+STATUS:1192 624
+STATUS:1197 628
+STATUS:1202 633
+STATUS:1339 732
+STATUS:1279 697
+STATUS:1239 671
+STATUS:1199 647
+STATUS:G0 [0.746917, -35.023775] set 0: point 123, [0.747323, -40.305349]
+STATUS:G0 [0.658607, -23.907856] set 2: point 113, [0.665979, -8.590849]
+STATUS:G0 [0.619518, -19.143890] set 2: point 106, [0.609038, -8.618049]
+STATUS:G0 [0.563058, -12.474339] set 2: point 100, [0.560232, -8.717549]
+STATUS:G0 [0.519627, -7.075178] set 2: point 92, [0.519560, -7.901649]
+STATUS:G0 [0.467509, -1.040822] set 6: point 73, [0.468042, -3.610049]
+STATUS:G0 [0.415391, 5.311132] set 6: point 58, [0.405293, -0.113149]
+STATUS:G0 [0.363274, 11.345488] set 8: point 53, [0.366947, 10.806751]
+STATUS:G0 [0.311156, 17.379844] set 10: point 47, [0.320931, 22.184951]
+STATUS:G0 [0.272068, 22.143810] set 10: point 41, [0.274916, 23.489751]
+STATUS:G0 [0.221398, 28.178166] set 10: point 33, [0.213563, 26.437051]
+STATUS:G0 [0.186653, 31.671740] set 10: point 29, [0.192610, 27.172451]
+STATUS:G0 [0.154804, 35.165315] set 10: point 24, [0.159401, 25.650051]
+STATUS:G0 [0.124402, 38.023694] set 10: point 18, [0.119551, 24.789551]
+STATUS:G0 [0.101239, 39.929280] set 10: point 15, [0.099626, 25.816651]
+STATUS:G0 [0.086762, 41.199671] set 10: point 15, [0.099626, 25.816651]
+STATUS:G0 [0.070837, 42.470062] set 10: point 15, [0.099626, 25.816651]
+STATUS:G0 [0.057807, 43.105257] set 10: point 11, [0.073059, 24.311351]
+STATUS:G0 [0.050569, 43.422855] set 10: point 11, [0.073059, 24.311351]
+STATUS:G0 [0.046226, 43.740453] set 10: point 11, [0.073059, 24.311351]
+STATUS:G0 [0.044054, 43.740453] set 10: point 11, [0.073059, 24.311351]
+STATUS:G0 [0.044054, 43.899252] set 10: point 11, [0.073059, 24.311351]
+STATUS:G0 [0.041159, 44.216849] set 10: point 11, [0.073059, 24.311351]
+STATUS:G0 [0.039711, 44.534447] set 10: point 11, [0.073059, 24.311351]
+STATUS:G0 [0.036092, 45.010844] set 10: point 11, [0.073059, 24.311351]
+STATUS:G0 [0.031025, 45.804838] set 10: point 11, [0.073059, 24.311351]
+STATUS:161 108
+STATUS:152 102
+STATUS:146  98
+STATUS:133  89
+STATUS:119  81
+STATUS:110  75
+STATUS: 92  64
+STATUS: 83  60
+STATUS: 64  49
+STATUS: 55  44
+STATUS: 37  34
+STATUS: 30  31
+STATUS: 11  20
+STATUS:  2  13
+STATUS:-46 -10
+STATUS:-55 -15
+STATUS:-70 -21
+STATUS:-79 -24
+STATUS:-87 -28
