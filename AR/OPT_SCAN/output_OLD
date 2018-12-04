@@ -1,0 +1,156 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141181
+ running on   32 total cores
+ distrk:  each k-point on   16 cores,    2 groups
+ distr:  one band on    4 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:43) complex          
+  
+ POSCAR found type information on POSCAR  Ar
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ generate k-points for:   11   11   11
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.357071447058E+02    0.35707E+02   -0.39588E+03   896   0.923E+02
+DAV:   2    -0.794359714163E+01   -0.43651E+02   -0.41110E+02  1280   0.139E+02
+DAV:   3    -0.902571870268E+01   -0.10821E+01   -0.10822E+01  1144   0.294E+01
+DAV:   4    -0.903189167212E+01   -0.61730E-02   -0.61730E-02  1512   0.240E+00
+DAV:   5    -0.903191031009E+01   -0.18638E-04   -0.18637E-04  1304   0.132E-01    0.293E-01
+RMM:   6    -0.691697390246E+01    0.21149E+01   -0.21259E-01   896   0.503E+00    0.208E-01
+RMM:   7    -0.691689538891E+01    0.78514E-04   -0.36920E-03   896   0.743E-01    0.160E-01
+RMM:   8    -0.691634314242E+01    0.55225E-03   -0.16673E-03   896   0.454E-01    0.494E-02
+RMM:   9    -0.691637792258E+01   -0.34780E-04   -0.23199E-04   896   0.203E-01    0.198E-02
+RMM:  10    -0.691635282332E+01    0.25099E-04   -0.58824E-05   896   0.782E-02    0.374E-03
+RMM:  11    -0.691635454476E+01   -0.17214E-05   -0.51352E-06  1008   0.198E-02    0.227E-03
+RMM:  12    -0.691635680746E+01   -0.22627E-05   -0.15253E-06   896   0.111E-02    0.689E-04
+RMM:  13    -0.691635623148E+01    0.57598E-06   -0.53291E-08   670   0.273E-03    0.161E-04
+RMM:  14    -0.691635618609E+01    0.45386E-07   -0.13322E-08   665   0.140E-03
+   1 F= -.69163562E+01 E0= -.69171071E+01  d E =-.691636E+01
+ BRION: g(F)=  0.000E+00 g(S)=  0.400E-03
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.691732507000E+01   -0.96884E-03   -0.18055E-02  1040   0.146E+00    0.131E-01
+RMM:   2    -0.691686775993E+01    0.45731E-03   -0.28862E-03   896   0.516E-01    0.364E-02
+RMM:   3    -0.691682455590E+01    0.43204E-04   -0.16501E-05   896   0.492E-02    0.249E-02
+RMM:   4    -0.691675769984E+01    0.66856E-04   -0.36317E-05   896   0.590E-02    0.744E-03
+RMM:   5    -0.691675101674E+01    0.66831E-05   -0.44579E-06   896   0.256E-02    0.194E-03
+RMM:   6    -0.691675005043E+01    0.96630E-06   -0.36017E-07   835   0.675E-03    0.673E-04
+RMM:   7    -0.691674964847E+01    0.40196E-06   -0.70250E-08   549   0.304E-03    0.850E-05
+RMM:   8    -0.691674967353E+01   -0.25061E-07   -0.69457E-09   496   0.113E-03
+   2 F= -.69167497E+01 E0= -.69175110E+01  d E =-.393487E-03
+ BRION: g(F)=  0.000E+00 g(S)=  0.371E-03 retain N=  1 mean eig=28.01
+ eig:  28.012
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.726660347343E+01   -0.34985E+00   -0.12671E+01   896   0.374E+01    0.346E+00
+RMM:   2    -0.692821946707E+01    0.33838E+00   -0.14451E+00   896   0.120E+01    0.630E-02
+RMM:   3    -0.692194230185E+01    0.62772E-02   -0.75542E-03   896   0.107E+00    0.235E-02
+RMM:   4    -0.692197917519E+01   -0.36873E-04   -0.47303E-04   972   0.238E-01    0.173E-02
+RMM:   5    -0.692199139574E+01   -0.12221E-04   -0.55222E-05   991   0.823E-02    0.804E-03
+RMM:   6    -0.692199194830E+01   -0.55256E-06   -0.39389E-06   921   0.264E-02    0.468E-03
+RMM:   7    -0.692198701135E+01    0.49370E-05   -0.31082E-06   897   0.177E-02    0.652E-04
+RMM:   8    -0.692198719594E+01   -0.18459E-06   -0.19052E-07   699   0.485E-03    0.471E-04
+RMM:   9    -0.692198728372E+01   -0.87787E-07   -0.48752E-08   667   0.273E-03
+   3 F= -.69219873E+01 E0= -.69230787E+01  d E =-.523761E-02
+ BRION: g(F)=  0.000E+00 g(S)=  0.145E-05 retain N=  1 mean eig=29.94
+ eig:  29.939
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.692387054493E+01   -0.18833E-02   -0.58992E-02   920   0.263E+00    0.237E-01
+RMM:   2    -0.692202905014E+01    0.18415E-02   -0.62646E-03   896   0.770E-01    0.698E-03
+RMM:   3    -0.692201257664E+01    0.16473E-04   -0.53392E-05   896   0.822E-02    0.308E-03
+RMM:   4    -0.692201262458E+01   -0.47936E-07   -0.23487E-06   920   0.161E-02    0.165E-03
+RMM:   5    -0.692201197572E+01    0.64886E-06   -0.68254E-07   898   0.971E-03    0.307E-04
+RMM:   6    -0.692201160085E+01    0.37487E-06   -0.59591E-08   663   0.319E-03    0.165E-04
+RMM:   7    -0.692201164645E+01   -0.45605E-07   -0.24657E-08   644   0.205E-03
+   4 F= -.69220116E+01 E0= -.69231292E+01  d E =-.243627E-04
+ BRION: g(F)=  0.000E+00 g(S)=  0.157E-07 retain N=  1 mean eig=33.43
+ eig:  33.428
+ reached required accuracy - stopping structural energy minimisation

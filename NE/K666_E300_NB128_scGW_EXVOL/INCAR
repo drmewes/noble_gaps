@@ -1,5 +1,5 @@
 KPAR = 4
-NCORE = 8 
+NCORE = 4 
 
 GGA = PE
 IVDW = 12

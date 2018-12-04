@@ -17,7 +17,7 @@ ISYM    =   2           #Do not use symmetry. SYMPREC sets precision for automat
 SYMPREC =   1E-7
 ISPIN   =   1            #Chr: For clean Si(001) surface
 
-LSORBIT = TRUE  
+LSORBIT = FALSE 
 MAXMIX = 50
 
 #Electronic steps
@@ -42,5 +42,5 @@ LWAVE   =   F           #Generate WAVECAR
 LCHARG  =   F           #Generate CHGCAR
 LVTOT   =   F           #Generate LOCPOT
 
-KSPACING = 0.30
+KSPACING = 0.20
 

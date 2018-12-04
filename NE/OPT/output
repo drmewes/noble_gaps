@@ -1,8 +1,24 @@
- running on   32 total cores
- distrk:  each k-point on    8 cores,    4 groups
- distr:  one band on    4 cores,    2 groups
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141267
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141267
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141267
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141267
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141267
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141267
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141267
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141267
+ running on    8 total cores
+ distrk:  each k-point on    2 cores,    4 groups
+ distr:  one band on    2 cores,    1 groups
  using from now: INCAR     
- vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 09 2018 16:43:14) complex          
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
   
  POSCAR found type information on POSCAR  Ne
  POSCAR found :  1 types and       1 ions
@@ -28,35 +44,35 @@
  ----------------------------------------------------------------------------- 
 
  LDA part: xc-table for Pade appr. of Perdew
- generate k-points for:    9    9    9
+ generate k-points for:   13   13   13
  POSCAR, INCAR and KPOINTS ok, starting setup
  FFT: planning ...
  WAVECAR not read
  entering main loop
        N       E                     dE             d eps       ncg     rms          rms(c)
-DAV:   1     0.399420187124E+02    0.39942E+02   -0.46133E+03   568   0.105E+03
-DAV:   2     0.671002186977E+00   -0.39271E+02   -0.36678E+02   608   0.209E+02
-DAV:   3    -0.160355971929E-01   -0.68704E+00   -0.68725E+00   792   0.320E+01
-DAV:   4    -0.183261423380E-01   -0.22905E-02   -0.22906E-02   736   0.206E+00
-DAV:   5    -0.183368356815E-01   -0.10693E-04   -0.10693E-04   840   0.891E-02    0.222E-01
-DAV:   6    -0.182698388758E-01    0.66997E-04   -0.50097E-04   712   0.569E-01    0.134E-01
-DAV:   7    -0.185650686449E-01   -0.29523E-03   -0.30981E-05   648   0.114E-01    0.555E-02
-DAV:   8    -0.186872759170E-01   -0.12221E-03   -0.17232E-05   576   0.779E-02    0.168E-03
-DAV:   9    -0.186849229354E-01    0.23530E-05   -0.96379E-08   896   0.616E-03    0.296E-04
-DAV:  10    -0.186844381705E-01    0.48476E-06   -0.73760E-09   576   0.154E-03    0.573E-05
-DAV:  11    -0.186843113152E-01    0.12686E-06   -0.42852E-10   344   0.387E-04    0.184E-05
-DAV:  12    -0.186843038831E-01    0.74320E-08   -0.10108E-10   312   0.238E-04
-   1 F= -.42210741E-01 E0= -.42497977E-01  d E =-.422107E-01
- BRION: g(F)=  0.000E+00 g(S)=  0.614E-05
+DAV:   1     0.418634088150E+02    0.41863E+02   -0.47416E+03  1360   0.109E+03
+DAV:   2     0.722224999195E+00   -0.41141E+02   -0.37901E+02  1456   0.219E+02
+DAV:   3    -0.146273034796E-01   -0.73685E+00   -0.73719E+00  1896   0.322E+01
+DAV:   4    -0.183470160337E-01   -0.37197E-02   -0.37193E-02  1736   0.261E+00
+DAV:   5    -0.183643965590E-01   -0.17381E-04   -0.17380E-04  2064   0.118E-01    0.222E-01
+DAV:   6    -0.182935486657E-01    0.70848E-04   -0.49865E-04  1656   0.568E-01    0.134E-01
+DAV:   7    -0.185909685198E-01   -0.29742E-03   -0.31180E-05  1552   0.114E-01    0.553E-02
+DAV:   8    -0.187148361865E-01   -0.12387E-03   -0.17163E-05  1432   0.778E-02    0.168E-03
+DAV:   9    -0.187123906657E-01    0.24455E-05   -0.94845E-08  2088   0.612E-03    0.296E-04
+DAV:  10    -0.187118889747E-01    0.50169E-06   -0.75750E-09  1376   0.156E-03    0.566E-05
+DAV:  11    -0.187117579834E-01    0.13099E-06   -0.35249E-10   864   0.371E-04    0.173E-05
+DAV:  12    -0.187117506744E-01    0.73090E-08   -0.89032E-11   728   0.224E-04
+   1 F= -.42348104E-01 E0= -.42663436E-01  d E =-.423481E-01
+ BRION: g(F)=  0.000E+00 g(S)=  0.550E-05
  bond charge predicted
        N       E                     dE             d eps       ncg     rms          rms(c)
-DAV:   1    -0.187187519837E-01   -0.34441E-04   -0.59192E-04   560   0.768E-01    0.321E-02
-DAV:   2    -0.187086242571E-01    0.10128E-04   -0.24291E-05   760   0.104E-01    0.169E-02
-DAV:   3    -0.187044315766E-01    0.41927E-05   -0.33491E-06   840   0.312E-02    0.101E-02
-DAV:   4    -0.187020606693E-01    0.23709E-05   -0.31068E-06   808   0.287E-02    0.276E-03
-DAV:   5    -0.187017790589E-01    0.28161E-06   -0.36042E-07   560   0.798E-03    0.418E-05
-DAV:   6    -0.187017080282E-01    0.71031E-07   -0.21633E-09   280   0.118E-03
-   2 F= -.42216891E-01 E0= -.42504644E-01  d E =-.614968E-05
- BRION: g(F)=  0.000E+00 g(S)=  0.634E-05 retain N=  1 mean eig=60.06
- eig:  60.065
+DAV:   1    -0.187432609641E-01   -0.31503E-04   -0.53058E-04  1344   0.727E-01    0.304E-02
+DAV:   2    -0.187348560828E-01    0.84049E-05   -0.20757E-05  1960   0.954E-02    0.165E-02
+DAV:   3    -0.187313339532E-01    0.35221E-05   -0.22332E-06  2032   0.262E-02    0.109E-02
+DAV:   4    -0.187283848883E-01    0.29491E-05   -0.41788E-06  1776   0.340E-02    0.236E-03
+DAV:   5    -0.187280538591E-01    0.33103E-06   -0.30238E-07  1376   0.783E-03    0.102E-04
+DAV:   6    -0.187279856193E-01    0.68240E-07   -0.12110E-09   680   0.839E-04
+   2 F= -.42353631E-01 E0= -.42669399E-01  d E =-.552779E-05
+ BRION: g(F)=  0.000E+00 g(S)=  0.552E-05 retain N=  1 mean eig=*****
+ eig: 546.104
  reached required accuracy - stopping structural energy minimisation

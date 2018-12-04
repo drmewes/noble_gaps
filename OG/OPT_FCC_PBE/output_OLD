@@ -1,0 +1,225 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141209
+ running on   32 total cores
+ distrk:  each k-point on    8 cores,    4 groups
+ distr:  one band on    4 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ generate k-points for:    9    9    9
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.313755844369E+03    0.31376E+03   -0.92915E+03 20808   0.125E+03
+DAV:   2     0.345529451549E+01   -0.31030E+03   -0.30038E+03 27292   0.451E+02
+DAV:   3    -0.129069915651E+02   -0.16362E+02   -0.16294E+02 24344   0.130E+02
+DAV:   4    -0.133936201348E+02   -0.48663E+00   -0.48633E+00 30268   0.278E+01
+DAV:   5    -0.134110866297E+02   -0.17466E-01   -0.17465E-01 27536   0.433E+00    0.631E+00
+RMM:   6    -0.132668357540E+02    0.14425E+00   -0.90996E-01 21203   0.114E+01    0.211E+00
+RMM:   7    -0.132948084801E+02   -0.27973E-01   -0.20562E-01 21252   0.479E+00    0.848E-01
+RMM:   8    -0.133067225708E+02   -0.11914E-01   -0.40471E-02 21135   0.262E+00    0.448E-01
+RMM:   9    -0.133125549240E+02   -0.58324E-02   -0.69086E-03 22893   0.105E+00    0.277E-01
+RMM:  10    -0.133141715750E+02   -0.16167E-02   -0.34339E-03 23778   0.744E-01    0.691E-02
+RMM:  11    -0.133142593307E+02   -0.87756E-04   -0.59359E-04 22076   0.315E-01    0.183E-02
+RMM:  12    -0.133143306548E+02   -0.71324E-04   -0.19453E-04 21363   0.195E-01    0.101E-02
+RMM:  13    -0.133143433045E+02   -0.12650E-04   -0.40461E-05 21814   0.711E-02    0.390E-03
+RMM:  14    -0.133143464779E+02   -0.31735E-05   -0.11612E-05 21489   0.435E-02    0.871E-04
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      8
+RMM:  15    -0.133143475472E+02   -0.10693E-05   -0.31854E-06 24569   0.156E-02    0.106E-03
+RMM:  16    -0.133143465304E+02    0.10168E-05   -0.74889E-07 23393   0.897E-03    0.449E-04
+RMM:  17    -0.133143463093E+02    0.22113E-06   -0.22019E-07 23381   0.446E-03    0.168E-04
+RMM:  18    -0.133143464465E+02   -0.13719E-06   -0.45274E-08 19456   0.223E-03    0.489E-05
+ num prob RMM:  19    -0.133143465283E+02   -0.81870E-07   -0.98121E-09 14837   0.131E-03    0.519E-05
+ num prob RMM:  20    -0.133143465214E+02    0.69022E-08   -0.35804E-09 13940   0.997E-04
+   1 F= -.13314347E+02 E0= -.13314390E+02  d E =-.133143E+02  mag=     0.0000     0.0000     0.0000
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.000E+00 g(S)=  0.183E-03 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.183E-03
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.133161167385E+02   -0.17702E-02   -0.52796E-02 26312   0.322E+00    0.175E-01
+RMM:   2    -0.133147617652E+02    0.13550E-02   -0.79837E-03 21837   0.106E+00    0.291E-02
+RMM:   3    -0.133145608087E+02    0.20096E-03   -0.15949E-04 24157   0.129E-01    0.139E-02
+RMM:   4    -0.133145232642E+02    0.37545E-04   -0.86384E-05 22366   0.131E-01    0.509E-03
+RMM:   5    -0.133145210916E+02    0.21726E-05   -0.18713E-05 23390   0.462E-02    0.895E-04
+RMM:   6    -0.133145225965E+02   -0.15049E-05   -0.11767E-06 22831   0.147E-02    0.387E-04
+RMM:   7    -0.133145237341E+02   -0.11376E-05   -0.30689E-07 23573   0.546E-03    0.437E-04
+RMM:   8    -0.133145239029E+02   -0.16876E-06   -0.97157E-08 22201   0.380E-03    0.607E-05
+ num prob  num prob  num prob  num prob  num prob  num prob RMM:   9    -0.133145239747E+02   -0.71806E-07   -0.16030E-08 15591   0.152E-03    0.606E-05
+ num prob  num prob  num prob  num prob RMM:  10    -0.133145240423E+02   -0.67650E-07   -0.62708E-09 14418   0.933E-04    0.120E-05
+ num prob  num prob  num prob  num prob  num prob  num prob RMM:  11    -0.133145240552E+02   -0.12926E-07   -0.34791E-09 14278   0.563E-04    0.456E-06
+RMM:  12    -0.133145240562E+02   -0.94906E-09   -0.14449E-09 13847   0.445E-04
+   2 F= -.13314524E+02 E0= -.13314567E+02  d E =-.177535E-03  mag=     0.0000     0.0000     0.0000
+ ZBRENT: can't locate minimum, use default step
+ trial-energy change:   -0.000178  1 .order   -0.000177   -0.000183   -0.000170
+ step:   4.0000(harm= 13.8434)  dis= 0.00000  next Energy=   -13.315615 (dE=-0.127E-02)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.133292818398E+02   -0.14758E-01   -0.47501E-01 24124   0.968E+00    0.524E-01
+RMM:   2    -0.133149161533E+02    0.14366E-01   -0.44551E-02 21416   0.249E+00    0.401E-02
+RMM:   3    -0.133149445938E+02   -0.28441E-04   -0.25910E-03 22388   0.466E-01    0.891E-03
+RMM:   4    -0.133149678518E+02   -0.23258E-04   -0.19870E-04 22918   0.203E-01    0.449E-03
+RMM:   5    -0.133149693198E+02   -0.14680E-05   -0.34621E-05 23467   0.647E-02    0.149E-03
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      8
+RMM:   6    -0.133149704594E+02   -0.11396E-05   -0.49326E-06 22825   0.265E-02    0.653E-04
+RMM:   7    -0.133149709366E+02   -0.47719E-06   -0.10581E-06 24871   0.873E-03    0.104E-03
+RMM:   8    -0.133149713463E+02   -0.40974E-06   -0.35913E-07 23168   0.701E-03    0.166E-03
+RMM:   9    -0.133149707009E+02    0.64543E-06   -0.61649E-08 18393   0.204E-03    0.150E-03
+RMM:  10    -0.133149696389E+02    0.10620E-05   -0.72556E-07 21589   0.982E-03    0.876E-05
+RMM:  11    -0.133149695726E+02    0.66299E-07   -0.53556E-08 20296   0.230E-03    0.215E-04
+RMM:  12    -0.133149695604E+02    0.12180E-07   -0.89840E-09 14416   0.159E-03    0.699E-05
+RMM:  13    -0.133149695420E+02    0.18445E-07   -0.53184E-09 13806   0.110E-03    0.256E-05
+RMM:  14    -0.133149695299E+02    0.12133E-07   -0.96023E-10 13554   0.599E-04    0.166E-05
+RMM:  15    -0.133149695291E+02    0.73487E-09   -0.35349E-10 12482   0.253E-04
+   3 F= -.13314970E+02 E0= -.13315011E+02  d E =-.623008E-03  mag=     0.0000     0.0000     0.0000
+ curvature:  -2.86 expect dE=-0.252E-03 dE for cont linesearch -0.252E-03
+ ZBRENT: increasing intervall
+ opt :  10.0000  next Energy=   -13.315474 (dE=-0.113E-02)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.133722887807E+02   -0.57319E-01   -0.18952E+00 23932   0.194E+01    0.104E+00
+RMM:   2    -0.133148834367E+02    0.57405E-01   -0.20383E-01 21412   0.532E+00    0.254E-02
+RMM:   3    -0.133154976781E+02   -0.61424E-03   -0.78522E-03 23981   0.762E-01    0.320E-02
+RMM:   4    -0.133154671331E+02    0.30545E-04   -0.74425E-04 22921   0.408E-01    0.842E-03
+RMM:   5    -0.133154752915E+02   -0.81584E-05   -0.11652E-04 23432   0.109E-01    0.542E-04
+RMM:   6    -0.133154796587E+02   -0.43672E-05   -0.13592E-05 23208   0.421E-02    0.851E-04
+RMM:   7    -0.133154798552E+02   -0.19653E-06   -0.46894E-06 23567   0.157E-02    0.384E-04
+RMM:   8    -0.133154798355E+02    0.19730E-07   -0.47564E-07 21437   0.695E-03    0.245E-04
+RMM:   9    -0.133154798502E+02   -0.14744E-07   -0.15907E-07 19033   0.269E-03    0.868E-05
+RMM:  10    -0.133154798794E+02   -0.29173E-07   -0.34016E-08 16487   0.159E-03    0.326E-05
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob RMM:  11    -0.133154798782E+02    0.12028E-08   -0.55032E-09 14887   0.109E-03
+   4 F= -.13315480E+02 E0= -.13315520E+02  d E =-.113336E-02  mag=    -0.0000    -0.0000    -0.0000
+ curvature:  -5.73 expect dE=-0.597E-04 dE for cont linesearch -0.597E-04
+ ZBRENT: increasing intervall
+ opt :  22.0000  next Energy=   -13.315003 (dE=-0.657E-03)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.135387634201E+02   -0.22328E+00   -0.75422E+00 23636   0.389E+01    0.206E+00
+RMM:   2    -0.133127645266E+02    0.22600E+00   -0.86352E-01 21412   0.109E+01    0.248E-02
+RMM:   3    -0.133149593138E+02   -0.21948E-02   -0.23399E-02 25457   0.132E+00    0.492E-02
+RMM:   4    -0.133150088431E+02   -0.49529E-04   -0.28313E-03 22947   0.723E-01    0.142E-02
+RMM:   5    -0.133150356553E+02   -0.26812E-04   -0.43832E-04 23283   0.200E-01    0.371E-03
+RMM:   6    -0.133150451994E+02   -0.95441E-05   -0.52426E-05 22820   0.813E-02    0.205E-03
+RMM:   7    -0.133150468951E+02   -0.16957E-05   -0.19550E-05 24017   0.316E-02    0.797E-04
+RMM:   8    -0.133150475667E+02   -0.67168E-06   -0.21471E-06 22351   0.149E-02    0.150E-04
+RMM:   9    -0.133150475510E+02    0.15769E-07   -0.64131E-07 24216   0.538E-03    0.248E-04
+RMM:  10    -0.133150476070E+02   -0.55993E-07   -0.13551E-07 19063   0.294E-03    0.393E-05
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob RMM:  11    -0.133150476684E+02   -0.61462E-07   -0.25131E-08 15493   0.142E-03    0.251E-05
+ num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob  num prob RMM:  12    -0.133150476994E+02   -0.30961E-07   -0.19577E-08 14858   0.982E-04    0.172E-05
+ num prob  num prob  num prob  num prob RMM:  13    -0.133150477102E+02   -0.10777E-07   -0.46450E-09 14647   0.705E-04    0.982E-06
+ num prob  num prob  num prob RMM:  14    -0.133150477109E+02   -0.72032E-09   -0.28179E-09 14252   0.527E-04
+   5 F= -.13315048E+02 E0= -.13315089E+02  d E =-.701189E-03  mag=    -0.0000    -0.0000     0.0000
+ curvature:  45.77 expect dE= 0.338E-02 dE for cont linesearch  0.338E-02
+ ZBRENT: bracketing found
+ ZBRENT: interpolating
+ opt :  13.2758  next Energy=   -13.315551 (dE=-0.120E-02)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.134351109324E+02   -0.12006E+00   -0.38838E+00 23932   0.272E+01    0.152E+00
+RMM:   2    -0.133151848163E+02    0.11993E+00   -0.51685E-01 21380   0.846E+00    0.831E-02
+RMM:   3    -0.133154913860E+02   -0.30657E-03   -0.97752E-03 22426   0.109E+00    0.268E-02
+RMM:   4    -0.133155372288E+02   -0.45843E-04   -0.12007E-03 23276   0.529E-01    0.683E-03
+RMM:   5    -0.133155489168E+02   -0.11688E-04   -0.15305E-04 23344   0.140E-01    0.161E-03
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3      8
+RMM:   6    -0.133155511519E+02   -0.22351E-05   -0.27888E-05 25570   0.517E-02    0.751E-04
+RMM:   7    -0.133155512583E+02   -0.10644E-06   -0.60374E-06 23343   0.212E-02    0.648E-04
+RMM:   8    -0.133155504312E+02    0.82712E-06   -0.23494E-06 23111   0.107E-02    0.248E-04
+RMM:   9    -0.133155505211E+02   -0.89920E-07   -0.28402E-07 19605   0.380E-03    0.452E-05
+ num prob  num prob RMM:  10    -0.133155506740E+02   -0.15281E-06   -0.13207E-07 16801   0.203E-03    0.978E-05
+ num prob RMM:  11    -0.133155506537E+02    0.20248E-07   -0.15513E-08 15503   0.113E-03    0.612E-05
+ num prob  num prob  num prob  num prob  num prob RMM:  12    -0.133155506107E+02    0.42967E-07   -0.10529E-08 15147   0.993E-04    0.395E-05
+RMM:  13    -0.133155505739E+02    0.36808E-07   -0.32298E-09 14244   0.602E-04    0.151E-05
+RMM:  14    -0.133155505753E+02   -0.13888E-08   -0.16877E-09 13990   0.423E-04
+   6 F= -.13315551E+02 E0= -.13315590E+02  d E =-.120405E-02  mag=    -0.0000    -0.0000     0.0000
+ curvature:  -0.97 expect dE=-0.252E-08 dE for cont linesearch -0.252E-08
+ trial: gam= 0.00000 g(F)=  0.000E+00 g(S)=  0.260E-08 ort =-0.690E-06 (trialstep = 0.346E+01)
+ search vector abs. value=  0.270E-08
+ reached required accuracy - stopping structural energy minimisation

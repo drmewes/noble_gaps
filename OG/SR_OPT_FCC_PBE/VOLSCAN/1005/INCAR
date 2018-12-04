@@ -1,7 +1,7 @@
 KPAR = 4
 NCORE = 4 
 
-GGA = PS
+GGA = PE
 GGA_COMPAT = .FALSE.
 
 SYSTEM  =   Og_FCC
