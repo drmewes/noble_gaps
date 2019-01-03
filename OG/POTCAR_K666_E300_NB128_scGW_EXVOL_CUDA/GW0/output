@@ -1,0 +1,188 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142298
+ running on   32 total cores
+ distrk:  each k-point on    1 cores,   32 groups
+ distr:  one band on    1 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+
+ The Fermi energy was updated, please check that it is located mid-gap
+ values below the HOMO (VB) or above the LUMO (CB) will cause erroneous energies
+ E-fermi :   3.7693
+
+ calculate exact exchange contribution
+ the WAVEDER file was read successfully
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have a very small band gap. This results in slow convergence       |
+|      of the energy with respect to NOMEGA                                   |
+|      Usually VASP defaults OMEGAMIN to the bandgap which guarantees an      |
+|      optimal grid for OMEGAGRID=140.                                        |
+|      The gap was found to be OMEGAMIN= 0.0100                               |
+|      Now OMEGAMIN is set to 0.02 instead, which effectively removes some    |
+|      excitations from the spectrum.                                         |
+|      You can set OMEGAMIN manually in the INCAR, however.                   |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+energies w= 
+   0.00   0.00   2.94   0.00   5.86   0.00   8.77   0.00  11.65   0.00
+  14.50   0.00  17.31   0.00  20.08   0.00  22.81   0.00  25.49   0.00
+  28.12   0.00  30.72   0.00  33.27   0.00  35.79   0.00  38.28   0.00
+  40.75   0.00  43.20   0.00  45.64   0.00  48.07   0.00  50.51   0.00
+  52.96   0.00  55.43   0.00  57.93   0.00  60.47   0.00  63.06   0.00
+  65.71   0.00  68.44   0.00  71.25   0.00  74.18   0.00  77.23   0.00
+  80.43   0.00  83.80   0.00  87.38   0.00  91.18   0.00  95.27   0.00
+  99.67   0.00 104.46   0.00 109.71   0.00 115.49   0.00 121.92   0.00
+ 129.15   0.00 137.34   0.00 146.73   0.00 157.64   0.00 170.47   0.00
+ 185.83   0.00 204.56   0.00 227.90   0.00 257.81   0.00 297.49   0.00
+ responsefunction array rank=     397
+ LDA part: xc-table for Pade appr. of Perdew
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      LSPECTRAL is very inefficient if not sufficient memory is available.   |
+|      The available memory per core shoushould be set by MAXMEM = XXXX       |
+|      The default for MAXMEM is presently XXXX=2800 (MByte).                 |
+|      If this has already been done, and if the warning prevails,            |
+|      you should either decrease NOMEGA or decrease ENCUTGW, or distribute   |
+|      the calculations onto more nodes.                                      |
+|      Note the present calculations might lead to excessive memory paging!!  |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ allocating   2 responsefunctions rank=   397
+ shmem allocating   1 responsefunctions rank=   397
+ response function shared by NCSHMEM nodes    1
+ Doing            2  frequencies on each core in blocks of            1
+NQ=   1    0.0000    0.0000    0.0000, 

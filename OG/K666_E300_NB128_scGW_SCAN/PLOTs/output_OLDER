@@ -1,0 +1,151 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141342
+ running on   32 total cores
+ distrk:  each k-point on    4 cores,    8 groups
+ distr:  one band on    4 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.146247467492E+03   -0.14625E+03   -0.44595E+02 22928   0.163E+02
+DAV:   2    -0.150171380654E+03   -0.39239E+01   -0.38869E+01 16460   0.390E+01
+DAV:   3    -0.150279602102E+03   -0.10822E+00   -0.10815E+00 23492   0.700E+00
+DAV:   4    -0.150281299779E+03   -0.16977E-02   -0.16975E-02 17696   0.722E-01
+DAV:   5    -0.150281395811E+03   -0.96032E-04   -0.96030E-04 24104   0.179E-01    0.949E-01
+DAV:   6    -0.149746225453E+03    0.53517E+00   -0.12824E+00 17032   0.158E+01    0.317E-01
+DAV:   7    -0.149691335386E+03    0.54890E-01   -0.22297E-01 20276   0.616E+00    0.320E-01
+DAV:   8    -0.149692407911E+03   -0.10725E-02   -0.42463E-03 16048   0.810E-01    0.184E-01
+DAV:   9    -0.149689209516E+03    0.31984E-02   -0.15262E-02 15948   0.140E+00    0.466E-02
+DAV:  10    -0.149688883280E+03    0.32624E-03   -0.18778E-03 20484   0.517E-01    0.374E-02
+DAV:  11    -0.149688674361E+03    0.20892E-03   -0.93583E-05 17092   0.122E-01    0.808E-03
+DAV:  12    -0.149688646631E+03    0.27730E-04   -0.20075E-05 24560   0.483E-02    0.378E-03
+DAV:  13    -0.149688638640E+03    0.79913E-05   -0.24417E-06 18392   0.165E-02    0.154E-03
+DAV:  14    -0.149688635364E+03    0.32766E-05   -0.18977E-06 15440   0.127E-02    0.121E-03
+DAV:  15    -0.149688634613E+03    0.75018E-06   -0.13604E-06 15720   0.103E-02    0.490E-04
+DAV:  16    -0.149688634819E+03   -0.20519E-06   -0.40903E-07 15684   0.606E-03    0.374E-04
+DAV:  17    -0.149688635059E+03   -0.24029E-06   -0.50387E-07 15344   0.631E-03    0.336E-04
+DAV:  18    -0.149688635333E+03   -0.27438E-06   -0.32241E-07 15276   0.508E-03    0.239E-04
+DAV:  19    -0.149688635589E+03   -0.25575E-06   -0.15058E-07 15368   0.354E-03    0.148E-04
+DAV:  20    -0.149688635775E+03   -0.18617E-06   -0.94539E-08 15148   0.274E-03    0.140E-04
+DAV:  21    -0.149688635854E+03   -0.78372E-07   -0.48287E-08 15176   0.197E-03    0.699E-05
+DAV:  22    -0.149688635866E+03   -0.12451E-07   -0.14841E-08 12856   0.111E-03    0.406E-05
+DAV:  23    -0.149688635868E+03   -0.17621E-08   -0.86551E-09 11832   0.869E-04
+   1 F= -.14968864E+03 E0= -.14968864E+03  d E =0.000000E+00  mag=     0.0000    -0.0000    -0.0000
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have switched on METAGGA and linear response routines.             |
+|      This combination is currently not supported.                           |
+|      If you have selected LOPTICS=.TRUE., VASP will continue but some       |
+|      matrix elements [H,r] are neglected   (you might try to use            |
+|      LPEAD=.TRUE. which works irrespective of H).                           |
+|      In all other cases VASP will stop now. SOOO sorry...                   |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ direction            1
+ direction            2
+ direction            3

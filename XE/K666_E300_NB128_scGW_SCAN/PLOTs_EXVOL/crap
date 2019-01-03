@@ -1,0 +1,22 @@
+
+** (gedit:32901): WARNING **: Couldn't connect to accessibility bus: Failed to connect to socket /tmp/dbus-iQn8DklFZz: Connection refused
+
+** (gedit:32901): WARNING **: Error when getting information for file '/home/mewes/bin/vasp_tools/plot_bands.sh': No such file or directory
+
+(gedit:32901): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(gedit:32901): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(gedit:32901): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:32901): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:32901): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+(gedit:32901): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:32901): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:32901): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:32901): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported

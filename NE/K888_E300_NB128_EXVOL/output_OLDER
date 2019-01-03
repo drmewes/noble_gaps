@@ -1,0 +1,116 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141408
+ running on   32 total cores
+ distrk:  each k-point on    8 cores,    4 groups
+ distr:  one band on    4 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ POSCAR found type information on POSCAR  Ne
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.308754223466E+01    0.30875E+01   -0.24963E-10  6320   0.220E-04
+DAV:   2     0.308754223466E+01   -0.37517E-11   -0.16645E-11  6318   0.558E-05
+DAV:   3     0.308754223466E+01    0.57980E-11   -0.10660E-12  6318   0.132E-05
+DAV:   4     0.308754223466E+01   -0.40927E-11   -0.13082E-13  6318   0.409E-06
+DAV:   5     0.308754223465E+01   -0.60254E-11    0.45367E-14  6318   0.113E-06    0.331E-05
+DAV:   6     0.308754223509E+01    0.43713E-09   -0.51774E-11  6318   0.109E-04
+   1 F= 0.30684392E+01 E0= 0.30684392E+01  d E =0.000000E+00  mag=     0.0000    -0.0000     0.0000
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+ recalculating local potential from charge density
+ direction            1
+ direction            2
+ direction            3

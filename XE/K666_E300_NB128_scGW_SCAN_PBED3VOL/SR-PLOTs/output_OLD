@@ -1,0 +1,78 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141385
+ running on   16 total cores
+ distrk:  each k-point on    2 cores,    8 groups
+ distr:  one band on    2 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ POSCAR found type information on POSCAR  Xe
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.362453704610E+02   -0.36245E+02   -0.16529E-12  6104   0.308E-06
+DAV:   2    -0.362453704610E+02    0.27399E-10    0.11650E-13  6040   0.757E-07
+DAV:   3    -0.362453704610E+02   -0.71623E-11    0.43194E-13  5984   0.213E-07
+DAV:   4    -0.362453704610E+02   -0.15461E-10   -0.12831E-13  6032   0.760E-08
+DAV:   5    -0.362453704610E+02   -0.12619E-10    0.28752E-14  6000   0.271E-08    0.105E-06
+DAV:   6    -0.362453704612E+02   -0.14143E-09   -0.24299E-13  6072   0.342E-07
+   1 F= -.36245370E+02 E0= -.36245370E+02  d E =-.498977E-26
+ writing wavefunctions

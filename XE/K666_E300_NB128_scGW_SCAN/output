@@ -1,8 +1,72 @@
- running on   64 total cores
- distrk:  each k-point on   16 cores,    4 groups
- distr:  one band on    4 cores,    4 groups
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142120
+ running on   32 total cores
+ distrk:  each k-point on    8 cores,    4 groups
+ distr:  one band on    4 cores,    2 groups
  using from now: INCAR     
- vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 09 2018 16:43:14) complex          
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
   
  POSCAR found type information on POSCAR  Xe
  POSCAR found :  1 types and       1 ions
@@ -33,29 +97,29 @@
  WAVECAR not read
  entering main loop
        N       E                     dE             d eps       ncg     rms          rms(c)
-DAV:   1    -0.549775504787E+01   -0.54978E+01   -0.20574E+03  8640   0.416E+02
-DAV:   2    -0.350021692963E+02   -0.29504E+02   -0.27521E+02 11772   0.954E+01
-DAV:   3    -0.373746539565E+02   -0.23725E+01   -0.23617E+01 10592   0.270E+01
-DAV:   4    -0.373968557911E+02   -0.22202E-01   -0.22199E-01 10420   0.331E+00
-DAV:   5    -0.373969957947E+02   -0.14000E-03   -0.14000E-03 10444   0.289E-01    0.430E+00
-DAV:   6    -0.363314216737E+02    0.10656E+01   -0.27052E-01  9424   0.520E+00    0.118E+00
-DAV:   7    -0.363872202246E+02   -0.55799E-01   -0.12183E-01  9036   0.250E+00    0.317E-01
-DAV:   8    -0.363861572207E+02    0.10630E-02   -0.12631E-02  9892   0.815E-01    0.237E-01
-DAV:   9    -0.363858834879E+02    0.27373E-03   -0.98646E-04 10308   0.227E-01    0.623E-02
-DAV:  10    -0.363858158925E+02    0.67595E-04   -0.37326E-04  9568   0.165E-01    0.433E-02
-DAV:  11    -0.363857686250E+02    0.47268E-04   -0.21120E-04  9388   0.136E-01    0.182E-02
-DAV:  12    -0.363857817701E+02   -0.13145E-04   -0.25308E-05  9988   0.395E-02    0.999E-03
-DAV:  13    -0.363857885031E+02   -0.67330E-05   -0.52352E-06  9576   0.187E-02    0.471E-03
-DAV:  14    -0.363857914060E+02   -0.29029E-05   -0.14391E-06  9636   0.996E-03    0.298E-03
-DAV:  15    -0.363857922822E+02   -0.87625E-06   -0.27134E-07  9724   0.429E-03    0.138E-03
-DAV:  16    -0.363857923366E+02   -0.54421E-07   -0.71903E-08 10156   0.202E-03    0.518E-04
-DAV:  17    -0.363857922916E+02    0.45023E-07   -0.17617E-08 10312   0.931E-04    0.185E-04
-DAV:  18    -0.363857922285E+02    0.63114E-07   -0.36151E-09  7912   0.525E-04    0.151E-04
-DAV:  19    -0.363857921804E+02    0.48108E-07   -0.66670E-10  5428   0.215E-04    0.643E-05
-DAV:  20    -0.363857921545E+02    0.25851E-07   -0.14809E-10  5216   0.102E-04    0.156E-05
-DAV:  21    -0.363857921409E+02    0.13615E-07   -0.41233E-11  5148   0.472E-05    0.133E-05
-DAV:  22    -0.363857921324E+02    0.85075E-08   -0.68916E-12  5072   0.227E-05
-   1 F= -.36385792E+02 E0= -.36385792E+02  d E =0.000000E+00  mag=    -0.0000    -0.0000    -0.0000
+DAV:   1    -0.539898708794E+01   -0.53990E+01   -0.21092E+03  7776   0.464E+02
+DAV:   2    -0.350127310259E+02   -0.29614E+02   -0.27493E+02 10854   0.102E+02
+DAV:   3    -0.373848915705E+02   -0.23722E+01   -0.23633E+01  9518   0.293E+01
+DAV:   4    -0.374063084510E+02   -0.21417E-01   -0.21414E-01  9552   0.360E+00
+DAV:   5    -0.374064392397E+02   -0.13079E-03   -0.13079E-03  9350   0.308E-01    0.432E+00
+DAV:   6    -0.363323511915E+02    0.10741E+01   -0.24692E-01  8002   0.555E+00    0.120E+00
+DAV:   7    -0.363824038917E+02   -0.50053E-01   -0.12358E-01  7838   0.271E+00    0.367E-01
+DAV:   8    -0.363809126795E+02    0.14912E-02   -0.94868E-03  8412   0.101E+00    0.161E-01
+DAV:   9    -0.363808695669E+02    0.43113E-04   -0.99256E-04  9154   0.304E-01    0.594E-02
+DAV:  10    -0.363807823695E+02    0.87197E-04   -0.55728E-04  8008   0.205E-01    0.620E-02
+DAV:  11    -0.363807324083E+02    0.49961E-04   -0.35001E-04  7978   0.181E-01    0.136E-02
+DAV:  12    -0.363807411388E+02   -0.87304E-05   -0.13312E-05  8270   0.374E-02    0.928E-03
+DAV:  13    -0.363807498649E+02   -0.87262E-05   -0.39022E-06  8126   0.182E-02    0.383E-03
+DAV:  14    -0.363807528059E+02   -0.29410E-05   -0.15720E-06  8084   0.122E-02    0.800E-04
+DAV:  15    -0.363807529744E+02   -0.16842E-06   -0.23701E-07  8406   0.485E-03    0.395E-04
+DAV:  16    -0.363807528446E+02    0.12977E-06   -0.25925E-08  8910   0.152E-03    0.235E-04
+DAV:  17    -0.363807527308E+02    0.11379E-06   -0.74637E-09  6498   0.910E-04    0.988E-05
+DAV:  18    -0.363807526918E+02    0.38953E-07   -0.18023E-09  6262   0.431E-04    0.509E-05
+DAV:  19    -0.363807526575E+02    0.34347E-07   -0.21882E-10  4190   0.148E-04    0.347E-05
+DAV:  20    -0.363807526243E+02    0.33148E-07   -0.37997E-11  4190   0.628E-05    0.176E-05
+DAV:  21    -0.363807525982E+02    0.26099E-07   -0.15460E-11  4188   0.385E-05    0.463E-06
+DAV:  22    -0.363807525985E+02   -0.27160E-09   -0.29522E-12  4174   0.158E-05
+   1 F= -.36380753E+02 E0= -.36380753E+02  d E =0.000000E+00  mag=    -0.0000    -0.0000    -0.0000
  writing wavefunctions
  optical routines
  imaginary and real dielectric function

@@ -1,0 +1,191 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142229
+ running on   64 total cores
+ distrk:  each k-point on   16 cores,    4 groups
+ distr:  one band on    8 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ POSCAR found type information on POSCAR  Og
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ WAVECAR: different cutoff or change in lattice found
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.132655637815E+02   -0.13266E+02   -0.55617E+00 12096   0.353E+01
+DAV:   2    -0.132665392462E+02   -0.97546E-03   -0.97546E-03 18608   0.147E+00
+DAV:   3    -0.132665495806E+02   -0.10334E-04   -0.10334E-04 15856   0.102E-01
+DAV:   4    -0.132665498005E+02   -0.21991E-06   -0.22021E-06 19592   0.154E-02
+DAV:   5    -0.132665498101E+02   -0.96243E-08   -0.95092E-08 15500   0.247E-03    0.520E-01
+DAV:   6    -0.132643735828E+02    0.21762E-02   -0.24907E-03 13492   0.722E-01    0.286E-01
+DAV:   7    -0.132640551405E+02    0.31844E-03   -0.17586E-03 15052   0.608E-01    0.498E-02
+DAV:   8    -0.132640755722E+02   -0.20432E-04   -0.74985E-05 14704   0.710E-02    0.109E-02
+DAV:   9    -0.132640803721E+02   -0.47999E-05   -0.49543E-06 14808   0.214E-02    0.749E-03
+DAV:  10    -0.132640817066E+02   -0.13345E-05   -0.78907E-07 15580   0.807E-03    0.610E-04
+DAV:  11    -0.132640819030E+02   -0.19643E-06   -0.36505E-07 11240   0.384E-03    0.298E-04
+DAV:  12    -0.132640818838E+02    0.19188E-07   -0.40832E-07 11132   0.344E-03    0.217E-04
+DAV:  13    -0.132640818645E+02    0.19388E-07   -0.45482E-07 10716   0.349E-03    0.261E-04
+DAV:  14    -0.132640818370E+02    0.27439E-07   -0.89717E-08 11040   0.158E-03    0.121E-04
+DAV:  15    -0.132640818336E+02    0.33806E-08   -0.10738E-07 10832   0.185E-03    0.544E-05
+DAV:  16    -0.132640818333E+02    0.36061E-09   -0.25428E-08 11544   0.891E-04
+   1 F= -.13704044E+02 E0= -.13704044E+02  d E =-.139153E-07  mag=     0.0017    -0.0007    -0.0005
+ writing wavefunctions
+ optical routines
+ imaginary and real dielectric function
+ recalculating local potential from charge density
+ direction            1
+ direction            2
+ direction            3

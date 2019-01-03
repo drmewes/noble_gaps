@@ -1,0 +1,1083 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/141653
+ running on   64 total cores
+ distrk:  each k-point on    4 cores,   16 groups
+ distr:  one band on    1 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ POSCAR found type information on POSCAR  Rn
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+
+ The Fermi energy was updated, please check that it is located mid-gap
+ values below the HOMO (VB) or above the LUMO (CB) will cause erroneous energies
+ E-fermi :   0.2163
+
+ calculate exact exchange contribution
+ the WAVEDER file was read successfully
+energies w= 
+   0.00   0.00   1.50   0.00   2.99   0.00   4.48   0.00   5.95   0.00
+   7.40   0.00   8.84   0.00  10.25   0.00  11.63   0.00  13.00   0.00
+  14.33   0.00  15.65   0.00  16.95   0.00  18.23   0.00  19.50   0.00
+  20.76   0.00  22.01   0.00  23.25   0.00  24.49   0.00  25.74   0.00
+  27.00   0.00  28.27   0.00  29.56   0.00  30.88   0.00  32.22   0.00
+  33.61   0.00  35.04   0.00  36.53   0.00  38.08   0.00  39.71   0.00
+  41.43   0.00  43.25   0.00  45.20   0.00  47.30   0.00  49.56   0.00
+  52.04   0.00  54.76   0.00  57.77   0.00  61.14   0.00  64.95   0.00
+  69.29   0.00  74.32   0.00  80.21   0.00  87.23   0.00  95.73   0.00
+ 106.26   0.00 119.65   0.00 137.25   0.00 161.36   0.00 196.40   0.00
+ responsefunction array rank=     400
+ LDA part: xc-table for Pade appr. of Perdew
+ allocating   1 responsefunctions rank=   400
+ shmem allocating  50 responsefunctions rank=   400
+ response function shared by NCSHMEM nodes    1
+ Doing            1  frequencies on each core in blocks of           50
+NQ=   1    0.0000    0.0000    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed       4771000 updates of chi_q(r,r)
+ total number of BLAS operations     5716.39 Gflops
+NQ=   2    0.1667    0.0000    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed       9542000 updates of chi_q(r,r)
+ total number of BLAS operations    11227.86 Gflops
+NQ=   3    0.3333    0.0000    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      14313000 updates of chi_q(r,r)
+ total number of BLAS operations    17003.49 Gflops
+NQ=   4    0.5000    0.0000    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      19084000 updates of chi_q(r,r)
+ total number of BLAS operations    22868.55 Gflops
+NQ=   5   -0.3333   -0.0000   -0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      23855000 updates of chi_q(r,r)
+ total number of BLAS operations    28644.18 Gflops
+NQ=   6   -0.1667   -0.0000   -0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      28626000 updates of chi_q(r,r)
+ total number of BLAS operations    34155.65 Gflops
+NQ=   7    0.0000    0.1667   -0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      33397000 updates of chi_q(r,r)
+ total number of BLAS operations    39667.11 Gflops
+NQ=   8    0.1667    0.1667    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      38168000 updates of chi_q(r,r)
+ total number of BLAS operations    45265.95 Gflops
+NQ=   9    0.3333    0.1667    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      42939000 updates of chi_q(r,r)
+ total number of BLAS operations    51071.31 Gflops
+NQ=  10    0.5000    0.1667    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      47710000 updates of chi_q(r,r)
+ total number of BLAS operations    56966.33 Gflops
+NQ=  11   -0.3333    0.1667   -0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      52481000 updates of chi_q(r,r)
+ total number of BLAS operations    62741.96 Gflops
+NQ=  12   -0.1667    0.1667   -0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      57252000 updates of chi_q(r,r)
+ total number of BLAS operations    68399.42 Gflops
+NQ=  13    0.0000    0.3333    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      62023000 updates of chi_q(r,r)
+ total number of BLAS operations    74175.05 Gflops
+NQ=  14    0.1667    0.3333    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      66794000 updates of chi_q(r,r)
+ total number of BLAS operations    79980.41 Gflops
+NQ=  15    0.3333    0.3333    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      71565000 updates of chi_q(r,r)
+ total number of BLAS operations    85696.81 Gflops
+NQ=  16    0.5000    0.3333    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      76336000 updates of chi_q(r,r)
+ total number of BLAS operations    91561.86 Gflops
+NQ=  17   -0.3333    0.3333   -0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      81107000 updates of chi_q(r,r)
+ total number of BLAS operations    97337.49 Gflops
+NQ=  18   -0.1667    0.3333   -0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      85878000 updates of chi_q(r,r)
+ total number of BLAS operations   103113.12 Gflops
+NQ=  19    0.0000    0.5000    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      90649000 updates of chi_q(r,r)
+ total number of BLAS operations   108978.18 Gflops
+NQ=  20    0.1667    0.5000    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed      95420000 updates of chi_q(r,r)
+ total number of BLAS operations   114873.20 Gflops
+NQ=  21    0.3333    0.5000    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     100191000 updates of chi_q(r,r)
+ total number of BLAS operations   120738.26 Gflops
+NQ=  22    0.5000    0.5000    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     104962000 updates of chi_q(r,r)
+ total number of BLAS operations   126484.23 Gflops
+NQ=  23   -0.3333    0.5000   -0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     109733000 updates of chi_q(r,r)
+ total number of BLAS operations   132349.29 Gflops
+NQ=  24   -0.1667    0.5000   -0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     114504000 updates of chi_q(r,r)
+ total number of BLAS operations   138244.31 Gflops
+NQ=  25    0.0000   -0.3333    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     119275000 updates of chi_q(r,r)
+ total number of BLAS operations   144019.94 Gflops
+NQ=  26    0.1667   -0.3333    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     124046000 updates of chi_q(r,r)
+ total number of BLAS operations   149795.57 Gflops
+NQ=  27    0.3333   -0.3333    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     128817000 updates of chi_q(r,r)
+ total number of BLAS operations   155571.20 Gflops
+NQ=  28    0.5000   -0.3333    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     133588000 updates of chi_q(r,r)
+ total number of BLAS operations   161436.25 Gflops
+NQ=  29   -0.3333   -0.3333   -0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     138359000 updates of chi_q(r,r)
+ total number of BLAS operations   167152.65 Gflops
+NQ=  30   -0.1667   -0.3333   -0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     143130000 updates of chi_q(r,r)
+ total number of BLAS operations   172958.01 Gflops
+NQ=  31    0.0000   -0.1667    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     147901000 updates of chi_q(r,r)
+ total number of BLAS operations   178469.48 Gflops
+NQ=  32    0.1667   -0.1667    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     152672000 updates of chi_q(r,r)
+ total number of BLAS operations   184126.94 Gflops
+NQ=  33    0.3333   -0.1667    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     157443000 updates of chi_q(r,r)
+ total number of BLAS operations   189902.57 Gflops
+NQ=  34    0.5000   -0.1667    0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     162214000 updates of chi_q(r,r)
+ total number of BLAS operations   195797.59 Gflops
+NQ=  35   -0.3333   -0.1667   -0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     166985000 updates of chi_q(r,r)
+ total number of BLAS operations   201602.95 Gflops
+NQ=  36   -0.1667   -0.1667   -0.0000, 
+|.........|.........|.........|.........|.........|.........
+ performed     171756000 updates of chi_q(r,r)
+ total number of BLAS operations   207201.79 Gflops
+NQ=  37    0.0000   -0.0000    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     176527000 updates of chi_q(r,r)
+ total number of BLAS operations   212713.25 Gflops
+NQ=  38    0.1667    0.0000    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     181298000 updates of chi_q(r,r)
+ total number of BLAS operations   218312.09 Gflops
+NQ=  39    0.3333    0.0000    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     186069000 updates of chi_q(r,r)
+ total number of BLAS operations   224117.45 Gflops
+NQ=  40    0.5000    0.0000    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     190840000 updates of chi_q(r,r)
+ total number of BLAS operations   230012.47 Gflops
+NQ=  41   -0.3333   -0.0000    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     195611000 updates of chi_q(r,r)
+ total number of BLAS operations   235788.10 Gflops
+NQ=  42   -0.1667   -0.0000    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     200382000 updates of chi_q(r,r)
+ total number of BLAS operations   241445.56 Gflops
+NQ=  43    0.0000    0.1667    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     205153000 updates of chi_q(r,r)
+ total number of BLAS operations   247044.40 Gflops
+NQ=  44    0.1667    0.1667    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     209924000 updates of chi_q(r,r)
+ total number of BLAS operations   252555.87 Gflops
+NQ=  45    0.3333    0.1667    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     214695000 updates of chi_q(r,r)
+ total number of BLAS operations   258213.33 Gflops
+NQ=  46    0.5000    0.1667    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     219466000 updates of chi_q(r,r)
+ total number of BLAS operations   263988.96 Gflops
+NQ=  47   -0.3333    0.1667    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     224237000 updates of chi_q(r,r)
+ total number of BLAS operations   269883.98 Gflops
+NQ=  48   -0.1667    0.1667    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     229008000 updates of chi_q(r,r)
+ total number of BLAS operations   275689.34 Gflops
+NQ=  49    0.0000    0.3333    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     233779000 updates of chi_q(r,r)
+ total number of BLAS operations   281494.70 Gflops
+NQ=  50    0.1667    0.3333    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     238550000 updates of chi_q(r,r)
+ total number of BLAS operations   287152.16 Gflops
+NQ=  51    0.3333    0.3333    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     243321000 updates of chi_q(r,r)
+ total number of BLAS operations   292957.52 Gflops
+NQ=  52    0.5000    0.3333    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     248092000 updates of chi_q(r,r)
+ total number of BLAS operations   298973.16 Gflops
+NQ=  53   -0.3333    0.3333    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     252863000 updates of chi_q(r,r)
+ total number of BLAS operations   304898.21 Gflops
+NQ=  54   -0.1667    0.3333    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     257634000 updates of chi_q(r,r)
+ total number of BLAS operations   310913.84 Gflops
+NQ=  55    0.0000    0.5000    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     262405000 updates of chi_q(r,r)
+ total number of BLAS operations   316808.86 Gflops
+NQ=  56    0.1667    0.5000    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     267176000 updates of chi_q(r,r)
+ total number of BLAS operations   322584.49 Gflops
+NQ=  57    0.3333    0.5000    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     271947000 updates of chi_q(r,r)
+ total number of BLAS operations   328600.12 Gflops
+NQ=  58    0.5000    0.5000    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     276718000 updates of chi_q(r,r)
+ total number of BLAS operations   334465.18 Gflops
+NQ=  59   -0.3333    0.5000    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     281489000 updates of chi_q(r,r)
+ total number of BLAS operations   340270.54 Gflops
+NQ=  60   -0.1667    0.5000    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     286260000 updates of chi_q(r,r)
+ total number of BLAS operations   346195.60 Gflops
+NQ=  61   -0.0000   -0.3333    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     291031000 updates of chi_q(r,r)
+ total number of BLAS operations   351971.23 Gflops
+NQ=  62    0.1667   -0.3333    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     295802000 updates of chi_q(r,r)
+ total number of BLAS operations   357866.25 Gflops
+NQ=  63    0.3333   -0.3333    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     300573000 updates of chi_q(r,r)
+ total number of BLAS operations   363791.31 Gflops
+NQ=  64    0.5000   -0.3333    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     305344000 updates of chi_q(r,r)
+ total number of BLAS operations   369596.67 Gflops
+NQ=  65   -0.3333   -0.3333    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     310115000 updates of chi_q(r,r)
+ total number of BLAS operations   375461.73 Gflops
+NQ=  66   -0.1667   -0.3333    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     314886000 updates of chi_q(r,r)
+ total number of BLAS operations   381477.36 Gflops
+NQ=  67   -0.0000   -0.1667    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     319657000 updates of chi_q(r,r)
+ total number of BLAS operations   387134.82 Gflops
+NQ=  68    0.1667   -0.1667    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     324428000 updates of chi_q(r,r)
+ total number of BLAS operations   392940.18 Gflops
+NQ=  69    0.3333   -0.1667    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     329199000 updates of chi_q(r,r)
+ total number of BLAS operations   398955.81 Gflops
+NQ=  70    0.5000   -0.1667    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     333970000 updates of chi_q(r,r)
+ total number of BLAS operations   404880.87 Gflops
+NQ=  71   -0.3333   -0.1667    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     338741000 updates of chi_q(r,r)
+ total number of BLAS operations   410896.50 Gflops
+NQ=  72   -0.1667   -0.1667    0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     343512000 updates of chi_q(r,r)
+ total number of BLAS operations   416701.86 Gflops
+NQ=  73   -0.0000   -0.0000    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     348283000 updates of chi_q(r,r)
+ total number of BLAS operations   422477.49 Gflops
+NQ=  74    0.1667    0.0000    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     353054000 updates of chi_q(r,r)
+ total number of BLAS operations   428282.85 Gflops
+NQ=  75    0.3333    0.0000    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     357825000 updates of chi_q(r,r)
+ total number of BLAS operations   433999.25 Gflops
+NQ=  76    0.5000    0.0000    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     362596000 updates of chi_q(r,r)
+ total number of BLAS operations   439864.30 Gflops
+NQ=  77   -0.3333   -0.0000    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     367367000 updates of chi_q(r,r)
+ total number of BLAS operations   445639.93 Gflops
+NQ=  78   -0.1667   -0.0000    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     372138000 updates of chi_q(r,r)
+ total number of BLAS operations   451415.56 Gflops
+NQ=  79   -0.0000    0.1667    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     376909000 updates of chi_q(r,r)
+ total number of BLAS operations   457220.93 Gflops
+NQ=  80    0.1667    0.1667    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     381680000 updates of chi_q(r,r)
+ total number of BLAS operations   462878.39 Gflops
+NQ=  81    0.3333    0.1667    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     386451000 updates of chi_q(r,r)
+ total number of BLAS operations   468683.75 Gflops
+NQ=  82    0.5000    0.1667    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     391222000 updates of chi_q(r,r)
+ total number of BLAS operations   474699.38 Gflops
+NQ=  83   -0.3333    0.1667    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     395993000 updates of chi_q(r,r)
+ total number of BLAS operations   480624.44 Gflops
+NQ=  84   -0.1667    0.1667    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     400764000 updates of chi_q(r,r)
+ total number of BLAS operations   486640.07 Gflops
+NQ=  85   -0.0000    0.3333    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     405535000 updates of chi_q(r,r)
+ total number of BLAS operations   492356.46 Gflops
+NQ=  86    0.1667    0.3333    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     410306000 updates of chi_q(r,r)
+ total number of BLAS operations   498161.82 Gflops
+NQ=  87    0.3333    0.3333    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     415077000 updates of chi_q(r,r)
+ total number of BLAS operations   503937.45 Gflops
+NQ=  88    0.5000    0.3333    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     419848000 updates of chi_q(r,r)
+ total number of BLAS operations   509713.08 Gflops
+NQ=  89   -0.3333    0.3333    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     424619000 updates of chi_q(r,r)
+ total number of BLAS operations   515488.71 Gflops
+NQ=  90   -0.1667    0.3333    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     429390000 updates of chi_q(r,r)
+ total number of BLAS operations   521353.77 Gflops
+NQ=  91    0.0000    0.5000    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     434161000 updates of chi_q(r,r)
+ total number of BLAS operations   527218.83 Gflops
+NQ=  92    0.1667    0.5000    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     438932000 updates of chi_q(r,r)
+ total number of BLAS operations   533234.46 Gflops
+NQ=  93    0.3333    0.5000    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     443703000 updates of chi_q(r,r)
+ total number of BLAS operations   539010.09 Gflops
+NQ=  94    0.5000    0.5000    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     448474000 updates of chi_q(r,r)
+ total number of BLAS operations   544905.11 Gflops
+NQ=  95   -0.3333    0.5000    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     453245000 updates of chi_q(r,r)
+ total number of BLAS operations   550830.16 Gflops
+NQ=  96   -0.1667    0.5000    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     458016000 updates of chi_q(r,r)
+ total number of BLAS operations   556635.53 Gflops
+NQ=  97   -0.0000   -0.3333    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     462787000 updates of chi_q(r,r)
+ total number of BLAS operations   562411.16 Gflops
+NQ=  98    0.1667   -0.3333    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     467558000 updates of chi_q(r,r)
+ total number of BLAS operations   568336.21 Gflops
+NQ=  99    0.3333   -0.3333    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     472329000 updates of chi_q(r,r)
+ total number of BLAS operations   574111.84 Gflops
+NQ= 100    0.5000   -0.3333    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     477100000 updates of chi_q(r,r)
+ total number of BLAS operations   580036.90 Gflops
+NQ= 101   -0.3333   -0.3333    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     481871000 updates of chi_q(r,r)
+ total number of BLAS operations   585812.53 Gflops
+NQ= 102   -0.1667   -0.3333    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     486642000 updates of chi_q(r,r)
+ total number of BLAS operations   591737.59 Gflops
+NQ= 103   -0.0000   -0.1667    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     491413000 updates of chi_q(r,r)
+ total number of BLAS operations   597513.22 Gflops
+NQ= 104    0.1667   -0.1667    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     496184000 updates of chi_q(r,r)
+ total number of BLAS operations   603528.85 Gflops
+NQ= 105    0.3333   -0.1667    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     500955000 updates of chi_q(r,r)
+ total number of BLAS operations   609393.91 Gflops
+NQ= 106    0.5000   -0.1667    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     505726000 updates of chi_q(r,r)
+ total number of BLAS operations   615199.27 Gflops
+NQ= 107   -0.3333   -0.1667    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     510497000 updates of chi_q(r,r)
+ total number of BLAS operations   621124.33 Gflops
+NQ= 108   -0.1667   -0.1667    0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     515268000 updates of chi_q(r,r)
+ total number of BLAS operations   627019.34 Gflops
+NQ= 109   -0.0000   -0.0000    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     520039000 updates of chi_q(r,r)
+ total number of BLAS operations   632884.40 Gflops
+NQ= 110    0.1667    0.0000    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     524810000 updates of chi_q(r,r)
+ total number of BLAS operations   638779.42 Gflops
+NQ= 111    0.3333    0.0000    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     529581000 updates of chi_q(r,r)
+ total number of BLAS operations   644644.48 Gflops
+NQ= 112    0.5000    0.0000    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     534352000 updates of chi_q(r,r)
+ total number of BLAS operations   650390.45 Gflops
+NQ= 113   -0.3333   -0.0000    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     539123000 updates of chi_q(r,r)
+ total number of BLAS operations   656255.51 Gflops
+NQ= 114   -0.1667   -0.0000    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     543894000 updates of chi_q(r,r)
+ total number of BLAS operations   662150.53 Gflops
+NQ= 115   -0.0000    0.1667    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     548665000 updates of chi_q(r,r)
+ total number of BLAS operations   668045.55 Gflops
+NQ= 116    0.1667    0.1667    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     553436000 updates of chi_q(r,r)
+ total number of BLAS operations   673821.18 Gflops
+NQ= 117    0.3333    0.1667    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     558207000 updates of chi_q(r,r)
+ total number of BLAS operations   679836.81 Gflops
+NQ= 118    0.5000    0.1667    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     562978000 updates of chi_q(r,r)
+ total number of BLAS operations   685701.87 Gflops
+NQ= 119   -0.3333    0.1667    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     567749000 updates of chi_q(r,r)
+ total number of BLAS operations   691507.23 Gflops
+NQ= 120   -0.1667    0.1667    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     572520000 updates of chi_q(r,r)
+ total number of BLAS operations   697432.29 Gflops
+NQ= 121   -0.0000    0.3333    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     577291000 updates of chi_q(r,r)
+ total number of BLAS operations   703297.34 Gflops
+NQ= 122    0.1667    0.3333    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     582062000 updates of chi_q(r,r)
+ total number of BLAS operations   709312.97 Gflops
+NQ= 123    0.3333    0.3333    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     586833000 updates of chi_q(r,r)
+ total number of BLAS operations   715088.60 Gflops
+NQ= 124    0.5000    0.3333    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     591604000 updates of chi_q(r,r)
+ total number of BLAS operations   720983.62 Gflops
+NQ= 125   -0.3333    0.3333    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     596375000 updates of chi_q(r,r)
+ total number of BLAS operations   726908.68 Gflops
+NQ= 126   -0.1667    0.3333    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     601146000 updates of chi_q(r,r)
+ total number of BLAS operations   732714.04 Gflops
+NQ= 127   -0.0000    0.5000    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     605917000 updates of chi_q(r,r)
+ total number of BLAS operations   738460.02 Gflops
+NQ= 128    0.1667    0.5000    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     610688000 updates of chi_q(r,r)
+ total number of BLAS operations   744325.07 Gflops
+NQ= 129    0.3333    0.5000    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     615459000 updates of chi_q(r,r)
+ total number of BLAS operations   750220.09 Gflops
+NQ= 130    0.5000    0.5000    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     620230000 updates of chi_q(r,r)
+ total number of BLAS operations   756085.15 Gflops
+NQ= 131   -0.3333    0.5000    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     625001000 updates of chi_q(r,r)
+ total number of BLAS operations   761980.17 Gflops
+NQ= 132   -0.1667    0.5000    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     629772000 updates of chi_q(r,r)
+ total number of BLAS operations   767845.23 Gflops
+NQ= 133    0.0000   -0.3333    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     634543000 updates of chi_q(r,r)
+ total number of BLAS operations   773710.28 Gflops
+NQ= 134    0.1667   -0.3333    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     639314000 updates of chi_q(r,r)
+ total number of BLAS operations   779515.65 Gflops
+NQ= 135    0.3333   -0.3333    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     644085000 updates of chi_q(r,r)
+ total number of BLAS operations   785440.70 Gflops
+NQ= 136    0.5000   -0.3333    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     648856000 updates of chi_q(r,r)
+ total number of BLAS operations   791335.72 Gflops
+NQ= 137   -0.3333   -0.3333    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     653627000 updates of chi_q(r,r)
+ total number of BLAS operations   797111.35 Gflops
+NQ= 138   -0.1667   -0.3333    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     658398000 updates of chi_q(r,r)
+ total number of BLAS operations   803126.98 Gflops
+NQ= 139    0.0000   -0.1667    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     663169000 updates of chi_q(r,r)
+ total number of BLAS operations   809022.00 Gflops
+NQ= 140    0.1667   -0.1667    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     667940000 updates of chi_q(r,r)
+ total number of BLAS operations   814947.06 Gflops
+NQ= 141    0.3333   -0.1667    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     672711000 updates of chi_q(r,r)
+ total number of BLAS operations   820752.42 Gflops
+NQ= 142    0.5000   -0.1667    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     677482000 updates of chi_q(r,r)
+ total number of BLAS operations   826617.48 Gflops
+NQ= 143   -0.3333   -0.1667    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     682253000 updates of chi_q(r,r)
+ total number of BLAS operations   832633.11 Gflops
+NQ= 144   -0.1667   -0.1667    0.5000, 
+|.........|.........|.........|.........|.........|.........
+ performed     687024000 updates of chi_q(r,r)
+ total number of BLAS operations   838408.74 Gflops
+NQ= 145    0.0000    0.0000   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     691795000 updates of chi_q(r,r)
+ total number of BLAS operations   844184.37 Gflops
+NQ= 146    0.1667    0.0000   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     696566000 updates of chi_q(r,r)
+ total number of BLAS operations   849960.00 Gflops
+NQ= 147    0.3333    0.0000   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     701337000 updates of chi_q(r,r)
+ total number of BLAS operations   855735.63 Gflops
+NQ= 148    0.5000    0.0000   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     706108000 updates of chi_q(r,r)
+ total number of BLAS operations   861600.69 Gflops
+NQ= 149   -0.3333   -0.0000   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     710879000 updates of chi_q(r,r)
+ total number of BLAS operations   867317.08 Gflops
+NQ= 150   -0.1667   -0.0000   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     715650000 updates of chi_q(r,r)
+ total number of BLAS operations   873122.44 Gflops
+NQ= 151    0.0000    0.1667   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     720421000 updates of chi_q(r,r)
+ total number of BLAS operations   878898.07 Gflops
+NQ= 152    0.1667    0.1667   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     725192000 updates of chi_q(r,r)
+ total number of BLAS operations   884793.09 Gflops
+NQ= 153    0.3333    0.1667   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     729963000 updates of chi_q(r,r)
+ total number of BLAS operations   890718.15 Gflops
+NQ= 154    0.5000    0.1667   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     734734000 updates of chi_q(r,r)
+ total number of BLAS operations   896523.51 Gflops
+NQ= 155   -0.3333    0.1667   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     739505000 updates of chi_q(r,r)
+ total number of BLAS operations   902388.57 Gflops
+NQ= 156   -0.1667    0.1667   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     744276000 updates of chi_q(r,r)
+ total number of BLAS operations   908404.20 Gflops
+NQ= 157    0.0000    0.3333   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     749047000 updates of chi_q(r,r)
+ total number of BLAS operations   914179.83 Gflops
+NQ= 158    0.1667    0.3333   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     753818000 updates of chi_q(r,r)
+ total number of BLAS operations   920104.89 Gflops
+NQ= 159    0.3333    0.3333   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     758589000 updates of chi_q(r,r)
+ total number of BLAS operations   925880.51 Gflops
+NQ= 160    0.5000    0.3333   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     763360000 updates of chi_q(r,r)
+ total number of BLAS operations   931805.57 Gflops
+NQ= 161   -0.3333    0.3333   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     768131000 updates of chi_q(r,r)
+ total number of BLAS operations   937581.20 Gflops
+NQ= 162   -0.1667    0.3333   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     772902000 updates of chi_q(r,r)
+ total number of BLAS operations   943506.26 Gflops
+NQ= 163    0.0000    0.5000   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     777673000 updates of chi_q(r,r)
+ total number of BLAS operations   949371.32 Gflops
+NQ= 164    0.1667    0.5000   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     782444000 updates of chi_q(r,r)
+ total number of BLAS operations   955176.68 Gflops
+NQ= 165    0.3333    0.5000   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     787215000 updates of chi_q(r,r)
+ total number of BLAS operations   961101.74 Gflops
+NQ= 166    0.5000    0.5000   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     791986000 updates of chi_q(r,r)
+ total number of BLAS operations   966996.76 Gflops
+NQ= 167   -0.3333    0.5000   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     796757000 updates of chi_q(r,r)
+ total number of BLAS operations   972772.39 Gflops
+NQ= 168   -0.1667    0.5000   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     801528000 updates of chi_q(r,r)
+ total number of BLAS operations   978788.02 Gflops
+NQ= 169    0.0000   -0.3333   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     806299000 updates of chi_q(r,r)
+ total number of BLAS operations   984504.41 Gflops
+NQ= 170    0.1667   -0.3333   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     811070000 updates of chi_q(r,r)
+ total number of BLAS operations   990369.47 Gflops
+NQ= 171    0.3333   -0.3333   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     815841000 updates of chi_q(r,r)
+ total number of BLAS operations   996145.10 Gflops
+NQ= 172    0.5000   -0.3333   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     820612000 updates of chi_q(r,r)
+ total number of BLAS operations  1001920.73 Gflops
+NQ= 173   -0.3333   -0.3333   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     825383000 updates of chi_q(r,r)
+ total number of BLAS operations  1007696.36 Gflops
+NQ= 174   -0.1667   -0.3333   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     830154000 updates of chi_q(r,r)
+ total number of BLAS operations  1013501.72 Gflops
+NQ= 175    0.0000   -0.1667   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     834925000 updates of chi_q(r,r)
+ total number of BLAS operations  1019307.08 Gflops
+NQ= 176    0.1667   -0.1667   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     839696000 updates of chi_q(r,r)
+ total number of BLAS operations  1025322.71 Gflops
+NQ= 177    0.3333   -0.1667   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     844467000 updates of chi_q(r,r)
+ total number of BLAS operations  1031247.77 Gflops
+NQ= 178    0.5000   -0.1667   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     849238000 updates of chi_q(r,r)
+ total number of BLAS operations  1037263.40 Gflops
+NQ= 179   -0.3333   -0.1667   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     854009000 updates of chi_q(r,r)
+ total number of BLAS operations  1043068.76 Gflops
+NQ= 180   -0.1667   -0.1667   -0.3333, 
+|.........|.........|.........|.........|.........|.........
+ performed     858780000 updates of chi_q(r,r)
+ total number of BLAS operations  1048726.22 Gflops
+NQ= 181    0.0000    0.0000   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     863551000 updates of chi_q(r,r)
+ total number of BLAS operations  1054237.69 Gflops
+NQ= 182    0.1667    0.0000   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     868322000 updates of chi_q(r,r)
+ total number of BLAS operations  1059895.15 Gflops
+NQ= 183    0.3333    0.0000   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     873093000 updates of chi_q(r,r)
+ total number of BLAS operations  1065670.78 Gflops
+NQ= 184    0.5000    0.0000   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     877864000 updates of chi_q(r,r)
+ total number of BLAS operations  1071565.80 Gflops
+NQ= 185   -0.3333   -0.0000   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     882635000 updates of chi_q(r,r)
+ total number of BLAS operations  1077371.16 Gflops
+NQ= 186   -0.1667   -0.0000   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     887406000 updates of chi_q(r,r)
+ total number of BLAS operations  1082970.00 Gflops
+NQ= 187    0.0000    0.1667   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     892177000 updates of chi_q(r,r)
+ total number of BLAS operations  1088627.46 Gflops
+NQ= 188    0.1667    0.1667   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     896948000 updates of chi_q(r,r)
+ total number of BLAS operations  1094432.82 Gflops
+NQ= 189    0.3333    0.1667   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     901719000 updates of chi_q(r,r)
+ total number of BLAS operations  1100448.45 Gflops
+NQ= 190    0.5000    0.1667   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     906490000 updates of chi_q(r,r)
+ total number of BLAS operations  1106373.51 Gflops
+NQ= 191   -0.3333    0.1667   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     911261000 updates of chi_q(r,r)
+ total number of BLAS operations  1112389.14 Gflops
+NQ= 192   -0.1667    0.1667   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     916032000 updates of chi_q(r,r)
+ total number of BLAS operations  1118194.50 Gflops
+NQ= 193    0.0000    0.3333   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     920803000 updates of chi_q(r,r)
+ total number of BLAS operations  1123970.13 Gflops
+NQ= 194    0.1667    0.3333   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     925574000 updates of chi_q(r,r)
+ total number of BLAS operations  1129985.76 Gflops
+NQ= 195    0.3333    0.3333   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     930345000 updates of chi_q(r,r)
+ total number of BLAS operations  1135850.82 Gflops
+NQ= 196    0.5000    0.3333   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     935116000 updates of chi_q(r,r)
+ total number of BLAS operations  1141656.18 Gflops
+NQ= 197   -0.3333    0.3333   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     939887000 updates of chi_q(r,r)
+ total number of BLAS operations  1147581.24 Gflops
+NQ= 198   -0.1667    0.3333   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     944658000 updates of chi_q(r,r)
+ total number of BLAS operations  1153476.26 Gflops
+NQ= 199   -0.0000    0.5000   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     949429000 updates of chi_q(r,r)
+ total number of BLAS operations  1159371.28 Gflops
+NQ= 200    0.1667    0.5000   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     954200000 updates of chi_q(r,r)
+ total number of BLAS operations  1165296.34 Gflops
+NQ= 201    0.3333    0.5000   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     958971000 updates of chi_q(r,r)
+ total number of BLAS operations  1171101.70 Gflops
+NQ= 202    0.5000    0.5000   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     963742000 updates of chi_q(r,r)
+ total number of BLAS operations  1176966.76 Gflops
+NQ= 203   -0.3333    0.5000   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     968513000 updates of chi_q(r,r)
+ total number of BLAS operations  1182982.39 Gflops
+NQ= 204   -0.1667    0.5000   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     973284000 updates of chi_q(r,r)
+ total number of BLAS operations  1188758.02 Gflops
+NQ= 205   -0.0000   -0.3333   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     978055000 updates of chi_q(r,r)
+ total number of BLAS operations  1194563.38 Gflops
+NQ= 206    0.1667   -0.3333   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     982826000 updates of chi_q(r,r)
+ total number of BLAS operations  1200579.01 Gflops
+NQ= 207    0.3333   -0.3333   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     987597000 updates of chi_q(r,r)
+ total number of BLAS operations  1206504.07 Gflops
+NQ= 208    0.5000   -0.3333   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     992368000 updates of chi_q(r,r)
+ total number of BLAS operations  1212519.70 Gflops
+NQ= 209   -0.3333   -0.3333   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed     997139000 updates of chi_q(r,r)
+ total number of BLAS operations  1218325.06 Gflops
+NQ= 210   -0.1667   -0.3333   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed    1001910000 updates of chi_q(r,r)
+ total number of BLAS operations  1223982.52 Gflops
+NQ= 211   -0.0000   -0.1667   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed    1006681000 updates of chi_q(r,r)
+ total number of BLAS operations  1229581.36 Gflops
+NQ= 212    0.1667   -0.1667   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed    1011452000 updates of chi_q(r,r)
+ total number of BLAS operations  1235386.72 Gflops
+NQ= 213    0.3333   -0.1667   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed    1016223000 updates of chi_q(r,r)
+ total number of BLAS operations  1241281.74 Gflops
+NQ= 214    0.5000   -0.1667   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed    1020994000 updates of chi_q(r,r)
+ total number of BLAS operations  1247057.37 Gflops
+NQ= 215   -0.3333   -0.1667   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed    1025765000 updates of chi_q(r,r)
+ total number of BLAS operations  1252714.83 Gflops
+NQ= 216   -0.1667   -0.1667   -0.1667, 
+|.........|.........|.........|.........|.........|.........
+ performed    1030536000 updates of chi_q(r,r)
+ total number of BLAS operations  1258226.30 Gflops
+ resolving degeneracies of screened two electron integrals
+
+
+ calculate QP shifts <psi_nk| G(iteration)W_0 |psi_nk>: iteration 1
+
+
+ QP shifts <psi_nk| G(iteration)W_0 |psi_nk>: iteration 1
+ writing wavefunctions
+ entering main loop

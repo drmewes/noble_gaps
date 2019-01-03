@@ -1,8 +1,136 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142109
  running on   64 total cores
  distrk:  each k-point on   16 cores,    4 groups
  distr:  one band on    4 cores,    4 groups
  using from now: INCAR     
- vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jul 09 2018 16:43:14) complex          
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
   
  POSCAR found type information on POSCAR  Ar
  POSCAR found :  1 types and       1 ions
@@ -39,13 +167,13 @@
  initial charge from wavefunction
  entering main loop
        N       E                     dE             d eps       ncg     rms          rms(c)
-DIA:   1    -0.691599334040E+01   -0.69160E+01    0.00000E+00     0   0.000E+00
-DIA:   2    -0.691599334040E+01    0.25011E-11    0.00000E+00     0   0.000E+00
-DIA:   3    -0.691599334040E+01    0.21600E-11    0.00000E+00     0   0.000E+00
-DIA:   4    -0.691599334040E+01   -0.64801E-11    0.00000E+00     0   0.000E+00
-DIA:   5    -0.691599334039E+01    0.72760E-11    0.00000E+00     0   0.000E+00    0.161E-05
-DIA:   6    -0.691599334279E+01   -0.23934E-08    0.00000E+00     0   0.000E+00
-   1 F= -.69159933E+01 E0= -.69159933E+01  d E =-.220027-285  mag=    -0.0000     0.0000    -0.0000
+DIA:   1    -0.692338302399E+01   -0.69234E+01    0.00000E+00     0   0.000E+00
+DIA:   2    -0.692338302398E+01    0.43201E-11    0.00000E+00     0   0.000E+00
+DIA:   3    -0.692338302399E+01   -0.50022E-11    0.00000E+00     0   0.000E+00
+DIA:   4    -0.692338302398E+01    0.65938E-11    0.00000E+00     0   0.000E+00
+DIA:   5    -0.692338302399E+01   -0.50022E-11    0.00000E+00     0   0.000E+00    0.443E-06
+DIA:   6    -0.692338302563E+01   -0.16406E-08    0.00000E+00     0   0.000E+00
+   1 F= -.69233830E+01 E0= -.69233830E+01  d E =0.000000E+00  mag=     0.0000    -0.0000    -0.0000
  writing wavefunctions
  optical routines
  imaginary and real dielectric function

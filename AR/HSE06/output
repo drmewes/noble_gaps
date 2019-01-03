@@ -1,0 +1,137 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142111
+ running on   32 total cores
+ distrk:  each k-point on    8 cores,    4 groups
+ distr:  one band on    4 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:46) complex          
+  
+ POSCAR found type information on POSCAR  Ar
+ POSCAR found :  1 types and       1 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          ort
+DAV:   1     0.676436345333E+02    0.67644E+02   -0.27526E+03  3888   0.522E+02
+DAV:   2     0.230493369445E+02   -0.44594E+02   -0.39004E+02  3888   0.141E+02
+DAV:   3     0.199026094096E+02   -0.31467E+01   -0.30651E+01  3888   0.430E+01
+DAV:   4     0.197085044346E+02   -0.19410E+00   -0.19111E+00  3888   0.102E+01
+DAV:   5     0.196953912278E+02   -0.13113E-01   -0.13005E-01  3888   0.262E+00
+ gam= 0.000 g(H,U,f)=  0.312E+01 0.110E+01 0.585E-11 ort(H,U,f) = 0.000E+00 0.000E+00 0.000E+00
+SDA:   6     0.116294613260E+01   -0.18532E+02   -0.25337E+01  3888   0.422E+01 0.000E+00
+ gam= 0.292 g(H,U,f)=  0.127E+01 0.826E-01 0.313E-17 ort(H,U,f) =-0.174E+01 0.264E+00 0.690E-17
+DMP:   7     0.362010063561E+00   -0.80094E+00   -0.55327E+00  3888   0.135E+01-0.148E+01
+ gam= 0.292 g(H,U,f)=  0.173E+00 0.392E-01 0.110E-10 ort(H,U,f) =-0.192E-01 0.100E+00 0.259E-10
+DMP:   8     0.599619737868E-01   -0.30205E+00   -0.14180E+00  3888   0.213E+00 0.810E-01
+ gam= 0.292 g(H,U,f)=  0.104E+00 0.252E-01 0.430E-17 ort(H,U,f) =-0.119E+00 0.516E-01 0.103E-16
+DMP:   9     0.907607013664E-02   -0.50886E-01   -0.65426E-01  3888   0.129E+00-0.678E-01
+ gam= 0.292 g(H,U,f)=  0.142E-01 0.286E-02 0.455E-13 ort(H,U,f) =-0.128E-01 0.128E-01 0.183E-12
+DMP:  10    -0.234007346212E-01   -0.32477E-01   -0.10200E-01  3888   0.170E-01-0.390E-04
+ gam= 0.292 g(H,U,f)=  0.859E-02 0.234E-03 0.195E-12 ort(H,U,f) =-0.420E-02 0.143E-02 0.119E-11
+DMP:  11    -0.276569702839E-01   -0.42562E-02   -0.48110E-02  3888   0.883E-02-0.277E-02
+ gam= 0.292 g(H,U,f)=  0.200E-02 0.128E-03 0.167E-18 ort(H,U,f) =-0.263E-02 0.513E-03 0.827E-18
+DMP:  12    -0.294138630694E-01   -0.17569E-02   -0.90594E-03  3888   0.213E-02-0.212E-02
+ gam= 0.292 g(H,U,f)=  0.432E-03 0.272E-04 0.350E-21 ort(H,U,f) =-0.245E-03 0.110E-03 0.242E-20
+DMP:  13    -0.298276992282E-01   -0.41384E-03   -0.25169E-03  3888   0.459E-03-0.136E-03
+ gam= 0.292 g(H,U,f)=  0.185E-03 0.131E-04 0.903E-24 ort(H,U,f) =-0.130E-03 0.681E-05-0.212E-22
+DMP:  14    -0.299199773974E-01   -0.92278E-04   -0.97276E-04  3888   0.198E-03-0.123E-03
+ gam= 0.292 g(H,U,f)=  0.390E-04 0.689E-05 0.601E-22 ort(H,U,f) =-0.379E-04 0.895E-05-0.146E-21
+DMP:  15    -0.299591488121E-01   -0.39171E-04   -0.22427E-04  3888   0.458E-04-0.290E-04
+ gam= 0.292 g(H,U,f)=  0.164E-04 0.202E-05 0.126E-21 ort(H,U,f) =-0.106E-04 0.525E-05 0.103E-21
+DMP:  16    -0.299679297967E-01   -0.87810E-05   -0.10113E-04  3888   0.184E-04-0.540E-05
+ gam= 0.292 g(H,U,f)=  0.275E-05 0.872E-06 0.449E-20 ort(H,U,f) =-0.169E-05 0.228E-05 0.785E-20
+DMP:  17    -0.299733945718E-01   -0.54648E-05   -0.22793E-05  3888   0.362E-05 0.597E-06
+ gam= 0.292 g(H,U,f)=  0.131E-05 0.360E-06 0.106E-18 ort(H,U,f) =-0.879E-06 0.974E-06 0.245E-18
+DMP:  18    -0.299746730179E-01   -0.12784E-05   -0.10197E-05  3888   0.167E-05 0.946E-07
+ gam= 0.292 g(H,U,f)=  0.271E-06 0.881E-07 0.984E-18 ort(H,U,f) =-0.222E-06 0.318E-06 0.342E-17
+DMP:  19    -0.299751098405E-01   -0.43682E-06   -0.23241E-06  3888   0.359E-06 0.963E-07
+ gam= 0.292 g(H,U,f)=  0.108E-06 0.195E-07 0.472E-17 ort(H,U,f) =-0.633E-07 0.818E-07 0.229E-16
+DMP:  20    -0.299751928303E-01   -0.82990E-07   -0.80017E-07  3888   0.128E-06 0.185E-07
+ final diagonalization
+   1 F= -.29975193E-01 E0= -.29975193E-01  d E =-.327407E-12  mag=    -0.0000    -0.0000    -0.0000
+ writing wavefunctions

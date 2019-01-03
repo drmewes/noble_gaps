@@ -1,4 +1,4 @@
-KPAR = 16
+KPAR =  7
 NCORE = 4 
 
 GGA = PE

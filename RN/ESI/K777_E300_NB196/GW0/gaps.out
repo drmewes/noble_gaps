@@ -1,0 +1,12 @@
+### One-Shot G0W0 ###
+HOMO: -2.5610 eV (band# 18)
+LUMO: 3.3333 eV (band# 19)
+ Gap: 5.8943 eV
+### GW iteration 2 ###
+HOMO: -3.0471 eV (band# 18)
+LUMO: 3.4943 eV (band# 19)
+ Gap: 6.5414 eV
+### GW iteration 3 ###
+HOMO: -3.1419 eV (band# 18)
+LUMO: 3.5922 eV (band# 19)
+ Gap: 6.7341 eV

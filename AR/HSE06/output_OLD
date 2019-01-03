@@ -1,0 +1,136 @@
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+Please use the following directory for all temporary/scratch files:
+SCRATCH=/scratch/mewes/142110
+ running on   32 total cores
+ distrk:  each k-point on    8 cores,    4 groups
+ distr:  one band on    4 cores,    2 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Nov 03 2018 10:20:43) complex          
+  
+ POSCAR found type information on POSCAR  Ar
+ POSCAR found :  1 types and       1 ions
+ ERROR: non collinear calculations require that VASP is compiled
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
+ ERROR: non collinear calculations require that VASP is compiled
+  without the flag -DNGXhalf and -DNGZhalf
