@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 Please use the following directory for all temporary/scratch files:
 SCRATCH=/scratch/mewes/141268
 Please use the following directory for all temporary/scratch files:
@@ -80,3 +82,4 @@ RMM:  11     0.165916481039E-01   -0.16415E-07   -0.38762E-08   640   0.236E-03
    1 F= -.26051994E+00 E0= -.26128634E+00  d E =-.260520E+00
  BRION: g(F)=  0.000E+00 g(S)=  0.664E-06
  reached required accuracy - stopping structural energy minimisation
+>>>>>>> e939f3cac3f36f428629c7553f01a3ec5f4ac9c8
